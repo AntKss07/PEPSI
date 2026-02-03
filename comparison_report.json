@@ -1,0 +1,613 @@
+{
+  "summary": {
+    "schema_field_count": 144,
+    "extracted_field_count": 144,
+    "perfect_match": true,
+    "filled_count": 23,
+    "empty_count": 121,
+    "extraction_rate": 16.0
+  },
+  "filled_fields": [
+    {
+      "name": "Name",
+      "page": 1,
+      "value": "RICHARD ALLEN PEACOCK"
+    },
+    {
+      "name": "Identification number",
+      "page": 1,
+      "value": "AC737267"
+    },
+    {
+      "name": "Date of birth",
+      "page": 1,
+      "value": "11/07/1960"
+    },
+    {
+      "name": "My Purpose",
+      "page": 1,
+      "value": "Me and my wife like to do hiking and enjoy outdoors and also I want to be healthy to be with my grandkids and kids."
+    },
+    {
+      "name": "HealthGoal1",
+      "page": 1,
+      "value": "Improve liver health by reducing inflammation and normalizing liver enzymes."
+    },
+    {
+      "name": "Healthgoal2",
+      "page": 1,
+      "value": "Improve Insulin Sensitivity and Metabolic Flexibility to prevent progression to type 2 diabetes"
+    },
+    {
+      "name": "Healthgoal3",
+      "page": 1,
+      "value": "Improve lipid balance and reduce long-term cardiovascular risk. to prevent progression of atherosclerosis."
+    },
+    {
+      "name": "Summary",
+      "page": 2,
+      "value": "HEALTH AND WELLNESS INTEGRAL EVALUATION OVERALL INTEGRATED CLINICAL SUMMARY\nRichard shows:\nNormal findings in:\nCBC\nRenal function\nThyroid\nPSA\nElectrolytes\nGlucose metabolism\nUrinalysis & stool exam\nLp..."
+    },
+    {
+      "name": "FuncMedApproach",
+      "page": 2,
+      "value": "Reverse NAFLD (primary goal)\nImprove liver detox phases, mitochondrial fat oxidation, hepatic glucose handling. Improve hepatic insulin sensitivity\nAdjust macronutrient timing; increase fiber and plan..."
+    },
+    {
+      "name": "Text23",
+      "page": 3,
+      "value": "109.9 kg"
+    },
+    {
+      "name": "Text24",
+      "page": 3,
+      "value": "normal"
+    },
+    {
+      "name": "Text25",
+      "page": 3,
+      "value": "1.88 m"
+    },
+    {
+      "name": "Text26",
+      "page": 3,
+      "value": "normal"
+    },
+    {
+      "name": "Text45",
+      "page": 4,
+      "value": "Normocephalic."
+    },
+    {
+      "name": "Text46",
+      "page": 4,
+      "value": "Pupils equal, round, and reactive to light; extraocular movements intact."
+    },
+    {
+      "name": "Text47",
+      "page": 4,
+      "value": "Symmetrical, no palpable masses."
+    },
+    {
+      "name": "Text48",
+      "page": 4,
+      "value": "Soft and depressible; non-tender to palpation; no masses."
+    },
+    {
+      "name": "Text51",
+      "page": 5,
+      "value": "2.5. LABORATORY RESULTS Systems and Functions Hemoglobin17.0 g/dL14.3–17.0High-normal; consistent with prior history of \npolycythemia + morning dehydration + high muscle mass\nHematocrit46.7%42–53Norma..."
+    },
+    {
+      "name": "Text62",
+      "page": 6,
+      "value": "ECG Interpretation (Normal Study)\n\u0000 Rhythm & Rate\nNormal sinus rhythm, with upright P waves in leads I, II, and aVF.\nRate appears within normal limits (~60–70 bpm).\nConsistent P before every QRS and c..."
+    },
+    {
+      "name": "Text63",
+      "page": 6,
+      "value": "Abdominal ultrasound:\nThe abdominal ultrasound shows moderate hepatic steatosis (grade II) with a mildly enlarged and heterogeneous \nliver, but no focal lesions, no signs of chronic liver disease, and..."
+    },
+    {
+      "name": "Text149",
+      "page": 10,
+      "value": "Dermathologist\nPeripheral vascular surgeon"
+    },
+    {
+      "name": "Text150",
+      "page": 11,
+      "value": "Based on your medical evaluation, we suggest that our next appointment be in"
+    },
+    {
+      "name": "Text151",
+      "page": 11,
+      "value": "Dr.SILVIA ELENA GARITA PEÑA"
+    }
+  ],
+  "empty_fields": [
+    {
+      "name": "Imp1",
+      "page": 1
+    },
+    {
+      "name": "Imp2",
+      "page": 1
+    },
+    {
+      "name": "Imp3",
+      "page": 1
+    },
+    {
+      "name": "Additional parameter",
+      "page": 3
+    },
+    {
+      "name": "bmivalue",
+      "page": 3
+    },
+    {
+      "name": "Text22",
+      "page": 3
+    },
+    {
+      "name": "Text27",
+      "page": 3
+    },
+    {
+      "name": "Text28",
+      "page": 3
+    },
+    {
+      "name": "Text29",
+      "page": 3
+    },
+    {
+      "name": "Text30",
+      "page": 3
+    },
+    {
+      "name": "Text31",
+      "page": 3
+    },
+    {
+      "name": "Text32",
+      "page": 3
+    },
+    {
+      "name": "Text33",
+      "page": 3
+    },
+    {
+      "name": "Text34",
+      "page": 3
+    },
+    {
+      "name": "Text35",
+      "page": 3
+    },
+    {
+      "name": "Text36",
+      "page": 3
+    },
+    {
+      "name": "Text37",
+      "page": 3
+    },
+    {
+      "name": "Text38",
+      "page": 3
+    },
+    {
+      "name": "Text39",
+      "page": 3
+    },
+    {
+      "name": "Text40",
+      "page": 3
+    },
+    {
+      "name": "Text41",
+      "page": 3
+    },
+    {
+      "name": "Text42",
+      "page": 3
+    },
+    {
+      "name": "Text43",
+      "page": 4
+    },
+    {
+      "name": "Text44",
+      "page": 4
+    },
+    {
+      "name": "Text49",
+      "page": 4
+    },
+    {
+      "name": "Text50",
+      "page": 4
+    },
+    {
+      "name": "Text52",
+      "page": 5
+    },
+    {
+      "name": "Text53",
+      "page": 5
+    },
+    {
+      "name": "Text54",
+      "page": 5
+    },
+    {
+      "name": "Text55",
+      "page": 5
+    },
+    {
+      "name": "Text56",
+      "page": 5
+    },
+    {
+      "name": "Text57",
+      "page": 5
+    },
+    {
+      "name": "Text58",
+      "page": 5
+    },
+    {
+      "name": "Text59",
+      "page": 5
+    },
+    {
+      "name": "Text60",
+      "page": 5
+    },
+    {
+      "name": "Text61",
+      "page": 5
+    },
+    {
+      "name": "Text64",
+      "page": 7
+    },
+    {
+      "name": "Text65",
+      "page": 7
+    },
+    {
+      "name": "Text66",
+      "page": 7
+    },
+    {
+      "name": "Text67",
+      "page": 7
+    },
+    {
+      "name": "Text68",
+      "page": 7
+    },
+    {
+      "name": "Text69",
+      "page": 7
+    },
+    {
+      "name": "Text70",
+      "page": 8
+    },
+    {
+      "name": "Text71",
+      "page": 8
+    },
+    {
+      "name": "Text72",
+      "page": 8
+    },
+    {
+      "name": "Text73",
+      "page": 8
+    },
+    {
+      "name": "Text74",
+      "page": 8
+    },
+    {
+      "name": "Text75",
+      "page": 8
+    },
+    {
+      "name": "Text76",
+      "page": 8
+    },
+    {
+      "name": "Text77",
+      "page": 8
+    },
+    {
+      "name": "Text78",
+      "page": 8
+    },
+    {
+      "name": "Text79",
+      "page": 8
+    },
+    {
+      "name": "Text80",
+      "page": 8
+    },
+    {
+      "name": "Text81",
+      "page": 8
+    },
+    {
+      "name": "Text82",
+      "page": 8
+    },
+    {
+      "name": "Text83",
+      "page": 8
+    },
+    {
+      "name": "Text84",
+      "page": 9
+    },
+    {
+      "name": "Text85",
+      "page": 9
+    },
+    {
+      "name": "Text86",
+      "page": 9
+    },
+    {
+      "name": "Text87",
+      "page": 9
+    },
+    {
+      "name": "Text88",
+      "page": 9
+    },
+    {
+      "name": "Text89",
+      "page": 9
+    },
+    {
+      "name": "Text90",
+      "page": 9
+    },
+    {
+      "name": "Text91",
+      "page": 9
+    },
+    {
+      "name": "Text92",
+      "page": 9
+    },
+    {
+      "name": "Text93",
+      "page": 9
+    },
+    {
+      "name": "Text94",
+      "page": 9
+    },
+    {
+      "name": "Text95",
+      "page": 9
+    },
+    {
+      "name": "Text96",
+      "page": 9
+    },
+    {
+      "name": "Text97",
+      "page": 9
+    },
+    {
+      "name": "Text98",
+      "page": 9
+    },
+    {
+      "name": "Text99",
+      "page": 9
+    },
+    {
+      "name": "Text100",
+      "page": 9
+    },
+    {
+      "name": "Text101",
+      "page": 9
+    },
+    {
+      "name": "Text102",
+      "page": 9
+    },
+    {
+      "name": "Text103",
+      "page": 9
+    },
+    {
+      "name": "Text104",
+      "page": 9
+    },
+    {
+      "name": "Text105",
+      "page": 9
+    },
+    {
+      "name": "Text106",
+      "page": 9
+    },
+    {
+      "name": "Text107",
+      "page": 9
+    },
+    {
+      "name": "Text108",
+      "page": 9
+    },
+    {
+      "name": "Text109",
+      "page": 9
+    },
+    {
+      "name": "Text110",
+      "page": 9
+    },
+    {
+      "name": "Text111",
+      "page": 9
+    },
+    {
+      "name": "Text112",
+      "page": 9
+    },
+    {
+      "name": "Text113",
+      "page": 9
+    },
+    {
+      "name": "Text114",
+      "page": 9
+    },
+    {
+      "name": "Text115",
+      "page": 9
+    },
+    {
+      "name": "Text116",
+      "page": 9
+    },
+    {
+      "name": "Text117",
+      "page": 9
+    },
+    {
+      "name": "Text118",
+      "page": 9
+    },
+    {
+      "name": "Text119",
+      "page": 9
+    },
+    {
+      "name": "Text120",
+      "page": 9
+    },
+    {
+      "name": "Text121",
+      "page": 9
+    },
+    {
+      "name": "Text122",
+      "page": 9
+    },
+    {
+      "name": "Text123",
+      "page": 9
+    },
+    {
+      "name": "Text124",
+      "page": 9
+    },
+    {
+      "name": "Text125",
+      "page": 9
+    },
+    {
+      "name": "Text126",
+      "page": 9
+    },
+    {
+      "name": "Text127",
+      "page": 10
+    },
+    {
+      "name": "Text128",
+      "page": 10
+    },
+    {
+      "name": "Text129",
+      "page": 10
+    },
+    {
+      "name": "Text130",
+      "page": 10
+    },
+    {
+      "name": "Text131",
+      "page": 10
+    },
+    {
+      "name": "Text132",
+      "page": 10
+    },
+    {
+      "name": "Text133",
+      "page": 10
+    },
+    {
+      "name": "Text134",
+      "page": 10
+    },
+    {
+      "name": "Text135",
+      "page": 10
+    },
+    {
+      "name": "Text136",
+      "page": 10
+    },
+    {
+      "name": "Text137",
+      "page": 10
+    },
+    {
+      "name": "Text138",
+      "page": 10
+    },
+    {
+      "name": "Text139",
+      "page": 10
+    },
+    {
+      "name": "Text140",
+      "page": 10
+    },
+    {
+      "name": "Text141",
+      "page": 10
+    },
+    {
+      "name": "Text142",
+      "page": 10
+    },
+    {
+      "name": "Text143",
+      "page": 10
+    },
+    {
+      "name": "Text144",
+      "page": 10
+    },
+    {
+      "name": "Text145",
+      "page": 10
+    },
+    {
+      "name": "Text146",
+      "page": 10
+    },
+    {
+      "name": "Text147",
+      "page": 10
+    },
+    {
+      "name": "Text148",
+      "page": 10
+    }
+  ]
+}
