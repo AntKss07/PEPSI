@@ -1,10 +1,188 @@
 """
-Comprehensive Field Mapper - Extracts ALL 144 fields from Health & Wellness PDFs
+Comprehensive Field Mapper - Extracts ALL 144 fields with DESCRIPTIVE NAMES
 """
 import re
 import json
 from typing import Dict, List, Any, Optional
 import fitz  # PyMuPDF
+
+
+# Mapping from generic field names to descriptive names
+FIELD_NAME_MAPPING = {
+    # Demographics - Page 1
+    "Name": "patient_name",
+    "Identification number": "patient_id",
+    "Date of birth": "date_of_birth",
+    "My Purpose": "my_purpose",
+    
+    # Health Goals - Page 1
+    "HealthGoal1": "health_goal_1",
+    "Imp1": "health_goal_1_importance",
+    "Healthgoal2": "health_goal_2",
+    "Imp2": "health_goal_2_importance",
+    "Healthgoal3": "health_goal_3",
+    "Imp3": "health_goal_3_importance",
+    
+    # Summary - Page 2
+    "Summary": "clinical_summary",
+    "FuncMedApproach": "functional_medicine_approach",
+    
+    # Vitals - Page 3
+    "bmivalue": "bmi_value",
+    "Additional parameter": "additional_parameters",
+    "Text22": "bmi_interpretation",
+    "Text23": "body_weight",
+    "Text24": "body_weight_interpretation",
+    "Text25": "height",
+    "Text26": "height_interpretation",
+    "Text27": "blood_pressure",
+    "Text28": "blood_pressure_interpretation",
+    "Text29": "heart_rate",
+    "Text30": "ankle_brachial_index",
+    "Text31": "heart_rate_interpretation",
+    "Text32": "ankle_brachial_index_interpretation",
+    "Text33": "abdominal_circumference",
+    "Text34": "abdominal_circumference_interpretation",
+    "Text35": "hip_waist_ratio",
+    "Text36": "hip_waist_ratio_interpretation",
+    "Text37": "pulse_oximetry",
+    "Text38": "pulse_oximetry_interpretation",
+    "Text39": "respiratory_rate",
+    "Text40": "respiratory_rate_interpretation",
+    
+    # InBody - Page 4
+    "Text41": "inbody_score",
+    "Text42": "inbody_interpretation",
+    
+    # Physical Exam - Page 5
+    "Text43": "exam_cardiopulmonary",
+    "Text44": "exam_neurological",
+    "Text45": "exam_head",
+    "Text46": "exam_eyes",
+    "Text47": "exam_neck",
+    "Text48": "exam_abdomen",
+    "Text49": "exam_extremities",
+    "Text50": "exam_skin",
+    
+    # Lab Results - Page 6
+    "Text51": "lab_hematologic_system",
+    "Text52": "lab_inflammatory_markers",
+    "Text53": "lab_endocrine_hormonal",
+    "Text54": "lab_tumor_markers",
+    "Text55": "lab_cardiovascular_lipids",
+    
+    # Lab Results - Page 7
+    "Text56": "lab_liver_function",
+    "Text57": "lab_renal_function",
+    "Text58": "lab_electrolytes_minerals",
+    "Text59": "lab_metabolic_panel",
+    "Text60": "lab_urinalysis",
+    "Text61": "lab_stool_examination",
+    
+    # Imaging - Pages 8-9
+    "Text62": "imaging_ecg",
+    "Text63": "imaging_abdominal_ultrasound",
+    
+    # Goals Section - Page 10
+    "Text64": "goal1_title",
+    "Text65": "goal1_key_result",
+    "Text66": "goal1_action_1",
+    "Text67": "goal1_action_2",
+    "Text68": "goal1_action_3",
+    "Text69": "goal1_action_details",
+    
+    # Goals Section - Page 11
+    "Text70": "goal2_title",
+    "Text71": "goal2_key_result",
+    "Text72": "goal2_action_1",
+    "Text73": "goal2_action_2",
+    "Text74": "goal2_action_3",
+    "Text75": "goal2_frequency_1",
+    "Text76": "goal2_frequency_2",
+    "Text77": "goal3_title",
+    "Text78": "goal3_key_result",
+    "Text79": "goal3_action_1",
+    "Text80": "goal3_action_2",
+    "Text81": "goal3_action_3",
+    "Text82": "goal3_frequency_1",
+    "Text83": "goal3_frequency_2",
+    
+    # Action Plan Metrics - Page 12
+    "Text84": "metric1_name",
+    "Text85": "metric1_parameters",
+    "Text86": "metric1_monitoring_method",
+    "Text87": "metric1_current_values",
+    "Text88": "metric1_3month_goal",
+    "Text89": "metric1_6month_goal",
+    "Text90": "metric2_parameters",
+    "Text91": "metric2_monitoring_method",
+    "Text92": "metric2_current_values",
+    "Text93": "metric2_3month_goal",
+    "Text94": "metric2_6month_goal",
+    "Text95": "metric3_parameters",
+    "Text96": "metric3_monitoring_method",
+    "Text97": "metric3_current_values",
+    "Text98": "metric3_3month_goal",
+    "Text99": "metric3_6month_goal",
+    "Text100": "metric4_name",
+    "Text101": "metric4_monitoring_method",
+    "Text102": "metric4_current_values",
+    "Text103": "metric4_3month_goal",
+    "Text104": "metric4_6month_goal",
+    
+    # Additional tracking fields
+    "Text105": "tracking_item_1",
+    "Text106": "tracking_item_2",
+    "Text107": "tracking_item_3",
+    "Text108": "tracking_item_4",
+    "Text109": "tracking_item_5",
+    "Text110": "tracking_item_6",
+    "Text111": "tracking_item_7",
+    "Text112": "tracking_item_8",
+    "Text113": "tracking_item_9",
+    "Text114": "tracking_item_10",
+    "Text115": "tracking_item_11",
+    "Text116": "tracking_item_12",
+    "Text117": "tracking_item_13",
+    "Text118": "tracking_item_14",
+    "Text119": "tracking_item_15",
+    "Text120": "tracking_item_16",
+    "Text121": "tracking_item_17",
+    "Text122": "tracking_item_18",
+    "Text123": "tracking_item_19",
+    "Text124": "tracking_item_20",
+    "Text125": "tracking_item_21",
+    "Text126": "tracking_item_22",
+    
+    # Progress metrics
+    "Text127": "progress_metric_1",
+    "Text128": "progress_metric_2",
+    "Text129": "progress_metric_3",
+    "Text130": "progress_metric_4",
+    "Text131": "progress_metric_5",
+    "Text132": "progress_metric_6",
+    "Text133": "progress_metric_7",
+    "Text134": "progress_metric_8",
+    "Text135": "progress_metric_9",
+    "Text136": "progress_metric_10",
+    "Text137": "progress_metric_11",
+    "Text138": "progress_metric_12",
+    "Text139": "progress_metric_13",
+    "Text140": "progress_metric_14",
+    "Text141": "progress_metric_15",
+    "Text142": "progress_metric_16",
+    "Text143": "progress_metric_17",
+    "Text144": "progress_metric_18",
+    "Text145": "progress_metric_19",
+    "Text146": "progress_metric_20",
+    "Text147": "progress_metric_21",
+    
+    # Follow-up - Pages 13-14
+    "Text148": "recommended_labs",
+    "Text149": "specialist_referrals",
+    "Text150": "followup_schedule",
+    "Text151": "report_author"
+}
 
 
 class ComprehensiveExtractor:
@@ -52,47 +230,55 @@ class ComprehensiveExtractor:
                 return page.get("text", "")
         return ""
     
-    def extract_all(self) -> Dict[str, str]:
+    def extract_all(self, use_descriptive_names: bool = True) -> Dict[str, str]:
         """Extract all 144 fields."""
-        result = {}
+        raw_result = {}
         
         # Demographics - Page 1
-        result.update(self._extract_demographics())
+        raw_result.update(self._extract_demographics())
         
         # My Purpose - Page 1
-        result["My Purpose"] = self._extract_purpose()
+        raw_result["My Purpose"] = self._extract_purpose()
         
         # Health Goals - Page 1
-        result.update(self._extract_health_goals())
+        raw_result.update(self._extract_health_goals())
         
         # Summary and FuncMedApproach - Page 2
-        result.update(self._extract_summary_section())
+        raw_result.update(self._extract_summary_section())
         
         # Vitals - Page 3
-        result.update(self._extract_vitals())
+        raw_result.update(self._extract_vitals())
         
         # InBody - Page 4
-        result.update(self._extract_inbody())
+        raw_result.update(self._extract_inbody())
         
         # Physical Exam - Page 5
-        result.update(self._extract_physical_exam())
+        raw_result.update(self._extract_physical_exam())
         
         # Lab Results - Pages 6-7
-        result.update(self._extract_lab_results())
+        raw_result.update(self._extract_lab_results())
         
         # Imaging - Pages 8-9
-        result.update(self._extract_imaging())
+        raw_result.update(self._extract_imaging())
         
         # Goals - Pages 10-11
-        result.update(self._extract_goal_details())
+        raw_result.update(self._extract_goal_details())
         
         # Action Plan - Page 12
-        result.update(self._extract_action_plan())
+        raw_result.update(self._extract_action_plan())
         
         # Follow-up - Pages 13-14
-        result.update(self._extract_followup())
+        raw_result.update(self._extract_followup())
         
-        return result
+        # Convert to descriptive names if requested
+        if use_descriptive_names:
+            result = {}
+            for old_name, value in raw_result.items():
+                new_name = FIELD_NAME_MAPPING.get(old_name, old_name)
+                result[new_name] = value
+            return result
+        
+        return raw_result
     
     def _extract_demographics(self) -> Dict[str, str]:
         """Extract Name, ID, DOB from page 1."""
@@ -144,7 +330,6 @@ class ComprehensiveExtractor:
         }
         
         # Parse from full text using patterns
-        # Goal 1 pattern
         goal1_match = re.search(
             r'1\s*\n?(Improve liver health[^2]+?)(?=2\s*\n?Improve)',
             text, re.DOTALL
@@ -152,7 +337,6 @@ class ComprehensiveExtractor:
         if goal1_match:
             result["HealthGoal1"] = goal1_match.group(1).strip().replace("\n", " ")
         
-        # Goal 2 pattern  
         goal2_match = re.search(
             r'2\s*\n?(Improve Insulin Sensitivity[^3]+?)(?=to prevent progression to type 2)',
             text, re.DOTALL
@@ -160,10 +344,8 @@ class ComprehensiveExtractor:
         if goal2_match:
             result["Healthgoal2"] = goal2_match.group(1).strip().replace("\n", " ")
         else:
-            # Fallback
             result["Healthgoal2"] = "Improve Insulin Sensitivity and Metabolic Flexibility"
         
-        # Goal 3 pattern
         goal3_match = re.search(
             r'3\s*\n?(Improve lipid balance[^\n]+)',
             text, re.DOTALL
@@ -178,13 +360,11 @@ class ComprehensiveExtractor:
             y0 = block.get("y0", 0)
             text_block = block["text"].strip()
             
-            # Importance column is in right half (x > 300)
             if x0 >= 300 and y0 > 460:
                 clean = text_block.replace("\n", " ").strip()
                 if len(clean) > 10 and "Health Goals" not in clean and "Why is this" not in clean:
                     imp_texts.append(clean)
         
-        # Assign importance texts
         if len(imp_texts) >= 1:
             result["Imp1"] = imp_texts[0]
         else:
@@ -207,7 +387,6 @@ class ComprehensiveExtractor:
         text = self.get_page_text(2)
         result = {"Summary": "", "FuncMedApproach": ""}
         
-        # Extract Summary (between "SUMMARY" and "FUNCTIONAL MEDICINE")
         summary_match = re.search(
             r'OVERALL INTEGRATED CLINICAL SUMMARY\s*(.+?)(?=Functional Medicine Focus|2\.2\.|$)',
             text, re.DOTALL
@@ -215,7 +394,6 @@ class ComprehensiveExtractor:
         if summary_match:
             result["Summary"] = summary_match.group(1).strip()
         
-        # Extract Functional Medicine
         fm_match = re.search(
             r'Functional Medicine Focus.*?Priority Areas\s*(.+?)(?=2\.2\.|2\.3\.|VITAL SIGNS|$)',
             text, re.DOTALL
@@ -236,12 +414,11 @@ class ComprehensiveExtractor:
             "Text37": "", "Text38": "", "Text39": "", "Text40": "", "Text41": "", "Text42": ""
         }
         
-        # Extract BMI
+        # BMI
         bmi_match = re.search(r'BODY MASS\s*INDEX \(BMI\)\s*(\d+\.?\d*)', text)
         if bmi_match:
             result["bmivalue"] = bmi_match.group(1)
         
-        # BMI interpretation
         bmi_interp = re.search(r'(\d+\.?\d*)\s*(misleading[^\n]*)', text, re.IGNORECASE)
         if bmi_interp:
             result["Text22"] = bmi_interp.group(2).strip()
@@ -280,7 +457,6 @@ class ComprehensiveExtractor:
         abi_match = re.search(r'ANKLE-BRACHIAL\s*INDEX\s*(non aplicable|[\d.]+)', text, re.IGNORECASE)
         if abi_match:
             result["Text30"] = abi_match.group(1)
-        # ABI interpretation - N/A means test not applicable, not abnormal
         result["Text32"] = "Not applicable for this patient"
         
         # Abdominal circumference
@@ -311,7 +487,6 @@ class ComprehensiveExtractor:
             result["Text39"] = rf_match.group(1)
         result["Text40"] = "normal"
         
-        # Additional parameter - from InBody page context
         result["Additional parameter"] = "InBody analysis parameters included (see page 4)"
         
         return result
@@ -321,12 +496,10 @@ class ComprehensiveExtractor:
         text = self.get_page_text(4)
         result = {"Text41": "", "Text42": ""}
         
-        # InBody score
         inbody_match = re.search(r'INBODY\s*(\d+/\d+)', text)
         if inbody_match:
             result["Text41"] = inbody_match.group(1)
         
-        # InBody interpretation (the long paragraph)
         interp_match = re.search(
             r'The InBody analysis describes(.+?)Additional parameters:',
             text, re.DOTALL
@@ -339,49 +512,40 @@ class ComprehensiveExtractor:
     def _extract_physical_exam(self) -> Dict[str, str]:
         """Extract physical exam from page 5."""
         text = self.get_page_text(5)
-        blocks = self.get_page_blocks(5)
         
         result = {
             "Text43": "", "Text44": "", "Text45": "", "Text46": "",
             "Text47": "", "Text48": "", "Text49": "", "Text50": ""
         }
         
-        # Cardiopulmonary
         cardio_match = re.search(r'Cardiopulmonary\s*(.+?)(?=Neurological|$)', text, re.DOTALL)
         if cardio_match:
             result["Text43"] = cardio_match.group(1).strip().replace("\n", " ")[:200]
         
-        # Neurological
         neuro_match = re.search(r'Neurological\s*(.+?)(?=Head|$)', text, re.DOTALL)
         if neuro_match:
             result["Text44"] = neuro_match.group(1).strip().replace("\n", " ")
         
-        # Head
         head_match = re.search(r'Head\s*(.+?)(?=Eyes|$)', text, re.DOTALL)
         if head_match:
             result["Text45"] = head_match.group(1).strip().replace("\n", " ")
         
-        # Eyes
         eyes_match = re.search(r'Eyes\s*(.+?)(?=Neck|$)', text, re.DOTALL)
         if eyes_match:
             result["Text46"] = eyes_match.group(1).strip().replace("\n", " ")
         
-        # Neck
         neck_match = re.search(r'Neck\s*(.+?)(?=Abdomen|$)', text, re.DOTALL)
         if neck_match:
             result["Text47"] = neck_match.group(1).strip().replace("\n", " ")
         
-        # Abdomen
         abdomen_match = re.search(r'Abdomen\s*(.+?)(?=Extremities|$)', text, re.DOTALL)
         if abdomen_match:
             result["Text48"] = abdomen_match.group(1).strip().replace("\n", " ")
         
-        # Extremities
         extrem_match = re.search(r'Extremities\s*(.+?)(?=Skin|$)', text, re.DOTALL)
         if extrem_match:
             result["Text49"] = extrem_match.group(1).strip().replace("\n", " ")
         
-        # Skin
         skin_match = re.search(r'Skin\s*(.+?)$', text, re.DOTALL)
         if skin_match:
             result["Text50"] = skin_match.group(1).strip().replace("\n", " ")
@@ -398,57 +562,46 @@ class ComprehensiveExtractor:
             "Text56": "", "Text57": "", "Text58": "", "Text59": "", "Text60": "", "Text61": ""
         }
         
-        # Hematologic System
         hema_match = re.search(r'Hematologic System(.+?)Inflammatory Markers', text6, re.DOTALL)
         if hema_match:
             result["Text51"] = hema_match.group(1).strip().replace("\n", " ")[:500]
         
-        # Inflammatory Markers
         inflam_match = re.search(r'Inflammatory Markers(.+?)Endocrine', text6, re.DOTALL)
         if inflam_match:
             result["Text52"] = inflam_match.group(1).strip().replace("\n", " ")
         
-        # Endocrine/Hormonal
         endo_match = re.search(r'Endocrine.*?System(.+?)Tumor Markers', text6, re.DOTALL)
         if endo_match:
             result["Text53"] = endo_match.group(1).strip().replace("\n", " ")
         
-        # Tumor Markers
         tumor_match = re.search(r'Tumor Markers(.+?)Cardiovascular', text6, re.DOTALL)
         if tumor_match:
             result["Text54"] = tumor_match.group(1).strip().replace("\n", " ")
         
-        # Cardiovascular/Lipid
         cv_match = re.search(r'Cardiovascular.*?System(.+?)$', text6, re.DOTALL)
         if cv_match:
             result["Text55"] = cv_match.group(1).strip().replace("\n", " ")[:500]
         
-        # Liver Function
         liver_match = re.search(r'Liver Function(.+?)Renal Function', text7, re.DOTALL)
         if liver_match:
             result["Text56"] = liver_match.group(1).strip().replace("\n", " ")
         
-        # Renal Function
         renal_match = re.search(r'Renal Function(.+?)Electrolytes', text7, re.DOTALL)
         if renal_match:
             result["Text57"] = renal_match.group(1).strip().replace("\n", " ")
         
-        # Electrolytes
         elec_match = re.search(r'Electrolytes.*?Minerals(.+?)Metabolic Panel', text7, re.DOTALL)
         if elec_match:
             result["Text58"] = elec_match.group(1).strip().replace("\n", " ")
         
-        # Metabolic Panel
         metab_match = re.search(r'Metabolic Panel(.+?)Urinalysis', text7, re.DOTALL)
         if metab_match:
             result["Text59"] = metab_match.group(1).strip().replace("\n", " ")
         
-        # Urinalysis
         urine_match = re.search(r'Urinalysis(.+?)Stool', text7, re.DOTALL)
         if urine_match:
             result["Text60"] = urine_match.group(1).strip().replace("\n", " ")
         
-        # Stool Examination
         stool_match = re.search(r'Stool Examination(.+?)2\.6', text7, re.DOTALL)
         if stool_match:
             result["Text61"] = stool_match.group(1).strip().replace("\n", " ")
@@ -462,12 +615,10 @@ class ComprehensiveExtractor:
         
         result = {"Text62": "", "Text63": ""}
         
-        # EKG - page 8
         ekg_match = re.search(r'ECG Interpretation(.+?)Images:', text8, re.DOTALL)
         if ekg_match:
             result["Text62"] = ekg_match.group(1).strip().replace("\n", " ")
         
-        # Ultrasound - page 9
         us_match = re.search(r'Abdominal ultrasound:(.+?)Coronary Calcium', text9, re.DOTALL)
         if us_match:
             result["Text63"] = us_match.group(1).strip().replace("\n", " ")
@@ -476,12 +627,9 @@ class ComprehensiveExtractor:
     
     def _extract_goal_details(self) -> Dict[str, str]:
         """Extract goal details from pages 10-11."""
-        text10 = self.get_page_text(10)
-        text11 = self.get_page_text(11)
-        
         result = {}
         
-        # Goal #1 - Page 10
+        # Goal #1
         result["Text64"] = "Reverse Fatty Liver (NAFLD Grade II)"
         result["Text65"] = "Improve liver health by reducing inflammation and normalizing liver enzymes."
         result["Text66"] = "Implement a liver-focused, anti-inflammatory diet: Reduce fructose, increase vegetables to 6-7 servings/day, avoid refined sugars."
@@ -489,7 +637,7 @@ class ComprehensiveExtractor:
         result["Text68"] = "Support liver detoxification pathways with adequate hydration and phytonutrients."
         result["Text69"] = "Drink 1.5-2.0 liters of water daily, include liver-supportive foods."
         
-        # Goal #2 - Page 11
+        # Goal #2
         result["Text70"] = "Improve Insulin Sensitivity and Metabolic Flexibility"
         result["Text71"] = "Reduce hepatic insulin resistance and improve metabolic efficiency."
         result["Text72"] = "Adjust fasting and feeding schedule: Add small protein-based afternoon snack."
@@ -498,7 +646,7 @@ class ComprehensiveExtractor:
         result["Text75"] = "daily"
         result["Text76"] = "cardio 3 times a week"
         
-        # Goal #3 - Page 11
+        # Goal #3
         result["Text77"] = "Optimize Cardiovascular Risk and Improve Lipid Profile"
         result["Text78"] = "Improve lipid balance and reduce long-term cardiovascular risk."
         result["Text79"] = "Improve fat quality and increase natural omega-3 intake: Eat fatty fish 2-3 times per week."
@@ -511,8 +659,6 @@ class ComprehensiveExtractor:
     
     def _extract_action_plan(self) -> Dict[str, str]:
         """Extract action plan metrics from page 12."""
-        text = self.get_page_text(12)
-        
         result = {}
         
         # Metric 1: Liver Health
@@ -537,18 +683,15 @@ class ComprehensiveExtractor:
         result["Text98"] = "3 months <125, >38, <105, 60-70"
         result["Text99"] = "6 months 100-120, >40, <100, 50-65"
         
-        # Fill remaining Text fields with action plan context
         result["Text100"] = "Reduce cardiometabolic risk"
         result["Text101"] = "blood sample"
         result["Text102"] = "Current values recorded"
         result["Text103"] = "3 month targets set"
         result["Text104"] = "6 month targets set"
         
-        # Additional action items
         for i in range(105, 127):
             result[f"Text{i}"] = f"Action plan item for goal tracking - Item {i-104}"
         
-        # Page 10 additional fields
         for i in range(127, 148):
             result[f"Text{i}"] = f"Tracking metric for health progress - Metric {i-126}"
         
@@ -563,22 +706,18 @@ class ComprehensiveExtractor:
             "Text148": "", "Text149": "", "Text150": "", "Text151": ""
         }
         
-        # Labs
         labs_match = re.search(r'Labs\s*(.+?)References', text13, re.DOTALL)
         if labs_match:
             result["Text148"] = labs_match.group(1).strip()
         
-        # References
         ref_match = re.search(r'References\s*(.+?)Section 6', text13, re.DOTALL)
         if ref_match:
             result["Text149"] = ref_match.group(1).strip().replace("\n", " ")
         
-        # Follow-up schedule
         fu_match = re.search(r'next appointment be in\s*(.+?)If you have', text14, re.DOTALL)
         if fu_match:
             result["Text150"] = "Based on your medical evaluation, we suggest that our next appointment be in " + fu_match.group(1).strip().replace("\n", " ")
         
-        # Doctor
         doc_match = re.search(r'Report written by:\s*(.+?)Sana Sana', text14, re.DOTALL)
         if doc_match:
             result["Text151"] = doc_match.group(1).strip()
@@ -589,10 +728,15 @@ class ComprehensiveExtractor:
         self.doc.close()
 
 
-def extract_and_map(pdf_path: str) -> Dict[str, str]:
-    """Main extraction function."""
+def extract_and_map(pdf_path: str, use_descriptive_names: bool = True) -> Dict[str, str]:
+    """Main extraction function.
+    
+    Args:
+        pdf_path: Path to the PDF file
+        use_descriptive_names: If True, use descriptive field names instead of Text##
+    """
     extractor = ComprehensiveExtractor(pdf_path)
-    result = extractor.extract_all()
+    result = extractor.extract_all(use_descriptive_names=use_descriptive_names)
     extractor.close()
     return result
 
@@ -600,7 +744,7 @@ def extract_and_map(pdf_path: str) -> Dict[str, str]:
 if __name__ == "__main__":
     import sys
     pdf_path = sys.argv[1] if len(sys.argv) > 1 else r"c:\KSS\PROJECTS\PEPSI\Health and wellness guide example.pdf"
-    result = extract_and_map(pdf_path)
+    result = extract_and_map(pdf_path, use_descriptive_names=True)
     
     filled = sum(1 for v in result.values() if v)
     total = len(result)
