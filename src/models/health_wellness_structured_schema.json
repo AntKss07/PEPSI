@@ -1,0 +1,1126 @@
+{
+  "_documentation": {
+    "title": "Health and Wellness Guide - Structured JSON Schema",
+    "description": "This JSON file maps all fillable PDF form fields to their corresponding questions/sections in the Health and Wellness Guide. Each section is organized by page and includes descriptive field names, the original PDF field names, and the context/question the field answers.",
+    "total_fields": 144,
+    "version": "1.0",
+    "last_updated": "2025-09-04"
+  },
+
+  "section_1_my_purpose": {
+    "_section_info": {
+      "title": "Section 1: My Purpose",
+      "page": 1,
+      "description": "Personal information and motivation for health improvement",
+      "header_text": "HEALTH AND WELLNESS GUIDE - Your path to a longer, healthier life"
+    },
+
+    "demographics": {
+      "_question": "Basic patient identification information",
+      "fields": {
+        "patient_name": {
+          "pdf_field_name": "Name",
+          "question": "What is the patient's full name?",
+          "field_type": "Text",
+          "page": 1,
+          "value": ""
+        },
+        "patient_id": {
+          "pdf_field_name": "Identification number",
+          "question": "What is the patient's identification number?",
+          "field_type": "Text",
+          "page": 1,
+          "value": ""
+        },
+        "date_of_birth": {
+          "pdf_field_name": "Date of birth",
+          "question": "What is the patient's date of birth?",
+          "field_type": "Text",
+          "page": 1,
+          "value": ""
+        }
+      }
+    },
+
+    "my_purpose": {
+      "_question": "Why do I want to improve my health? - We all have a reason that motivates us to take care of ourselves. Come back to this section whenever you need to reconnect with your path.",
+      "fields": {
+        "purpose_statement": {
+          "pdf_field_name": "My Purpose",
+          "question": "Why do I want to improve my health?",
+          "field_type": "Text",
+          "page": 1,
+          "value": ""
+        }
+      }
+    },
+
+    "primary_health_goals": {
+      "_question": "MY PRIMARY HEALTH GOALS - Based on your goals, lifestyle, and health assessment, we will prioritize three objectives to bring you closer to your purpose.",
+      "fields": {
+        "health_goal_1": {
+          "pdf_field_name": "HealthGoal1",
+          "question": "What is your first health goal?",
+          "field_type": "Text",
+          "page": 1,
+          "value": ""
+        },
+        "health_goal_1_importance": {
+          "pdf_field_name": "Imp1",
+          "question": "Why is health goal #1 important to you?",
+          "field_type": "Text",
+          "page": 1,
+          "value": ""
+        },
+        "health_goal_2": {
+          "pdf_field_name": "Healthgoal2",
+          "question": "What is your second health goal?",
+          "field_type": "Text",
+          "page": 1,
+          "value": ""
+        },
+        "health_goal_2_importance": {
+          "pdf_field_name": "Imp2",
+          "question": "Why is health goal #2 important to you?",
+          "field_type": "Text",
+          "page": 1,
+          "value": ""
+        },
+        "health_goal_3": {
+          "pdf_field_name": "Healthgoal3",
+          "question": "What is your third health goal?",
+          "field_type": "Text",
+          "page": 1,
+          "value": ""
+        },
+        "health_goal_3_importance": {
+          "pdf_field_name": "Imp3",
+          "question": "Why is health goal #3 important to you?",
+          "field_type": "Text",
+          "page": 1,
+          "value": ""
+        }
+      }
+    }
+  },
+
+  "section_2_results_and_findings": {
+    "_section_info": {
+      "title": "Section 2: Results and Findings",
+      "pages": [2, 3, 4, 5, 6],
+      "description": "Comprehensive health evaluation results including summary, vitals, physical exam, labs, and imaging"
+    },
+
+    "2_1_summary": {
+      "_question": "HEALTH AND WELLNESS INTEGRAL EVALUATION - Overall summary of health assessment",
+      "page": 2,
+      "fields": {
+        "clinical_summary": {
+          "pdf_field_name": "Summary",
+          "question": "What is the overall clinical summary of the health evaluation?",
+          "field_type": "Text",
+          "page": 2,
+          "value": ""
+        }
+      }
+    },
+
+    "2_2_functional_medicine_approach": {
+      "_question": "FUNCTIONAL MEDICINE APPROACH: MODIFIABLE LIFESTYLES AND DYSFUNCTIONS",
+      "page": 2,
+      "fields": {
+        "functional_medicine_focus": {
+          "pdf_field_name": "FuncMedApproach",
+          "question": "What are the modifiable lifestyles and dysfunctions identified through functional medicine approach?",
+          "field_type": "Text",
+          "page": 2,
+          "value": ""
+        }
+      }
+    },
+
+    "2_3_vital_signs_and_body_composition": {
+      "_question": "VITAL SIGNS AND BODY COMPOSITION ANALYSIS (INBODY) - Parameters measured with values and interpretations",
+      "page": 3,
+      "fields": {
+        "bmi": {
+          "_parameter": "BODY MASS INDEX (BMI)",
+          "value": {
+            "pdf_field_name": "bmivalue",
+            "question": "What is the patient's BMI value?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text22",
+            "question": "What is the interpretation/observation for BMI?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "body_weight": {
+          "_parameter": "BODY WEIGHT",
+          "value": {
+            "pdf_field_name": "Text23",
+            "question": "What is the patient's body weight?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text24",
+            "question": "What is the interpretation/observation for body weight?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "height": {
+          "_parameter": "HEIGHT",
+          "value": {
+            "pdf_field_name": "Text25",
+            "question": "What is the patient's height?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text26",
+            "question": "What is the interpretation/observation for height?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "arterial_pressure": {
+          "_parameter": "ARTERIAL PRESSURE (Blood Pressure)",
+          "value": {
+            "pdf_field_name": "Text27",
+            "question": "What is the patient's arterial/blood pressure?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text28",
+            "question": "What is the interpretation/observation for arterial pressure?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "cardiac_frequency": {
+          "_parameter": "CARDIAC FREQUENCY (Heart Rate)",
+          "value": {
+            "pdf_field_name": "Text29",
+            "question": "What is the patient's cardiac frequency/heart rate?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text31",
+            "question": "What is the interpretation/observation for cardiac frequency?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "ankle_brachial_index": {
+          "_parameter": "ANKLE-BRACHIAL INDEX",
+          "value": {
+            "pdf_field_name": "Text30",
+            "question": "What is the patient's ankle-brachial index?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text32",
+            "question": "What is the interpretation/observation for ankle-brachial index?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "abdominal_circumference": {
+          "_parameter": "ABDOMINAL CIRCUMFERENCE",
+          "value": {
+            "pdf_field_name": "Text33",
+            "question": "What is the patient's abdominal circumference?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text34",
+            "question": "What is the interpretation/observation for abdominal circumference?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "hip_waist_ratio": {
+          "_parameter": "HIP WAIST RATIO",
+          "value": {
+            "pdf_field_name": "Text35",
+            "question": "What is the patient's hip waist ratio?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text36",
+            "question": "What is the interpretation/observation for hip waist ratio?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "pulse_oximetry": {
+          "_parameter": "PULSE OXIMETRY",
+          "value": {
+            "pdf_field_name": "Text37",
+            "question": "What is the patient's pulse oximetry reading?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text38",
+            "question": "What is the interpretation/observation for pulse oximetry?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "respiratory_frequency": {
+          "_parameter": "RESPIRATORY FREQUENCY",
+          "value": {
+            "pdf_field_name": "Text39",
+            "question": "What is the patient's respiratory frequency?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text40",
+            "question": "What is the interpretation/observation for respiratory frequency?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "inbody_analysis": {
+          "_parameter": "INBODY (Body Composition Analysis)",
+          "value": {
+            "pdf_field_name": "Text41",
+            "question": "What are the InBody body composition analysis results?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          },
+          "interpretation": {
+            "pdf_field_name": "Text42",
+            "question": "What is the interpretation/observation for InBody analysis?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        },
+        "additional_parameters": {
+          "_parameter": "Additional Parameters",
+          "value": {
+            "pdf_field_name": "Additional parameter",
+            "question": "What are any additional vital sign parameters?",
+            "field_type": "Text",
+            "page": 3,
+            "value": ""
+          }
+        }
+      }
+    },
+
+    "2_4_physical_exam": {
+      "_question": "PHYSICAL EXAM - Examination findings by organ system",
+      "page": 4,
+      "fields": {
+        "cardiopulmonary": {
+          "pdf_field_name": "Text43",
+          "question": "What are the cardiopulmonary examination findings?",
+          "organ_system": "Cardiopulmonary",
+          "field_type": "Text",
+          "page": 4,
+          "value": ""
+        },
+        "neurological": {
+          "pdf_field_name": "Text44",
+          "question": "What are the neurological examination findings?",
+          "organ_system": "Neurological",
+          "field_type": "Text",
+          "page": 4,
+          "value": ""
+        },
+        "head": {
+          "pdf_field_name": "Text45",
+          "question": "What are the head examination findings?",
+          "organ_system": "Head",
+          "field_type": "Text",
+          "page": 4,
+          "value": ""
+        },
+        "eyes": {
+          "pdf_field_name": "Text46",
+          "question": "What are the eyes examination findings?",
+          "organ_system": "Eyes",
+          "field_type": "Text",
+          "page": 4,
+          "value": ""
+        },
+        "neck": {
+          "pdf_field_name": "Text47",
+          "question": "What are the neck examination findings?",
+          "organ_system": "Neck",
+          "field_type": "Text",
+          "page": 4,
+          "value": ""
+        },
+        "abdomen": {
+          "pdf_field_name": "Text48",
+          "question": "What are the abdomen examination findings?",
+          "organ_system": "Abdomen",
+          "field_type": "Text",
+          "page": 4,
+          "value": ""
+        },
+        "extremities": {
+          "pdf_field_name": "Text49",
+          "question": "What are the extremities examination findings?",
+          "organ_system": "Extremities",
+          "field_type": "Text",
+          "page": 4,
+          "value": ""
+        },
+        "skin": {
+          "pdf_field_name": "Text50",
+          "question": "What are the skin examination findings?",
+          "organ_system": "Skin",
+          "field_type": "Text",
+          "page": 4,
+          "value": ""
+        }
+      }
+    },
+
+    "2_5_laboratory_results": {
+      "_question": "LABORATORY RESULTS - Systems and Functions analysis",
+      "page": 5,
+      "fields": {
+        "cardiovascular_system": {
+          "pdf_field_name": "Text51",
+          "question": "What are the cardiovascular system lab results?",
+          "system": "Cardiovascular System",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        },
+        "brain_cognitive_health": {
+          "pdf_field_name": "Text52",
+          "question": "What are the brain and cognitive health lab results?",
+          "system": "Brain and Cognitive Health",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        },
+        "immune_system_inflammation": {
+          "pdf_field_name": "Text53",
+          "question": "What are the immune system and inflammation lab results?",
+          "system": "Immune System and Inflammation",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        },
+        "vitamins_minerals": {
+          "pdf_field_name": "Text54",
+          "question": "What are the vitamins and minerals lab results?",
+          "system": "Vitamins and Minerals",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        },
+        "liver_detoxification": {
+          "pdf_field_name": "Text55",
+          "question": "What are the liver and detoxification processes lab results?",
+          "system": "Liver and Detoxification Processes",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        },
+        "hormonal_endocrine": {
+          "pdf_field_name": "Text56",
+          "question": "What are the hormonal and endocrine system lab results?",
+          "system": "Hormonal and Endocrine System",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        },
+        "ckd_epi_gfr": {
+          "pdf_field_name": "Text57",
+          "question": "What is the CKD-EPI (GFR) result?",
+          "system": "Kidney Function - CKD-EPI (GFR)",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        },
+        "ascvd_risk": {
+          "pdf_field_name": "Text58",
+          "question": "What is the ASCVD risk assessment result?",
+          "system": "Cardiovascular - ASCVD Risk",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        },
+        "tg_hdl_ratio": {
+          "pdf_field_name": "Text59",
+          "question": "What is the TG/HDL ratio result?",
+          "system": "Lipid Panel - TG/HDL Ratio",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        },
+        "other_labs": {
+          "pdf_field_name": "Text60",
+          "question": "What are the other laboratory results?",
+          "system": "Others",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        },
+        "additional_lab_parameters": {
+          "pdf_field_name": "Text61",
+          "question": "What are any additional laboratory parameters?",
+          "system": "Additional Parameters",
+          "field_type": "Text",
+          "page": 5,
+          "value": ""
+        }
+      }
+    },
+
+    "2_6_diagnostic_imaging_and_ekg": {
+      "_question": "DIAGNOSTIC IMAGING AND ELECTROCARDIOGRAM",
+      "page": 6,
+      "fields": {
+        "ekg_results": {
+          "pdf_field_name": "Text62",
+          "question": "What are the EKG/ECG results?",
+          "imaging_type": "EKG",
+          "field_type": "Text",
+          "page": 6,
+          "value": ""
+        },
+        "imaging_results": {
+          "pdf_field_name": "Text63",
+          "question": "What are the diagnostic imaging results (X-ray, ultrasound, etc.)?",
+          "imaging_type": "Images",
+          "field_type": "Text",
+          "page": 6,
+          "value": ""
+        }
+      }
+    }
+  },
+
+  "section_3_health_goals": {
+    "_section_info": {
+      "title": "Section 3: Health Goals",
+      "pages": [7, 8],
+      "description": "Based on your personal goals, lifestyle, and health assessment, we will set three key objectives that will allow us to make significant progress toward your purpose."
+    },
+
+    "goal_1": {
+      "_question": "Goal #1 - First key health objective with key results and actions",
+      "page": 7,
+      "fields": {
+        "goal_1_title": {
+          "pdf_field_name": "Text71",
+          "question": "What is the title/description of Goal #1?",
+          "example": "Achieve a 5% reduction in body weight through nutrition and exercise within a 6-month period.",
+          "field_type": "Text",
+          "page": 7,
+          "value": ""
+        },
+        "goal_1_key_result_1": {
+          "pdf_field_name": "Text64",
+          "question": "What is Key Result #1 for Goal #1?",
+          "field_type": "Text",
+          "page": 7,
+          "value": ""
+        },
+        "goal_1_key_action_1_1": {
+          "pdf_field_name": "Text65",
+          "question": "What is Key Action 1.1 for Goal #1?",
+          "field_type": "Text",
+          "page": 7,
+          "value": ""
+        },
+        "goal_1_key_action_1_2": {
+          "pdf_field_name": "Text66",
+          "question": "What is Key Action 1.2 for Goal #1?",
+          "field_type": "Text",
+          "page": 7,
+          "value": ""
+        },
+        "goal_1_key_action_1_3": {
+          "pdf_field_name": "Text67",
+          "question": "What is Key Action 1.3 for Goal #1?",
+          "field_type": "Text",
+          "page": 7,
+          "value": ""
+        },
+        "goal_1_key_result_2": {
+          "pdf_field_name": "Text68",
+          "question": "What is Key Result #2 for Goal #1?",
+          "field_type": "Text",
+          "page": 7,
+          "value": ""
+        },
+        "goal_1_key_action_2_1": {
+          "pdf_field_name": "Text69",
+          "question": "What is Key Action 2.1 for Goal #1?",
+          "field_type": "Text",
+          "page": 7,
+          "value": ""
+        }
+      }
+    },
+
+    "goal_2": {
+      "_question": "Goal #2 - Second key health objective with key results and actions. Progress happens through small steps. You're already on your way!",
+      "page": 8,
+      "fields": {
+        "goal_2_title": {
+          "pdf_field_name": "Text77",
+          "question": "What is the title/description of Goal #2?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_2_key_result_1": {
+          "pdf_field_name": "Text70",
+          "question": "What is Key Result #1 for Goal #2?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_2_key_action_1_1": {
+          "pdf_field_name": "Text72",
+          "question": "What is Key Action 1.1 for Goal #2?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_2_key_action_1_2": {
+          "pdf_field_name": "Text73",
+          "question": "What is Key Action 1.2 for Goal #2?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_2_key_action_1_3": {
+          "pdf_field_name": "Text74",
+          "question": "What is Key Action 1.3 for Goal #2?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_2_key_result_2": {
+          "pdf_field_name": "Text75",
+          "question": "What is Key Result #2 for Goal #2?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_2_key_action_2_1": {
+          "pdf_field_name": "Text76",
+          "question": "What is Key Action 2.1 for Goal #2?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        }
+      }
+    },
+
+    "goal_3": {
+      "_question": "Goal #3 - Third key health objective with key results and actions",
+      "page": 8,
+      "fields": {
+        "goal_3_title": {
+          "pdf_field_name": "Text77",
+          "question": "What is the title/description of Goal #3?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_3_key_result_1": {
+          "pdf_field_name": "Text78",
+          "question": "What is Key Result #1 for Goal #3?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_3_key_action_1_1": {
+          "pdf_field_name": "Text79",
+          "question": "What is Key Action 1.1 for Goal #3?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_3_key_action_1_2": {
+          "pdf_field_name": "Text80",
+          "question": "What is Key Action 1.2 for Goal #3?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_3_key_action_1_3": {
+          "pdf_field_name": "Text81",
+          "question": "What is Key Action 1.3 for Goal #3?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_3_key_result_2": {
+          "pdf_field_name": "Text82",
+          "question": "What is Key Result #2 for Goal #3?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        },
+        "goal_3_key_action_2_1": {
+          "pdf_field_name": "Text83",
+          "question": "What is Key Action 2.1 for Goal #3?",
+          "field_type": "Text",
+          "page": 8,
+          "value": ""
+        }
+      }
+    }
+  },
+
+  "section_4_action_plan": {
+    "_section_info": {
+      "title": "Section 4: Action Plan",
+      "pages": [9, 10],
+      "description": "HOW WILL WE ACHIEVE SUCCESS? Together, we will turn healthy habits into everyday victories! At Sana Sana, we celebrate your commitment: we use health metrics to guide the most effective steps, but we also understand that your well-being goes far beyond the numbers."
+    },
+
+    "metric_1": {
+      "_question": "First health metric to track with monitoring plan and goals",
+      "page": 9,
+      "fields": {
+        "description": {
+          "pdf_field_name": "Text84",
+          "question": "What is the description/name of Metric #1?",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "metrics": {
+          "pdf_field_name": "Text85",
+          "question": "What specific metrics are measured for Metric #1?",
+          "column": "METRICS",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "how_to_monitor": {
+          "pdf_field_name": "Text86",
+          "question": "How do we monitor Metric #1?",
+          "column": "HOW DO WE MONITOR IT?",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "current_value": {
+          "pdf_field_name": "Text87",
+          "question": "What is the current value for Metric #1?",
+          "column": "CURRENT",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "three_month_goal": {
+          "pdf_field_name": "Text88",
+          "question": "What is the 3-month goal for Metric #1?",
+          "column": "3-MONTH GOAL",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "six_month_goal": {
+          "pdf_field_name": "Text89",
+          "question": "What is the 6-month goal for Metric #1?",
+          "column": "6-MONTH GOAL",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        }
+      }
+    },
+
+    "metric_2": {
+      "_question": "Second health metric to track with monitoring plan and goals",
+      "page": 9,
+      "fields": {
+        "metrics": {
+          "pdf_field_name": "Text90",
+          "question": "What specific metrics are measured for Metric #2?",
+          "column": "METRICS",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "how_to_monitor": {
+          "pdf_field_name": "Text91",
+          "question": "How do we monitor Metric #2?",
+          "column": "HOW DO WE MONITOR IT?",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "current_value": {
+          "pdf_field_name": "Text92",
+          "question": "What is the current value for Metric #2?",
+          "column": "CURRENT",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "three_month_goal": {
+          "pdf_field_name": "Text93",
+          "question": "What is the 3-month goal for Metric #2?",
+          "column": "3-MONTH GOAL",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "six_month_goal": {
+          "pdf_field_name": "Text94",
+          "question": "What is the 6-month goal for Metric #2?",
+          "column": "6-MONTH GOAL",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        }
+      }
+    },
+
+    "metric_3": {
+      "_question": "Third health metric to track with monitoring plan and goals",
+      "page": 9,
+      "fields": {
+        "metrics": {
+          "pdf_field_name": "Text95",
+          "question": "What specific metrics are measured for Metric #3?",
+          "column": "METRICS",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "how_to_monitor": {
+          "pdf_field_name": "Text96",
+          "question": "How do we monitor Metric #3?",
+          "column": "HOW DO WE MONITOR IT?",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "current_value": {
+          "pdf_field_name": "Text97",
+          "question": "What is the current value for Metric #3?",
+          "column": "CURRENT",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "three_month_goal": {
+          "pdf_field_name": "Text98",
+          "question": "What is the 3-month goal for Metric #3?",
+          "column": "3-MONTH GOAL",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "six_month_goal": {
+          "pdf_field_name": "Text99",
+          "question": "What is the 6-month goal for Metric #3?",
+          "column": "6-MONTH GOAL",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        }
+      }
+    },
+
+    "metric_4": {
+      "_question": "Fourth health metric to track with monitoring plan and goals",
+      "page": 9,
+      "fields": {
+        "metrics": {
+          "pdf_field_name": "Text100",
+          "question": "What specific metrics are measured for Metric #4?",
+          "column": "METRICS",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "how_to_monitor": {
+          "pdf_field_name": "Text101",
+          "question": "How do we monitor Metric #4?",
+          "column": "HOW DO WE MONITOR IT?",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "current_value": {
+          "pdf_field_name": "Text102",
+          "question": "What is the current value for Metric #4?",
+          "column": "CURRENT",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "three_month_goal": {
+          "pdf_field_name": "Text103",
+          "question": "What is the 3-month goal for Metric #4?",
+          "column": "3-MONTH GOAL",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "six_month_goal": {
+          "pdf_field_name": "Text104",
+          "question": "What is the 6-month goal for Metric #4?",
+          "column": "6-MONTH GOAL",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        }
+      }
+    },
+
+    "additional_action_plan_metrics": {
+      "_question": "Additional metrics and tracking tables for comprehensive action planning",
+      "pages": [9, 10],
+      "fields": {
+        "action_plan_description_2": {
+          "pdf_field_name": "Text105",
+          "question": "What is the description for Action Plan section 2?",
+          "field_type": "Text",
+          "page": 9,
+          "value": ""
+        },
+        "metric_5_metrics": { "pdf_field_name": "Text106", "question": "Metric #5 - METRICS column", "page": 9, "value": "" },
+        "metric_5_monitor": { "pdf_field_name": "Text107", "question": "Metric #5 - HOW DO WE MONITOR IT?", "page": 9, "value": "" },
+        "metric_5_current": { "pdf_field_name": "Text108", "question": "Metric #5 - CURRENT value", "page": 9, "value": "" },
+        "metric_5_current_alt": { "pdf_field_name": "Text109", "question": "Metric #5 - CURRENT value (alternate)", "page": 9, "value": "" },
+        "metric_5_3month": { "pdf_field_name": "Text110", "question": "Metric #5 - 3-MONTH GOAL", "page": 9, "value": "" },
+        "metric_5_6month": { "pdf_field_name": "Text111", "question": "Metric #5 - 6-MONTH GOAL", "page": 9, "value": "" },
+        "metric_6_metrics": { "pdf_field_name": "Text112", "question": "Metric #6 - METRICS column", "page": 9, "value": "" },
+        "metric_6_monitor": { "pdf_field_name": "Text113", "question": "Metric #6 - HOW DO WE MONITOR IT?", "page": 9, "value": "" },
+        "metric_6_current": { "pdf_field_name": "Text114", "question": "Metric #6 - CURRENT value", "page": 9, "value": "" },
+        "metric_6_3month": { "pdf_field_name": "Text115", "question": "Metric #6 - 3-MONTH GOAL", "page": 9, "value": "" },
+        "metric_6_6month": { "pdf_field_name": "Text116", "question": "Metric #6 - 6-MONTH GOAL", "page": 9, "value": "" },
+        "metric_7_metrics": { "pdf_field_name": "Text117", "question": "Metric #7 - METRICS column", "page": 9, "value": "" },
+        "metric_7_monitor": { "pdf_field_name": "Text118", "question": "Metric #7 - HOW DO WE MONITOR IT?", "page": 9, "value": "" },
+        "metric_7_current": { "pdf_field_name": "Text119", "question": "Metric #7 - CURRENT value", "page": 9, "value": "" },
+        "metric_7_3month": { "pdf_field_name": "Text120", "question": "Metric #7 - 3-MONTH GOAL", "page": 9, "value": "" },
+        "metric_7_6month": { "pdf_field_name": "Text121", "question": "Metric #7 - 6-MONTH GOAL", "page": 9, "value": "" },
+        "metric_8_metrics": { "pdf_field_name": "Text122", "question": "Metric #8 - METRICS column", "page": 9, "value": "" },
+        "metric_8_monitor": { "pdf_field_name": "Text123", "question": "Metric #8 - HOW DO WE MONITOR IT?", "page": 9, "value": "" },
+        "metric_8_current": { "pdf_field_name": "Text124", "question": "Metric #8 - CURRENT value", "page": 9, "value": "" },
+        "metric_8_3month": { "pdf_field_name": "Text125", "question": "Metric #8 - 3-MONTH GOAL", "page": 9, "value": "" },
+        "metric_8_6month": { "pdf_field_name": "Text126", "question": "Metric #8 - 6-MONTH GOAL", "page": 9, "value": "" },
+        "action_plan_description_3": {
+          "pdf_field_name": "Text127",
+          "question": "What is the description for Action Plan section 3?",
+          "field_type": "Text",
+          "page": 10,
+          "value": ""
+        },
+        "metric_9_metrics": { "pdf_field_name": "Text128", "question": "Metric #9 - METRICS column", "page": 10, "value": "" },
+        "metric_9_monitor": { "pdf_field_name": "Text129", "question": "Metric #9 - HOW DO WE MONITOR IT?", "page": 10, "value": "" },
+        "metric_9_current": { "pdf_field_name": "Text130", "question": "Metric #9 - CURRENT value", "page": 10, "value": "" },
+        "metric_9_3month": { "pdf_field_name": "Text131", "question": "Metric #9 - 3-MONTH GOAL", "page": 10, "value": "" },
+        "metric_9_6month": { "pdf_field_name": "Text132", "question": "Metric #9 - 6-MONTH GOAL", "page": 10, "value": "" },
+        "metric_10_metrics": { "pdf_field_name": "Text133", "question": "Metric #10 - METRICS column", "page": 10, "value": "" },
+        "metric_10_monitor": { "pdf_field_name": "Text134", "question": "Metric #10 - HOW DO WE MONITOR IT?", "page": 10, "value": "" },
+        "metric_10_current": { "pdf_field_name": "Text135", "question": "Metric #10 - CURRENT value", "page": 10, "value": "" },
+        "metric_10_3month": { "pdf_field_name": "Text136", "question": "Metric #10 - 3-MONTH GOAL", "page": 10, "value": "" },
+        "metric_10_6month": { "pdf_field_name": "Text137", "question": "Metric #10 - 6-MONTH GOAL", "page": 10, "value": "" },
+        "metric_11_metrics": { "pdf_field_name": "Text138", "question": "Metric #11 - METRICS column", "page": 10, "value": "" },
+        "metric_11_monitor": { "pdf_field_name": "Text139", "question": "Metric #11 - HOW DO WE MONITOR IT?", "page": 10, "value": "" },
+        "metric_11_current": { "pdf_field_name": "Text140", "question": "Metric #11 - CURRENT value", "page": 10, "value": "" },
+        "metric_11_3month": { "pdf_field_name": "Text141", "question": "Metric #11 - 3-MONTH GOAL", "page": 10, "value": "" },
+        "metric_11_6month": { "pdf_field_name": "Text142", "question": "Metric #11 - 6-MONTH GOAL", "page": 10, "value": "" },
+        "metric_12_metrics": { "pdf_field_name": "Text143", "question": "Metric #12 - METRICS column", "page": 10, "value": "" },
+        "metric_12_monitor": { "pdf_field_name": "Text144", "question": "Metric #12 - HOW DO WE MONITOR IT?", "page": 10, "value": "" },
+        "metric_12_current": { "pdf_field_name": "Text145", "question": "Metric #12 - CURRENT value", "page": 10, "value": "" },
+        "metric_12_3month": { "pdf_field_name": "Text146", "question": "Metric #12 - 3-MONTH GOAL", "page": 10, "value": "" },
+        "metric_12_6month": { "pdf_field_name": "Text147", "question": "Metric #12 - 6-MONTH GOAL", "page": 10, "value": "" }
+      }
+    }
+  },
+
+  "section_5_complimentary_labs_and_references": {
+    "_section_info": {
+      "title": "Section 5: Complimentary Labs and Clinical References",
+      "page": 10,
+      "description": "Additional laboratory tests and clinical references for comprehensive health assessment"
+    },
+
+    "labs_and_references": {
+      "_question": "Complimentary laboratory tests and clinical references",
+      "fields": {
+        "labs": {
+          "pdf_field_name": "Text148",
+          "question": "What additional/complimentary labs are recommended?",
+          "field_type": "Text",
+          "page": 10,
+          "value": ""
+        },
+        "references": {
+          "pdf_field_name": "Text149",
+          "question": "What clinical references are provided?",
+          "field_type": "Text",
+          "page": 10,
+          "value": ""
+        }
+      }
+    }
+  },
+
+  "section_6_follow_up_and_frequency": {
+    "_section_info": {
+      "title": "Section 6: Follow-up and Frequency",
+      "page": 11,
+      "description": "Recording your goals allows you to measure your effort, recognize your progress, and adjust your targets when necessary. We are here to support you on your journey toward better health.",
+      "contact_info": {
+        "whatsapp": "7262-7262",
+        "medical_team": "8647-6931"
+      }
+    },
+
+    "follow_up": {
+      "_question": "Based on your medical evaluation, we suggest that our next appointment be in...",
+      "fields": {
+        "follow_up_schedule": {
+          "pdf_field_name": "Text150",
+          "question": "When is the recommended next appointment/follow-up?",
+          "field_type": "Text",
+          "page": 11,
+          "value": ""
+        },
+        "doctor_info": {
+          "pdf_field_name": "Text151",
+          "question": "Who is the reporting doctor and their medical code?",
+          "field_type": "Text",
+          "page": 11,
+          "example": "Dr. [Name], Sana Sana Doctor, Medical Code: [Code]",
+          "value": ""
+        }
+      }
+    }
+  },
+
+  "_field_index": {
+    "_description": "Quick reference index mapping all PDF field names to their descriptive names and locations",
+    "page_1": {
+      "Name": "patient_name",
+      "Identification number": "patient_id", 
+      "Date of birth": "date_of_birth",
+      "My Purpose": "purpose_statement",
+      "HealthGoal1": "health_goal_1",
+      "Imp1": "health_goal_1_importance",
+      "Healthgoal2": "health_goal_2",
+      "Imp2": "health_goal_2_importance",
+      "Healthgoal3": "health_goal_3",
+      "Imp3": "health_goal_3_importance"
+    },
+    "page_2": {
+      "Summary": "clinical_summary",
+      "FuncMedApproach": "functional_medicine_focus"
+    },
+    "page_3_vitals": {
+      "bmivalue": "bmi_value",
+      "Text22": "bmi_interpretation",
+      "Text23": "body_weight_value",
+      "Text24": "body_weight_interpretation",
+      "Text25": "height_value",
+      "Text26": "height_interpretation",
+      "Text27": "arterial_pressure_value",
+      "Text28": "arterial_pressure_interpretation",
+      "Text29": "cardiac_frequency_value",
+      "Text30": "ankle_brachial_index_value",
+      "Text31": "cardiac_frequency_interpretation",
+      "Text32": "ankle_brachial_index_interpretation",
+      "Text33": "abdominal_circumference_value",
+      "Text34": "abdominal_circumference_interpretation",
+      "Text35": "hip_waist_ratio_value",
+      "Text36": "hip_waist_ratio_interpretation",
+      "Text37": "pulse_oximetry_value",
+      "Text38": "pulse_oximetry_interpretation",
+      "Text39": "respiratory_frequency_value",
+      "Text40": "respiratory_frequency_interpretation",
+      "Text41": "inbody_value",
+      "Text42": "inbody_interpretation",
+      "Additional parameter": "additional_vital_parameters"
+    },
+    "page_4_physical_exam": {
+      "Text43": "cardiopulmonary_findings",
+      "Text44": "neurological_findings",
+      "Text45": "head_findings",
+      "Text46": "eyes_findings",
+      "Text47": "neck_findings",
+      "Text48": "abdomen_findings",
+      "Text49": "extremities_findings",
+      "Text50": "skin_findings"
+    },
+    "page_5_labs": {
+      "Text51": "cardiovascular_system_labs",
+      "Text52": "brain_cognitive_health_labs",
+      "Text53": "immune_system_inflammation_labs",
+      "Text54": "vitamins_minerals_labs",
+      "Text55": "liver_detoxification_labs",
+      "Text56": "hormonal_endocrine_labs",
+      "Text57": "ckd_epi_gfr",
+      "Text58": "ascvd_risk",
+      "Text59": "tg_hdl_ratio",
+      "Text60": "other_labs",
+      "Text61": "additional_lab_parameters"
+    },
+    "page_6_imaging": {
+      "Text62": "ekg_results",
+      "Text63": "imaging_results"
+    },
+    "pages_7_8_goals": {
+      "Text64-Text69": "goal_1_key_results_and_actions",
+      "Text70-Text76": "goal_2_key_results_and_actions",
+      "Text77-Text83": "goal_3_key_results_and_actions"
+    },
+    "pages_9_10_action_plan": {
+      "Text84-Text104": "action_plan_metrics_1_to_4",
+      "Text105-Text126": "action_plan_metrics_5_to_8",
+      "Text127-Text147": "action_plan_metrics_9_to_12"
+    },
+    "pages_10_11_labs_followup": {
+      "Text148": "complimentary_labs",
+      "Text149": "clinical_references",
+      "Text150": "follow_up_schedule",
+      "Text151": "doctor_info"
+    }
+  }
+}

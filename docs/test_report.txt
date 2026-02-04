@@ -1,0 +1,30 @@
+HEALTH AND WELLNESS REPORT - TEST DOCUMENT
+==================================================
+
+QUESTION: Name:
+CONTENT: RICHARD ALLEN PEACOCK
+------------------------------
+QUESTION: Identification number
+CONTENT: AC737267
+------------------------------
+QUESTION: Date of birth
+CONTENT: 11/07/1960
+------------------------------
+QUESTION: Why do I want to improve my health?
+CONTENT: Me and my wife like to do hiking and enjoy outdoors and also I want to be healthy to be with my grandkids and kids.
+------------------------------
+QUESTION: Health Goal #1
+CONTENT: Improve liver health by reducing inflammation and normalizing liver enzymes.
+------------------------------
+QUESTION: Why is Health Goal #1 important?
+CONTENT: To protect the liver, improves metabolism, reduces cardiovascular risk, and restores whole-body health.
+------------------------------
+QUESTION: 2.1. SUMMARY:
+CONTENT: Richard shows normal findings in CBC, Renal function, Thyroid, PSA, Electrolytes, Glucose metabolism, Urinalysis & stool exam. Abnormal findings centered around NAFLD grade II.
+------------------------------
+QUESTION: BODY MASS INDEX (BMI) - VALUE
+CONTENT: 31.1
+------------------------------
+QUESTION: BODY MASS INDEX (BMI) - INTERPRETATION/OBSERVATION
+CONTENT: Misleading in individuals with high muscle mass.
+------------------------------

@@ -4,14 +4,23 @@ Flask API Server for Health Report PDF Extraction
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import os
+import sys
 import json
 import tempfile
 from werkzeug.utils import secure_filename
 
-from field_mapper import extract_and_map
-from schema_config import FIELD_SCHEMA
+# Add src directory to path for imports
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-app = Flask(__name__, static_folder='.')
+from services.field_mapper import extract_and_map, extract_comprehensive_full
+from utils.doc_creator import test_data as reference_data
+from models.schema_config import FIELD_SCHEMA
+
+# Get the project root directory (parent of src)
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+COMPONENTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'components')
+
+app = Flask(__name__, static_folder=COMPONENTS_DIR)
 CORS(app)
 
 # Configuration
@@ -29,19 +38,19 @@ def allowed_file(filename):
 @app.route('/')
 def index():
     """Serve the main HTML page."""
-    return send_from_directory('.', 'index.html')
+    return send_from_directory(COMPONENTS_DIR, 'index.html')
 
 
 @app.route('/styles.css')
 def styles():
     """Serve the CSS file."""
-    return send_from_directory('.', 'styles.css')
+    return send_from_directory(COMPONENTS_DIR, 'styles.css')
 
 
 @app.route('/app.js')
 def app_js():
     """Serve the JavaScript file."""
-    return send_from_directory('.', 'app.js')
+    return send_from_directory(COMPONENTS_DIR, 'app.js')
 
 
 @app.route('/api/schema', methods=['GET'])
@@ -51,6 +60,15 @@ def get_schema():
         "success": True,
         "field_count": len(FIELD_SCHEMA),
         "fields": list(FIELD_SCHEMA.keys())
+    })
+
+
+@app.route('/api/reference', methods=['GET'])
+def get_reference():
+    """Return the reference JSON structure from doc_creator.py."""
+    return jsonify({
+        "success": True,
+        "data": reference_data
     })
 
 
@@ -88,14 +106,14 @@ def extract_pdf():
         filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(filepath)
         
-        # Extract and map fields
-        extracted_data = extract_and_map(filepath)
+        # Extract everything (Text + Tables)
+        extracted_data = extract_comprehensive_full(filepath)
         
         # Clean up temp file
         os.remove(filepath)
         
-        # Count non-empty fields
-        non_empty_count = sum(1 for v in extracted_data.values() if v)
+        # All fields are considered "extracted" in this mode
+        non_empty_count = len(extracted_data)
         
         return jsonify({
             "success": True,

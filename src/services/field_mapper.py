@@ -1,11 +1,177 @@
 """
 Comprehensive Field Mapper - Extracts ALL 144 fields with DESCRIPTIVE NAMES
+Outputs fields in PDF reading order (page by page, top to bottom)
 """
 import re
 import json
+from collections import OrderedDict
 from typing import Dict, List, Any, Optional
 import fitz  # PyMuPDF
 
+
+# Ordered list of fields in PDF reading order with questions/labels
+FIELD_ORDER = [
+    # Page 1 - Section 1: My Purpose
+    ("patient_name", "Name"),
+    ("patient_id", "Identification number"),
+    ("date_of_birth", "Date of birth"),
+    ("my_purpose", "Why do I want to improve my health?"),
+    ("health_goal_1", "Health Goal #1"),
+    ("health_goal_1_importance", "Why is Health Goal #1 important?"),
+    ("health_goal_2", "Health Goal #2"),
+    ("health_goal_2_importance", "Why is Health Goal #2 important?"),
+    ("health_goal_3", "Health Goal #3"),
+    ("health_goal_3_importance", "Why is Health Goal #3 important?"),
+    # Page 2 - Section 2: Results and Findings
+    ("clinical_summary", "2.1. SUMMARY"),
+    ("functional_medicine_approach", "2.2. FUNCTIONAL MEDICINE APPROACH"),
+    # Page 3 - Vital Signs
+    ("bmi_value", "BODY MASS INDEX (BMI) - VALUE"),
+    ("bmi_interpretation", "BODY MASS INDEX (BMI) - INTERPRETATION"),
+    ("body_weight", "BODY WEIGHT - VALUE"),
+    ("body_weight_interpretation", "BODY WEIGHT - INTERPRETATION"),
+    ("height", "HEIGHT - VALUE"),
+    ("height_interpretation", "HEIGHT - INTERPRETATION"),
+    ("blood_pressure", "ARTERIAL PRESSURE - VALUE"),
+    ("blood_pressure_interpretation", "ARTERIAL PRESSURE - INTERPRETATION"),
+    ("heart_rate", "CARDIAC FREQUENCY - VALUE"),
+    ("heart_rate_interpretation", "CARDIAC FREQUENCY - INTERPRETATION"),
+    ("ankle_brachial_index", "ANKLE-BRACHIAL INDEX - VALUE"),
+    ("ankle_brachial_index_interpretation", "ANKLE-BRACHIAL INDEX - INTERPRETATION"),
+    ("abdominal_circumference", "ABDOMINAL CIRCUMFERENCE - VALUE"),
+    ("abdominal_circumference_interpretation", "ABDOMINAL CIRCUMFERENCE - INTERPRETATION"),
+    ("hip_waist_ratio", "HIP WAIST RATIO - VALUE"),
+    ("hip_waist_ratio_interpretation", "HIP WAIST RATIO - INTERPRETATION"),
+    ("pulse_oximetry", "PULSE OXIMETRY - VALUE"),
+    ("pulse_oximetry_interpretation", "PULSE OXIMETRY - INTERPRETATION"),
+    ("respiratory_rate", "RESPIRATORY FREQUENCY - VALUE"),
+    ("respiratory_rate_interpretation", "RESPIRATORY FREQUENCY - INTERPRETATION"),
+    # Page 4 - InBody
+    ("inbody_score", "INBODY - SCORE"),
+    ("inbody_interpretation", "INBODY - INTERPRETATION"),
+    ("additional_parameters", "Additional parameters"),
+    # Page 5 - Physical Exam
+    ("exam_cardiopulmonary", "Cardiopulmonary"),
+    ("exam_neurological", "Neurological"),
+    ("exam_head", "Head"),
+    ("exam_eyes", "Eyes"),
+    ("exam_neck", "Neck"),
+    ("exam_abdomen", "Abdomen"),
+    ("exam_extremities", "Extremities"),
+    ("exam_skin", "Skin"),
+    # Page 6-7 - Lab Results
+    ("lab_cardiovascular_lipids", "Cardiovascular System - Lipids"),
+    ("lab_hematologic_system", "Hematologic System"),
+    ("lab_inflammatory_markers", "Immune System and Inflammation"),
+    ("lab_endocrine_hormonal", "Hormonal and Endocrine System"),
+    ("lab_liver_function", "Liver and Detoxification"),
+    ("lab_renal_function", "Renal Function"),
+    ("lab_electrolytes_minerals", "Electrolytes and Minerals"),
+    ("lab_metabolic_panel", "Metabolic Panel"),
+    ("lab_urinalysis", "Urinalysis"),
+    ("lab_stool_examination", "Stool Examination"),
+    ("lab_tumor_markers", "Tumor Markers"),
+    # Page 8-9 - Imaging
+    ("imaging_ecg", "EKG"),
+    ("imaging_abdominal_ultrasound", "Abdominal Ultrasound"),
+    # Page 10-11 - Section 3: Health Goals
+    ("goal1_title", "Goal #1 Title"),
+    ("goal1_key_result", "Goal #1 Key Result"),
+    ("goal1_action_1", "Goal #1 Action 1"),
+    ("goal1_action_2", "Goal #1 Action 2"),
+    ("goal1_action_3", "Goal #1 Action 3"),
+    ("goal1_action_details", "Goal #1 Action Details"),
+    ("goal2_title", "Goal #2 Title"),
+    ("goal2_key_result", "Goal #2 Key Result"),
+    ("goal2_action_1", "Goal #2 Action 1"),
+    ("goal2_action_2", "Goal #2 Action 2"),
+    ("goal2_action_3", "Goal #2 Action 3"),
+    ("goal2_frequency_1", "Goal #2 Frequency 1"),
+    ("goal2_frequency_2", "Goal #2 Frequency 2"),
+    ("goal3_title", "Goal #3 Title"),
+    ("goal3_key_result", "Goal #3 Key Result"),
+    ("goal3_action_1", "Goal #3 Action 1"),
+    ("goal3_action_2", "Goal #3 Action 2"),
+    ("goal3_action_3", "Goal #3 Action 3"),
+    ("goal3_frequency_1", "Goal #3 Frequency 1"),
+    ("goal3_frequency_2", "Goal #3 Frequency 2"),
+    # Page 12-13 - Section 4: Action Plan
+    ("metric1_name", "Action Plan #1 - Name"),
+    ("metric1_parameters", "Action Plan #1 - Parameters"),
+    ("metric1_monitoring_method", "Action Plan #1 - Monitoring Method"),
+    ("metric1_current_values", "Action Plan #1 - Current Values"),
+    ("metric1_3month_goal", "Action Plan #1 - 3-Month Goal"),
+    ("metric1_6month_goal", "Action Plan #1 - 6-Month Goal"),
+    ("metric2_parameters", "Action Plan #2 - Parameters"),
+    ("metric2_monitoring_method", "Action Plan #2 - Monitoring Method"),
+    ("metric2_current_values", "Action Plan #2 - Current Values"),
+    ("metric2_3month_goal", "Action Plan #2 - 3-Month Goal"),
+    ("metric2_6month_goal", "Action Plan #2 - 6-Month Goal"),
+    ("metric3_parameters", "Action Plan #3 - Parameters"),
+    ("metric3_monitoring_method", "Action Plan #3 - Monitoring Method"),
+    ("metric3_current_values", "Action Plan #3 - Current Values"),
+    ("metric3_3month_goal", "Action Plan #3 - 3-Month Goal"),
+    ("metric3_6month_goal", "Action Plan #3 - 6-Month Goal"),
+    ("metric4_name", "Action Plan #4 - Name"),
+    ("metric4_monitoring_method", "Action Plan #4 - Monitoring Method"),
+    ("metric4_current_values", "Action Plan #4 - Current Values"),
+    ("metric4_3month_goal", "Action Plan #4 - 3-Month Goal"),
+    ("metric4_6month_goal", "Action Plan #4 - 6-Month Goal"),
+    # Tracking items
+    ("tracking_item_1", "Tracking Item 1"),
+    ("tracking_item_2", "Tracking Item 2"),
+    ("tracking_item_3", "Tracking Item 3"),
+    ("tracking_item_4", "Tracking Item 4"),
+    ("tracking_item_5", "Tracking Item 5"),
+    ("tracking_item_6", "Tracking Item 6"),
+    ("tracking_item_7", "Tracking Item 7"),
+    ("tracking_item_8", "Tracking Item 8"),
+    ("tracking_item_9", "Tracking Item 9"),
+    ("tracking_item_10", "Tracking Item 10"),
+    ("tracking_item_11", "Tracking Item 11"),
+    ("tracking_item_12", "Tracking Item 12"),
+    ("tracking_item_13", "Tracking Item 13"),
+    ("tracking_item_14", "Tracking Item 14"),
+    ("tracking_item_15", "Tracking Item 15"),
+    ("tracking_item_16", "Tracking Item 16"),
+    ("tracking_item_17", "Tracking Item 17"),
+    ("tracking_item_18", "Tracking Item 18"),
+    ("tracking_item_19", "Tracking Item 19"),
+    ("tracking_item_20", "Tracking Item 20"),
+    ("tracking_item_21", "Tracking Item 21"),
+    ("tracking_item_22", "Tracking Item 22"),
+    # Progress metrics
+    ("progress_metric_1", "Progress Metric 1"),
+    ("progress_metric_2", "Progress Metric 2"),
+    ("progress_metric_3", "Progress Metric 3"),
+    ("progress_metric_4", "Progress Metric 4"),
+    ("progress_metric_5", "Progress Metric 5"),
+    ("progress_metric_6", "Progress Metric 6"),
+    ("progress_metric_7", "Progress Metric 7"),
+    ("progress_metric_8", "Progress Metric 8"),
+    ("progress_metric_9", "Progress Metric 9"),
+    ("progress_metric_10", "Progress Metric 10"),
+    ("progress_metric_11", "Progress Metric 11"),
+    ("progress_metric_12", "Progress Metric 12"),
+    ("progress_metric_13", "Progress Metric 13"),
+    ("progress_metric_14", "Progress Metric 14"),
+    ("progress_metric_15", "Progress Metric 15"),
+    ("progress_metric_16", "Progress Metric 16"),
+    ("progress_metric_17", "Progress Metric 17"),
+    ("progress_metric_18", "Progress Metric 18"),
+    ("progress_metric_19", "Progress Metric 19"),
+    ("progress_metric_20", "Progress Metric 20"),
+    ("progress_metric_21", "Progress Metric 21"),
+    # Page 13 - Section 5: Labs & References
+    ("recommended_labs", "Recommended Labs"),
+    ("specialist_referrals", "Specialist Referrals"),
+    # Page 14 - Section 6: Follow-up
+    ("followup_schedule", "Follow-up Schedule"),
+    ("report_author", "Report Author"),
+]
+
+# Create lookup dict for field questions
+FIELD_QUESTIONS = {field: question for field, question in FIELD_ORDER}
 
 # Mapping from generic field names to descriptive names
 FIELD_NAME_MAPPING = {
@@ -230,8 +396,13 @@ class ComprehensiveExtractor:
                 return page.get("text", "")
         return ""
     
-    def extract_all(self, use_descriptive_names: bool = True) -> Dict[str, str]:
-        """Extract all 144 fields."""
+    def extract_all(self, use_descriptive_names: bool = True, ordered: bool = True) -> Dict[str, Any]:
+        """Extract all 144 fields.
+        
+        Args:
+            use_descriptive_names: If True, use descriptive field names instead of Text##
+            ordered: If True, return fields in PDF reading order
+        """
         raw_result = {}
         
         # Demographics - Page 1
@@ -272,11 +443,29 @@ class ComprehensiveExtractor:
         
         # Convert to descriptive names if requested
         if use_descriptive_names:
-            result = {}
+            converted_result = {}
             for old_name, value in raw_result.items():
                 new_name = FIELD_NAME_MAPPING.get(old_name, old_name)
-                result[new_name] = value
-            return result
+                converted_result[new_name] = value
+            raw_result = converted_result
+        
+        # Return ordered result if requested
+        if ordered:
+            ordered_result = OrderedDict()
+            for field_name, question in FIELD_ORDER:
+                if field_name in raw_result:
+                    ordered_result[field_name] = {
+                        "question": question,
+                        "value": raw_result[field_name]
+                    }
+            # Add any fields not in FIELD_ORDER at the end
+            for field_name, value in raw_result.items():
+                if field_name not in ordered_result:
+                    ordered_result[field_name] = {
+                        "question": field_name,
+                        "value": value
+                    }
+            return ordered_result
         
         return raw_result
     
@@ -728,26 +917,67 @@ class ComprehensiveExtractor:
         self.doc.close()
 
 
-def extract_and_map(pdf_path: str, use_descriptive_names: bool = True) -> Dict[str, str]:
+def extract_and_map(pdf_path: str, use_descriptive_names: bool = True, ordered: bool = True) -> Dict[str, Any]:
     """Main extraction function.
     
     Args:
         pdf_path: Path to the PDF file
         use_descriptive_names: If True, use descriptive field names instead of Text##
+        ordered: If True, return fields in PDF reading order with question labels
+    
+    Returns:
+        If ordered=True: OrderedDict with fields in PDF order, each containing 'question' and 'value'
+        If ordered=False: Dict with field names as keys and values directly
     """
     extractor = ComprehensiveExtractor(pdf_path)
-    result = extractor.extract_all(use_descriptive_names=use_descriptive_names)
+    result = extractor.extract_all(use_descriptive_names=use_descriptive_names, ordered=ordered)
     extractor.close()
     return result
 
 
+def extract_comprehensive_full(pdf_path: str) -> List[Dict[str, str]]:
+    """
+    Robust extraction of EVERY text block and EVERY table from the PDF.
+    Returns a list of {"question": "...", "content": "..."} ordered by page.
+    """
+    doc = fitz.open(pdf_path)
+    extracted_data = []
+
+    for page_num, page in enumerate(doc):
+        page_id = f"Page {page_num + 1}"
+        
+        # 1. Page text
+        text = page.get_text("text").strip()
+        if text:
+            extracted_data.append({
+                "question": f"{page_id} - Full Text",
+                "content": text
+            })
+        
+        # 2. Page tables
+        try:
+            tabs = page.find_tables()
+            for i, tab in enumerate(tabs):
+                table_data = tab.extract()
+                table_str = ""
+                for row in table_data:
+                    cleaned_row = [str(cell) if cell else "" for cell in row]
+                    table_str += " | ".join(cleaned_row) + "\n"
+                
+                if table_str.strip():
+                    extracted_data.append({
+                        "question": f"{page_id} - Table {i+1}",
+                        "content": table_str.strip()
+                    })
+        except Exception as e:
+            print(f"Error extracting tables on {page_id}: {e}")
+
+    doc.close()
+    return extracted_data
+
+
 if __name__ == "__main__":
     import sys
-    pdf_path = sys.argv[1] if len(sys.argv) > 1 else r"c:\KSS\PROJECTS\PEPSI\Health and wellness guide example.pdf"
-    result = extract_and_map(pdf_path, use_descriptive_names=True)
-    
-    filled = sum(1 for v in result.values() if v)
-    total = len(result)
-    
-    print(f"Extracted {filled}/{total} fields ({filled/total*100:.1f}%)")
+    pdf_path = sys.argv[1] if len(sys.argv) > 1 else r"c:\hackathon\Gemini_CLI\PEPSI\Health and wellness guide example.pdf"
+    result = extract_comprehensive_full(pdf_path)
     print(json.dumps(result, indent=2, ensure_ascii=False))

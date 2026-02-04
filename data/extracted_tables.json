@@ -1,0 +1,114 @@
+{
+  "Vital Signs": {
+    "BODY WEIGHT": {
+      "value": "109.9 kg",
+      "interpretation": "normal"
+    },
+    "HEIGHT": {
+      "value": "1.88 m",
+      "interpretation": "normal"
+    }
+  },
+  "Laboratory Results": {
+    "Hematologic System": {
+      "Hemoglobin": {
+        "value": "17.0",
+        "unit": "g/dL",
+        "reference": "14.3\u201317.0",
+        "interpretation": "High-normal; consistent with prior history of"
+      },
+      "Hematocrit": {
+        "value": "46.7",
+        "unit": "%",
+        "reference": "42\u201353",
+        "interpretation": "Normal"
+      },
+      "RBC count": {
+        "value": "5.75",
+        "unit": "\u00d7",
+        "reference": "10",
+        "interpretation": "\u2076/\u00b5L3.7\u20135.5Slightly elevated \u2192 high-normal"
+      },
+      "MCV": {
+        "value": "81.2",
+        "unit": "fL",
+        "reference": "80\u201395",
+        "interpretation": "Normal"
+      },
+      "MCH": {
+        "value": "29.6",
+        "unit": "pg",
+        "reference": "24\u201335",
+        "interpretation": "Normal"
+      },
+      "MCHC": {
+        "value": "36.4",
+        "unit": "g/dL",
+        "reference": "32\u201337",
+        "interpretation": "Normal"
+      },
+      "RDW-SD": {
+        "value": "36.7",
+        "unit": "fL",
+        "reference": "39\u201347",
+        "interpretation": "Slightly low; not clinically relevant"
+      },
+      "WBC": {
+        "value": "6.98",
+        "unit": "\u00d7",
+        "reference": "10",
+        "interpretation": "\u00b3/\u00b5L5\u201310Normal"
+      },
+      "Platelets": {
+        "value": "153",
+        "unit": "\u00d7",
+        "reference": "10",
+        "interpretation": "\u00b3/\u00b5L160\u2013400Low-normal; stable"
+      }
+    },
+    "Cardiovascular / Lipid System": {
+      "Total cholesterol": {
+        "value": "203",
+        "unit": "mg",
+        "reference": "",
+        "interpretation": "/dL0\u2013200Mildly high"
+      },
+      "HDL": {
+        "value": "36",
+        "unit": "mg",
+        "reference": "",
+        "interpretation": "/dL40\u201365Low"
+      },
+      "LDL": {
+        "value": "140",
+        "unit": "mg",
+        "reference": "",
+        "interpretation": "/dL0\u2013130Elevated (despite rosuvastatin)"
+      },
+      "VLDL": {
+        "value": "27",
+        "unit": "mg",
+        "reference": "",
+        "interpretation": "/dL5\u201340Normal"
+      },
+      "Triglycerides": {
+        "value": "133",
+        "unit": "mg",
+        "reference": "",
+        "interpretation": "/dL0\u2013150Normal"
+      },
+      "Castelli Index": {
+        "value": "5.6",
+        "unit": "<",
+        "reference": "4.5",
+        "interpretation": "optimalElevated CV risk ratio"
+      },
+      "ApoB": {
+        "value": "112",
+        "unit": "mg",
+        "reference": "",
+        "interpretation": "/dL<80 optimalModerate \u2014 particle count normal range but"
+      }
+    }
+  }
+}

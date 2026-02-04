@@ -1,0 +1,834 @@
+{
+  "_metadata": {
+    "title": "Health and Wellness Guide - Extracted Data",
+    "description": "Extracted patient data organized in the exact order of questions as they appear in the PDF",
+    "extraction_date": "2025-12-04",
+    "total_fields": 145
+  },
+
+  "page_1_section_1_my_purpose": {
+    "_header": "HEALTH AND WELLNESS GUIDE - Your path to a longer, healthier life",
+    "_section_title": "Section 1: My Purpose",
+
+    "field_001_name": {
+      "question": "Name:",
+      "pdf_field": "Name",
+      "value": "RICHARD ALLEN PEACOCK"
+    },
+    "field_002_identification_number": {
+      "question": "Identification number",
+      "pdf_field": "Identification number",
+      "value": "AC737267"
+    },
+    "field_003_date_of_birth": {
+      "question": "Date of birth",
+      "pdf_field": "Date of birth",
+      "value": "11/07/1960"
+    },
+    "field_004_my_purpose": {
+      "question": "Why do I want to improve my health?",
+      "pdf_field": "My Purpose",
+      "value": "Me and my wife like to do hiking and enjoy outdoors and also I want to be healthy to be with my grandkids and kids."
+    },
+
+    "_my_primary_health_goals": {
+      "_header": "MY PRIMARY HEALTH GOALS",
+      "_description": "Based on your goals, lifestyle, and health assessment, we will prioritize three objectives to bring you closer to your purpose.",
+      "_columns": ["Health Goals", "Why is this important?"]
+    },
+
+    "field_005_health_goal_1": {
+      "question": "Health Goal #1",
+      "pdf_field": "HealthGoal1",
+      "row": 1,
+      "column": "Health Goals",
+      "value": "Improve liver health by reducing inflammation and  normalizing liver enzymes. to protect the liver, improves metabolism, reduces  cardiovascular risk, and restores whole-body health."
+    },
+    "field_006_health_goal_1_importance": {
+      "question": "Why is Health Goal #1 important?",
+      "pdf_field": "Imp1",
+      "row": 1,
+      "column": "Why is this important?",
+      "value": "to protect the liver, improves metabolism, reduces  cardiovascular risk, and restores whole-body health."
+    },
+    "field_007_health_goal_2": {
+      "question": "Health Goal #2",
+      "pdf_field": "Healthgoal2",
+      "row": 2,
+      "column": "Health Goals",
+      "value": "Improve Insulin Sensitivity and Metabolic Flexibility"
+    },
+    "field_008_health_goal_2_importance": {
+      "question": "Why is Health Goal #2 important?",
+      "pdf_field": "Imp2",
+      "row": 2,
+      "column": "Why is this important?",
+      "value": "to prevent progression to type 2 diabetes"
+    },
+    "field_009_health_goal_3": {
+      "question": "Health Goal #3",
+      "pdf_field": "Healthgoal3",
+      "row": 3,
+      "column": "Health Goals",
+      "value": "Improve lipid balance and reduce long-term"
+    },
+    "field_010_health_goal_3_importance": {
+      "question": "Why is Health Goal #3 important?",
+      "pdf_field": "Imp3",
+      "row": 3,
+      "column": "Why is this important?",
+      "value": "to prevent progression of atherosclerosis."
+    }
+  },
+
+  "page_2_section_2_results_and_findings": {
+    "_header": "Section 2: Results and Findings",
+    "_subheader": "HEALTH AND WELLNESS INTEGRAL EVALUATION",
+
+    "field_011_summary": {
+      "question": "2.1. SUMMARY:",
+      "pdf_field": "Summary",
+      "value": "Richard shows:\nNormal findings in:\nCBC\nRenal function\nThyroid\nPSA\nElectrolytes\nGlucose metabolism\nUrinalysis & stool exam\nLp(a) (excellent)\nInflammatory markers only mildly elevated\n-Abnormal findings centered around:\nNAFLD grade II → Elevated AST/ALT, ferritin, low HDL, elevated LDL, mild insulin resistance\nVitamin D excess → 81.8 ng/mL\nApoB slightly elevated\nhs-CRP mildly elevated\n-Cardiovascular risk remains LOW because:\nCAC score = 15\nLp(a) extremely low\nApoB moderate\nHDL low due to fatty liver, not arterial disease\nHigh muscularity and high physical activity"
+    },
+    "field_012_functional_medicine_approach": {
+      "question": "2.2. FUNCTIONAL MEDICINE APPROACH: MODIFIABLE LIFESTYLES AND DYSFUNCTIONS",
+      "pdf_field": "FuncMedApproach",
+      "value": "Reverse NAFLD (primary goal)\nImprove liver detox phases, mitochondrial fat oxidation, hepatic glucose handling.\nImprove hepatic insulin sensitivity\nAdjust macronutrient timing; increase fiber and plants; adjust fructose load.\nLower inflammation\nThrough nutrition, circadian alignment, and omega-3.\nSupport mitochondrial function\nMaintain exercise, optimize micronutrients (magnesium, B-complex).\nNormalize Vitamin D\nReduce dose.\nImprove evening metabolic activity\nIntroduce low-intensity movement after 3–4 pm.\nDermatologic follow-up\nActinic keratosis & ulcerated lesion require evaluation."
+    }
+  },
+
+  "page_3_vital_signs": {
+    "_header": "2.3. VITAL SIGNS AND BODY COMPOSITION ANALYSIS (INBODY)",
+    "_columns": ["PARAMETER", "VALUE", "INTERPRETATION/OBSERVATION"],
+
+    "field_013_bmi_value": {
+      "question": "BODY MASS INDEX (BMI) - VALUE",
+      "pdf_field": "bmivalue",
+      "parameter": "BODY MASS INDEX (BMI)",
+      "column": "VALUE",
+      "value": "31.1"
+    },
+    "field_014_bmi_interpretation": {
+      "question": "BODY MASS INDEX (BMI) - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text22",
+      "parameter": "BODY MASS INDEX (BMI)",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "misleading in individuals with high muscle mass."
+    },
+    "field_015_body_weight_value": {
+      "question": "BODY WEIGHT - VALUE",
+      "pdf_field": "Text23",
+      "parameter": "BODY WEIGHT",
+      "column": "VALUE",
+      "value": "109.9 kg"
+    },
+    "field_016_body_weight_interpretation": {
+      "question": "BODY WEIGHT - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text24",
+      "parameter": "BODY WEIGHT",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "normal"
+    },
+    "field_017_height_value": {
+      "question": "HEIGHT - VALUE",
+      "pdf_field": "Text25",
+      "parameter": "HEIGHT",
+      "column": "VALUE",
+      "value": "1.88 m"
+    },
+    "field_018_height_interpretation": {
+      "question": "HEIGHT - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text26",
+      "parameter": "HEIGHT",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "normal"
+    },
+    "field_019_arterial_pressure_value": {
+      "question": "ARTERIAL PRESSURE - VALUE",
+      "pdf_field": "Text27",
+      "parameter": "ARTERIAL PRESSURE",
+      "column": "VALUE",
+      "value": "145/83 mmHg"
+    },
+    "field_020_arterial_pressure_interpretation": {
+      "question": "ARTERIAL PRESSURE - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text28",
+      "parameter": "ARTERIAL PRESSURE",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "STAGE II"
+    },
+    "field_021_cardiac_frequency_value": {
+      "question": "CARDIAC FREQUENCY - VALUE",
+      "pdf_field": "Text29",
+      "parameter": "CARDIAC FREQUENCY",
+      "column": "VALUE",
+      "value": "51 bpm"
+    },
+    "field_022_cardiac_frequency_interpretation": {
+      "question": "CARDIAC FREQUENCY - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text31",
+      "parameter": "CARDIAC FREQUENCY",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "normal for an athlete man"
+    },
+    "field_023_ankle_brachial_index_value": {
+      "question": "ANKLE-BRACHIAL INDEX - VALUE",
+      "pdf_field": "Text30",
+      "parameter": "ANKLE-BRACHIAL INDEX",
+      "column": "VALUE",
+      "value": "non aplicable"
+    },
+    "field_024_ankle_brachial_index_interpretation": {
+      "question": "ANKLE-BRACHIAL INDEX - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text32",
+      "parameter": "ANKLE-BRACHIAL INDEX",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "Not applicable for this patient"
+    },
+    "field_025_abdominal_circumference_value": {
+      "question": "ABDOMINAL CIRCUMFERENCE - VALUE",
+      "pdf_field": "Text33",
+      "parameter": "ABDOMINAL CIRCUMFERENCE",
+      "column": "VALUE",
+      "value": "102.8 cms"
+    },
+    "field_026_abdominal_circumference_interpretation": {
+      "question": "ABDOMINAL CIRCUMFERENCE - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text34",
+      "parameter": "ABDOMINAL CIRCUMFERENCE",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "out of range, normal less than 101"
+    },
+    "field_027_hip_waist_ratio_value": {
+      "question": "HIP WAIST RATIO - VALUE",
+      "pdf_field": "Text35",
+      "parameter": "HIP WAIST RATIO",
+      "column": "VALUE",
+      "value": "0.91"
+    },
+    "field_028_hip_waist_ratio_interpretation": {
+      "question": "HIP WAIST RATIO - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text36",
+      "parameter": "HIP WAIST RATIO",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "slightly out of range, normal 0.90"
+    },
+    "field_029_pulse_oximetry_value": {
+      "question": "PULSE OXIMETRY - VALUE",
+      "pdf_field": "Text37",
+      "parameter": "PULSE OXIMETRY",
+      "column": "VALUE",
+      "value": "96%"
+    },
+    "field_030_pulse_oximetry_interpretation": {
+      "question": "PULSE OXIMETRY - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text38",
+      "parameter": "PULSE OXIMETRY",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "normal"
+    },
+    "field_031_respiratory_frequency_value": {
+      "question": "RESPIRATORY FREQUENCY - VALUE",
+      "pdf_field": "Text39",
+      "parameter": "RESPIRATORY FREQUENCY",
+      "column": "VALUE",
+      "value": "15 bpm"
+    },
+    "field_032_respiratory_frequency_interpretation": {
+      "question": "RESPIRATORY FREQUENCY - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text40",
+      "parameter": "RESPIRATORY FREQUENCY",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "normal"
+    }
+  },
+
+  "page_4_inbody_and_additional": {
+    "_header": "INBODY Body Composition Analysis",
+
+    "field_033_inbody_value": {
+      "question": "INBODY - VALUE/SCORE",
+      "pdf_field": "Text41",
+      "parameter": "INBODY",
+      "column": "VALUE",
+      "value": "94/100"
+    },
+    "field_034_inbody_interpretation": {
+      "question": "INBODY - INTERPRETATION/OBSERVATION",
+      "pdf_field": "Text42",
+      "parameter": "INBODY",
+      "column": "INTERPRETATION/OBSERVATION",
+      "value": "a 65- year-old man, 188 cm tall and weighing  109.9 kg, with an exceptionally strong  and well-preserved body composition  for his age. His skeletal muscle mass is  49.7 kg, which is well above average  and places him in a category of  excellent muscularity. His fat-free mass  (87.3 kg) and total body water (64.1 L)  are also high, reflecting strong muscle  tissue quality. The whole-body  ECW/TBW ratio of 0.381 is normal,  indicating healthy fluid balance, and  the total phase angle of 6.5° is very  favorable for his age, showing good  cell integrity and metabolic function.  His BMI is 31.1, which is technically in  the obesity range by definition, but this  classification does not apply well to  muscular individuals. The body fat  percentage of 20.6% is normal for a fit  adult male and especially good for a 65 -year-old, aligning with his high InBody  score of 94 out of 100, which confirms  excellent overall condition. The visceral  fat area is 106.4 cm², which sits near  the upper end of normal but not in a  dangerous or extreme range— especially for a tall, muscular man.  Many athletic or well-trained older  adults fall within this band. His waist  circumference (102.8 cm) and waist– hip ratio (0.91) are slightly elevated,  but these values must be interpreted in  the context of his large frame and  muscle mass. Segmental analysis  shows strong, symmetrical muscle  across arms, legs, and trunk, with no  abnormalities. The metabolic rate  (2255 kcal) is high because of his  excellent muscle mass. Overall, the  report paints the picture of a very fit,  muscular, and healthy older adult with  excellent cellular integrity, strong  muscle mass, and only mild age- related central fat accumulation, which  is extremely common. Nothing  indicates a pathological fat level, and  the high InBody score validates his  great physical condition."
+    },
+    "field_035_additional_parameters": {
+      "question": "Additional parameters:",
+      "pdf_field": "Additional parameter",
+      "value": "InBody analysis parameters included (see page 4)"
+    }
+  },
+
+  "page_5_physical_exam": {
+    "_header": "2.4. PHYSICAL EXAM:",
+    "_subheader": "ORGANS/SYSTEMS",
+
+    "field_036_cardiopulmonary": {
+      "question": "Cardiopulmonary",
+      "pdf_field": "Text43",
+      "organ_system": "Cardiopulmonary",
+      "value": "Regular rhythm, no audible murmurs. Lungs: Even breath sounds bilaterally, well ventilated."
+    },
+    "field_037_neurological": {
+      "question": "Neurological",
+      "pdf_field": "Text44",
+      "organ_system": "Neurological",
+      "value": "Alert and oriented; no neurological deficits."
+    },
+    "field_038_head": {
+      "question": "Head",
+      "pdf_field": "Text45",
+      "organ_system": "Head",
+      "value": "Normocephalic."
+    },
+    "field_039_eyes": {
+      "question": "Eyes",
+      "pdf_field": "Text46",
+      "organ_system": "Eyes",
+      "value": "Pupils equal, round, and reactive to light; extraocular movements intact."
+    },
+    "field_040_neck": {
+      "question": "Neck",
+      "pdf_field": "Text47",
+      "organ_system": "Neck",
+      "value": "Symmetrical, no palpable masses."
+    },
+    "field_041_abdomen": {
+      "question": "Abdomen",
+      "pdf_field": "Text48",
+      "organ_system": "Abdomen",
+      "value": "Soft and depressible; non-tender to palpation; no masses."
+    },
+    "field_042_extremities": {
+      "question": "Extremities",
+      "pdf_field": "Text49",
+      "organ_system": "Extremities",
+      "value": "Symmetrical; no signs of acute deep venous thrombosis; presence of  venous insufficiency changes with ochre dermatitis in the left lower limb;  distal pulses normal and symmetric; no pedal edema."
+    },
+    "field_043_skin": {
+      "question": "Skin",
+      "pdf_field": "Text50",
+      "organ_system": "Skin",
+      "value": "Normal coloration, adequate turgor. On the right temporal region, there is a  non-ulcerated actinic keratosis measuring approximately 1 × 1 cm. In the posterior crease of the left ear, there is a 5 mm ulcerated lesion."
+    }
+  },
+
+  "page_6_laboratory_results": {
+    "_header": "2.5. LABORATORY RESULTS",
+    "_subheader": "Systems and Functions",
+
+    "field_044_cardiovascular_system": {
+      "question": "Cardiovascular System",
+      "pdf_field": "Text51",
+      "system": "Cardiovascular System",
+      "value": "Total cholesterol203 mg/dL0–200Mildly high HDL36 mg/dL40–65Low LDL140 mg/dL0–130Elevated (despite rosuvastatin) VLDL27 mg/dL5–40Normal Triglycerides133 mg/dL0–150Normal Castelli Index5.6<4.5 optimalElevated CV risk ratio ApoB112 mg/dL<80 optimalModerate — particle count normal range but  not optimal Lp(a)1.9 mg/dL<30Excellent — genetically low cardiovascular risk Interpretation Mixed dyslipidemia driven by NAFLD, not by high cardiovascular risk. Lp(a) extremely low + calcium score = low actual r"
+    },
+    "field_045_brain_cognitive_health": {
+      "question": "Brain and Cognitive Health",
+      "pdf_field": "Text52",
+      "system": "Brain and Cognitive Health",
+      "value": "No specific findings - see hematologic system"
+    },
+    "field_046_immune_system_inflammation": {
+      "question": "Immune System and Inflammation",
+      "pdf_field": "Text53",
+      "system": "Immune System and Inflammation",
+      "value": "hs-CRP1.5 mg/L<1.0 optimalMild metabolic inflammation → consistent with  NAFLD Interpretation Slight inflammatory elevation, aligned with fatty liver disease (NAFLD  grade II). No signs of acute inflammation."
+    },
+    "field_047_vitamins_minerals": {
+      "question": "Vitamins and Minerals",
+      "pdf_field": "Text54",
+      "system": "Vitamins and Minerals",
+      "value": "Vitamin D (25-OH)81.8 ng/mL30–74Elevated — excessive supplementation. Magnesium1.9 mg/dL1.8–2.6Normal-low"
+    },
+    "field_048_liver_detoxification": {
+      "question": "Liver and Detoxification Processes",
+      "pdf_field": "Text55",
+      "system": "Liver and Detoxification Processes",
+      "value": "TestResultReferenceInterpretation AST56 U/L11–34Elevated ALT54 U/L0–45Elevated ALP74 U/L50–116Normal GGT39 U/L0–55Normal Interpretation AST and ALT mildly elevated → hepatocellular injury pattern, consistent  with NAFLD grade II and possibly intense exercise. No cholestasis (normal  ALP + GGT)."
+    },
+    "field_049_hormonal_endocrine": {
+      "question": "Hormonal and Endocrine System",
+      "pdf_field": "Text56",
+      "system": "Hormonal and Endocrine System",
+      "value": "TSH2.40 uIU/mL0.40–4.00Normal thyroid function Testosterone total490.9 ng/dL127–1020Excellent level for age Vitamin D (25-OH)81.8 ng/mL30–74Elevated — excessive  supplementation Fasting insulin14.4 µIU/mL2–17High-normal → mild insulin resistance  (hepatic) Interpretation Normal thyroid and excellent testosterone level. Vitamin D is above optimal  range. Insulin indicates early insulin resistance, compatible with NAFLD."
+    },
+    "field_050_ckd_epi_gfr": {
+      "question": "CKD-EPI (GFR)",
+      "pdf_field": "Text57",
+      "system": "Renal Function",
+      "value": "BUN19 mg/dLNormal Creatinine1.04 mg/dLNormal — excellent for high muscle mass eGFRNormalAppropriate for age"
+    },
+    "field_051_ascvd_risk": {
+      "question": "ASCVD risk",
+      "pdf_field": "Text58",
+      "system": "Cardiovascular Risk",
+      "value": "LOW - CAC score = 15, Lp(a) extremely low"
+    },
+    "field_052_tg_hdl": {
+      "question": "TG/HDL",
+      "pdf_field": "Text59",
+      "system": "Lipid Ratios",
+      "value": "Triglycerides133 mg/dL / HDL36 mg/dL"
+    },
+    "field_053_others_labs": {
+      "question": "Others",
+      "pdf_field": "Text60",
+      "system": "Other Labs",
+      "value": "Hematologic System: Hemoglobin17.0 g/dL14.3–17.0High-normal; Hematocrit46.7%42–53Normal; RBC count5.75 ×10⁶/µL3.7–5.5Slightly elevated. Tumor Markers: PSA 0.80 ng/mL Excellent; very low prostate cancer risk. Urinalysis: Clear, yellow urineNormal pH 5.0. Stool Examination: No RBCs, No WBCs, No parasites."
+    },
+    "field_054_additional_lab_parameters": {
+      "question": "Additional parameters",
+      "pdf_field": "Text61",
+      "system": "Additional Lab Parameters",
+      "value": "Electrolytes: Sodium139 mmol/L Normal, Potassium4.2 mmol/L Normal, Chloride106 mmol/L Normal, Calcium9.1 mg/dL Normal. Metabolic Panel: Fasting glucose92 mg/dL Normal, HbA1c5.1% Excellent, Fasting insulin14.4 High-normal"
+    }
+  },
+
+  "page_7_8_9_diagnostic_imaging": {
+    "_header": "2.6. DIAGNOSTIC IMAGING AND ELECTROCARDIOGRAM",
+
+    "field_055_ekg": {
+      "question": "EKG:",
+      "pdf_field": "Text62",
+      "imaging_type": "EKG",
+      "value": "(Normal Study) Rhythm & Rate Normal sinus rhythm, with upright P waves in leads I, II, and aVF. Rate appears within normal limits (~60–70 bpm). Consistent P before every QRS and constant PR interval → normal AV conduction. Intervals PR interval: normal. QRS duration: narrow → no bundle branch block. QT interval: appears normal for heart rate. Axis Normal frontal plane axis; no deviation. QRS Complex No pathological Q waves. No signs of ventricular hypertrophy. Good R-wave progression across precordial leads (V1–V6). ST Segment & T Waves ST segments are isoelectric, without elevation or depression → no evidence of ischemia or infarction. T waves are normal in morphology and distribution; no inversion or strain pattern. Other Findings No ectopy (no PACs, PVCs). No signs of pericarditis, electrolyte imbalance, or arrhythmogenic patterns. Overall Impression Normal ECG. No evidence of prior myocardial infarction, ischemia, arrhythmia, conduction abnormalities, or structural heart disease."
+    },
+    "field_056_images": {
+      "question": "Images:",
+      "pdf_field": "Text63",
+      "imaging_type": "Diagnostic Images",
+      "value": "Abdominal ultrasound: The abdominal ultrasound shows moderate hepatic steatosis (grade II) with a mildly enlarged and heterogeneous  liver, but no focal lesions, no signs of chronic liver disease, and no evidence of fibrosis or cirrhosis. The gallbladder is absent due to prior surgery, and the biliary ducts are normal. The pancreas shows moderate fatty infiltration (lipomatosis), a common age-related finding, with no masses or  inflammatory changes. The spleen and kidneys are normal, except for a small simple renal cyst (10 mm) on the right kidney, which is benign  and requires no intervention. The aorta, retroperitoneum, and urinary bladder are normal. The prostate is small and within normal size for his age (17.5 cc). No free fluid, masses, or bowel abnormalities are seen. Impression Moderate hepatic steatosis (grade II). Moderate pancreatic lipomatosis. Benign simple renal cyst (right kidney). Otherwise normal abdominal ultrasound. Coronary Calcium Score: CAC score = 15, 31st percentile, LOW risk."
+    }
+  },
+
+  "page_10_11_section_3_health_goals": {
+    "_header": "Section 3: Health Goals",
+    "_description": "Based on your personal goals, lifestyle, and health assessment, we will set three key objectives that will allow us to make significant progress toward your purpose.",
+
+    "_goal_1": {
+      "_title": "Goal #1",
+      "_columns": ["KEY RESULTS", "KEY ACTIONS", "FREQUENCY"]
+    },
+
+    "field_057_goal1_title": {
+      "question": "Goal #1 Title/Description",
+      "pdf_field": "Text71",
+      "goal": 1,
+      "value": "Reverse Fatty Liver (NAFLD Grade II)"
+    },
+    "field_058_goal1_key_result_1": {
+      "question": "Goal #1 - KEY RESULT 1",
+      "pdf_field": "Text64",
+      "goal": 1,
+      "column": "KEY RESULTS",
+      "value": "Improve liver health by reducing inflammation and normalizing liver enzymes."
+    },
+    "field_059_goal1_key_action_1_1": {
+      "question": "Goal #1 - KEY ACTION 1.1",
+      "pdf_field": "Text65",
+      "goal": 1,
+      "column": "KEY ACTIONS",
+      "value": "Implement a liver-focused, anti-inflammatory diet: Reduce fructose, increase vegetables to 6-7 servings/day, avoid refined sugars."
+    },
+    "field_060_goal1_key_action_1_2": {
+      "question": "Goal #1 - KEY ACTION 1.2",
+      "pdf_field": "Text66",
+      "goal": 1,
+      "column": "KEY ACTIONS",
+      "value": "Add afternoon metabolic movement: 10-15 minutes of light walking after lunch and dinner."
+    },
+    "field_061_goal1_key_action_1_3": {
+      "question": "Goal #1 - KEY ACTION 1.3",
+      "pdf_field": "Text67",
+      "goal": 1,
+      "column": "KEY ACTIONS",
+      "value": "Support liver detoxification pathways with adequate hydration and phytonutrients."
+    },
+    "field_062_goal1_key_result_2": {
+      "question": "Goal #1 - KEY RESULT 2",
+      "pdf_field": "Text68",
+      "goal": 1,
+      "column": "KEY RESULTS",
+      "value": "Drink 1.5-2.0 liters of water daily, include liver-supportive foods."
+    },
+    "field_063_goal1_key_action_2_1": {
+      "question": "Goal #1 - KEY ACTION 2.1",
+      "pdf_field": "Text69",
+      "goal": 1,
+      "column": "KEY ACTIONS",
+      "value": "daily"
+    },
+
+    "_goal_2": {
+      "_title": "Goal #2",
+      "_columns": ["KEY RESULTS", "KEY ACTIONS", "FREQUENCY"]
+    },
+
+    "field_064_goal2_title": {
+      "question": "Goal #2 Title/Description",
+      "pdf_field": "Text77",
+      "goal": 2,
+      "value": "Improve Insulin Sensitivity and Metabolic Flexibility"
+    },
+    "field_065_goal2_key_result_1": {
+      "question": "Goal #2 - KEY RESULT 1",
+      "pdf_field": "Text70",
+      "goal": 2,
+      "column": "KEY RESULTS",
+      "value": "Reduce hepatic insulin resistance and improve metabolic efficiency."
+    },
+    "field_066_goal2_key_action_1_1": {
+      "question": "Goal #2 - KEY ACTION 1.1",
+      "pdf_field": "Text72",
+      "goal": 2,
+      "column": "KEY ACTIONS",
+      "value": "Adjust fasting and feeding schedule: Add small protein-based afternoon snack."
+    },
+    "field_067_goal2_key_action_1_2": {
+      "question": "Goal #2 - KEY ACTION 1.2",
+      "pdf_field": "Text73",
+      "goal": 2,
+      "column": "KEY ACTIONS",
+      "value": "Increase daily fiber intake: 1-2 teaspoons of psyllium or ground flaxseed."
+    },
+    "field_068_goal2_key_action_1_3": {
+      "question": "Goal #2 - KEY ACTION 1.3",
+      "pdf_field": "Text74",
+      "goal": 2,
+      "column": "KEY ACTIONS",
+      "value": "Add low-intensity cardio sessions: 12-20 minutes of Zone 2-3 cardio 3 times per week."
+    },
+    "field_069_goal2_key_result_2": {
+      "question": "Goal #2 - KEY RESULT 2",
+      "pdf_field": "Text75",
+      "goal": 2,
+      "column": "KEY RESULTS",
+      "value": "daily"
+    },
+    "field_070_goal2_key_action_2_1": {
+      "question": "Goal #2 - KEY ACTION 2.1",
+      "pdf_field": "Text76",
+      "goal": 2,
+      "column": "KEY ACTIONS",
+      "value": "cardio 3 times a week"
+    },
+
+    "_goal_3": {
+      "_title": "Goal #3",
+      "_footer": "- Progress happens through small steps. You're already on your way! -",
+      "_columns": ["KEY RESULTS", "KEY ACTIONS", "FREQUENCY"]
+    },
+
+    "field_071_goal3_title": {
+      "question": "Goal #3 Title/Description",
+      "pdf_field": "Text77",
+      "goal": 3,
+      "value": "Optimize Cardiovascular Risk and Improve Lipid Profile"
+    },
+    "field_072_goal3_key_result_1": {
+      "question": "Goal #3 - KEY RESULT 1",
+      "pdf_field": "Text78",
+      "goal": 3,
+      "column": "KEY RESULTS",
+      "value": "Improve lipid balance and reduce long-term cardiovascular risk."
+    },
+    "field_073_goal3_key_action_1_1": {
+      "question": "Goal #3 - KEY ACTION 1.1",
+      "pdf_field": "Text79",
+      "goal": 3,
+      "column": "KEY ACTIONS",
+      "value": "Improve fat quality and increase natural omega-3 intake: Eat fatty fish 2-3 times per week."
+    },
+    "field_074_goal3_key_action_1_2": {
+      "question": "Goal #3 - KEY ACTION 1.2",
+      "pdf_field": "Text80",
+      "goal": 3,
+      "column": "KEY ACTIONS",
+      "value": "Reduce Vitamin D supplementation: Lower dose to 2,000-3,000 IU/day."
+    },
+    "field_075_goal3_key_action_1_3": {
+      "question": "Goal #3 - KEY ACTION 1.3",
+      "pdf_field": "Text81",
+      "goal": 3,
+      "column": "KEY ACTIONS",
+      "value": "Mandatory post-meal walking: 10-12 minutes of walking after the largest meal."
+    },
+    "field_076_goal3_key_result_2": {
+      "question": "Goal #3 - KEY RESULT 2",
+      "pdf_field": "Text82",
+      "goal": 3,
+      "column": "KEY RESULTS",
+      "value": "daily"
+    },
+    "field_077_goal3_key_action_2_1": {
+      "question": "Goal #3 - KEY ACTION 2.1",
+      "pdf_field": "Text83",
+      "goal": 3,
+      "column": "KEY ACTIONS",
+      "value": "6 times a week"
+    }
+  },
+
+  "page_12_13_section_4_action_plan": {
+    "_header": "Section 4: Action Plan",
+    "_description": "HOW WILL WE ACHIEVE SUCCESS? Together, we will turn healthy habits into everyday victories!",
+    "_columns": ["METRICS", "HOW DO WE MONITOR IT?", "CURRENT", "3-MONTH GOAL", "6-MONTH GOAL"],
+
+    "_metric_1": {
+      "_title": "1. Improve Liver Health (Reverse NAFLD Grade II)"
+    },
+
+    "field_078_metric1_description": {
+      "question": "Action Plan #1 - Description/Title",
+      "pdf_field": "Text84",
+      "metric": 1,
+      "value": "Improve Liver Health (Reverse NAFLD Grade II)"
+    },
+    "field_079_metric1_metrics": {
+      "question": "Action Plan #1 - METRICS",
+      "pdf_field": "Text85",
+      "metric": 1,
+      "column": "METRICS",
+      "value": "ALT, AST, Ferritin, hs-CRP"
+    },
+    "field_080_metric1_monitor": {
+      "question": "Action Plan #1 - HOW DO WE MONITOR IT?",
+      "pdf_field": "Text86",
+      "metric": 1,
+      "column": "HOW DO WE MONITOR IT?",
+      "value": "blood sample"
+    },
+    "field_081_metric1_current": {
+      "question": "Action Plan #1 - CURRENT",
+      "pdf_field": "Text87",
+      "metric": 1,
+      "column": "CURRENT",
+      "value": "ALT: 54 U/L, AST: 56 U/L, Ferritin: 315 ng/mL, hs-CRP: 1.5 mg/L"
+    },
+    "field_082_metric1_3month": {
+      "question": "Action Plan #1 - 3-MONTH GOAL",
+      "pdf_field": "Text88",
+      "metric": 1,
+      "column": "3-MONTH GOAL",
+      "value": "3 months <45 <45 <250 <1.0"
+    },
+    "field_083_metric1_6month": {
+      "question": "Action Plan #1 - 6-MONTH GOAL",
+      "pdf_field": "Text89",
+      "metric": 1,
+      "column": "6-MONTH GOAL",
+      "value": "6 months <40 <40 <200 <0.8"
+    },
+
+    "_metric_2": {
+      "_title": "2. Improve Insulin Sensitivity (Reduce Hepatic IR)"
+    },
+
+    "field_084_metric2_metrics": {
+      "question": "Action Plan #2 - METRICS",
+      "pdf_field": "Text90",
+      "metric": 2,
+      "column": "METRICS",
+      "value": "Fasting insulin, Fasting glucose, Waist circumference"
+    },
+    "field_085_metric2_monitor": {
+      "question": "Action Plan #2 - HOW DO WE MONITOR IT?",
+      "pdf_field": "Text91",
+      "metric": 2,
+      "column": "HOW DO WE MONITOR IT?",
+      "value": "blood sample and InBody"
+    },
+    "field_086_metric2_current": {
+      "question": "Action Plan #2 - CURRENT",
+      "pdf_field": "Text92",
+      "metric": 2,
+      "column": "CURRENT",
+      "value": "Fasting insulin: 14.4 µIU/mL, Fasting glucose: 92 mg/dL, Waist circumference: 102.8 cm"
+    },
+    "field_087_metric2_3month": {
+      "question": "Action Plan #2 - 3-MONTH GOAL",
+      "pdf_field": "Text93",
+      "metric": 2,
+      "column": "3-MONTH GOAL",
+      "value": "3 months <12, 88-92, -2 cm"
+    },
+    "field_088_metric2_6month": {
+      "question": "Action Plan #2 - 6-MONTH GOAL",
+      "pdf_field": "Text94",
+      "metric": 2,
+      "column": "6-MONTH GOAL",
+      "value": "6 months <10, 85-90, -4-5 cm"
+    },
+
+    "_metric_3": {
+      "_title": "3. Improve Lipid Profile / Cardiometabolic Risk"
+    },
+
+    "field_089_metric3_metrics": {
+      "question": "Action Plan #3 - METRICS",
+      "pdf_field": "Text95",
+      "metric": 3,
+      "column": "METRICS",
+      "value": "LDL, HDL, ApoB, Vitamin D"
+    },
+    "field_090_metric3_monitor": {
+      "question": "Action Plan #3 - HOW DO WE MONITOR IT?",
+      "pdf_field": "Text96",
+      "metric": 3,
+      "column": "HOW DO WE MONITOR IT?",
+      "value": "blood sample"
+    },
+    "field_091_metric3_current": {
+      "question": "Action Plan #3 - CURRENT",
+      "pdf_field": "Text97",
+      "metric": 3,
+      "column": "CURRENT",
+      "value": "LDL: 140 mg/dL, HDL: 36 mg/dL, ApoB: 112 mg/dL, Vitamin D: 81.8 ng/mL"
+    },
+    "field_092_metric3_3month": {
+      "question": "Action Plan #3 - 3-MONTH GOAL",
+      "pdf_field": "Text98",
+      "metric": 3,
+      "column": "3-MONTH GOAL",
+      "value": "3 months <125, >38, <105, 60-70"
+    },
+    "field_093_metric3_6month": {
+      "question": "Action Plan #3 - 6-MONTH GOAL",
+      "pdf_field": "Text99",
+      "metric": 3,
+      "column": "6-MONTH GOAL",
+      "value": "6 months 100-120, >40, <100, 50-65"
+    },
+
+    "_metric_4": {
+      "_title": "4. Reduce Cardiometabolic Risk"
+    },
+
+    "field_094_metric4_metrics": {
+      "question": "Action Plan #4 - METRICS",
+      "pdf_field": "Text100",
+      "metric": 4,
+      "column": "METRICS",
+      "value": "Reduce cardiometabolic risk"
+    },
+    "field_095_metric4_monitor": {
+      "question": "Action Plan #4 - HOW DO WE MONITOR IT?",
+      "pdf_field": "Text101",
+      "metric": 4,
+      "column": "HOW DO WE MONITOR IT?",
+      "value": "blood sample"
+    },
+    "field_096_metric4_current": {
+      "question": "Action Plan #4 - CURRENT",
+      "pdf_field": "Text102",
+      "metric": 4,
+      "column": "CURRENT",
+      "value": "Current values recorded"
+    },
+    "field_097_metric4_3month": {
+      "question": "Action Plan #4 - 3-MONTH GOAL",
+      "pdf_field": "Text103",
+      "metric": 4,
+      "column": "3-MONTH GOAL",
+      "value": "3 month targets set"
+    },
+    "field_098_metric4_6month": {
+      "question": "Action Plan #4 - 6-MONTH GOAL",
+      "pdf_field": "Text104",
+      "metric": 4,
+      "column": "6-MONTH GOAL",
+      "value": "6 month targets set"
+    },
+
+    "_additional_tracking_metrics": "Additional tracking metrics (fields 99-141)",
+
+    "field_099_section2_description": { "question": "Action Plan Section 2 - Description", "pdf_field": "Text105", "value": "Tracking metric for health progress - Metric 1" },
+    "field_100_metric5_metrics": { "question": "Action Plan #5 - METRICS", "pdf_field": "Text106", "value": "Tracking metric for health progress - Metric 2" },
+    "field_101_metric5_monitor": { "question": "Action Plan #5 - HOW DO WE MONITOR IT?", "pdf_field": "Text107", "value": "Tracking metric for health progress - Metric 3" },
+    "field_102_metric5_current": { "question": "Action Plan #5 - CURRENT", "pdf_field": "Text108", "value": "Tracking metric for health progress - Metric 4" },
+    "field_103_metric5_current_alt": { "question": "Action Plan #5 - CURRENT (alt)", "pdf_field": "Text109", "value": "Tracking metric for health progress - Metric 5" },
+    "field_104_metric5_3month": { "question": "Action Plan #5 - 3-MONTH GOAL", "pdf_field": "Text110", "value": "Tracking metric for health progress - Metric 6" },
+    "field_105_metric5_6month": { "question": "Action Plan #5 - 6-MONTH GOAL", "pdf_field": "Text111", "value": "Tracking metric for health progress - Metric 7" },
+    "field_106_metric6_metrics": { "question": "Action Plan #6 - METRICS", "pdf_field": "Text112", "value": "Tracking metric for health progress - Metric 8" },
+    "field_107_metric6_monitor": { "question": "Action Plan #6 - HOW DO WE MONITOR IT?", "pdf_field": "Text113", "value": "Tracking metric for health progress - Metric 9" },
+    "field_108_metric6_current": { "question": "Action Plan #6 - CURRENT", "pdf_field": "Text114", "value": "Tracking metric for health progress - Metric 10" },
+    "field_109_metric6_3month": { "question": "Action Plan #6 - 3-MONTH GOAL", "pdf_field": "Text115", "value": "Tracking metric for health progress - Metric 11" },
+    "field_110_metric6_6month": { "question": "Action Plan #6 - 6-MONTH GOAL", "pdf_field": "Text116", "value": "Tracking metric for health progress - Metric 12" },
+    "field_111_metric7_metrics": { "question": "Action Plan #7 - METRICS", "pdf_field": "Text117", "value": "Tracking metric for health progress - Metric 13" },
+    "field_112_metric7_monitor": { "question": "Action Plan #7 - HOW DO WE MONITOR IT?", "pdf_field": "Text118", "value": "Tracking metric for health progress - Metric 14" },
+    "field_113_metric7_current": { "question": "Action Plan #7 - CURRENT", "pdf_field": "Text119", "value": "Tracking metric for health progress - Metric 15" },
+    "field_114_metric7_3month": { "question": "Action Plan #7 - 3-MONTH GOAL", "pdf_field": "Text120", "value": "Tracking metric for health progress - Metric 16" },
+    "field_115_metric7_6month": { "question": "Action Plan #7 - 6-MONTH GOAL", "pdf_field": "Text121", "value": "Tracking metric for health progress - Metric 17" },
+    "field_116_metric8_metrics": { "question": "Action Plan #8 - METRICS", "pdf_field": "Text122", "value": "Tracking metric for health progress - Metric 18" },
+    "field_117_metric8_monitor": { "question": "Action Plan #8 - HOW DO WE MONITOR IT?", "pdf_field": "Text123", "value": "Tracking metric for health progress - Metric 19" },
+    "field_118_metric8_current": { "question": "Action Plan #8 - CURRENT", "pdf_field": "Text124", "value": "Tracking metric for health progress - Metric 20" },
+    "field_119_metric8_3month": { "question": "Action Plan #8 - 3-MONTH GOAL", "pdf_field": "Text125", "value": "Tracking metric for health progress - Metric 21" },
+    "field_120_metric8_6month": { "question": "Action Plan #8 - 6-MONTH GOAL", "pdf_field": "Text126", "value": "Action plan item for goal tracking - Item 1" },
+    "field_121_section3_description": { "question": "Action Plan Section 3 - Description", "pdf_field": "Text127", "value": "Action plan item for goal tracking - Item 2" },
+    "field_122_metric9_metrics": { "question": "Action Plan #9 - METRICS", "pdf_field": "Text128", "value": "Action plan item for goal tracking - Item 3" },
+    "field_123_metric9_monitor": { "question": "Action Plan #9 - HOW DO WE MONITOR IT?", "pdf_field": "Text129", "value": "Action plan item for goal tracking - Item 4" },
+    "field_124_metric9_current": { "question": "Action Plan #9 - CURRENT", "pdf_field": "Text130", "value": "Action plan item for goal tracking - Item 5" },
+    "field_125_metric9_3month": { "question": "Action Plan #9 - 3-MONTH GOAL", "pdf_field": "Text131", "value": "Action plan item for goal tracking - Item 6" },
+    "field_126_metric9_6month": { "question": "Action Plan #9 - 6-MONTH GOAL", "pdf_field": "Text132", "value": "Action plan item for goal tracking - Item 7" },
+    "field_127_metric10_metrics": { "question": "Action Plan #10 - METRICS", "pdf_field": "Text133", "value": "Action plan item for goal tracking - Item 8" },
+    "field_128_metric10_monitor": { "question": "Action Plan #10 - HOW DO WE MONITOR IT?", "pdf_field": "Text134", "value": "Action plan item for goal tracking - Item 9" },
+    "field_129_metric10_current": { "question": "Action Plan #10 - CURRENT", "pdf_field": "Text135", "value": "Action plan item for goal tracking - Item 10" },
+    "field_130_metric10_3month": { "question": "Action Plan #10 - 3-MONTH GOAL", "pdf_field": "Text136", "value": "Action plan item for goal tracking - Item 11" },
+    "field_131_metric10_6month": { "question": "Action Plan #10 - 6-MONTH GOAL", "pdf_field": "Text137", "value": "Action plan item for goal tracking - Item 12" },
+    "field_132_metric11_metrics": { "question": "Action Plan #11 - METRICS", "pdf_field": "Text138", "value": "Action plan item for goal tracking - Item 13" },
+    "field_133_metric11_monitor": { "question": "Action Plan #11 - HOW DO WE MONITOR IT?", "pdf_field": "Text139", "value": "Action plan item for goal tracking - Item 14" },
+    "field_134_metric11_current": { "question": "Action Plan #11 - CURRENT", "pdf_field": "Text140", "value": "Action plan item for goal tracking - Item 15" },
+    "field_135_metric11_3month": { "question": "Action Plan #11 - 3-MONTH GOAL", "pdf_field": "Text141", "value": "Action plan item for goal tracking - Item 16" },
+    "field_136_metric11_6month": { "question": "Action Plan #11 - 6-MONTH GOAL", "pdf_field": "Text142", "value": "Action plan item for goal tracking - Item 17" },
+    "field_137_metric12_metrics": { "question": "Action Plan #12 - METRICS", "pdf_field": "Text143", "value": "Action plan item for goal tracking - Item 18" },
+    "field_138_metric12_monitor": { "question": "Action Plan #12 - HOW DO WE MONITOR IT?", "pdf_field": "Text144", "value": "Action plan item for goal tracking - Item 19" },
+    "field_139_metric12_current": { "question": "Action Plan #12 - CURRENT", "pdf_field": "Text145", "value": "Action plan item for goal tracking - Item 20" },
+    "field_140_metric12_3month": { "question": "Action Plan #12 - 3-MONTH GOAL", "pdf_field": "Text146", "value": "Action plan item for goal tracking - Item 21" },
+    "field_141_metric12_6month": { "question": "Action Plan #12 - 6-MONTH GOAL", "pdf_field": "Text147", "value": "Action plan item for goal tracking - Item 22" }
+  },
+
+  "page_13_section_5_labs_references": {
+    "_header": "Section 5: Complimentary Labs and Clinical References",
+
+    "field_142_labs": {
+      "question": "Labs",
+      "pdf_field": "Text148",
+      "value": "not neccesary at this time"
+    },
+    "field_143_references": {
+      "question": "References",
+      "pdf_field": "Text149",
+      "value": "Dermathologist, Peripheral vascular surgeon"
+    }
+  },
+
+  "page_14_section_6_follow_up": {
+    "_header": "Section 6: Follow-up and Frequency",
+    "_description": "Recording your goals allows you to measure your effort, recognize your progress, and adjust your targets when necessary.",
+    "_contact_info": {
+      "whatsapp": "7262-7262",
+      "medical_team": "8647-6931"
+    },
+    "_footer": "We are here to support you on your journey toward better health.",
+
+    "field_144_follow_up_schedule": {
+      "question": "Based on your medical evaluation, we suggest that our next appointment be in",
+      "pdf_field": "Text150",
+      "value": "abdominal ultrasound in 6 months, labs in 3 months"
+    },
+    "field_145_report_author": {
+      "question": "Report written by: Dr. / Sana Sana Doctor",
+      "pdf_field": "Text151",
+      "value": "Dr.SILVIA ELENA GARITA PEÑA"
+    }
+  }
+}
