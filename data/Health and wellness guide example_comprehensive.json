@@ -1,0 +1,636 @@
+{
+  "section_1_cover": {
+    "patient_info": {
+      "name": "RICHARD ALLEN PEACOCK",
+      "identification_number": "AC737267",
+      "date_of_birth": "11/07/1960",
+      "report_date": "04 de diciembre, 2025",
+      "my_purpose": "Me and my wife like to do hiking and enjoy outdoors and also I want to be healthy to be with my grandkids and kids."
+    },
+    "primary_health_goals_summary": [
+      {
+        "number": 1,
+        "goal": "Improve liver health by reducing inflammation and normalizing liver enzymes.",
+        "importance": "to protect the liver, improves metabolism, reduces cardiovascular risk, and restores whole-body health."
+      },
+      {
+        "number": 2,
+        "goal": "Improve Insulin Sensitivity and Metabolic Flexibility",
+        "importance": "to prevent progression to type 2 diabetes"
+      },
+      {
+        "number": 3,
+        "goal": "Improve lipid balance and reduce long-term cardiovascular risk.",
+        "importance": "to prevent progression of atherosclerosis."
+      }
+    ]
+  },
+  "section_2_results_and_findings": {
+    "clinical_summary": {
+      "patient_first_name": "Richard",
+      "normal_findings": [
+        "CBC",
+        "Renal function",
+        "Thyroid",
+        "PSA",
+        "Electrolytes",
+        "Glucose metabolism",
+        "Urinalysis & stool exam",
+        "Lp(a) (excellent)",
+        "Inflammatory markers only mildly elevated"
+      ],
+      "abnormal_findings": [
+        "NAFLD grade II → Elevated AST/ALT, ferritin, low HDL, elevated LDL, mild insulin resistance",
+        "Vitamin D excess → 81.8 ng/mL",
+        "ApoB slightly elevated",
+        "hs-CRP mildly elevated"
+      ],
+      "cardiovascular_risk": "LOW",
+      "cardiovascular_risk_factors": [
+        "CAC score = 15",
+        "Lp(a) extremely low",
+        "ApoB moderate",
+        "HDL low due to fatty liver, not arterial disease",
+        "High muscularity and high physical activity"
+      ]
+    },
+    "functional_medicine_priorities": [
+      {
+        "area": "Reverse NAFLD (primary goal)",
+        "action": "Improve liver detox phases, mitochondrial fat oxidation, hepatic glucose handling."
+      },
+      {
+        "area": "Improve hepatic insulin sensitivity",
+        "action": "Adjust macronutrient timing; increase fiber and plants; adjust fructose load."
+      },
+      {
+        "area": "Lower inflammation",
+        "action": "Through nutrition, circadian alignment, and omega-3."
+      },
+      {
+        "area": "Support mitochondrial function",
+        "action": "Maintain exercise, optimize micronutrients (magnesium, B-complex)."
+      },
+      {
+        "area": "Normalize Vitamin D",
+        "action": "Reduce dose."
+      },
+      {
+        "area": "Improve evening metabolic activity",
+        "action": "Introduce low-intensity movement after 3–4 pm."
+      },
+      {
+        "area": "Dermatologic follow-up",
+        "action": "Actinic keratosis & ulcerated lesion require evaluation."
+      }
+    ]
+  },
+  "section_2_3_vital_signs": {
+    "bmi": "31.1",
+    "body_weight_kg": "109.9",
+    "height_m": "1.88",
+    "blood_pressure_mmhg": "145/83",
+    "heart_rate_bpm": "51",
+    "abdominal_circumference_cm": "102.8",
+    "hip_waist_ratio": "0.91",
+    "pulse_oximetry_percent": "96",
+    "respiratory_rate_bpm": "15"
+  },
+  "section_2_4_inbody_analysis": {},
+  "section_2_5_physical_exam": {},
+  "section_2_6_laboratory_results": {
+    "hematologic": {
+      "neutrophils": {
+        "value": "63.4%",
+        "unit": "%",
+        "reference": null
+      },
+      "lymphocytes": {
+        "value": "26.6%",
+        "unit": "%",
+        "reference": null
+      },
+      "monocytes": {
+        "value": "8.3%",
+        "unit": "%",
+        "reference": null
+      },
+      "eosinophils": {
+        "value": "1.0%",
+        "unit": "%",
+        "reference": null
+      },
+      "basophils": {
+        "value": "0.3%",
+        "unit": "%",
+        "reference": null
+      },
+      "hemoglobin": {
+        "value": "17.0",
+        "unit": "g/dL",
+        "reference": "14.3–17.0"
+      },
+      "hematocrit": {
+        "value": "46.7",
+        "unit": "%",
+        "reference": "42–53"
+      },
+      "rbc_count": {
+        "value": "5.75",
+        "unit": "×10⁶/µL",
+        "reference": "3.7–5.5"
+      },
+      "mcv": {
+        "value": "81.2",
+        "unit": "fL",
+        "reference": "80–95"
+      },
+      "mch": {
+        "value": "29.6",
+        "unit": "pg",
+        "reference": "24–35"
+      },
+      "mchc": {
+        "value": "36.4",
+        "unit": "g/dL",
+        "reference": "32–37"
+      },
+      "wbc": {
+        "value": "6.98",
+        "unit": "×10³/µL",
+        "reference": "5–10"
+      },
+      "platelets": {
+        "value": "153",
+        "unit": "×10³/µL",
+        "reference": "160–400"
+      }
+    },
+    "inflammatory": {
+      "hs_crp": {
+        "value": "1.5",
+        "unit": "mg/L",
+        "reference": "<1.0 optimalMil"
+      }
+    },
+    "endocrine": {
+      "tsh": {
+        "value": "2.40",
+        "unit": "uIU/mL",
+        "reference": "0.40–4.00"
+      },
+      "testosterone_total": {
+        "value": "490.9",
+        "unit": "ng/dL",
+        "reference": "127–1020"
+      },
+      "vitamin_d": {
+        "value": "81.8",
+        "unit": "ng/mL",
+        "reference": "30–74"
+      },
+      "fasting_insulin": {
+        "value": "14.4",
+        "unit": "µIU/mL",
+        "reference": "2–17"
+      },
+      "psa": {
+        "value": "0.80",
+        "unit": "ng/mL"
+      }
+    },
+    "cardiovascular": {
+      "total_cholesterol": {
+        "value": "203",
+        "unit": "mg/dL",
+        "reference": "0–200"
+      },
+      "hdl": {
+        "value": "36",
+        "unit": "mg/dL",
+        "reference": "40–65"
+      },
+      "ldl": {
+        "value": "140",
+        "unit": "mg/dL",
+        "reference": "0–130"
+      },
+      "vldl": {
+        "value": "27",
+        "unit": "mg/dL",
+        "reference": "5–40"
+      },
+      "triglycerides": {
+        "value": "133",
+        "unit": "mg/dL",
+        "reference": "0–150"
+      },
+      "apob": {
+        "value": "112",
+        "unit": "mg/dL",
+        "reference": "<80 optimalMo"
+      },
+      "lpa": {
+        "value": "1.9",
+        "unit": "mg/dL",
+        "reference": "<30"
+      },
+      "castelli_index": {
+        "value": "5.6",
+        "unit": "<4.5 optimal"
+      }
+    },
+    "liver": {
+      "ast": {
+        "value": "56",
+        "unit": "U/L",
+        "reference": "11–34"
+      },
+      "alt": {
+        "value": "54",
+        "unit": "U/L",
+        "reference": "0–45"
+      },
+      "alp": {
+        "value": "74",
+        "unit": "U/L",
+        "reference": "50–116"
+      },
+      "ggt": {
+        "value": "39",
+        "unit": "U/L",
+        "reference": "0–55"
+      }
+    },
+    "renal": {
+      "bun": {
+        "value": "19",
+        "unit": "mg/dL"
+      },
+      "creatinine": {
+        "value": "1.04",
+        "unit": "mg/dL"
+      }
+    },
+    "electrolytes": {
+      "sodium": {
+        "value": "139",
+        "unit": "mmol/L",
+        "reference": "136–146"
+      },
+      "potassium": {
+        "value": "4.2",
+        "unit": "mmol/L",
+        "reference": "3.5–5.1"
+      },
+      "chloride": {
+        "value": "106",
+        "unit": "mmol/L",
+        "reference": "101–109"
+      },
+      "calcium": {
+        "value": "9.1",
+        "unit": "mg/dL",
+        "reference": "8.8–10.2"
+      },
+      "magnesium": {
+        "value": "1.9",
+        "unit": "mg/dL",
+        "reference": "1.8–2.6"
+      }
+    },
+    "metabolic": {
+      "fasting_glucose": {
+        "value": "92",
+        "unit": "mg/dL"
+      },
+      "hba1c": {
+        "value": "5.1",
+        "unit": "%"
+      }
+    },
+    "urinalysis": {
+      "appearance": "Clear, yellow",
+      "ph": "5.0",
+      "protein": "Negative",
+      "glucose": "Negative",
+      "blood": "Negative",
+      "wbc": "None",
+      "rbc": "None",
+      "bacteria": "Scant",
+      "interpretation": "Normal"
+    },
+    "stool_examination": {
+      "rbc": "None",
+      "wbc": "None",
+      "parasites": "None",
+      "yeast": "Scant",
+      "consistency": "Pasty",
+      "color": "Brown",
+      "interpretation": "Normal"
+    }
+  },
+  "section_2_7_ecg": {
+    "rhythm": "Normal sinus rhythm",
+    "rate": "60–70 bpm",
+    "intervals": {
+      "pr_interval": "Normal",
+      "qrs_duration": "Narrow (no bundle branch block)",
+      "qt_interval": "Normal"
+    },
+    "findings": {
+      "axis": "Normal frontal plane axis",
+      "q_waves": "No pathological Q waves",
+      "ventricular_hypertrophy": "None",
+      "r_wave_progression": "Good across V1-V6",
+      "st_segment": "Isoelectric (no elevation/depression)",
+      "t_waves": "Normal morphology"
+    },
+    "overall_impression": "Normal ECG. No evidence of prior myocardial infarction, ischemia, arrhythmia, conduction abnormalities, or structural heart disease."
+  },
+  "section_2_8_imaging": {
+    "abdominal_ultrasound": {
+      "hepatic_steatosis": "Grade II",
+      "gallbladder": "Absent (prior surgery)",
+      "pancreas": "Moderate fatty infiltration (lipomatosis)",
+      "right_kidney": "Simple cyst (10 mm), benign",
+      "prostate": "17.5 cc (normal)"
+    },
+    "coronary_calcium_score": {
+      "total_score": 15,
+      "percentile": 31,
+      "risk": "Low",
+      "distribution": {
+        "left_main": 0,
+        "lad": 7,
+        "lcx": 8,
+        "rca": 0,
+        "pda": 0
+      }
+    }
+  },
+  "section_3_health_goals_detailed": [
+    {
+      "number": 1,
+      "title": "Reverse Fatty Liver (NAFLD Grade II)",
+      "key_result": "Improve liver health by reducing inflammation and normalizing liver enzymes",
+      "importance": "to protect the liver, improves metabolism, reduces cardiovascular risk, and restores whole-body health",
+      "actions": [
+        {
+          "action": "Add afternoon metabolic movement",
+          "details": [
+            "10–15 minutes of light walking after lunch and dinner",
+            "Avoid prolonged sitting after 3 pm; move 3–5 minutes each hour"
+          ],
+          "frequency": "6 days a week"
+        },
+        {
+          "action": "Support liver detoxification pathways",
+          "details": [
+            "Drink 1.5–2.0 liters of water daily",
+            "Include cruciferous vegetables (broccoli, cauliflower, Brussels sprouts)",
+            "Add leafy greens, garlic, onions, and fresh herbs (cilantro, parsley)"
+          ],
+          "frequency": "daily"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Improve Insulin Sensitivity and Metabolic Flexibility",
+      "key_result": "Reduce hepatic insulin resistance and improve metabolic efficiency",
+      "importance": "to prevent progression to type 2 diabetes",
+      "actions": [
+        {
+          "action": "Adjust fasting and feeding schedule",
+          "details": [
+            "Maintain morning fasting but add a small protein-based afternoon snack",
+            "Ensure each meal contains protein + fiber"
+          ],
+          "frequency": "daily"
+        },
+        {
+          "action": "Increase daily fiber intake",
+          "details": [
+            "1–2 teaspoons of psyllium or ground flaxseed daily",
+            "Supports glucose control and liver detoxification"
+          ],
+          "frequency": "daily"
+        },
+        {
+          "action": "Add low-intensity cardio sessions",
+          "details": [
+            "12–20 minutes of Zone 2–3 cardio (fast walking, cycling)",
+            "Complements strength training routine"
+          ],
+          "frequency": "3 times a week"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Optimize Cardiovascular Risk and Improve Lipid Profile",
+      "key_result": "Improve lipid balance and reduce long-term cardiovascular risk",
+      "importance": "to prevent progression of atherosclerosis",
+      "actions": [
+        {
+          "action": "Improve fat quality and increase natural omega-3 intake",
+          "details": [
+            "Eat fatty fish 2–3 times per week (salmon, sardines, tuna)",
+            "Limit red meat to 1–2 times per week"
+          ],
+          "frequency": "as indicated"
+        },
+        {
+          "action": "Reduce Vitamin D supplementation",
+          "details": [
+            "Lower dose to 2,000–3,000 IU/day",
+            "Goal serum level: 50–70 ng/mL"
+          ],
+          "frequency": "daily"
+        },
+        {
+          "action": "Mandatory post-meal walking",
+          "details": [
+            "10–12 minutes of walking after the largest meal",
+            "Helps reduce postprandial lipids and improves HDL"
+          ],
+          "frequency": "6 times a week"
+        }
+      ]
+    }
+  ],
+  "section_4_action_plan": {
+    "metrics_and_targets": [
+      {
+        "goal": "Improve Liver Health (Reverse NAFLD Grade II)",
+        "monitoring": "blood sample",
+        "current_values": {
+          "alt": "54 U/L",
+          "ast": "56 U/L",
+          "ferritin": "315 ng/mL",
+          "hs_crp": "1.5 mg/L"
+        },
+        "targets": {
+          "3_month": {
+            "alt": "<45",
+            "ast": "<45",
+            "ferritin": "<250",
+            "hs_crp": "<1.0"
+          },
+          "6_month": {
+            "alt": "<40",
+            "ast": "<40",
+            "ferritin": "<200",
+            "hs_crp": "<0.8"
+          }
+        }
+      },
+      {
+        "goal": "Improve Insulin Sensitivity (Reduce Hepatic IR)",
+        "monitoring": "blood sample and InBody",
+        "current_values": {
+          "fasting_insulin": "14.4 µIU/mL",
+          "fasting_glucose": "92 mg/dL",
+          "waist_circumference": "102.8 cm"
+        },
+        "targets": {
+          "3_month": {
+            "fasting_insulin": "<12",
+            "fasting_glucose": "88–92",
+            "waist": "−2 cm"
+          },
+          "6_month": {
+            "fasting_insulin": "<10",
+            "fasting_glucose": "85–90",
+            "waist": "−4–5 cm"
+          }
+        }
+      },
+      {
+        "goal": "Improve Lipid Profile / Cardiometabolic Risk",
+        "monitoring": "blood sample",
+        "current_values": {
+          "ldl": "140 mg/dL",
+          "hdl": "36 mg/dL",
+          "apob": "112 mg/dL",
+          "vitamin_d": "81.8 ng/mL"
+        },
+        "targets": {
+          "3_month": {
+            "ldl": "<125",
+            "hdl": ">38",
+            "apob": "<105",
+            "vitamin_d": "60–70"
+          },
+          "6_month": {
+            "ldl": "100–120",
+            "hdl": ">40",
+            "apob": "<100",
+            "vitamin_d": "50–65"
+          }
+        }
+      }
+    ]
+  },
+  "section_5_complimentary_info": {
+    "referrals": [
+      "Dermatologist",
+      "Peripheral vascular surgeon"
+    ],
+    "labs_needed": "not necessary at this time"
+  },
+  "section_6_followup": {
+    "schedule": [
+      {
+        "type": "Laboratory tests",
+        "timing": "3 months"
+      },
+      {
+        "type": "Abdominal ultrasound",
+        "timing": "6 months"
+      }
+    ],
+    "tracking_methods": [
+      "Smart watch to track steps"
+    ]
+  },
+  "section_7_supplements": {
+    "safe_with_rivaroxaban": [
+      {
+        "name": "Omega-3",
+        "note": "safe",
+        "dose": "≤2 g/day"
+      },
+      {
+        "name": "Vitamin D",
+        "note": "safe",
+        "dose": "decreasing dose is advised anyway"
+      },
+      {
+        "name": "Psyllium, flaxseed",
+        "note": "safe"
+      },
+      {
+        "name": "Magnesium",
+        "note": "safe"
+      },
+      {
+        "name": "B-complex",
+        "note": "safe"
+      }
+    ],
+    "use_with_caution": [
+      {
+        "name": "Turmeric/curcumin in high doses",
+        "note": ""
+      },
+      {
+        "name": "Ginger supplements",
+        "note": ""
+      },
+      {
+        "name": "High-dose fish oil (",
+        "note": "",
+        "dose": ">2 g/day EPA/DHA)"
+      },
+      {
+        "name": "Vitamin E",
+        "note": "",
+        "dose": ">400 IU/day"
+      }
+    ],
+    "avoid": [
+      {
+        "name": "Ginkgo biloba",
+        "reason": "increases bleeding risk"
+      },
+      {
+        "name": "High-dose garlic supplements",
+        "reason": "increases bleeding risk"
+      }
+    ],
+    "recommended_omega3_brands": [
+      "7262-7262",
+      "Medical Team Sana Sana: 8647-6931",
+      "We are here to support you on your journey toward better health.",
+      "Report written by:",
+      "Dr.SILVIA ELENA GARITA PEÑA",
+      "Sana Sana Doctor"
+    ]
+  },
+  "section_8_contact": {
+    "doctor": {
+      "name": "Dr. SILVIA ELENA GARITA PE",
+      "organization": "Sana Sana"
+    },
+    "contact_info": {
+      "whatsapp": "7262-7262",
+      "medical_team": "8647-6931"
+    },
+    "next_appointments": {
+      "labs": "3 months",
+      "abdominal_ultrasound": "6 months"
+    }
+  }
+}
