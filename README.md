@@ -1,45 +1,93 @@
-# Health and Wellness PDF Extractor
+# Universal PDF-to-JSON Extractor
 
-A simple Python backend to extract form field data from fillable Health and Wellness PDF documents.
+A robust, universal PDF extraction tool that converts any PDF document into a structured JSON file while faithfully preserving the original layout, hierarchy, and content.
+
+## Features
+
+- **Universal Compatibility**: Works with ANY PDF document, not hardcoded to specific templates.
+- **Structure Preservation**: Maintains page-by-page structure and detects headings, subheadings, lists, and tables.
+- **Form Field Support**: Automatically extracts data from fillable PDF forms (widgets).
+- **Spatial Awareness**: Uses block positioning to reconstruct the reading order correctly.
+- **Multiple Extraction Modes**: obtain data in `structured` (hierarchical), `detailed` (structured + raw), or `flat` (line-by-line) formats.
 
 ## Setup
 
-```bash
-# Create virtual environment
-python -m venv .venv
+1. **Prerequisites**: Python 3.6+
+2. **Install Dependencies**:
 
-# Activate (Windows)
-.venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-```bash
-# Extract from default PDF (data/HEALTH AND WELLNESS GUIDE - Fillable Guide 1.pdf)
-python extract_pdf.py
+Run the script from the command line:
 
-# Extract from specific PDF
-python extract_pdf.py "path/to/your/pdf.pdf"
+```bash
+python pdf_to_json.py <input_pdf> [output_json]
 ```
 
-## Output
+### Examples
 
-The script creates a structured JSON file with data organized by page:
+**Basic Usage (Default Structured Mode):**
+Extracts `report.pdf` to `report_extracted.json`.
+```bash
+python pdf_to_json.py data/report.pdf
+```
+
+**Custom Output Path:**
+```bash
+python pdf_to_json.py data/report.pdf -o results/datalog.json
+```
+
+**Detailed Mode:**
+Includes both structured content and raw line data, plus form fields.
+```bash
+python pdf_to_json.py data/report.pdf -m detailed
+```
+
+**Flat Mode:**
+Simple line-by-line extraction per page.
+```bash
+python pdf_to_json.py data/report.pdf -m flat
+```
+
+**Batch Processing:**
+Process multiple files at once.
+```bash
+python pdf_to_json.py data/file1.pdf data/file2.pdf
+```
+
+## JSON Output Structure
+
+The output JSON follows a consistent schema:
 
 ```json
 {
-  "Page1": {
-    "Title": "HEALTH AND WELLNESS GUIDE",
-    "PersonalInfo": { "Name": "...", "IdentificationNumber": "...", "DateOfBirth": "..." },
-    "WhyImproveHealth": "...",
-    "MyPrimaryHealthGoals": { ... }
+  "metadata": {
+    "file_name": "example.pdf",
+    "total_pages": 5,
+    "extraction_mode": "detailed"
   },
-  "Page2": { ... },
-  ...
-  "Page13": { ... }
+  "pages": {
+    "page_1": {
+      "page_number": 1,
+      "structured_content": [
+        {
+          "heading": "Section Title",
+          "content": ["Paragraph text...", "More text..."]
+        },
+        {
+          "type": "image", 
+          "description": "[Image/graphic element]"
+        }
+      ],
+      "form_fields": {
+        "FieldName": "User Input Value"
+      }
+    },
+    ...
+  }
 }
 ```
 
@@ -47,9 +95,8 @@ The script creates a structured JSON file with data organized by page:
 
 ```
 PEPSI/
-├── extract_pdf.py      # Main extraction script
-├── requirements.txt    # Python dependencies
-├── README.md          # This file
-└── data/              # PDF files and output
-    └── *.pdf          # Input PDF files
+├── pdf_to_json.py      # Main universal extraction script
+├── requirements.txt    # Python dependencies (PyMuPDF)
+├── README.md           # Documentation
+└── data/               # Input PDF files and JSON outputs
 ```

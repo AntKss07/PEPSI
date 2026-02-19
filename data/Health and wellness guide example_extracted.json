@@ -1,0 +1,1948 @@
+{
+  "metadata": {
+    "file_name": "Health and wellness guide example.pdf",
+    "file_path": "c:\\hackathon\\Gemini_CLI\\PEPSI\\data\\Health and wellness guide example.pdf",
+    "total_pages": 14,
+    "extraction_mode": "detailed"
+  },
+  "pages": {
+    "page_1": {
+      "page_number": 1,
+      "structured_content": [
+        {
+          "subheading": "04 de diciembre, 2025"
+        },
+        {
+          "heading": "HEALTH AND WELLNESS GUIDE",
+          "subsections": [
+            {
+              "subheading": "Your path to a longer, healthier life."
+            },
+            {
+              "subheading": "Name:",
+              "content": [
+                "RICHARD ALLEN PEACOCK"
+              ]
+            },
+            {
+              "subheading": "Identification number",
+              "content": [
+                "AC737267"
+              ]
+            },
+            {
+              "subheading": "Date of birth",
+              "content": [
+                "11/07/1960"
+              ]
+            },
+            {
+              "subheading": "Section 1: My Purpose"
+            },
+            {
+              "subheading": "Why do I want to improve my health?",
+              "content": [
+                "Me and my wife like to do hiking and enjoy outdoors and also I want to be healthy to be with my grandkids and kids."
+              ]
+            },
+            {
+              "subheading": "\"We all have a reason that motivates us to take care of ourselves."
+            },
+            {
+              "subheading": "Come back to this section whenever you need to reconnect with your path.\""
+            },
+            {
+              "subheading": "MY PRIMARY HEALTH GOALS",
+              "content": [
+                "Based on your goals, lifestyle, and health assessment,",
+                "we will prioritize three objectives to bring you closer to your purpose."
+              ]
+            },
+            {
+              "subheading": "Health Goals"
+            },
+            {
+              "subheading": "Why is this important?"
+            },
+            {
+              "subheading": "1",
+              "content": [
+                "Improve liver health by reducing inflammation and",
+                "normalizing liver enzymes.",
+                "to protect the liver, improves metabolism, reduces",
+                "cardiovascular risk, and restores whole-body health."
+              ]
+            },
+            {
+              "subheading": "2",
+              "content": [
+                "Improve Insulin Sensitivity and Metabolic Flexibility",
+                "to prevent progression to type 2 diabetes"
+              ]
+            },
+            {
+              "subheading": "3",
+              "content": [
+                "Improve lipid balance and reduce long-term",
+                "cardiovascular risk.",
+                "to prevent progression of atherosclerosis."
+              ]
+            }
+          ]
+        }
+      ],
+      "raw_lines": [
+        "04 de diciembre, 2025",
+        "HEALTH AND WELLNESS GUIDE",
+        "Your path to a longer, healthier life.",
+        "Name:",
+        "Identification number",
+        "Date of birth",
+        "RICHARD ALLEN PEACOCK ",
+        "AC737267",
+        "11/07/1960",
+        "Section 1: My Purpose",
+        "Why do I want to improve my health?",
+        "Me and my wife like to do hiking and enjoy outdoors and also I want to be healthy to be with my grandkids and kids.",
+        "\"We all have a reason that motivates us to take care of ourselves.",
+        "Come back to this section whenever you need to reconnect with your path.\"",
+        "MY PRIMARY HEALTH GOALS",
+        "Based on your goals, lifestyle, and health assessment,",
+        "we will prioritize three objectives to bring you closer to your purpose.",
+        "Health Goals",
+        "Why is this important?",
+        "1",
+        "Improve liver health by reducing inflammation and ",
+        "normalizing liver enzymes.",
+        "to protect the liver, improves metabolism, reduces ",
+        "cardiovascular risk, and restores whole-body health.",
+        "2",
+        "Improve Insulin Sensitivity and Metabolic Flexibility",
+        "to prevent progression to type 2 diabetes",
+        "3",
+        "Improve lipid balance and reduce long-term ",
+        "cardiovascular risk.",
+        "to prevent progression of atherosclerosis."
+      ]
+    },
+    "page_2": {
+      "page_number": 2,
+      "structured_content": [
+        {
+          "subheading": "Section 2: Results and Findings"
+        },
+        {
+          "subheading": "2.1. SUMMARY:"
+        },
+        {
+          "subheading": "HEALTH AND WELLNESS INTEGRAL EVALUATION",
+          "content": [
+            "OVERALL INTEGRATED CLINICAL SUMMARY",
+            "Richard shows:",
+            "Normal findings in:",
+            "CBC",
+            "Renal function",
+            "Thyroid",
+            "PSA",
+            "Electrolytes",
+            "Glucose metabolism",
+            "Urinalysis & stool exam",
+            "Lp(a) (excellent)",
+            "Inflammatory markers only mildly elevated",
+            "-Abnormal findings centered around:",
+            "NAFLD grade II → Elevated AST/ALT, ferritin, low HDL, elevated LDL, mild insulin resistance",
+            "Vitamin D excess → 81.8 ng/mL",
+            "ApoB slightly elevated",
+            "hs-CRP mildly elevated",
+            "-Cardiovascular risk remains LOW because:",
+            "CAC score = 15",
+            "Lp(a) extremely low",
+            "ApoB moderate",
+            "HDL low due to fatty liver, not arterial disease",
+            "High muscularity and high physical activity"
+          ]
+        },
+        {
+          "subheading": "2.2. FUNCTIONAL MEDICINE APPROACH:"
+        },
+        {
+          "subheading": "MODIFIABLE LIFESTYLES AND DYSFUNCTIONS",
+          "content": [
+            "Functional Medicine Focus — Priority Areas",
+            "Reverse NAFLD (primary goal)",
+            "Improve liver detox phases, mitochondrial fat oxidation, hepatic glucose handling.",
+            "Improve hepatic insulin sensitivity",
+            "Adjust macronutrient timing; increase fiber and plants; adjust fructose load.",
+            "Lower inflammation",
+            "Through nutrition, circadian alignment, and omega-3.",
+            "Support mitochondrial function",
+            "Maintain exercise, optimize micronutrients (magnesium, B-complex).",
+            "Normalize Vitamin D",
+            "Reduce dose.",
+            "Improve evening metabolic activity",
+            "Introduce low-intensity movement after 3–4 pm.",
+            "Dermatologic follow-up",
+            "Actinic keratosis & ulcerated lesion require evaluation."
+          ]
+        },
+        {
+          "subheading": "2.3. VITAL SIGNS AND BODY COMPOSITION ANALYSIS (INBODY)"
+        }
+      ],
+      "raw_lines": [
+        "Section 2: Results and Findings",
+        "HEALTH AND WELLNESS INTEGRAL EVALUATION",
+        "OVERALL INTEGRATED CLINICAL SUMMARY",
+        "Richard shows:",
+        "Normal findings in:",
+        "CBC",
+        "Renal function",
+        "Thyroid",
+        "PSA",
+        "Electrolytes",
+        "Glucose metabolism",
+        "Urinalysis & stool exam",
+        "Lp(a) (excellent)",
+        "Inflammatory markers only mildly elevated",
+        "-Abnormal findings centered around:",
+        "NAFLD grade II → Elevated AST/ALT, ferritin, low HDL, elevated LDL, mild insulin resistance",
+        "Vitamin D excess → 81.8 ng/mL",
+        "ApoB slightly elevated",
+        "hs-CRP mildly elevated",
+        "-Cardiovascular risk remains LOW because:",
+        "CAC score = 15",
+        "Lp(a) extremely low",
+        "ApoB moderate",
+        "HDL low due to fatty liver, not arterial disease",
+        "High muscularity and high physical activity",
+        "Functional Medicine Focus — Priority Areas",
+        "Reverse NAFLD (primary goal)",
+        "Improve liver detox phases, mitochondrial fat oxidation, hepatic glucose handling.",
+        "Improve hepatic insulin sensitivity",
+        "Adjust macronutrient timing; increase fiber and plants; adjust fructose load.",
+        "Lower inflammation",
+        "Through nutrition, circadian alignment, and omega-3.",
+        "Support mitochondrial function",
+        "Maintain exercise, optimize micronutrients (magnesium, B-complex).",
+        "Normalize Vitamin D",
+        "Reduce dose.",
+        "Improve evening metabolic activity",
+        "Introduce low-intensity movement after 3–4 pm.",
+        "Dermatologic follow-up",
+        "Actinic keratosis & ulcerated lesion require evaluation.",
+        "2.2. FUNCTIONAL MEDICINE APPROACH:",
+        "MODIFIABLE LIFESTYLES AND DYSFUNCTIONS",
+        "2.1. SUMMARY:",
+        "2.3. VITAL SIGNS AND BODY COMPOSITION ANALYSIS (INBODY)"
+      ]
+    },
+    "page_3": {
+      "page_number": 3,
+      "structured_content": [
+        {
+          "subheading": "PARAMETER"
+        },
+        {
+          "subheading": "VALUE"
+        },
+        {
+          "subheading": "INTERPRETATION/"
+        },
+        {
+          "subheading": "OBSERVATION"
+        },
+        {
+          "subheading": "BODY MASS"
+        },
+        {
+          "subheading": "INDEX (BMI)",
+          "content": [
+            "31.1",
+            "misleading in individuals with high",
+            "muscle mass."
+          ]
+        },
+        {
+          "subheading": "BODY WEIGHT",
+          "content": [
+            "109.9 kg",
+            "normal"
+          ]
+        },
+        {
+          "subheading": "HEIGHT",
+          "content": [
+            "1.88 m",
+            "normal"
+          ]
+        },
+        {
+          "subheading": "ARTERIAL"
+        },
+        {
+          "subheading": "PRESSURE",
+          "content": [
+            "145/83 mmHg",
+            "STAGE II"
+          ]
+        },
+        {
+          "subheading": "CARDIAC"
+        },
+        {
+          "subheading": "FREQUENCY",
+          "content": [
+            "51 bpm",
+            "normal for an athlete man"
+          ]
+        },
+        {
+          "subheading": "ANKLE-BRACHIAL"
+        },
+        {
+          "subheading": "INDEX",
+          "content": [
+            "non aplicable"
+          ]
+        },
+        {
+          "subheading": "ABDOMINAL"
+        },
+        {
+          "subheading": "CIRCUMFERENCE",
+          "content": [
+            "102.8 cms",
+            "out of range, normal less than 101"
+          ]
+        },
+        {
+          "subheading": "HIP WAIST"
+        },
+        {
+          "subheading": "RATIO",
+          "content": [
+            "0.91",
+            "slightly out of range, normal 0.90"
+          ]
+        },
+        {
+          "subheading": "PULSE"
+        },
+        {
+          "subheading": "OXIMETRY",
+          "content": [
+            "96%",
+            "normal"
+          ]
+        },
+        {
+          "subheading": "RESPIRATORY"
+        },
+        {
+          "subheading": "FREQUENCY",
+          "content": [
+            "15 bpm",
+            "normal"
+          ]
+        }
+      ],
+      "raw_lines": [
+        "PARAMETER",
+        "VALUE",
+        "INTERPRETATION/",
+        "OBSERVATION",
+        "BODY MASS",
+        "INDEX (BMI)",
+        "31.1",
+        "misleading in individuals with high ",
+        "muscle mass.",
+        "BODY WEIGHT",
+        "109.9 kg",
+        "normal ",
+        "HEIGHT",
+        "1.88 m",
+        "normal ",
+        "ARTERIAL",
+        "PRESSURE",
+        "145/83 mmHg",
+        "STAGE II ",
+        "CARDIAC",
+        "FREQUENCY",
+        "51 bpm ",
+        "normal for an athlete man ",
+        "ANKLE-BRACHIAL",
+        "INDEX",
+        "non aplicable ",
+        "ABDOMINAL",
+        "CIRCUMFERENCE",
+        "102.8 cms ",
+        "out of range, normal less than 101",
+        "HIP WAIST",
+        "RATIO",
+        "0.91 ",
+        "slightly out of range, normal 0.90",
+        "PULSE",
+        "OXIMETRY",
+        "96%",
+        "normal ",
+        "RESPIRATORY",
+        "FREQUENCY",
+        "15 bpm",
+        "normal"
+      ]
+    },
+    "page_4": {
+      "page_number": 4,
+      "structured_content": [
+        {
+          "text": "The InBody analysis describes a 65-"
+        },
+        {
+          "text": "year-old man, 188 cm tall and weighing"
+        },
+        {
+          "text": "109.9 kg, with an exceptionally strong"
+        },
+        {
+          "text": "and well-preserved body composition"
+        },
+        {
+          "text": "for his age. His skeletal muscle mass is"
+        },
+        {
+          "text": "49.7 kg, which is well above average"
+        },
+        {
+          "text": "and places him in a category of"
+        },
+        {
+          "text": "excellent muscularity. His fat-free mass"
+        },
+        {
+          "text": "(87.3 kg) and total body water (64.1 L)"
+        },
+        {
+          "text": "are also high, reflecting strong muscle"
+        },
+        {
+          "text": "tissue quality. The whole-body"
+        },
+        {
+          "text": "ECW/TBW ratio of 0.381 is normal,"
+        },
+        {
+          "text": "indicating healthy fluid balance, and"
+        },
+        {
+          "text": "the total phase angle of 6.5° is very"
+        },
+        {
+          "text": "favorable for his age, showing good"
+        },
+        {
+          "text": "cell integrity and metabolic function."
+        },
+        {
+          "text": "His BMI is 31.1, which is technically in"
+        },
+        {
+          "text": "the obesity range by definition, but this"
+        },
+        {
+          "text": "classification does not apply well to"
+        },
+        {
+          "text": "muscular individuals. The body fat"
+        },
+        {
+          "text": "percentage of 20.6% is normal for a fit"
+        },
+        {
+          "text": "adult male and especially good for a 65"
+        },
+        {
+          "text": "-year-old, aligning with his high InBody"
+        },
+        {
+          "text": "score of 94 out of 100, which confirms"
+        },
+        {
+          "text": "excellent overall condition. The visceral"
+        },
+        {
+          "text": "fat area is 106.4 cm², which sits near"
+        },
+        {
+          "text": "the upper end of normal but not in a"
+        },
+        {
+          "text": "dangerous or extreme range—"
+        },
+        {
+          "text": "especially for a tall, muscular man."
+        },
+        {
+          "text": "Many athletic or well-trained older"
+        },
+        {
+          "text": "adults fall within this band. His waist"
+        },
+        {
+          "text": "circumference (102.8 cm) and waist–"
+        },
+        {
+          "text": "hip ratio (0.91) are slightly elevated,"
+        },
+        {
+          "text": "but these values must be interpreted in"
+        },
+        {
+          "text": "the context of his large frame and"
+        },
+        {
+          "text": "muscle mass. Segmental analysis"
+        },
+        {
+          "text": "shows strong, symmetrical muscle"
+        },
+        {
+          "text": "across arms, legs, and trunk, with no"
+        },
+        {
+          "text": "abnormalities. The metabolic rate"
+        },
+        {
+          "text": "(2255 kcal) is high because of his"
+        },
+        {
+          "text": "excellent muscle mass. Overall, the"
+        },
+        {
+          "text": "report paints the picture of a very fit,"
+        },
+        {
+          "text": "muscular, and healthy older adult with"
+        },
+        {
+          "text": "excellent cellular integrity, strong"
+        },
+        {
+          "text": "muscle mass, and only mild age-"
+        },
+        {
+          "text": "related central fat accumulation, which"
+        },
+        {
+          "text": "is extremely common. Nothing"
+        },
+        {
+          "text": "indicates a pathological fat level, and"
+        },
+        {
+          "text": "the high InBody score validates his"
+        },
+        {
+          "text": "great physical condition."
+        },
+        {
+          "subheading": "INBODY",
+          "content": [
+            "94/100"
+          ]
+        },
+        {
+          "subheading": "Additional parameters:"
+        }
+      ],
+      "raw_lines": [
+        "INBODY",
+        "94/100",
+        "The InBody analysis describes a 65-",
+        "year-old man, 188 cm tall and weighing ",
+        "109.9 kg, with an exceptionally strong ",
+        "and well-preserved body composition ",
+        "for his age. His skeletal muscle mass is ",
+        "49.7 kg, which is well above average ",
+        "and places him in a category of ",
+        "excellent muscularity. His fat-free mass ",
+        "(87.3 kg) and total body water (64.1 L) ",
+        "are also high, reflecting strong muscle ",
+        "tissue quality. The whole-body ",
+        "ECW/TBW ratio of 0.381 is normal, ",
+        "indicating healthy fluid balance, and ",
+        "the total phase angle of 6.5° is very ",
+        "favorable for his age, showing good ",
+        "cell integrity and metabolic function. ",
+        "His BMI is 31.1, which is technically in ",
+        "the obesity range by definition, but this ",
+        "classification does not apply well to ",
+        "muscular individuals. The body fat ",
+        "percentage of 20.6% is normal for a fit ",
+        "adult male and especially good for a 65",
+        "-year-old, aligning with his high InBody ",
+        "score of 94 out of 100, which confirms ",
+        "excellent overall condition. The visceral ",
+        "fat area is 106.4 cm², which sits near ",
+        "the upper end of normal but not in a ",
+        "dangerous or extreme range—",
+        "especially for a tall, muscular man. ",
+        "Many athletic or well-trained older ",
+        "adults fall within this band. His waist ",
+        "circumference (102.8 cm) and waist–",
+        "hip ratio (0.91) are slightly elevated, ",
+        "but these values must be interpreted in ",
+        "the context of his large frame and ",
+        "muscle mass. Segmental analysis ",
+        "shows strong, symmetrical muscle ",
+        "across arms, legs, and trunk, with no ",
+        "abnormalities. The metabolic rate ",
+        "(2255 kcal) is high because of his ",
+        "excellent muscle mass. Overall, the ",
+        "report paints the picture of a very fit, ",
+        "muscular, and healthy older adult with ",
+        "excellent cellular integrity, strong ",
+        "muscle mass, and only mild age-",
+        "related central fat accumulation, which ",
+        "is extremely common. Nothing ",
+        "indicates a pathological fat level, and ",
+        "the high InBody score validates his ",
+        "great physical condition.",
+        "Additional parameters:"
+      ]
+    },
+    "page_5": {
+      "page_number": 5,
+      "structured_content": [
+        {
+          "subheading": "2.4. PHYSICAL EXAM:"
+        },
+        {
+          "subheading": "ORGANS/SYSTEMS",
+          "content": [
+            "Regular rhythm, no audible murmurs.",
+            "Lungs:",
+            "Even breath sounds bilaterally, well ventilated."
+          ]
+        },
+        {
+          "subheading": "Cardiopulmonary"
+        },
+        {
+          "subheading": "Neurological",
+          "content": [
+            "Alert and oriented; no neurological deficits."
+          ]
+        },
+        {
+          "subheading": "Head",
+          "content": [
+            "Normocephalic."
+          ]
+        },
+        {
+          "subheading": "Eyes",
+          "content": [
+            "Pupils equal, round, and reactive to light; extraocular movements intact."
+          ]
+        },
+        {
+          "subheading": "Neck",
+          "content": [
+            "Symmetrical, no palpable masses."
+          ]
+        },
+        {
+          "subheading": "Abdomen",
+          "content": [
+            "Soft and depressible; non-tender to palpation; no masses.",
+            "Symmetrical; no signs of acute deep venous thrombosis; presence of",
+            "venous insufficiency changes with ochre dermatitis in the left lower limb;",
+            "distal pulses normal and symmetric; no pedal edema."
+          ]
+        },
+        {
+          "subheading": "Extremities",
+          "content": [
+            "Normal coloration, adequate turgor. On the right temporal region, there is a",
+            "non-ulcerated actinic keratosis measuring approximately 1 × 1 cm.",
+            "In the posterior crease of the left ear, there is a 5 mm ulcerated lesion."
+          ]
+        },
+        {
+          "subheading": "Skin"
+        }
+      ],
+      "raw_lines": [
+        "2.4. PHYSICAL EXAM:",
+        "ORGANS/SYSTEMS",
+        "Cardiopulmonary",
+        "Regular rhythm, no audible murmurs.",
+        "Lungs:",
+        "Even breath sounds bilaterally, well ventilated.",
+        "Neurological",
+        "Alert and oriented; no neurological deficits.",
+        "Head",
+        "Normocephalic.",
+        "Eyes",
+        "Pupils equal, round, and reactive to light; extraocular movements intact.",
+        "Neck",
+        "Symmetrical, no palpable masses.",
+        "Abdomen",
+        "Soft and depressible; non-tender to palpation; no masses.",
+        "Extremities",
+        "Symmetrical; no signs of acute deep venous thrombosis; presence of ",
+        "venous insufficiency changes with ochre dermatitis in the left lower limb; ",
+        "distal pulses normal and symmetric; no pedal edema.",
+        "Skin",
+        "Normal coloration, adequate turgor. On the right temporal region, there is a ",
+        "non-ulcerated actinic keratosis measuring approximately 1 × 1 cm.",
+        "In the posterior crease of the left ear, there is a 5 mm ulcerated lesion."
+      ]
+    },
+    "page_6": {
+      "page_number": 6,
+      "structured_content": [
+        {
+          "subheading": "2.5. LABORATORY RESULTS"
+        },
+        {
+          "subheading": "Systems and Functions",
+          "content": [
+            "Hemoglobin17.0 g/dL14.3–17.0High-normal; consistent with prior history of",
+            "polycythemia + morning dehydration + high muscle mass",
+            "Hematocrit46.7%42–53Normal",
+            "RBC count5.75 ×10⁶/µL3.7–5.5Slightly elevated → high-normal",
+            "erythropoiesis pattern",
+            "MCV81.2 fL80–95Normal",
+            "MCH29.6 pg24–35Normal",
+            "MCHC36.4 g/dL32–37Normal",
+            "RDW-SD36.7 fL39–47Slightly low; not clinically relevant",
+            "WBC6.98 ×10³/µL5–10Normal",
+            "Neutrophils63.4% / 4.43 ×10³/µL35–70%Normal",
+            "Lymphocytes26.6% / 1.86 ×10³/µL24–44%Normal",
+            "Monocytes8.3%0–12%Normal",
+            "Eosinophils1.0%0–5%Normal",
+            "Basophils0.3%0–2%Normal",
+            "Platelets153 ×10³/µL160–400Low-normal; stable",
+            "Interpretation"
+          ]
+        },
+        {
+          "subheading": "Hematologic System",
+          "content": [
+            "Normal CBC overall, with a high-normal erythrocyte pattern consistent with",
+            "his history (polycythemia), fitness level, and mild dehydration. No infection,",
+            "inflammation, or hematologic disorder.",
+            "hs-CRP1.5 mg/L<1.0 optimalMild metabolic inflammation → consistent with",
+            "NAFLD"
+          ]
+        },
+        {
+          "subheading": "Inflammatory Markers",
+          "content": [
+            "Interpretation",
+            "Slight inflammatory elevation, aligned with fatty liver disease (NAFLD",
+            "grade II). No signs of acute inflammation.",
+            "TSH2.40 uIU/mL0.40–4.00Normal thyroid function",
+            "Testosterone total490.9 ng/dL127–1020Excellent level for age",
+            "Vitamin D (25-OH)81.8 ng/mL30–74Elevated — excessive",
+            "supplementation",
+            "Fasting insulin14.4 µIU/mL2–17High-normal → mild insulin resistance",
+            "(hepatic)",
+            "Interpretation",
+            "Normal thyroid and excellent testosterone level. Vitamin D is above optimal",
+            "range. Insulin indicates early insulin resistance, compatible with NAFLD."
+          ]
+        },
+        {
+          "subheading": "Endocrine / Hormonal"
+        },
+        {
+          "subheading": "System",
+          "content": [
+            "PSA",
+            "0.80 ng/mL",
+            "Excellent; very low prostate cancer risk"
+          ]
+        },
+        {
+          "subheading": "Tumor Markers",
+          "content": [
+            "Total cholesterol203 mg/dL0–200Mildly high",
+            "HDL36 mg/dL40–65Low",
+            "LDL140 mg/dL0–130Elevated (despite rosuvastatin)",
+            "VLDL27 mg/dL5–40Normal",
+            "Triglycerides133 mg/dL0–150Normal",
+            "Castelli Index5.6<4.5 optimalElevated CV risk ratio",
+            "ApoB112 mg/dL<80 optimalModerate — particle count normal range but",
+            "not optimal",
+            "Lp(a)1.9 mg/dL<30Excellent — genetically low cardiovascular risk",
+            "Interpretation",
+            "Mixed dyslipidemia driven by NAFLD, not by high cardiovascular risk.",
+            "Lp(a) extremely low + calcium score = low actual risk."
+          ]
+        },
+        {
+          "subheading": "Cardiovascular / Lipid"
+        },
+        {
+          "subheading": "System"
+        }
+      ],
+      "raw_lines": [
+        "2.5. LABORATORY RESULTS",
+        "Systems and Functions",
+        "Hematologic System",
+        "Hemoglobin17.0 g/dL14.3–17.0High-normal; consistent with prior history of ",
+        "polycythemia + morning dehydration + high muscle mass",
+        "Hematocrit46.7%42–53Normal",
+        "RBC count5.75 ×10⁶/µL3.7–5.5Slightly elevated → high-normal ",
+        "erythropoiesis pattern",
+        "MCV81.2 fL80–95Normal",
+        "MCH29.6 pg24–35Normal",
+        "MCHC36.4 g/dL32–37Normal",
+        "RDW-SD36.7 fL39–47Slightly low; not clinically relevant",
+        "WBC6.98 ×10³/µL5–10Normal",
+        "Neutrophils63.4% / 4.43 ×10³/µL35–70%Normal",
+        "Lymphocytes26.6% / 1.86 ×10³/µL24–44%Normal",
+        "Monocytes8.3%0–12%Normal",
+        "Eosinophils1.0%0–5%Normal",
+        "Basophils0.3%0–2%Normal",
+        "Platelets153 ×10³/µL160–400Low-normal; stable",
+        "Interpretation",
+        "Normal CBC overall, with a high-normal erythrocyte pattern consistent with ",
+        "his history (polycythemia), fitness level, and mild dehydration. No infection, ",
+        "inflammation, or hematologic disorder.",
+        "Inflammatory Markers",
+        "hs-CRP1.5 mg/L<1.0 optimalMild metabolic inflammation → consistent with ",
+        "NAFLD",
+        "Interpretation",
+        "Slight inflammatory elevation, aligned with fatty liver disease (NAFLD ",
+        "grade II). No signs of acute inflammation.",
+        "Endocrine / Hormonal ",
+        "System",
+        "TSH2.40 uIU/mL0.40–4.00Normal thyroid function",
+        "Testosterone total490.9 ng/dL127–1020Excellent level for age",
+        "Vitamin D (25-OH)81.8 ng/mL30–74Elevated — excessive ",
+        "supplementation",
+        "Fasting insulin14.4 µIU/mL2–17High-normal → mild insulin resistance ",
+        "(hepatic)",
+        "Interpretation",
+        "Normal thyroid and excellent testosterone level. Vitamin D is above optimal ",
+        "range. Insulin indicates early insulin resistance, compatible with NAFLD.",
+        "Tumor Markers",
+        "PSA",
+        "0.80 ng/mL",
+        "Excellent; very low prostate cancer risk",
+        "Cardiovascular / Lipid ",
+        "System",
+        "Total cholesterol203 mg/dL0–200Mildly high",
+        "HDL36 mg/dL40–65Low",
+        "LDL140 mg/dL0–130Elevated (despite rosuvastatin)",
+        "VLDL27 mg/dL5–40Normal",
+        "Triglycerides133 mg/dL0–150Normal",
+        "Castelli Index5.6<4.5 optimalElevated CV risk ratio",
+        "ApoB112 mg/dL<80 optimalModerate — particle count normal range but ",
+        "not optimal",
+        "Lp(a)1.9 mg/dL<30Excellent — genetically low cardiovascular risk",
+        "Interpretation",
+        "Mixed dyslipidemia driven by NAFLD, not by high cardiovascular risk.",
+        "Lp(a) extremely low + calcium score = low actual risk."
+      ]
+    },
+    "page_7": {
+      "page_number": 7,
+      "structured_content": [
+        {
+          "text": "TestResultReferenceInterpretation"
+        },
+        {
+          "text": "AST56 U/L11–34Elevated"
+        },
+        {
+          "text": "ALT54 U/L0–45Elevated"
+        },
+        {
+          "text": "ALP74 U/L50–116Normal"
+        },
+        {
+          "text": "GGT39 U/L0–55Normal"
+        },
+        {
+          "text": "Interpretation"
+        },
+        {
+          "text": "AST and ALT mildly elevated → hepatocellular injury pattern, consistent"
+        },
+        {
+          "text": "with NAFLD grade II and possibly intense exercise. No cholestasis (normal"
+        },
+        {
+          "text": "ALP + GGT)."
+        },
+        {
+          "subheading": "Liver Function",
+          "content": [
+            "BUN19 mg/dLNormal",
+            "Creatinine1.04 mg/dLNormal — excellent for high muscle mass",
+            "eGFRNormalAppropriate for age"
+          ]
+        },
+        {
+          "subheading": "Renal Function",
+          "content": [
+            "Sodium139 mmol/L136–146Normal",
+            "Potassium4.2 mmol/L3.5–5.1Normal",
+            "Chloride106 mmol/L101–109Normal",
+            "Calcium9.1 mg/dL8.8–10.2Normal",
+            "Magnesium1.9 mg/dL1.8–2.6Normal-low",
+            "Interpretation",
+            "Electrolytes stable. Magnesium is low-normal — may benefit from",
+            "supplementation."
+          ]
+        },
+        {
+          "subheading": "Electrolytes & Minerals",
+          "content": [
+            "Fasting glucose92 mg/dLNormal",
+            "HbA1c5.1%Excellent",
+            "Fasting insulin14.4High-normal",
+            "Interpretation",
+            "Glucose regulation excellent, but insulin suggests mild early insulin",
+            "resistance → associated with NAFLD."
+          ]
+        },
+        {
+          "subheading": "Metabolic Panel"
+        },
+        {
+          "subheading": "(Glucose Control)",
+          "content": [
+            "Clear, yellow urineNormal",
+            "pH 5.0Slightly acidic (normal physiologic variant)",
+            "No protein, glucose, blood, nitritesNo renal or urinary tract disease",
+            "No WBCs or RBCsNo infection or hematuria",
+            "Bacteria: “scant”Normal contamination",
+            "Crystals, casts: noneNormal"
+          ]
+        },
+        {
+          "subheading": "Urinalysis",
+          "content": [
+            "No RBCsNo bleeding",
+            "No WBCsNo inflammation",
+            "No parasitesNormal",
+            "Yeast: scantNormal microbiota",
+            "Consistency: pastyNormal",
+            "Color: brownNormal"
+          ]
+        },
+        {
+          "subheading": "Stool Examination"
+        },
+        {
+          "subheading": "(Parasitology)"
+        },
+        {
+          "subheading": "2.6. DIAGNOSTIC IMAGING AND ELECTROCARDIOGRAM"
+        },
+        {
+          "subheading": "EKG:"
+        }
+      ],
+      "raw_lines": [
+        "Liver Function",
+        "TestResultReferenceInterpretation",
+        "AST56 U/L11–34Elevated",
+        "ALT54 U/L0–45Elevated",
+        "ALP74 U/L50–116Normal",
+        "GGT39 U/L0–55Normal",
+        "Interpretation",
+        "AST and ALT mildly elevated → hepatocellular injury pattern, consistent ",
+        "with NAFLD grade II and possibly intense exercise. No cholestasis (normal ",
+        "ALP + GGT).",
+        "Renal Function",
+        "BUN19 mg/dLNormal",
+        "Creatinine1.04 mg/dLNormal — excellent for high muscle mass",
+        "eGFRNormalAppropriate for age",
+        "Electrolytes & Minerals",
+        "Sodium139 mmol/L136–146Normal",
+        "Potassium4.2 mmol/L3.5–5.1Normal",
+        "Chloride106 mmol/L101–109Normal",
+        "Calcium9.1 mg/dL8.8–10.2Normal",
+        "Magnesium1.9 mg/dL1.8–2.6Normal-low",
+        "Interpretation",
+        "Electrolytes stable. Magnesium is low-normal — may benefit from ",
+        "supplementation.",
+        "Metabolic Panel ",
+        "(Glucose Control)",
+        "Fasting glucose92 mg/dLNormal",
+        "HbA1c5.1%Excellent",
+        "Fasting insulin14.4High-normal",
+        "Interpretation",
+        "Glucose regulation excellent, but insulin suggests mild early insulin ",
+        "resistance → associated with NAFLD.",
+        "Urinalysis",
+        "Clear, yellow urineNormal",
+        "pH 5.0Slightly acidic (normal physiologic variant)",
+        "No protein, glucose, blood, nitritesNo renal or urinary tract disease",
+        "No WBCs or RBCsNo infection or hematuria",
+        "Bacteria: “scant”Normal contamination",
+        "Crystals, casts: noneNormal",
+        "Stool Examination ",
+        "(Parasitology)",
+        "No RBCsNo bleeding",
+        "No WBCsNo inflammation",
+        "No parasitesNormal",
+        "Yeast: scantNormal microbiota",
+        "Consistency: pastyNormal",
+        "Color: brownNormal",
+        "2.6. DIAGNOSTIC IMAGING AND ELECTROCARDIOGRAM",
+        "EKG:"
+      ]
+    },
+    "page_8": {
+      "page_number": 8,
+      "structured_content": [
+        {
+          "text": "ECG Interpretation (Normal Study)"
+        },
+        {
+          "text": "� Rhythm & Rate"
+        },
+        {
+          "text": "Normal sinus rhythm, with upright P waves in leads I, II, and aVF."
+        },
+        {
+          "text": "Rate appears within normal limits (~60–70 bpm)."
+        },
+        {
+          "text": "Consistent P before every QRS and constant PR interval → normal AV conduction."
+        },
+        {
+          "text": "� Intervals"
+        },
+        {
+          "text": "PR interval: normal."
+        },
+        {
+          "text": "QRS duration: narrow → no bundle branch block."
+        },
+        {
+          "text": "QT interval: appears normal for heart rate."
+        },
+        {
+          "text": "� Axis"
+        },
+        {
+          "text": "Normal frontal plane axis; no deviation."
+        },
+        {
+          "text": "� QRS Complex"
+        },
+        {
+          "text": "No pathological Q waves."
+        },
+        {
+          "text": "No signs of ventricular hypertrophy."
+        },
+        {
+          "text": "Good R-wave progression across precordial leads (V1–V6)."
+        },
+        {
+          "text": "� ST Segment & T Waves"
+        },
+        {
+          "text": "ST segments are isoelectric, without elevation or depression → no evidence of ischemia or infarction."
+        },
+        {
+          "text": "T waves are normal in morphology and distribution; no inversion or strain pattern."
+        },
+        {
+          "text": "� Other Findings"
+        },
+        {
+          "text": "No ectopy (no PACs, PVCs)."
+        },
+        {
+          "text": "No signs of pericarditis, electrolyte imbalance, or arrhythmogenic patterns."
+        },
+        {
+          "text": "Overall Impression"
+        },
+        {
+          "text": "Normal ECG."
+        },
+        {
+          "text": "No evidence of prior myocardial infarction, ischemia, arrhythmia, conduction abnormalities, or structural heart disease."
+        },
+        {
+          "subheading": "Images:"
+        }
+      ],
+      "raw_lines": [
+        "ECG Interpretation (Normal Study)",
+        "\u0000 Rhythm & Rate",
+        "Normal sinus rhythm, with upright P waves in leads I, II, and aVF.",
+        "Rate appears within normal limits (~60–70 bpm).",
+        "Consistent P before every QRS and constant PR interval → normal AV conduction.",
+        "\u0000 Intervals",
+        "PR interval: normal.",
+        "QRS duration: narrow → no bundle branch block.",
+        "QT interval: appears normal for heart rate.",
+        "\u0000 Axis",
+        "Normal frontal plane axis; no deviation.",
+        "\u0000 QRS Complex",
+        "No pathological Q waves.",
+        "No signs of ventricular hypertrophy.",
+        "Good R-wave progression across precordial leads (V1–V6).",
+        "\u0000 ST Segment & T Waves",
+        "ST segments are isoelectric, without elevation or depression → no evidence of ischemia or infarction.",
+        "T waves are normal in morphology and distribution; no inversion or strain pattern.",
+        "\u0000 Other Findings",
+        "No ectopy (no PACs, PVCs).",
+        "No signs of pericarditis, electrolyte imbalance, or arrhythmogenic patterns.",
+        "Overall Impression",
+        "Normal ECG.",
+        "No evidence of prior myocardial infarction, ischemia, arrhythmia, conduction abnormalities, or structural heart disease.",
+        "Images:"
+      ]
+    },
+    "page_9": {
+      "page_number": 9,
+      "structured_content": [
+        {
+          "text": "Abdominal ultrasound:"
+        },
+        {
+          "text": "The abdominal ultrasound shows moderate hepatic steatosis (grade II) with a mildly enlarged and heterogeneous"
+        },
+        {
+          "text": "liver, but no focal lesions, no signs of chronic liver disease, and no evidence of fibrosis or cirrhosis."
+        },
+        {
+          "text": "The gallbladder is absent due to prior surgery, and the biliary ducts are normal."
+        },
+        {
+          "text": "The pancreas shows moderate fatty infiltration (lipomatosis), a common age-related finding, with no masses or"
+        },
+        {
+          "text": "inflammatory changes."
+        },
+        {
+          "text": "The spleen and kidneys are normal, except for a small simple renal cyst (10 mm) on the right kidney, which is benign"
+        },
+        {
+          "text": "and requires no intervention."
+        },
+        {
+          "text": "The aorta, retroperitoneum, and urinary bladder are normal."
+        },
+        {
+          "text": "The prostate is small and within normal size for his age (17.5 cc)."
+        },
+        {
+          "text": "No free fluid, masses, or bowel abnormalities are seen."
+        },
+        {
+          "text": "Impression"
+        },
+        {
+          "text": "Moderate hepatic steatosis (grade II)."
+        },
+        {
+          "text": "Moderate pancreatic lipomatosis."
+        },
+        {
+          "text": "Benign simple renal cyst (right kidney)."
+        },
+        {
+          "text": "Otherwise normal abdominal ultrasound."
+        },
+        {
+          "text": "Coronary Calcium Score Summary"
+        },
+        {
+          "text": "The patient’s total coronary artery calcium (CAC) score is 15, which places him in the 31st percentile according to"
+        },
+        {
+          "text": "MESA (Multi-Ethnic Study of Atherosclerosis) reference values for individuals of the same age, sex, and ethnicity."
+        },
+        {
+          "text": "Risk Interpretation"
+        },
+        {
+          "text": "A CAC score of 15 corresponds to a low atherosclerotic burden and indicates a low risk of coronary artery disease."
+        },
+        {
+          "text": "Most men his age have higher calcium levels, making this an overall favorable finding."
+        },
+        {
+          "text": "Distribution of Calcium"
+        },
+        {
+          "text": "Left Main (LM): 0"
+        },
+        {
+          "text": "Left Anterior Descending (LAD): 7"
+        },
+        {
+          "text": "Left Circumflex (LCx): 8"
+        },
+        {
+          "text": "Right Coronary Artery (RCA): 0"
+        },
+        {
+          "text": "Posterior Descending Artery (PDA): 0"
+        },
+        {
+          "text": "Other branches: 0"
+        },
+        {
+          "text": "Calcium is limited to small, isolated areas in the LAD and LCx, with no calcification in the Left Main or RCA—an"
+        },
+        {
+          "text": "excellent prognostic sign."
+        },
+        {
+          "text": "Clinical Implications"
+        },
+        {
+          "text": "This score reflects low coronary plaque burden and reduced probability of obstructive coronary artery disease."
+        },
+        {
+          "text": "Supports classification as low cardiovascular risk, especially when combined with his high fitness level and current"
+        },
+        {
+          "text": "preventive medications (e.g., statin)."
+        },
+        {
+          "text": "Ongoing risk factor management (blood pressure, lipid control, liver health, and lifestyle) remains appropriate."
+        },
+        {
+          "text": "Follow-Up"
+        },
+        {
+          "text": "According to current ACC/AHA guidelines, repeat CAC scoring is generally considered in 3–5 years, unless new"
+        },
+        {
+          "text": "symptoms or risk factors emerge."
+        },
+        {
+          "subheading": "Others:",
+          "content": [
+            "Non applicable"
+          ]
+        }
+      ],
+      "raw_lines": [
+        "Non applicable ",
+        "Abdominal ultrasound:",
+        "The abdominal ultrasound shows moderate hepatic steatosis (grade II) with a mildly enlarged and heterogeneous ",
+        "liver, but no focal lesions, no signs of chronic liver disease, and no evidence of fibrosis or cirrhosis.",
+        "The gallbladder is absent due to prior surgery, and the biliary ducts are normal.",
+        "The pancreas shows moderate fatty infiltration (lipomatosis), a common age-related finding, with no masses or ",
+        "inflammatory changes.",
+        "The spleen and kidneys are normal, except for a small simple renal cyst (10 mm) on the right kidney, which is benign ",
+        "and requires no intervention.",
+        "The aorta, retroperitoneum, and urinary bladder are normal.",
+        "The prostate is small and within normal size for his age (17.5 cc).",
+        "No free fluid, masses, or bowel abnormalities are seen.",
+        "Impression",
+        "Moderate hepatic steatosis (grade II).",
+        "Moderate pancreatic lipomatosis.",
+        "Benign simple renal cyst (right kidney).",
+        "Otherwise normal abdominal ultrasound.",
+        "Coronary Calcium Score Summary",
+        "The patient’s total coronary artery calcium (CAC) score is 15, which places him in the 31st percentile according to ",
+        "MESA (Multi-Ethnic Study of Atherosclerosis) reference values for individuals of the same age, sex, and ethnicity.",
+        "Risk Interpretation",
+        "A CAC score of 15 corresponds to a low atherosclerotic burden and indicates a low risk of coronary artery disease. ",
+        "Most men his age have higher calcium levels, making this an overall favorable finding.",
+        "Distribution of Calcium",
+        "Left Main (LM): 0",
+        "Left Anterior Descending (LAD): 7",
+        "Left Circumflex (LCx): 8",
+        "Right Coronary Artery (RCA): 0",
+        "Posterior Descending Artery (PDA): 0",
+        "Other branches: 0",
+        "Calcium is limited to small, isolated areas in the LAD and LCx, with no calcification in the Left Main or RCA—an ",
+        "excellent prognostic sign.",
+        "Clinical Implications",
+        "This score reflects low coronary plaque burden and reduced probability of obstructive coronary artery disease.",
+        "Supports classification as low cardiovascular risk, especially when combined with his high fitness level and current ",
+        "preventive medications (e.g., statin).",
+        "Ongoing risk factor management (blood pressure, lipid control, liver health, and lifestyle) remains appropriate.",
+        "Follow-Up",
+        "According to current ACC/AHA guidelines, repeat CAC scoring is generally considered in 3–5 years, unless new ",
+        "symptoms or risk factors emerge.",
+        "Others:"
+      ]
+    },
+    "page_10": {
+      "page_number": 10,
+      "structured_content": [
+        {
+          "subheading": "Section 3: Health Goals"
+        },
+        {
+          "subheading": "Based on your personal goals, lifestyle, and health assessment,"
+        },
+        {
+          "subheading": "we will set three key objectives that will allow us to"
+        },
+        {
+          "subheading": "make significant progress toward your purpose."
+        },
+        {
+          "subheading": "Goal #1:",
+          "content": [
+            "Reverse Fatty Liver (NAFLD Grade II)"
+          ]
+        },
+        {
+          "subheading": "KEY RESULTS"
+        },
+        {
+          "subheading": "KEY ACTIONS"
+        },
+        {
+          "subheading": "FREQUENCY",
+          "content": [
+            "Implement a liver-focused, anti-",
+            "inflammatory diet:",
+            "Reduce fructose (replace banana",
+            "with ½ banana or berries).",
+            "Increase vegetable intake to 6–7",
+            "servings/day.",
+            "Avoid refined sugars and processed",
+            "foods.",
+            "daily",
+            "Add afternoon metabolic movement:",
+            "10–15 minutes of light walking after",
+            "lunch and dinner.",
+            "Avoid prolonged sitting after 3 pm;",
+            "move 3–5 minutes each hour.",
+            "6 days a week"
+          ]
+        },
+        {
+          "subheading": "Improve liver health by reducing"
+        },
+        {
+          "subheading": "inflammation and normalizing liver"
+        },
+        {
+          "subheading": "enzymes.",
+          "content": [
+            "Support liver detoxification pathways",
+            "with adequate hydration and",
+            "phytonutrients:",
+            "Drink 1.5–2.0 liters of water daily,",
+            "especially in the morning to reduce",
+            "hepatic congestion.",
+            "Include daily liver-supportive foods",
+            "such as cruciferous vegetables",
+            "(broccoli, cauliflower, Brussels",
+            "sprouts), leafy greens, garlic, onions,",
+            "and fresh herbs (cilantro, parsley).",
+            "These enhance phase I and phase II",
+            "detoxification, reduce oxidative",
+            "stress, and support hepatic fat",
+            "clearance.",
+            "daily"
+          ]
+        }
+      ],
+      "raw_lines": [
+        "Section 3: Health Goals",
+        "Based on your personal goals, lifestyle, and health assessment,",
+        "we will set three key objectives that will allow us to",
+        "make significant progress toward your purpose.",
+        "Goal #1:",
+        "Reverse Fatty Liver (NAFLD Grade II)",
+        "KEY RESULTS",
+        "KEY ACTIONS",
+        "FREQUENCY",
+        "Improve liver health by reducing ",
+        "inflammation and normalizing liver ",
+        "enzymes.",
+        "Implement a liver-focused, anti-",
+        "inflammatory diet:",
+        "Reduce fructose (replace banana ",
+        "with ½ banana or berries).",
+        "Increase vegetable intake to 6–7 ",
+        "servings/day.",
+        "Avoid refined sugars and processed ",
+        "foods.",
+        "daily ",
+        "Add afternoon metabolic movement:",
+        "10–15 minutes of light walking after ",
+        "lunch and dinner.",
+        "Avoid prolonged sitting after 3 pm; ",
+        "move 3–5 minutes each hour.",
+        "6 days a week ",
+        "Support liver detoxification pathways ",
+        "with adequate hydration and ",
+        "phytonutrients:",
+        "Drink 1.5–2.0 liters of water daily, ",
+        "especially in the morning to reduce ",
+        "hepatic congestion.",
+        "Include daily liver-supportive foods ",
+        "such as cruciferous vegetables ",
+        "(broccoli, cauliflower, Brussels ",
+        "sprouts), leafy greens, garlic, onions, ",
+        "and fresh herbs (cilantro, parsley).",
+        "These enhance phase I and phase II ",
+        "detoxification, reduce oxidative ",
+        "stress, and support hepatic fat ",
+        "clearance.",
+        "daily"
+      ]
+    },
+    "page_11": {
+      "page_number": 11,
+      "structured_content": [
+        {
+          "subheading": "Goal #2:",
+          "content": [
+            "Improve Insulin Sensitivity and Metabolic Flexibility"
+          ]
+        },
+        {
+          "subheading": "KEY RESULTS"
+        },
+        {
+          "subheading": "KEY ACTIONS"
+        },
+        {
+          "subheading": "FREQUENCY",
+          "content": [
+            "Adjust fasting and feeding schedule:",
+            "Maintain morning fasting but add a",
+            "small protein-based afternoon snack",
+            "(Greek yogurt or nuts) to prevent",
+            "hepatic overload.",
+            "Ensure each meal contains protein +",
+            "fiber.",
+            "daily",
+            "Increase daily fiber intake:",
+            "1–2 teaspoons of psyllium or ground",
+            "flaxseed daily.",
+            "Supports glucose control and liver",
+            "detoxification."
+          ]
+        },
+        {
+          "subheading": "Reduce hepatic insulin resistance"
+        },
+        {
+          "subheading": "and improve metabolic efficiency.",
+          "content": [
+            "daily",
+            "Add low-intensity cardio sessions:",
+            "12–20 minutes of Zone 2–3 cardio",
+            "(fast walking, cycling) 3 times per",
+            "week.",
+            "Complements his strength training",
+            "routine.",
+            "cardio 3 times a week"
+          ]
+        },
+        {
+          "subheading": "Goal #3:",
+          "content": [
+            "Optimize Cardiovascular Risk and Improve Lipid Profile"
+          ]
+        },
+        {
+          "subheading": "KEY RESULTS"
+        },
+        {
+          "subheading": "KEY ACTIONS"
+        },
+        {
+          "subheading": "FREQUENCY",
+          "content": [
+            "Improve fat quality and increase",
+            "natural omega-3 intake:",
+            "Eat fatty fish 2–3 times per week",
+            "(salmon, sardines, tuna).",
+            "Limit red meat to 1–2 times per",
+            "week.",
+            "as indicated"
+          ]
+        },
+        {
+          "subheading": "Improve lipid balance and reduce"
+        },
+        {
+          "subheading": "long-term cardiovascular risk.",
+          "content": [
+            "Reduce Vitamin D supplementation:",
+            "Lower dose to 2,000–3,000 IU/day.",
+            "Goal serum level: 50–70 ng/mL.",
+            "daily",
+            "Mandatory post-meal walking:",
+            "10–12 minutes of walking after the",
+            "largest meal (usually lunch).",
+            "Helps reduce postprandial lipids and",
+            "improves HDL.",
+            "6 times a week"
+          ]
+        },
+        {
+          "subheading": "- Progress happens through small steps. You're already on your way! -"
+        }
+      ],
+      "raw_lines": [
+        "Goal #2:",
+        "Improve Insulin Sensitivity and Metabolic Flexibility",
+        "KEY RESULTS",
+        "KEY ACTIONS",
+        "FREQUENCY",
+        "Reduce hepatic insulin resistance ",
+        "and improve metabolic efficiency.",
+        "Adjust fasting and feeding schedule:",
+        "Maintain morning fasting but add a ",
+        "small protein-based afternoon snack ",
+        "(Greek yogurt or nuts) to prevent ",
+        "hepatic overload.",
+        "Ensure each meal contains protein + ",
+        "fiber.",
+        "daily ",
+        "Increase daily fiber intake:",
+        "1–2 teaspoons of psyllium or ground ",
+        "flaxseed daily.",
+        "Supports glucose control and liver ",
+        "detoxification.",
+        "daily ",
+        "Add low-intensity cardio sessions:",
+        "12–20 minutes of Zone 2–3 cardio ",
+        "(fast walking, cycling) 3 times per ",
+        "week.",
+        "Complements his strength training ",
+        "routine.",
+        "cardio 3 times a week ",
+        "Goal #3:",
+        "Optimize Cardiovascular Risk and Improve Lipid Profile",
+        "KEY RESULTS",
+        "KEY ACTIONS",
+        "FREQUENCY",
+        "Improve lipid balance and reduce ",
+        "long-term cardiovascular risk.",
+        "Improve fat quality and increase ",
+        "natural omega-3 intake:",
+        "Eat fatty fish 2–3 times per week ",
+        "(salmon, sardines, tuna).",
+        "Limit red meat to 1–2 times per ",
+        "week.",
+        "as indicated ",
+        "Reduce Vitamin D supplementation:",
+        "Lower dose to 2,000–3,000 IU/day.",
+        "Goal serum level: 50–70 ng/mL.",
+        "daily ",
+        "Mandatory post-meal walking:",
+        "10–12 minutes of walking after the ",
+        "largest meal (usually lunch).",
+        "Helps reduce postprandial lipids and ",
+        "improves HDL.",
+        "6 times a week ",
+        "- Progress happens through small steps. You're already on your way! -"
+      ]
+    },
+    "page_12": {
+      "page_number": 12,
+      "structured_content": [
+        {
+          "subheading": "Section 4: Action Plan"
+        },
+        {
+          "subheading": "HOW WILL WE ACHIEVE SUCCESS?"
+        },
+        {
+          "subheading": "At Sana Sana, we celebrate your commitment: we use health metrics to"
+        },
+        {
+          "subheading": "guide the most effective steps, but we also understand that your well-being"
+        },
+        {
+          "subheading": "goes far beyond the numbers. With your motivation and dedication, every"
+        },
+        {
+          "subheading": "small achievement brings you closer to a longer, fuller life."
+        },
+        {
+          "subheading": "Together, we will turn healthy habits into everyday victories!",
+          "content": [
+            "Improve Liver Health (Reverse NAFLD Grade II)"
+          ]
+        },
+        {
+          "subheading": "1."
+        },
+        {
+          "subheading": "METRICS"
+        },
+        {
+          "subheading": "HOW DO WE"
+        },
+        {
+          "subheading": "MONITOR IT?"
+        },
+        {
+          "subheading": "CURRENT"
+        },
+        {
+          "subheading": "3-MONTH"
+        },
+        {
+          "subheading": "GOAL"
+        },
+        {
+          "subheading": "6-MONTH"
+        },
+        {
+          "subheading": "GOAL",
+          "content": [
+            "ALT: 54 U/L  AST: 56",
+            "U/L  Ferritin: 315",
+            "ng/mL (previous)  hs-",
+            "CRP: 1.5 mg/L",
+            "Improve Liver Health",
+            "(Reverse NAFLD",
+            "Grade II)",
+            "3 months <45 <45",
+            "<250 <1.0",
+            "6 months <40 <40",
+            "<200 <0.8",
+            "blood sample",
+            "Improve Insulin Sensitivity (Reduce Hepatic IR)"
+          ]
+        },
+        {
+          "subheading": "2."
+        },
+        {
+          "subheading": "METRICS"
+        },
+        {
+          "subheading": "HOW DO WE"
+        },
+        {
+          "subheading": "MONITOR IT?"
+        },
+        {
+          "subheading": "CURRENT"
+        },
+        {
+          "subheading": "3-MONTH"
+        },
+        {
+          "subheading": "GOAL"
+        },
+        {
+          "subheading": "6-MONTH"
+        },
+        {
+          "subheading": "GOAL",
+          "content": [
+            "Fasting insulin: 14.4",
+            "µIU/mL  Fasting",
+            "glucose: 92 mg/dL",
+            "Waist circumference:",
+            "102.8 cm",
+            "Fasting",
+            "insulin: /Fasting",
+            "glucose /Waist",
+            "circumference",
+            "blood sample and",
+            "InBody",
+            "3 months <12 88–92",
+            "−2 cm",
+            "6 months <10 85–90",
+            "−4–5 cm",
+            "Improve Lipid Profile / Cardiometabolic Risk"
+          ]
+        },
+        {
+          "subheading": "3."
+        },
+        {
+          "subheading": "METRICS"
+        },
+        {
+          "subheading": "HOW DO WE"
+        },
+        {
+          "subheading": "MONITOR IT?"
+        },
+        {
+          "subheading": "CURRENT"
+        },
+        {
+          "subheading": "3-MONTH"
+        },
+        {
+          "subheading": "GOAL"
+        },
+        {
+          "subheading": "6-MONTH"
+        },
+        {
+          "subheading": "GOAL",
+          "content": [
+            "LDL: 140 mg/dL  HDL:",
+            "36 mg/dL  ApoB: 112",
+            "mg/dL  Vitamin D: 81.8",
+            "ng/mL",
+            "reduce",
+            "cardiometabolico risk",
+            "blood sample",
+            "3 months <125 >38",
+            "<105 60–70",
+            "6 months 100–120 >40",
+            "<100 50–65"
+          ]
+        }
+      ],
+      "raw_lines": [
+        "Section 4: Action Plan",
+        "At Sana Sana, we celebrate your commitment: we use health metrics to",
+        "guide the most effective steps, but we also understand that your well-being",
+        "goes far beyond the numbers. With your motivation and dedication, every",
+        "small achievement brings you closer to a longer, fuller life.",
+        "Together, we will turn healthy habits into everyday victories!",
+        "HOW WILL WE ACHIEVE SUCCESS?",
+        "Improve Liver Health (Reverse NAFLD Grade II)",
+        "1.",
+        "METRICS",
+        "HOW DO WE",
+        "MONITOR IT?",
+        "CURRENT",
+        "3-MONTH",
+        "GOAL",
+        "6-MONTH",
+        "GOAL",
+        "Improve Liver Health ",
+        "(Reverse NAFLD ",
+        "Grade II)",
+        "blood sample ",
+        "ALT: 54 U/L  AST: 56 ",
+        "U/L  Ferritin: 315 ",
+        "ng/mL (previous)  hs-",
+        "CRP: 1.5 mg/L",
+        "3 months <45 <45 ",
+        "<250 <1.0",
+        "6 months <40 <40 ",
+        "<200 <0.8",
+        "Improve Insulin Sensitivity (Reduce Hepatic IR)",
+        "2.",
+        "METRICS",
+        "HOW DO WE",
+        "MONITOR IT?",
+        "CURRENT",
+        "3-MONTH",
+        "GOAL",
+        "6-MONTH",
+        "GOAL",
+        "Fasting ",
+        "insulin: /Fasting ",
+        "glucose /Waist ",
+        "circumference",
+        "blood sample and ",
+        "InBody ",
+        "Fasting insulin: 14.4 ",
+        "µIU/mL  Fasting ",
+        "glucose: 92 mg/dL  ",
+        "Waist circumference: ",
+        "102.8 cm",
+        "3 months <12 88–92 ",
+        "−2 cm",
+        "6 months <10 85–90 ",
+        "−4–5 cm",
+        "Improve Lipid Profile / Cardiometabolic Risk",
+        "3.",
+        "METRICS",
+        "HOW DO WE",
+        "MONITOR IT?",
+        "CURRENT",
+        "3-MONTH",
+        "GOAL",
+        "6-MONTH",
+        "GOAL",
+        "reduce ",
+        "cardiometabolico risk ",
+        "blood sample ",
+        "LDL: 140 mg/dL  HDL: ",
+        "36 mg/dL  ApoB: 112 ",
+        "mg/dL  Vitamin D: 81.8 ",
+        "ng/mL",
+        "3 months <125 >38 ",
+        "<105 60–70",
+        "6 months 100–120 >40 ",
+        "<100 50–65"
+      ]
+    },
+    "page_13": {
+      "page_number": 13,
+      "structured_content": [
+        {
+          "subheading": "Section 5: Complimentary Labs and Clinical References"
+        },
+        {
+          "subheading": "Labs",
+          "content": [
+            "not neccesary at this time"
+          ]
+        },
+        {
+          "subheading": "References",
+          "content": [
+            "Dermathologist",
+            "Peripheral vascular surgeon"
+          ]
+        },
+        {
+          "subheading": "Section 6: Follow-up and Frequency",
+          "content": [
+            "Recording your goals allows you to measure your effort,",
+            "recognize your progress, and adjust your targets when necessary.",
+            "We recommend tracking this habit using any of the following methods:",
+            "Smart watch to track steps",
+            "Interaction With Supplements",
+            "Safe with rivaroxaban:",
+            "Omega-3 (≤2 g/day) → mild increase in bleeding risk but still considered safe",
+            "Vitamin D (decreasing dose is advised anyway)",
+            "Psyllium, flaxseed",
+            "Magnesium",
+            "B-complex",
+            "Use with caution:",
+            "Turmeric/curcumin in high doses",
+            "Ginger supplements",
+            "High-dose fish oil (>2 g/day EPA/DHA)",
+            "Vitamin E > 400 IU/day",
+            "Avoid:",
+            "Ginkgo biloba",
+            "High-dose garlic supplements",
+            "These can increase bleeding risk.",
+            "vitamin D level (81.8 ng/mL) is above the optimal range. Although not dangerously high, levels above 70–80 ng/mL",
+            "can increase the risk of:",
+            "� Calcium buildup in the blood and kidneys",
+            "High vitamin D can lead to hypercalcemia, which may cause kidney stones, vascular calcification, and increased",
+            "urinary calcium.",
+            "� Kidney strain",
+            "Excess vitamin D increases calcium absorption, which the kidneys must filter, potentially stressing renal function over",
+            "time.",
+            "� No added benefit at high levels",
+            "Studies show that vitamin D above 50–60 ng/mL does not provide extra immune or metabolic advantages. Higher",
+            "levels only increase risk, not benefit.",
+            "� Safer and more stable metabolism",
+            "Keeping vitamin D in the optimal range (40–60 ng/mL) supports bone, immune, and metabolic health without",
+            "increasing calcium-related risks.",
+            "I recommend an omega-3 supplement that provides 1 gram of combined EPA and DHA per day, and not more than 2",
+            "grams total.",
+            "Nordic Naturals Ultimate Omega Soft Gels",
+            "Sports Research Omega-3 Fish Oil (Triple Strength)",
+            "Thorne Research Omega-3 (Con CoQ10)"
+          ]
+        }
+      ],
+      "raw_lines": [
+        "Section 5: Complimentary Labs and Clinical References",
+        "Labs",
+        "not neccesary at this time",
+        "References",
+        "Dermathologist",
+        "Peripheral vascular surgeon",
+        "Section 6: Follow-up and Frequency",
+        "Recording your goals allows you to measure your effort,",
+        "recognize your progress, and adjust your targets when necessary.",
+        "We recommend tracking this habit using any of the following methods:",
+        "Smart watch to track steps",
+        "Interaction With Supplements",
+        "Safe with rivaroxaban:",
+        "Omega-3 (≤2 g/day) → mild increase in bleeding risk but still considered safe",
+        "Vitamin D (decreasing dose is advised anyway)",
+        "Psyllium, flaxseed",
+        "Magnesium",
+        "B-complex",
+        "Use with caution:",
+        "Turmeric/curcumin in high doses",
+        "Ginger supplements",
+        "High-dose fish oil (>2 g/day EPA/DHA)",
+        "Vitamin E > 400 IU/day",
+        "Avoid:",
+        "Ginkgo biloba",
+        "High-dose garlic supplements",
+        "These can increase bleeding risk.",
+        "vitamin D level (81.8 ng/mL) is above the optimal range. Although not dangerously high, levels above 70–80 ng/mL ",
+        "can increase the risk of:",
+        "\u0000 Calcium buildup in the blood and kidneys",
+        "High vitamin D can lead to hypercalcemia, which may cause kidney stones, vascular calcification, and increased ",
+        "urinary calcium.",
+        "\u0000 Kidney strain",
+        "Excess vitamin D increases calcium absorption, which the kidneys must filter, potentially stressing renal function over ",
+        "time.",
+        "\u0000 No added benefit at high levels",
+        "Studies show that vitamin D above 50–60 ng/mL does not provide extra immune or metabolic advantages. Higher ",
+        "levels only increase risk, not benefit.",
+        "\u0000 Safer and more stable metabolism",
+        "Keeping vitamin D in the optimal range (40–60 ng/mL) supports bone, immune, and metabolic health without ",
+        "increasing calcium-related risks.",
+        "I recommend an omega-3 supplement that provides 1 gram of combined EPA and DHA per day, and not more than 2 ",
+        "grams total.",
+        "Nordic Naturals Ultimate Omega Soft Gels",
+        "Sports Research Omega-3 Fish Oil (Triple Strength)",
+        "Thorne Research Omega-3 (Con CoQ10)"
+      ]
+    },
+    "page_14": {
+      "page_number": 14,
+      "structured_content": [
+        {
+          "text": "Based on your medical evaluation, we suggest that our next appointment be in"
+        },
+        {
+          "text": "abdominal ultrasound in 6 months"
+        },
+        {
+          "text": "labs in 3 months"
+        },
+        {
+          "text": "If you have any questions or concerns about this guide, please don't hesitate to contact us."
+        },
+        {
+          "subheading": "Whatsapp: 7262-7262"
+        },
+        {
+          "subheading": "Medical Team Sana Sana: 8647-6931"
+        },
+        {
+          "subheading": "We are here to support you on your journey toward better health."
+        },
+        {
+          "subheading": "Report written by:"
+        },
+        {
+          "subheading": "Dr.SILVIA ELENA GARITA PEÑA"
+        },
+        {
+          "subheading": "Sana Sana Doctor"
+        }
+      ],
+      "raw_lines": [
+        "Based on your medical evaluation, we suggest that our next appointment be in",
+        "abdominal ultrasound in 6 months",
+        "labs in 3 months ",
+        "If you have any questions or concerns about this guide, please don't hesitate to contact us.",
+        "Whatsapp: 7262-7262",
+        "Medical Team Sana Sana: 8647-6931",
+        "We are here to support you on your journey toward better health.",
+        "Report written by:",
+        "Dr.SILVIA ELENA GARITA PEÑA",
+        "Sana Sana Doctor"
+      ]
+    }
+  }
+}

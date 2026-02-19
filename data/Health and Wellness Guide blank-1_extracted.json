@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "file_name": "Health and Wellness Guide blank-1.pdf",
+    "file_path": "C:\\hackathon\\Gemini_CLI\\PEPSI\\data\\Health and Wellness Guide blank-1.pdf",
+    "total_pages": 12,
+    "extraction_mode": "detailed"
+  },
+  "pages": {
+    "page_1": {
+      "page_number": 1,
+      "structured_content": [
+        {
+          "subheading": "Date"
+        },
+        {
+          "heading": "HEALTH AND WELLNESS GUIDE",
+          "subsections": [
+            {
+              "subheading": "Your path to a longer, healthier life."
+            },
+            {
+              "subheading": "Name:"
+            },
+            {
+              "subheading": "Identification number"
+            },
+            {
+              "subheading": "Date of birth"
+            },
+            {
+              "subheading": "Section 1: My Purpose"
+            },
+            {
+              "subheading": "Why do I want to improve my health?"
+            },
+            {
+              "subheading": "\"We all have a reason that motivates us to take care of ourselves."
+            },
+            {
+              "subheading": "Come back to this section whenever you need to reconnect with your path.\""
+            },
+            {
+              "subheading": "MY PRIMARY HEALTH GOALS",
+              "content": [
+                "Based on your goals, lifestyle, and health assessment,",
+                "we will prioritize three objectives to bring you closer to your purpose."
+              ]
+            },
+            {
+              "subheading": "Health Goals"
+            },
+            {
+              "subheading": "Why is this important?"
+            },
+            {
+              "subheading": "1"
+            },
+            {
+              "subheading": "2"
+            },
+            {
+              "subheading": "3"
+            },
+            {
+              "subheading": "Section 2: Results and Findings"
+            },
+            {
+              "subheading": "2.1. SUMMARY:"
+            },
+            {
+              "subheading": "HEALTH AND WELLNESS INTEGRAL EVALUATION"
+            }
+          ]
+        }
+      ],
+      "raw_lines": [
+        "Date",
+        "HEALTH AND WELLNESS GUIDE",
+        "Your path to a longer, healthier life.",
+        "Name:",
+        "Identification number",
+        "Date of birth",
+        "Section 1: My Purpose",
+        "Why do I want to improve my health?",
+        "\"We all have a reason that motivates us to take care of ourselves.",
+        "Come back to this section whenever you need to reconnect with your path.\"",
+        "MY PRIMARY HEALTH GOALS",
+        "Based on your goals, lifestyle, and health assessment,",
+        "we will prioritize three objectives to bring you closer to your purpose.",
+        "Health Goals",
+        "Why is this important?",
+        "1",
+        "2",
+        "3",
+        "Section 2: Results and Findings",
+        "HEALTH AND WELLNESS INTEGRAL EVALUATION",
+        "2.1. SUMMARY:"
+      ]
+    },
+    "page_2": {
+      "page_number": 2,
+      "structured_content": [
+        {
+          "subheading": "2.2. FUNCTIONAL MEDICINE APPROACH:"
+        },
+        {
+          "subheading": "MODIFIABLE LIFESTYLES AND DYSFUNCTIONS"
+        }
+      ],
+      "raw_lines": [
+        "2.2. FUNCTIONAL MEDICINE APPROACH:",
+        "MODIFIABLE LIFESTYLES AND DYSFUNCTIONS"
+      ]
+    },
+    "page_3": {
+      "page_number": 3,
+      "structured_content": [
+        {
+          "subheading": "2.3. VITAL SIGNS AND BODY COMPOSITION ANALYSIS (INBODY)"
+        },
+        {
+          "subheading": "PARAMETER"
+        },
+        {
+          "subheading": "VALUE"
+        },
+        {
+          "subheading": "INTERPRETATION/"
+        },
+        {
+          "subheading": "OBSERVATION"
+        },
+        {
+          "subheading": "BODY MASS"
+        },
+        {
+          "subheading": "INDEX (BMI)"
+        },
+        {
+          "subheading": "BODY WEIGHT"
+        },
+        {
+          "subheading": "HEIGHT"
+        },
+        {
+          "subheading": "ARTERIAL"
+        },
+        {
+          "subheading": "PRESSURE"
+        },
+        {
+          "subheading": "CARDIAC"
+        },
+        {
+          "subheading": "FREQUENCY"
+        },
+        {
+          "subheading": "ANKLE-BRACHIAL"
+        },
+        {
+          "subheading": "INDEX"
+        },
+        {
+          "subheading": "ABDOMINAL"
+        },
+        {
+          "subheading": "CIRCUMFERENCE"
+        }
+      ],
+      "raw_lines": [
+        "2.3. VITAL SIGNS AND BODY COMPOSITION ANALYSIS (INBODY)",
+        "PARAMETER",
+        "VALUE",
+        "INTERPRETATION/",
+        "OBSERVATION",
+        "BODY MASS",
+        "INDEX (BMI)",
+        "BODY WEIGHT",
+        "HEIGHT",
+        "ARTERIAL",
+        "PRESSURE",
+        "CARDIAC",
+        "FREQUENCY",
+        "ANKLE-BRACHIAL",
+        "INDEX",
+        "ABDOMINAL",
+        "CIRCUMFERENCE"
+      ]
+    },
+    "page_4": {
+      "page_number": 4,
+      "structured_content": [
+        {
+          "subheading": "HIP WAIST"
+        },
+        {
+          "subheading": "RATIO"
+        },
+        {
+          "subheading": "PULSE"
+        },
+        {
+          "subheading": "OXIMETRY"
+        },
+        {
+          "subheading": "RESPIRATORY"
+        },
+        {
+          "subheading": "FREQUENCY"
+        },
+        {
+          "subheading": "INBODY"
+        },
+        {
+          "subheading": "Additional parameters:"
+        }
+      ],
+      "raw_lines": [
+        "HIP WAIST",
+        "RATIO",
+        "PULSE",
+        "OXIMETRY",
+        "RESPIRATORY",
+        "FREQUENCY",
+        "INBODY",
+        "Additional parameters:"
+      ]
+    },
+    "page_5": {
+      "page_number": 5,
+      "structured_content": [
+        {
+          "subheading": "2.4. PHYSICAL EXAM:"
+        },
+        {
+          "subheading": "ORGANS/SYSTEMS"
+        },
+        {
+          "subheading": "Cardiopulmonary"
+        },
+        {
+          "subheading": "Neurological"
+        },
+        {
+          "subheading": "Head"
+        },
+        {
+          "subheading": "Eyes"
+        },
+        {
+          "subheading": "Neck"
+        },
+        {
+          "subheading": "Abdomen"
+        },
+        {
+          "subheading": "Extremities"
+        },
+        {
+          "subheading": "Skin"
+        }
+      ],
+      "raw_lines": [
+        "2.4. PHYSICAL EXAM:",
+        "ORGANS/SYSTEMS",
+        "Cardiopulmonary",
+        "Neurological",
+        "Head",
+        "Eyes",
+        "Neck",
+        "Abdomen",
+        "Extremities",
+        "Skin"
+      ]
+    },
+    "page_6": {
+      "page_number": 6,
+      "structured_content": [
+        {
+          "subheading": "2.5. LABORATORY RESULTS"
+        },
+        {
+          "subheading": "Systems and Functions"
+        },
+        {
+          "subheading": "Hematologic System"
+        },
+        {
+          "subheading": "(Blood Count)"
+        },
+        {
+          "subheading": "Glucose & Metabolic"
+        },
+        {
+          "subheading": "Regulation"
+        },
+        {
+          "subheading": "Cardiovascular & Lipid"
+        },
+        {
+          "subheading": "Metabolism"
+        }
+      ],
+      "raw_lines": [
+        "2.5. LABORATORY RESULTS",
+        "Systems and Functions",
+        "Hematologic System ",
+        "(Blood Count)",
+        "Glucose & Metabolic ",
+        "Regulation",
+        "Cardiovascular & Lipid ",
+        "Metabolism"
+      ]
+    },
+    "page_7": {
+      "page_number": 7,
+      "structured_content": [
+        {
+          "subheading": "Electrolytes & Mineral"
+        },
+        {
+          "subheading": "Balance"
+        },
+        {
+          "subheading": "Liver & Biliary Function"
+        },
+        {
+          "subheading": "Endocrine & Hormonal"
+        },
+        {
+          "subheading": "System"
+        },
+        {
+          "subheading": "Renal & Urinary System"
+        }
+      ],
+      "raw_lines": [
+        "Electrolytes & Mineral ",
+        "Balance",
+        "Liver & Biliary Function",
+        "Endocrine & Hormonal ",
+        "System",
+        "Renal & Urinary System"
+      ]
+    },
+    "page_8": {
+      "page_number": 8,
+      "structured_content": [
+        {
+          "subheading": "2.6. DIAGNOSTIC IMAGING AND ELECTROCARDIOGRAM"
+        },
+        {
+          "subheading": "EKG:"
+        },
+        {
+          "subheading": "Images:"
+        },
+        {
+          "subheading": "Others:"
+        }
+      ],
+      "raw_lines": [
+        "2.6. DIAGNOSTIC IMAGING AND ELECTROCARDIOGRAM",
+        "EKG:",
+        "Images:",
+        "Others:"
+      ]
+    },
+    "page_9": {
+      "page_number": 9,
+      "structured_content": [
+        {
+          "subheading": "Section 3: Health Goals"
+        },
+        {
+          "subheading": "Based on your personal goals, lifestyle, and health assessment,"
+        },
+        {
+          "subheading": "we will set three key objectives that will allow us to"
+        },
+        {
+          "subheading": "make significant progress toward your purpose."
+        },
+        {
+          "subheading": "Goal #1"
+        },
+        {
+          "subheading": "KEY RESULTS"
+        },
+        {
+          "subheading": "KEY ACTIONS"
+        },
+        {
+          "subheading": "FREQUENCY"
+        }
+      ],
+      "raw_lines": [
+        "Section 3: Health Goals",
+        "Based on your personal goals, lifestyle, and health assessment,",
+        "we will set three key objectives that will allow us to",
+        "make significant progress toward your purpose.",
+        "Goal #1",
+        "KEY RESULTS",
+        "KEY ACTIONS",
+        "FREQUENCY"
+      ]
+    },
+    "page_10": {
+      "page_number": 10,
+      "structured_content": [
+        {
+          "subheading": "KEY RESULTS"
+        },
+        {
+          "subheading": "KEY ACTIONS"
+        },
+        {
+          "subheading": "FREQUENCY"
+        },
+        {
+          "subheading": "Goal #3:",
+          "content": [
+            "Build physical strength and emotional resilience"
+          ]
+        },
+        {
+          "subheading": "KEY RESULTS"
+        },
+        {
+          "subheading": "KEY ACTIONS"
+        },
+        {
+          "subheading": "FREQUENCY"
+        },
+        {
+          "subheading": "- Progress happens through small steps. You're already on your way! -"
+        }
+      ],
+      "raw_lines": [
+        "KEY RESULTS",
+        "KEY ACTIONS",
+        "FREQUENCY",
+        "Goal #3:",
+        "Build physical strength and emotional resilience",
+        "KEY RESULTS",
+        "KEY ACTIONS",
+        "FREQUENCY",
+        "- Progress happens through small steps. You're already on your way! -"
+      ]
+    },
+    "page_11": {
+      "page_number": 11,
+      "structured_content": [
+        {
+          "subheading": "Section 4: Action Plan"
+        },
+        {
+          "subheading": "HOW WILL WE ACHIEVE SUCCESS?"
+        },
+        {
+          "subheading": "At Sana Sana, we celebrate your commitment: we use health metrics to"
+        },
+        {
+          "subheading": "guide the most effective steps, but we also understand that your well-being"
+        },
+        {
+          "subheading": "goes far beyond the numbers. With your motivation and dedication, every"
+        },
+        {
+          "subheading": "small achievement brings you closer to a longer, fuller life."
+        },
+        {
+          "subheading": "Together, we will turn healthy habits into everyday victories!"
+        },
+        {
+          "subheading": "METRICS"
+        },
+        {
+          "subheading": "HOW DO WE"
+        },
+        {
+          "subheading": "MONITOR IT?"
+        },
+        {
+          "subheading": "CURRENT"
+        },
+        {
+          "subheading": "3-MONTH"
+        },
+        {
+          "subheading": "GOAL"
+        },
+        {
+          "subheading": "6-MONTH"
+        },
+        {
+          "subheading": "GOAL"
+        },
+        {
+          "subheading": "METRICS"
+        },
+        {
+          "subheading": "HOW DO WE"
+        },
+        {
+          "subheading": "MONITOR IT?"
+        },
+        {
+          "subheading": "CURRENT"
+        },
+        {
+          "subheading": "3-MONTH"
+        },
+        {
+          "subheading": "GOAL"
+        },
+        {
+          "subheading": "6-MONTH"
+        },
+        {
+          "subheading": "GOAL"
+        },
+        {
+          "subheading": "METRICS"
+        },
+        {
+          "subheading": "HOW DO WE"
+        },
+        {
+          "subheading": "MONITOR IT?"
+        },
+        {
+          "subheading": "CURRENT"
+        },
+        {
+          "subheading": "3-MONTH"
+        },
+        {
+          "subheading": "GOAL"
+        },
+        {
+          "subheading": "6-MONTH"
+        },
+        {
+          "subheading": "GOAL"
+        },
+        {
+          "subheading": "Section 5: Complimentary Labs and Clinical References"
+        },
+        {
+          "subheading": "Labs"
+        },
+        {
+          "subheading": "References"
+        }
+      ],
+      "raw_lines": [
+        "Section 4: Action Plan",
+        "At Sana Sana, we celebrate your commitment: we use health metrics to",
+        "guide the most effective steps, but we also understand that your well-being",
+        "goes far beyond the numbers. With your motivation and dedication, every",
+        "small achievement brings you closer to a longer, fuller life.",
+        "Together, we will turn healthy habits into everyday victories!",
+        "HOW WILL WE ACHIEVE SUCCESS?",
+        "METRICS",
+        "HOW DO WE",
+        "MONITOR IT?",
+        "CURRENT",
+        "3-MONTH",
+        "GOAL",
+        "6-MONTH",
+        "GOAL",
+        "METRICS",
+        "HOW DO WE",
+        "MONITOR IT?",
+        "CURRENT",
+        "3-MONTH",
+        "GOAL",
+        "6-MONTH",
+        "GOAL",
+        "METRICS",
+        "HOW DO WE",
+        "MONITOR IT?",
+        "CURRENT",
+        "3-MONTH",
+        "GOAL",
+        "6-MONTH",
+        "GOAL",
+        "Section 5: Complimentary Labs and Clinical References",
+        "Labs",
+        "References"
+      ]
+    },
+    "page_12": {
+      "page_number": 12,
+      "structured_content": [
+        {
+          "subheading": "Section 6: Follow-up and Frequency",
+          "content": [
+            "Recording your goals allows you to measure your effort,",
+            "recognize your progress, and adjust your targets when necessary.",
+            "We recommend tracking this habit using any of the following methods:",
+            "Based on your medical evaluation, we suggest that our next appointment be in",
+            "If you have any questions or concerns about this guide, please don't hesitate to contact us."
+          ]
+        },
+        {
+          "subheading": "Whatsapp: 7262-7262"
+        },
+        {
+          "subheading": "Medical Team Sana Sana: 8647-6931"
+        },
+        {
+          "subheading": "We are here to support you on your journey toward better health."
+        },
+        {
+          "subheading": "R eport written by"
+        },
+        {
+          "subheading": "Dr."
+        },
+        {
+          "subheading": "Sana Sana Doctor"
+        }
+      ],
+      "raw_lines": [
+        "Section 6: Follow-up and Frequency",
+        "Recording your goals allows you to measure your effort,",
+        "recognize your progress, and adjust your targets when necessary.",
+        "We recommend tracking this habit using any of the following methods:",
+        "Based on your medical evaluation, we suggest that our next appointment be in",
+        "If you have any questions or concerns about this guide, please don't hesitate to contact us. ",
+        "Whatsapp: 7262-7262",
+        "Medical Team Sana Sana: 8647-6931",
+        "We are here to support you on your journey toward better health.",
+        "Report written by",
+        "Dr.",
+        "Sana Sana Doctor"
+      ]
+    }
+  }
+}
