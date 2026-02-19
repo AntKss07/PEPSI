@@ -144,43 +144,28 @@ class PDFExtractor:
                 })
                 continue
 
-            lines_data = []
+            span_items = []
             for line in block.get("lines", []):
-                spans = line.get("spans", [])
-                if not spans:
-                    continue
-                line_text_parts = []
-                line_sizes = []
-                line_flags = []
-                line_fonts = []
-                for span in spans:
-                    t = span.get("text", "")
-                    if t.strip():
-                        line_text_parts.append(t)
-                        line_sizes.append(span.get("size", 12))
-                        line_flags.append(span.get("flags", 0))
-                        line_fonts.append(span.get("font", ""))
-                if line_text_parts:
-                    combined_text = " ".join(line_text_parts)
-                    # Use the dominant (most common) font size for the line
-                    avg_size = sum(line_sizes) / len(line_sizes) if line_sizes else 12
-                    dominant_flags = max(set(line_flags), key=line_flags.count) if line_flags else 0
-                    lines_data.append({
-                        "text": combined_text.strip(),
-                        "font_size": round(avg_size, 2),
-                        "flags": dominant_flags,
-                        "fonts": list(set(line_fonts)),
-                        "bbox": line.get("bbox", block.get("bbox", [0, 0, 0, 0])),
+                for span in line["spans"]:
+                    txt = span["text"].strip()
+                    if not txt: continue
+                    
+                    span_items.append({
+                        "text": txt,
+                        "font_size": round(span["size"], 2),
+                        "flags": span["flags"],
+                        "fonts": [span["font"]],
+                        "bbox": span["bbox"]
                     })
-
-            if lines_data:
+            
+            if span_items:
                 bbox = block.get("bbox", [0, 0, 0, 0])
                 blocks.append({
                     "type": "text",
                     "bbox": bbox,
                     "y0": bbox[1],
                     "x0": bbox[0],
-                    "lines": lines_data,
+                    "lines": span_items,
                 })
 
         # Sort in reading order: top-to-bottom, then left-to-right
@@ -232,6 +217,7 @@ class PDFExtractor:
                         "type": "section",
                         "heading": text,
                         "font_size": line_data["font_size"],
+                        "bbox": line_data["bbox"], # Add bbox
                         "content": [],
                         "subsections": [],
                     }
@@ -243,6 +229,7 @@ class PDFExtractor:
                         "type": "subsection",
                         "subheading": text,
                         "font_size": line_data["font_size"],
+                        "bbox": line_data["bbox"], # Add bbox
                         "content": [],
                     }
                     if current_section:
@@ -252,7 +239,7 @@ class PDFExtractor:
                     current_subsection = sub
 
                 elif role == "list_item":
-                    item = {"type": "list_item", "text": text}
+                    item = {"type": "list_item", "text": text, "bbox": line_data["bbox"]} # Add bbox
                     target = current_subsection or current_section
                     if target:
                         target["content"].append(item)
@@ -261,7 +248,7 @@ class PDFExtractor:
 
                 else:
                     # Body text
-                    item = {"type": "text", "text": text}
+                    item = {"type": "text", "text": text, "bbox": line_data["bbox"]} # Add bbox
                     target = current_subsection or current_section
                     if target:
                         target["content"].append(item)
@@ -279,30 +266,41 @@ class PDFExtractor:
             elif section.get("type") == "section":
                 sec_data = OrderedDict()
                 sec_data["heading"] = section["heading"]
-                body_lines = [c["text"] for c in section.get("content", []) if c.get("text")]
-                if body_lines:
-                    sec_data["content"] = body_lines
+                if "bbox" in section: sec_data["bbox"] = section["bbox"] # Keep heading bbox
+                
+                # Keep full objects (with bboxes)
+                body_objs = [c for c in section.get("content", []) if c.get("text")]
+                if body_objs:
+                    sec_data["content"] = body_objs
+                
                 # Include subsections
                 subs = []
                 for sub in section.get("subsections", []):
                     sub_data = OrderedDict()
                     sub_data["subheading"] = sub["subheading"]
-                    sub_lines = [c["text"] for c in sub.get("content", []) if c.get("text")]
-                    if sub_lines:
-                        sub_data["content"] = sub_lines
+                    if "bbox" in sub: sub_data["bbox"] = sub["bbox"]
+                    
+                    sub_objs = [c for c in sub.get("content", []) if c.get("text")]
+                    if sub_objs:
+                        sub_data["content"] = sub_objs
                     subs.append(sub_data)
                 if subs:
                     sec_data["subsections"] = subs
                 content_list.append(sec_data)
+
             elif section.get("type") == "subsection":
                 sub_data = OrderedDict()
                 sub_data["subheading"] = section.get("subheading", "")
-                sub_lines = [c["text"] for c in section.get("content", []) if c.get("text")]
-                if sub_lines:
-                    sub_data["content"] = sub_lines
+                if "bbox" in section: sub_data["bbox"] = section["bbox"]
+                
+                sub_objs = [c for c in section.get("content", []) if c.get("text")]
+                if sub_objs:
+                    sub_data["content"] = sub_objs
                 content_list.append(sub_data)
             elif section.get("type") in ("text", "list_item"):
-                content_list.append({"text": section.get("text", "")})
+                item_data = {"text": section.get("text", "")}
+                if "bbox" in section: item_data["bbox"] = section["bbox"]
+                content_list.append(item_data)
 
         result["content"] = content_list
 

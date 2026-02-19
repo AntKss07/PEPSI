@@ -10,82 +10,313 @@
       "page_number": 1,
       "structured_content": [
         {
-          "subheading": "04 de diciembre, 2025"
+          "subheading": "04 de diciembre, 2025",
+          "bbox": [
+            461.5090026855469,
+            93.46598815917969,
+            564.8090209960938,
+            104.63599395751953
+          ]
         },
         {
           "heading": "HEALTH AND WELLNESS GUIDE",
+          "bbox": [
+            187.18600463867188,
+            119.51396179199219,
+            407.85400390625,
+            135.15196228027344
+          ],
           "subsections": [
             {
-              "subheading": "Your path to a longer, healthier life."
+              "subheading": "Your path to a longer, healthier life.",
+              "bbox": [
+                213.7320098876953,
+                143.07298278808594,
+                381.3119201660156,
+                154.24298095703125
+              ]
             },
             {
               "subheading": "Name:",
+              "bbox": [
+                123.3070068359375,
+                175.67100524902344,
+                153.86700439453125,
+                186.84100341796875
+              ],
               "content": [
-                "RICHARD ALLEN PEACOCK"
+                {
+                  "type": "text",
+                  "text": "RICHARD ALLEN PEACOCK",
+                  "bbox": [
+                    163.41700744628906,
+                    175.67100524902344,
+                    297.76702880859375,
+                    186.84100341796875
+                  ]
+                }
               ]
             },
             {
               "subheading": "Identification number",
+              "bbox": [
+                52.21400451660156,
+                198.34800720214844,
+                153.77398681640625,
+                209.51800537109375
+              ],
               "content": [
-                "AC737267"
+                {
+                  "type": "text",
+                  "text": "AC737267",
+                  "bbox": [
+                    163.41700744628906,
+                    198.34800720214844,
+                    210.65699768066406,
+                    209.51800537109375
+                  ]
+                }
               ]
             },
             {
               "subheading": "Date of birth",
+              "bbox": [
+                94.98900604248047,
+                221.08201599121094,
+                153.8190155029297,
+                232.25201416015625
+              ],
               "content": [
-                "11/07/1960"
+                {
+                  "type": "text",
+                  "text": "11/07/1960",
+                  "bbox": [
+                    163.41700744628906,
+                    221.08201599121094,
+                    213.43699645996094,
+                    232.25201416015625
+                  ]
+                }
               ]
             },
             {
-              "subheading": "Section 1: My Purpose"
+              "subheading": "Section 1: My Purpose",
+              "bbox": [
+                233.27700805664062,
+                259.6180419921875,
+                361.8450622558594,
+                273.02203369140625
+              ]
             },
             {
               "subheading": "Why do I want to improve my health?",
+              "bbox": [
+                209.29600524902344,
+                289.071044921875,
+                385.7760009765625,
+                300.24102783203125
+              ],
               "content": [
-                "Me and my wife like to do hiking and enjoy outdoors and also I want to be healthy to be with my grandkids and kids."
+                {
+                  "type": "text",
+                  "text": "Me and my wife like to do hiking and enjoy outdoors and also I want to be healthy to be with my grandkids and kids.",
+                  "bbox": [
+                    35.858001708984375,
+                    317.40301513671875,
+                    545.7677001953125,
+                    328.572998046875
+                  ]
+                }
               ]
             },
             {
-              "subheading": "\"We all have a reason that motivates us to take care of ourselves."
+              "subheading": "\"We all have a reason that motivates us to take care of ourselves.",
+              "bbox": [
+                173.23899841308594,
+                342.29901123046875,
+                421.79107666015625,
+                351.2350158691406
+              ]
             },
             {
-              "subheading": "Come back to this section whenever you need to reconnect with your path.\""
+              "subheading": "Come back to this section whenever you need to reconnect with your path.\"",
+              "bbox": [
+                153.2689971923828,
+                351.4980163574219,
+                441.7091064453125,
+                360.43402099609375
+              ]
             },
             {
               "subheading": "MY PRIMARY HEALTH GOALS",
+              "bbox": [
+                217.572998046875,
+                384.8590087890625,
+                377.53485107421875,
+                397.14599609375
+              ],
               "content": [
-                "Based on your goals, lifestyle, and health assessment,",
-                "we will prioritize three objectives to bring you closer to your purpose."
+                {
+                  "type": "text",
+                  "text": "Based on your goals, lifestyle, and health assessment,",
+                  "bbox": [
+                    177.00900268554688,
+                    405.1960144042969,
+                    418.0888366699219,
+                    416.3659973144531
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "we will prioritize three objectives to bring you closer to your purpose.",
+                  "bbox": [
+                    146.45199584960938,
+                    416.69500732421875,
+                    448.6117858886719,
+                    427.864990234375
+                  ]
+                }
               ]
             },
             {
-              "subheading": "Health Goals"
+              "subheading": "Health Goals",
+              "bbox": [
+                156.18899536132812,
+                447.9240417480469,
+                217.25901794433594,
+                459.0940246582031
+              ]
             },
             {
-              "subheading": "Why is this important?"
+              "subheading": "Why is this important?",
+              "bbox": [
+                386.3059997558594,
+                447.9240417480469,
+                493.9659423828125,
+                459.0940246582031
+              ]
             },
             {
               "subheading": "1",
+              "bbox": [
+                41.400001525878906,
+                475.56201171875,
+                46.96000289916992,
+                486.73199462890625
+              ],
               "content": [
-                "Improve liver health by reducing inflammation and",
-                "normalizing liver enzymes.",
-                "to protect the liver, improves metabolism, reduces",
-                "cardiovascular risk, and restores whole-body health."
+                {
+                  "type": "text",
+                  "text": "Improve liver health by reducing inflammation and",
+                  "bbox": [
+                    76.4219970703125,
+                    469.81201171875,
+                    299.7319641113281,
+                    480.98199462890625
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "normalizing liver enzymes.",
+                  "bbox": [
+                    127.84199523925781,
+                    481.3110046386719,
+                    245.61199951171875,
+                    492.4809875488281
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "to protect the liver, improves metabolism, reduces",
+                  "bbox": [
+                    330.1510009765625,
+                    469.81201171875,
+                    553.4208374023438,
+                    480.98199462890625
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "cardiovascular risk, and restores whole-body health.",
+                  "bbox": [
+                    324.864013671875,
+                    481.3110046386719,
+                    555.4138793945312,
+                    492.4809875488281
+                  ]
+                }
               ]
             },
             {
               "subheading": "2",
+              "bbox": [
+                41.400001525878906,
+                507.83404541015625,
+                46.96000289916992,
+                519.0040283203125
+              ],
               "content": [
-                "Improve Insulin Sensitivity and Metabolic Flexibility",
-                "to prevent progression to type 2 diabetes"
+                {
+                  "type": "text",
+                  "text": "Improve Insulin Sensitivity and Metabolic Flexibility",
+                  "bbox": [
+                    74.4800033569336,
+                    507.83404541015625,
+                    298.8599853515625,
+                    519.0040283203125
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "to prevent progression to type 2 diabetes",
+                  "bbox": [
+                    349.5830078125,
+                    507.83404541015625,
+                    530.682861328125,
+                    519.0040283203125
+                  ]
+                }
               ]
             },
             {
               "subheading": "3",
+              "bbox": [
+                41.400001525878906,
+                540.1069946289062,
+                46.96000289916992,
+                551.2769775390625
+              ],
               "content": [
-                "Improve lipid balance and reduce long-term",
-                "cardiovascular risk.",
-                "to prevent progression of atherosclerosis."
+                {
+                  "type": "text",
+                  "text": "Improve lipid balance and reduce long-term",
+                  "bbox": [
+                    90.59500122070312,
+                    534.3569946289062,
+                    285.59490966796875,
+                    545.5269775390625
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "cardiovascular risk.",
+                  "bbox": [
+                    143.95700073242188,
+                    545.8560180664062,
+                    229.5070037841797,
+                    557.0260009765625
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "to prevent progression of atherosclerosis.",
+                  "bbox": [
+                    348.4909973144531,
+                    540.1069946289062,
+                    531.810791015625,
+                    551.2769775390625
+                  ]
+                }
               ]
             }
           ]
@@ -129,64 +360,442 @@
       "page_number": 2,
       "structured_content": [
         {
-          "subheading": "Section 2: Results and Findings"
+          "subheading": "Section 2: Results and Findings",
+          "bbox": [
+            206.61700439453125,
+            78.14299774169922,
+            388.4291076660156,
+            91.5469970703125
+          ]
         },
         {
-          "subheading": "2.1. SUMMARY:"
+          "subheading": "2.1. SUMMARY:",
+          "bbox": [
+            256.677001953125,
+            112.73301696777344,
+            338.51690673828125,
+            125.02001953125
+          ]
         },
         {
           "subheading": "HEALTH AND WELLNESS INTEGRAL EVALUATION",
+          "bbox": [
+            162.8780059814453,
+            138.2449951171875,
+            432.102783203125,
+            150.53199768066406
+          ],
           "content": [
-            "OVERALL INTEGRATED CLINICAL SUMMARY",
-            "Richard shows:",
-            "Normal findings in:",
-            "CBC",
-            "Renal function",
-            "Thyroid",
-            "PSA",
-            "Electrolytes",
-            "Glucose metabolism",
-            "Urinalysis & stool exam",
-            "Lp(a) (excellent)",
-            "Inflammatory markers only mildly elevated",
-            "-Abnormal findings centered around:",
-            "NAFLD grade II → Elevated AST/ALT, ferritin, low HDL, elevated LDL, mild insulin resistance",
-            "Vitamin D excess → 81.8 ng/mL",
-            "ApoB slightly elevated",
-            "hs-CRP mildly elevated",
-            "-Cardiovascular risk remains LOW because:",
-            "CAC score = 15",
-            "Lp(a) extremely low",
-            "ApoB moderate",
-            "HDL low due to fatty liver, not arterial disease",
-            "High muscularity and high physical activity"
+            {
+              "type": "text",
+              "text": "OVERALL INTEGRATED CLINICAL SUMMARY",
+              "bbox": [
+                35.858001708984375,
+                163.4409942626953,
+                250.69802856445312,
+                174.61099243164062
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Richard shows:",
+              "bbox": [
+                35.858001708984375,
+                174.9399871826172,
+                104.18799591064453,
+                186.1099853515625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Normal findings in:",
+              "bbox": [
+                35.858001708984375,
+                186.43898010253906,
+                118.61798095703125,
+                197.60897827148438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "CBC",
+              "bbox": [
+                35.858001708984375,
+                197.93797302246094,
+                56.958003997802734,
+                209.10797119140625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Renal function",
+              "bbox": [
+                35.858001708984375,
+                209.4369659423828,
+                99.74799346923828,
+                220.60696411132812
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Thyroid",
+              "bbox": [
+                35.858001708984375,
+                220.9359588623047,
+                69.18800354003906,
+                232.10595703125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "PSA",
+              "bbox": [
+                35.858001708984375,
+                232.43495178222656,
+                55.8380012512207,
+                243.60494995117188
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Electrolytes",
+              "bbox": [
+                35.858001708984375,
+                243.93394470214844,
+                87.50799560546875,
+                255.10394287109375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Glucose metabolism",
+              "bbox": [
+                35.858001708984375,
+                255.4329376220703,
+                126.40798950195312,
+                266.6029357910156
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Urinalysis & stool exam",
+              "bbox": [
+                35.858001708984375,
+                266.93194580078125,
+                139.71800231933594,
+                278.1019287109375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Lp(a) (excellent)",
+              "bbox": [
+                35.858001708984375,
+                278.4309387207031,
+                108.07799530029297,
+                289.6009216308594
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Inflammatory markers only mildly elevated",
+              "bbox": [
+                35.858001708984375,
+                289.929931640625,
+                222.48800659179688,
+                301.09991455078125
+              ]
+            },
+            {
+              "type": "list_item",
+              "text": "-Abnormal findings centered around:",
+              "bbox": [
+                35.858001708984375,
+                312.92791748046875,
+                197.52798461914062,
+                324.097900390625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "NAFLD grade II → Elevated AST/ALT, ferritin, low HDL, elevated LDL, mild insulin resistance",
+              "bbox": [
+                35.858001708984375,
+                324.4269104003906,
+                447.3378601074219,
+                335.5968933105469
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Vitamin D excess → 81.8 ng/mL",
+              "bbox": [
+                35.858001708984375,
+                335.9259033203125,
+                178.59799194335938,
+                347.09588623046875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "ApoB slightly elevated",
+              "bbox": [
+                35.858001708984375,
+                347.4248962402344,
+                134.17799377441406,
+                358.5948791503906
+              ]
+            },
+            {
+              "type": "text",
+              "text": "hs-CRP mildly elevated",
+              "bbox": [
+                35.858001708984375,
+                358.92388916015625,
+                139.72799682617188,
+                370.0938720703125
+              ]
+            },
+            {
+              "type": "list_item",
+              "text": "-Cardiovascular risk remains LOW because:",
+              "bbox": [
+                35.858001708984375,
+                381.921875,
+                231.38800048828125,
+                393.09185791015625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "CAC score = 15",
+              "bbox": [
+                35.858001708984375,
+                393.4208679199219,
+                106.6679916381836,
+                404.5908508300781
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Lp(a) extremely low",
+              "bbox": [
+                35.858001708984375,
+                404.91986083984375,
+                123.06800079345703,
+                416.08984375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "ApoB moderate",
+              "bbox": [
+                35.858001708984375,
+                416.4188537597656,
+                105.29798889160156,
+                427.5888366699219
+              ]
+            },
+            {
+              "type": "text",
+              "text": "HDL low due to fatty liver, not arterial disease",
+              "bbox": [
+                35.858001708984375,
+                427.9178466796875,
+                236.89797973632812,
+                439.08782958984375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "High muscularity and high physical activity",
+              "bbox": [
+                35.858001708984375,
+                439.4168395996094,
+                223.05799865722656,
+                450.5868225097656
+              ]
+            }
           ]
         },
         {
-          "subheading": "2.2. FUNCTIONAL MEDICINE APPROACH:"
+          "subheading": "2.2. FUNCTIONAL MEDICINE APPROACH:",
+          "bbox": [
+            187.93699645996094,
+            471.9680480957031,
+            407.144775390625,
+            484.2550354003906
+          ]
         },
         {
           "subheading": "MODIFIABLE LIFESTYLES AND DYSFUNCTIONS",
+          "bbox": [
+            170.20599365234375,
+            497.48004150390625,
+            424.76776123046875,
+            509.76702880859375
+          ],
           "content": [
-            "Functional Medicine Focus — Priority Areas",
-            "Reverse NAFLD (primary goal)",
-            "Improve liver detox phases, mitochondrial fat oxidation, hepatic glucose handling.",
-            "Improve hepatic insulin sensitivity",
-            "Adjust macronutrient timing; increase fiber and plants; adjust fructose load.",
-            "Lower inflammation",
-            "Through nutrition, circadian alignment, and omega-3.",
-            "Support mitochondrial function",
-            "Maintain exercise, optimize micronutrients (magnesium, B-complex).",
-            "Normalize Vitamin D",
-            "Reduce dose.",
-            "Improve evening metabolic activity",
-            "Introduce low-intensity movement after 3–4 pm.",
-            "Dermatologic follow-up",
-            "Actinic keratosis & ulcerated lesion require evaluation."
+            {
+              "type": "text",
+              "text": "Functional Medicine Focus — Priority Areas",
+              "bbox": [
+                35.858001708984375,
+                522.6619873046875,
+                230.24801635742188,
+                533.8319702148438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Reverse NAFLD (primary goal)",
+              "bbox": [
+                35.858001708984375,
+                545.6599731445312,
+                173.04800415039062,
+                556.8299560546875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Improve liver detox phases, mitochondrial fat oxidation, hepatic glucose handling.",
+              "bbox": [
+                35.858001708984375,
+                557.1589965820312,
+                395.27789306640625,
+                568.3289794921875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Improve hepatic insulin sensitivity",
+              "bbox": [
+                35.858001708984375,
+                580.156982421875,
+                184.16799926757812,
+                591.3269653320312
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Adjust macronutrient timing; increase fiber and plants; adjust fructose load.",
+              "bbox": [
+                35.858001708984375,
+                591.656005859375,
+                366.3378601074219,
+                602.8259887695312
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Lower inflammation",
+              "bbox": [
+                35.858001708984375,
+                614.6539916992188,
+                122.51799011230469,
+                625.823974609375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Through nutrition, circadian alignment, and omega-3.",
+              "bbox": [
+                35.858001708984375,
+                626.1530151367188,
+                270.2879638671875,
+                637.322998046875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Support mitochondrial function",
+              "bbox": [
+                35.858001708984375,
+                649.1510009765625,
+                170.84799194335938,
+                660.3209838867188
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Maintain exercise, optimize micronutrients (magnesium, B-complex).",
+              "bbox": [
+                35.858001708984375,
+                660.6500244140625,
+                338.5779113769531,
+                671.8200073242188
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Normalize Vitamin D",
+              "bbox": [
+                35.858001708984375,
+                683.6480102539062,
+                126.93798828125,
+                694.8179931640625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Reduce dose.",
+              "bbox": [
+                35.858001708984375,
+                695.1470336914062,
+                97.53799438476562,
+                706.3170166015625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Improve evening metabolic activity",
+              "bbox": [
+                35.858001708984375,
+                718.14501953125,
+                188.6179962158203,
+                729.3150024414062
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Introduce low-intensity movement after 3–4 pm.",
+              "bbox": [
+                35.858001708984375,
+                729.64404296875,
+                246.36801147460938,
+                740.8140258789062
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Dermatologic follow-up",
+              "bbox": [
+                35.858001708984375,
+                752.6420288085938,
+                137.5179901123047,
+                763.81201171875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Actinic keratosis & ulcerated lesion require evaluation.",
+              "bbox": [
+                35.858001708984375,
+                764.1410522460938,
+                275.2679443359375,
+                775.31103515625
+              ]
+            }
           ]
         },
         {
-          "subheading": "2.3. VITAL SIGNS AND BODY COMPOSITION ANALYSIS (INBODY)"
+          "subheading": "2.3. VITAL SIGNS AND BODY COMPOSITION ANALYSIS (INBODY)",
+          "bbox": [
+            124.9800033569336,
+            810.8499755859375,
+            469.9177551269531,
+            823.136962890625
+          ]
         }
       ],
       "raw_lines": [
@@ -240,109 +849,421 @@
       "page_number": 3,
       "structured_content": [
         {
-          "subheading": "PARAMETER"
+          "subheading": "PARAMETER",
+          "bbox": [
+            49.06800079345703,
+            87.16899871826172,
+            118.45799255371094,
+            101.27899932861328
+          ]
         },
         {
-          "subheading": "VALUE"
+          "subheading": "VALUE",
+          "bbox": [
+            262.89898681640625,
+            87.16899871826172,
+            300.6489562988281,
+            101.27899932861328
+          ]
         },
         {
-          "subheading": "INTERPRETATION/"
+          "subheading": "INTERPRETATION/",
+          "bbox": [
+            420.7749938964844,
+            80.11799621582031,
+            522.9450073242188,
+            94.22799682617188
+          ]
         },
         {
-          "subheading": "OBSERVATION"
+          "subheading": "OBSERVATION",
+          "bbox": [
+            431.0509948730469,
+            94.2199935913086,
+            512.6709594726562,
+            108.32999420166016
+          ]
         },
         {
-          "subheading": "BODY MASS"
+          "subheading": "BODY MASS",
+          "bbox": [
+            53.50400161743164,
+            125.927001953125,
+            114.01400756835938,
+            137.0970001220703
+          ]
         },
         {
           "subheading": "INDEX (BMI)",
+          "bbox": [
+            54.624000549316406,
+            137.42599487304688,
+            112.90400695800781,
+            148.5959930419922
+          ],
           "content": [
-            "31.1",
-            "misleading in individuals with high",
-            "muscle mass."
+            {
+              "type": "text",
+              "text": "31.1",
+              "bbox": [
+                272.05499267578125,
+                131.677001953125,
+                291.5049743652344,
+                142.8470001220703
+              ]
+            },
+            {
+              "type": "text",
+              "text": "misleading in individuals with high",
+              "bbox": [
+                396.83599853515625,
+                125.927001953125,
+                549.6058959960938,
+                137.0970001220703
+              ]
+            },
+            {
+              "type": "text",
+              "text": "muscle mass.",
+              "bbox": [
+                441.31201171875,
+                137.42599487304688,
+                502.4119567871094,
+                148.5959930419922
+              ]
+            }
           ]
         },
         {
           "subheading": "BODY WEIGHT",
+          "bbox": [
+            47.948001861572266,
+            171.36199951171875,
+            119.53800201416016,
+            182.53199768066406
+          ],
           "content": [
-            "109.9 kg",
-            "normal"
+            {
+              "type": "text",
+              "text": "109.9 kg",
+              "bbox": [
+                262.60198974609375,
+                171.36199951171875,
+                300.94195556640625,
+                182.53199768066406
+              ]
+            },
+            {
+              "type": "text",
+              "text": "normal",
+              "bbox": [
+                456.59100341796875,
+                171.36199951171875,
+                489.92095947265625,
+                182.53199768066406
+              ]
+            }
           ]
         },
         {
           "subheading": "HEIGHT",
+          "bbox": [
+            64.89900207519531,
+            211.0469970703125,
+            102.63899993896484,
+            222.2169952392578
+          ],
           "content": [
-            "1.88 m",
-            "normal"
+            {
+              "type": "text",
+              "text": "1.88 m",
+              "bbox": [
+                266.4989929199219,
+                211.0469970703125,
+                297.0489501953125,
+                222.2169952392578
+              ]
+            },
+            {
+              "type": "text",
+              "text": "normal",
+              "bbox": [
+                456.59100341796875,
+                211.0469970703125,
+                489.92095947265625,
+                222.2169952392578
+              ]
+            }
           ]
         },
         {
-          "subheading": "ARTERIAL"
+          "subheading": "ARTERIAL",
+          "bbox": [
+            58.50699996948242,
+            244.98199462890625,
+            109.01699829101562,
+            256.1520080566406
+          ]
         },
         {
           "subheading": "PRESSURE",
+          "bbox": [
+            56.28200149536133,
+            256.48101806640625,
+            111.24201965332031,
+            267.6510009765625
+          ],
           "content": [
-            "145/83 mmHg",
-            "STAGE II"
+            {
+              "type": "text",
+              "text": "145/83 mmHg",
+              "bbox": [
+                250.38400268554688,
+                250.7310028076172,
+                313.1639404296875,
+                261.9010009765625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "STAGE II",
+              "bbox": [
+                450.7650146484375,
+                250.7310028076172,
+                495.6949768066406,
+                261.9010009765625
+              ]
+            }
           ]
         },
         {
-          "subheading": "CARDIAC"
+          "subheading": "CARDIAC",
+          "bbox": [
+            60.731998443603516,
+            284.6670227050781,
+            106.8219985961914,
+            295.8370056152344
+          ]
         },
         {
           "subheading": "FREQUENCY",
+          "bbox": [
+            52.39799880981445,
+            296.166015625,
+            115.12800598144531,
+            307.33599853515625
+          ],
           "content": [
-            "51 bpm",
-            "normal for an athlete man"
+            {
+              "type": "text",
+              "text": "51 bpm",
+              "bbox": [
+                265.1099853515625,
+                290.4170227050781,
+                301.2199401855469,
+                301.5870056152344
+              ]
+            },
+            {
+              "type": "text",
+              "text": "normal for an athlete man",
+              "bbox": [
+                414.9070129394531,
+                290.4170227050781,
+                531.546875,
+                301.5870056152344
+              ]
+            }
           ]
         },
         {
-          "subheading": "ANKLE-BRACHIAL"
+          "subheading": "ANKLE-BRACHIAL",
+          "bbox": [
+            38.79199981689453,
+            324.35302734375,
+            128.7320098876953,
+            335.52301025390625
+          ]
         },
         {
           "subheading": "INDEX",
+          "bbox": [
+            68.4990005493164,
+            335.8520202636719,
+            99.02900695800781,
+            347.0220031738281
+          ],
           "content": [
-            "non aplicable"
+            {
+              "type": "text",
+              "text": "non aplicable",
+              "bbox": [
+                252.31199645996094,
+                330.1020202636719,
+                313.9919738769531,
+                341.2720031738281
+              ]
+            }
           ]
         },
         {
-          "subheading": "ABDOMINAL"
+          "subheading": "ABDOMINAL",
+          "bbox": [
+            53.23500061035156,
+            364.03802490234375,
+            114.30500030517578,
+            375.2080078125
+          ]
         },
         {
           "subheading": "CIRCUMFERENCE",
+          "bbox": [
+            39.89800262451172,
+            375.5370178222656,
+            127.61801147460938,
+            386.7070007324219
+          ],
           "content": [
-            "102.8 cms",
-            "out of range, normal less than 101"
+            {
+              "type": "text",
+              "text": "102.8 cms",
+              "bbox": [
+                258.7179870605469,
+                369.7870178222656,
+                307.5979309082031,
+                380.9570007324219
+              ]
+            },
+            {
+              "type": "text",
+              "text": "out of range, normal less than 101",
+              "bbox": [
+                396.0,
+                369.7870178222656,
+                547.6498413085938,
+                380.9570007324219
+              ]
+            }
           ]
         },
         {
-          "subheading": "HIP WAIST"
+          "subheading": "HIP WAIST",
+          "bbox": [
+            57.95399856567383,
+            403.7230224609375,
+            109.5539779663086,
+            414.89300537109375
+          ]
         },
         {
           "subheading": "RATIO",
+          "bbox": [
+            68.22999572753906,
+            415.2220153808594,
+            99.30998992919922,
+            426.3919982910156
+          ],
           "content": [
-            "0.91",
-            "slightly out of range, normal 0.90"
+            {
+              "type": "text",
+              "text": "0.91",
+              "bbox": [
+                272.05499267578125,
+                409.4720153808594,
+                294.27496337890625,
+                420.6419982910156
+              ]
+            },
+            {
+              "type": "text",
+              "text": "slightly out of range, normal 0.90",
+              "bbox": [
+                399.33099365234375,
+                409.4720153808594,
+                544.3008422851562,
+                420.6419982910156
+              ]
+            }
           ]
         },
         {
-          "subheading": "PULSE"
+          "subheading": "PULSE",
+          "bbox": [
+            67.11000061035156,
+            443.40802001953125,
+            100.41000366210938,
+            454.5780029296875
+          ]
         },
         {
           "subheading": "OXIMETRY",
+          "bbox": [
+            57.67100143432617,
+            454.9070129394531,
+            109.84098815917969,
+            466.0769958496094
+          ],
           "content": [
-            "96%",
-            "normal"
+            {
+              "type": "text",
+              "text": "96%",
+              "bbox": [
+                271.7720031738281,
+                449.1570129394531,
+                291.7820129394531,
+                460.3269958496094
+              ]
+            },
+            {
+              "type": "text",
+              "text": "normal",
+              "bbox": [
+                456.59100341796875,
+                449.1570129394531,
+                489.92095947265625,
+                460.3269958496094
+              ]
+            }
           ]
         },
         {
-          "subheading": "RESPIRATORY"
+          "subheading": "RESPIRATORY",
+          "bbox": [
+            47.665000915527344,
+            483.093017578125,
+            119.82499694824219,
+            494.26300048828125
+          ]
         },
         {
           "subheading": "FREQUENCY",
+          "bbox": [
+            52.39900207519531,
+            494.5920104980469,
+            115.12899780273438,
+            505.7619934082031
+          ],
           "content": [
-            "15 bpm",
-            "normal"
+            {
+              "type": "text",
+              "text": "15 bpm",
+              "bbox": [
+                265.1099853515625,
+                488.8420104980469,
+                298.449951171875,
+                500.0119934082031
+              ]
+            },
+            {
+              "type": "text",
+              "text": "normal",
+              "bbox": [
+                456.59100341796875,
+                488.8420104980469,
+                489.92095947265625,
+                500.0119934082031
+              ]
+            }
           ]
         }
       ],
@@ -395,163 +1316,484 @@
       "page_number": 4,
       "structured_content": [
         {
-          "text": "The InBody analysis describes a 65-"
-        },
-        {
-          "text": "year-old man, 188 cm tall and weighing"
-        },
-        {
-          "text": "109.9 kg, with an exceptionally strong"
-        },
-        {
-          "text": "and well-preserved body composition"
-        },
-        {
-          "text": "for his age. His skeletal muscle mass is"
-        },
-        {
-          "text": "49.7 kg, which is well above average"
-        },
-        {
-          "text": "and places him in a category of"
-        },
-        {
-          "text": "excellent muscularity. His fat-free mass"
-        },
-        {
-          "text": "(87.3 kg) and total body water (64.1 L)"
-        },
-        {
-          "text": "are also high, reflecting strong muscle"
-        },
-        {
-          "text": "tissue quality. The whole-body"
-        },
-        {
-          "text": "ECW/TBW ratio of 0.381 is normal,"
-        },
-        {
-          "text": "indicating healthy fluid balance, and"
-        },
-        {
-          "text": "the total phase angle of 6.5° is very"
-        },
-        {
-          "text": "favorable for his age, showing good"
-        },
-        {
-          "text": "cell integrity and metabolic function."
-        },
-        {
-          "text": "His BMI is 31.1, which is technically in"
-        },
-        {
-          "text": "the obesity range by definition, but this"
-        },
-        {
-          "text": "classification does not apply well to"
-        },
-        {
-          "text": "muscular individuals. The body fat"
-        },
-        {
-          "text": "percentage of 20.6% is normal for a fit"
-        },
-        {
-          "text": "adult male and especially good for a 65"
-        },
-        {
-          "text": "-year-old, aligning with his high InBody"
-        },
-        {
-          "text": "score of 94 out of 100, which confirms"
-        },
-        {
-          "text": "excellent overall condition. The visceral"
-        },
-        {
-          "text": "fat area is 106.4 cm², which sits near"
-        },
-        {
-          "text": "the upper end of normal but not in a"
-        },
-        {
-          "text": "dangerous or extreme range—"
-        },
-        {
-          "text": "especially for a tall, muscular man."
-        },
-        {
-          "text": "Many athletic or well-trained older"
-        },
-        {
-          "text": "adults fall within this band. His waist"
-        },
-        {
-          "text": "circumference (102.8 cm) and waist–"
-        },
-        {
-          "text": "hip ratio (0.91) are slightly elevated,"
-        },
-        {
-          "text": "but these values must be interpreted in"
-        },
-        {
-          "text": "the context of his large frame and"
-        },
-        {
-          "text": "muscle mass. Segmental analysis"
-        },
-        {
-          "text": "shows strong, symmetrical muscle"
-        },
-        {
-          "text": "across arms, legs, and trunk, with no"
-        },
-        {
-          "text": "abnormalities. The metabolic rate"
-        },
-        {
-          "text": "(2255 kcal) is high because of his"
-        },
-        {
-          "text": "excellent muscle mass. Overall, the"
-        },
-        {
-          "text": "report paints the picture of a very fit,"
-        },
-        {
-          "text": "muscular, and healthy older adult with"
-        },
-        {
-          "text": "excellent cellular integrity, strong"
-        },
-        {
-          "text": "muscle mass, and only mild age-"
-        },
-        {
-          "text": "related central fat accumulation, which"
-        },
-        {
-          "text": "is extremely common. Nothing"
-        },
-        {
-          "text": "indicates a pathological fat level, and"
-        },
-        {
-          "text": "the high InBody score validates his"
-        },
-        {
-          "text": "great physical condition."
-        },
-        {
-          "subheading": "INBODY",
-          "content": [
-            "94/100"
+          "text": "The InBody analysis describes a 65-",
+          "bbox": [
+            391.2799987792969,
+            78.38099670410156,
+            552.3800048828125,
+            89.5510025024414
           ]
         },
         {
-          "subheading": "Additional parameters:"
+          "text": "year-old man, 188 cm tall and weighing",
+          "bbox": [
+            384.88800048828125,
+            89.8800048828125,
+            561.5377807617188,
+            101.05000305175781
+          ]
+        },
+        {
+          "text": "109.9 kg, with an exceptionally strong",
+          "bbox": [
+            388.4880065917969,
+            101.37899780273438,
+            557.9078979492188,
+            112.54900360107422
+          ]
+        },
+        {
+          "text": "and well-preserved body composition",
+          "bbox": [
+            389.3380126953125,
+            112.87800598144531,
+            557.1278686523438,
+            124.04800415039062
+          ]
+        },
+        {
+          "text": "for his age. His skeletal muscle mass is",
+          "bbox": [
+            384.6180114746094,
+            124.37699890136719,
+            561.7778930664062,
+            135.5469970703125
+          ]
+        },
+        {
+          "text": "49.7 kg, which is well above average",
+          "bbox": [
+            390.4430236816406,
+            135.87599182128906,
+            555.9829711914062,
+            147.04598999023438
+          ]
+        },
+        {
+          "text": "and places him in a category of",
+          "bbox": [
+            402.67401123046875,
+            147.37498474121094,
+            543.7639770507812,
+            158.54498291015625
+          ]
+        },
+        {
+          "text": "excellent muscularity. His fat-free mass",
+          "bbox": [
+            385.2690124511719,
+            158.8739776611328,
+            561.8689575195312,
+            170.04397583007812
+          ]
+        },
+        {
+          "text": "(87.3 kg) and total body water (64.1 L)",
+          "bbox": [
+            387.0970153808594,
+            170.3729705810547,
+            559.2769775390625,
+            181.54296875
+          ]
+        },
+        {
+          "text": "are also high, reflecting strong muscle",
+          "bbox": [
+            387.66400146484375,
+            181.87196350097656,
+            558.743896484375,
+            193.04196166992188
+          ]
+        },
+        {
+          "text": "tissue quality. The whole-body",
+          "bbox": [
+            405.0830078125,
+            193.37095642089844,
+            542.282958984375,
+            204.54095458984375
+          ]
+        },
+        {
+          "text": "ECW/TBW ratio of 0.381 is normal,",
+          "bbox": [
+            394.07000732421875,
+            204.8699493408203,
+            552.2899780273438,
+            216.03994750976562
+          ]
+        },
+        {
+          "text": "indicating healthy fluid balance, and",
+          "bbox": [
+            392.65301513671875,
+            216.3689422607422,
+            553.7630004882812,
+            227.5389404296875
+          ]
+        },
+        {
+          "text": "the total phase angle of 6.5° is very",
+          "bbox": [
+            393.71600341796875,
+            227.86793518066406,
+            552.6658935546875,
+            239.03793334960938
+          ]
+        },
+        {
+          "text": "favorable for his age, showing good",
+          "bbox": [
+            392.9360046386719,
+            239.36692810058594,
+            553.48583984375,
+            250.53692626953125
+          ]
+        },
+        {
+          "text": "cell integrity and metabolic function.",
+          "bbox": [
+            392.6669921875,
+            250.8659210205078,
+            553.7369384765625,
+            262.0359191894531
+          ]
+        },
+        {
+          "text": "His BMI is 31.1, which is technically in",
+          "bbox": [
+            387.677978515625,
+            262.36492919921875,
+            558.707763671875,
+            273.534912109375
+          ]
+        },
+        {
+          "text": "the obesity range by definition, but this",
+          "bbox": [
+            386.5439758300781,
+            273.8639221191406,
+            559.8339233398438,
+            285.0339050292969
+          ]
+        },
+        {
+          "text": "classification does not apply well to",
+          "bbox": [
+            394.05596923828125,
+            285.3629150390625,
+            552.3558349609375,
+            296.53289794921875
+          ]
+        },
+        {
+          "text": "muscular individuals. The body fat",
+          "bbox": [
+            396.365966796875,
+            296.8619079589844,
+            550.2259521484375,
+            308.0318908691406
+          ]
+        },
+        {
+          "text": "percentage of 20.6% is normal for a fit",
+          "bbox": [
+            387.3799743652344,
+            308.36090087890625,
+            558.9899291992188,
+            319.5308837890625
+          ]
+        },
+        {
+          "text": "adult male and especially good for a 65",
+          "bbox": [
+            384.8709716796875,
+            319.8598937988281,
+            558.760986328125,
+            331.0298767089844
+          ]
+        },
+        {
+          "text": "-year-old, aligning with his high InBody",
+          "bbox": [
+            386.27398681640625,
+            331.35888671875,
+            560.1338500976562,
+            342.52886962890625
+          ]
+        },
+        {
+          "text": "score of 94 out of 100, which confirms",
+          "bbox": [
+            387.6629943847656,
+            342.8578796386719,
+            558.722900390625,
+            354.0278625488281
+          ]
+        },
+        {
+          "text": "excellent overall condition. The visceral",
+          "bbox": [
+            384.9700012207031,
+            354.35687255859375,
+            561.6099243164062,
+            365.52685546875
+          ]
+        },
+        {
+          "text": "fat area is 106.4 cm², which sits near",
+          "bbox": [
+            390.4549865722656,
+            365.8558654785156,
+            555.9448852539062,
+            377.0258483886719
+          ]
+        },
+        {
+          "text": "the upper end of normal but not in a",
+          "bbox": [
+            392.6519775390625,
+            377.3548583984375,
+            553.73193359375,
+            388.52484130859375
+          ]
+        },
+        {
+          "text": "dangerous or extreme range—",
+          "bbox": [
+            403.7779846191406,
+            388.8538513183594,
+            539.9078369140625,
+            400.0238342285156
+          ]
+        },
+        {
+          "text": "especially for a tall, muscular man.",
+          "bbox": [
+            395.17498779296875,
+            400.35284423828125,
+            551.2349243164062,
+            411.5228271484375
+          ]
+        },
+        {
+          "text": "Many athletic or well-trained older",
+          "bbox": [
+            397.1169738769531,
+            411.8518371582031,
+            549.306884765625,
+            423.0218200683594
+          ]
+        },
+        {
+          "text": "adults fall within this band. His waist",
+          "bbox": [
+            392.1139831542969,
+            423.350830078125,
+            554.2637939453125,
+            434.52081298828125
+          ]
+        },
+        {
+          "text": "circumference (102.8 cm) and waist–",
+          "bbox": [
+            389.9029846191406,
+            434.8498229980469,
+            553.7728271484375,
+            446.0198059082031
+          ]
+        },
+        {
+          "text": "hip ratio (0.91) are slightly elevated,",
+          "bbox": [
+            392.6669921875,
+            446.34881591796875,
+            553.7368774414062,
+            457.518798828125
+          ]
+        },
+        {
+          "text": "but these values must be interpreted in",
+          "bbox": [
+            385.7079772949219,
+            457.8478088378906,
+            560.6779174804688,
+            469.0177917480469
+          ]
+        },
+        {
+          "text": "the context of his large frame and",
+          "bbox": [
+            397.66998291015625,
+            469.3468017578125,
+            548.7398681640625,
+            480.51678466796875
+          ]
+        },
+        {
+          "text": "muscle mass. Segmental analysis",
+          "bbox": [
+            396.5649719238281,
+            480.8457946777344,
+            549.8748168945312,
+            492.0157775878906
+          ]
+        },
+        {
+          "text": "shows strong, symmetrical muscle",
+          "bbox": [
+            395.74298095703125,
+            492.34478759765625,
+            550.702880859375,
+            503.5147705078125
+          ]
+        },
+        {
+          "text": "across arms, legs, and trunk, with no",
+          "bbox": [
+            390.45599365234375,
+            503.84381103515625,
+            555.9558715820312,
+            515.0137939453125
+          ]
+        },
+        {
+          "text": "abnormalities. The metabolic rate",
+          "bbox": [
+            398.03900146484375,
+            515.3428344726562,
+            548.5588989257812,
+            526.5128173828125
+          ]
+        },
+        {
+          "text": "(2255 kcal) is high because of his",
+          "bbox": [
+            397.6700134277344,
+            526.8418579101562,
+            548.7699584960938,
+            538.0118408203125
+          ]
+        },
+        {
+          "text": "excellent muscle mass. Overall, the",
+          "bbox": [
+            393.2340087890625,
+            538.3408813476562,
+            553.1838989257812,
+            549.5108642578125
+          ]
+        },
+        {
+          "text": "report paints the picture of a very fit,",
+          "bbox": [
+            392.114013671875,
+            549.8399047851562,
+            554.2539672851562,
+            561.0098876953125
+          ]
+        },
+        {
+          "text": "muscular, and healthy older adult with",
+          "bbox": [
+            388.21600341796875,
+            561.3389282226562,
+            558.745849609375,
+            572.5089111328125
+          ]
+        },
+        {
+          "text": "excellent cellular integrity, strong",
+          "bbox": [
+            399.71099853515625,
+            572.8379516601562,
+            547.4509887695312,
+            584.0079345703125
+          ]
+        },
+        {
+          "text": "muscle mass, and only mild age-",
+          "bbox": [
+            399.072998046875,
+            584.3369750976562,
+            544.6128540039062,
+            595.5069580078125
+          ]
+        },
+        {
+          "text": "related central fat accumulation, which",
+          "bbox": [
+            386.8269958496094,
+            595.8359985351562,
+            559.5668334960938,
+            607.0059814453125
+          ]
+        },
+        {
+          "text": "is extremely common. Nothing",
+          "bbox": [
+            404.6289978027344,
+            607.3350219726562,
+            541.8189086914062,
+            618.5050048828125
+          ]
+        },
+        {
+          "text": "indicates a pathological fat level, and",
+          "bbox": [
+            390.1579895019531,
+            618.8340454101562,
+            556.2478637695312,
+            630.0040283203125
+          ]
+        },
+        {
+          "text": "the high InBody score validates his",
+          "bbox": [
+            394.6080017089844,
+            630.3330688476562,
+            551.8079223632812,
+            641.5030517578125
+          ]
+        },
+        {
+          "text": "great physical condition.",
+          "bbox": [
+            418.2350158691406,
+            641.8320922851562,
+            525.4549560546875,
+            653.0020751953125
+          ]
+        },
+        {
+          "subheading": "INBODY",
+          "bbox": [
+            64.33100128173828,
+            360.1070251464844,
+            103.19099426269531,
+            371.2770080566406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "text": "94/100",
+              "bbox": [
+                266.4849853515625,
+                360.1070251464844,
+                297.0549621582031,
+                371.2770080566406
+              ]
+            }
+          ]
+        },
+        {
+          "subheading": "Additional parameters:",
+          "bbox": [
+            30.358999252319336,
+            678.70703125,
+            139.17898559570312,
+            689.8770141601562
+          ]
         }
       ],
       "raw_lines": [
@@ -614,62 +1856,248 @@
       "page_number": 5,
       "structured_content": [
         {
-          "subheading": "2.4. PHYSICAL EXAM:"
-        },
-        {
-          "subheading": "ORGANS/SYSTEMS",
-          "content": [
-            "Regular rhythm, no audible murmurs.",
-            "Lungs:",
-            "Even breath sounds bilaterally, well ventilated."
+          "subheading": "2.4. PHYSICAL EXAM:",
+          "bbox": [
+            239.8679962158203,
+            84.38700103759766,
+            355.26885986328125,
+            96.67400360107422
           ]
         },
         {
-          "subheading": "Cardiopulmonary"
+          "subheading": "ORGANS/SYSTEMS",
+          "bbox": [
+            245.6790008544922,
+            109.89900207519531,
+            349.4748840332031,
+            122.18600463867188
+          ],
+          "content": [
+            {
+              "type": "text",
+              "text": "Regular rhythm, no audible murmurs.",
+              "bbox": [
+                225.9499969482422,
+                152.83299255371094,
+                390.9298095703125,
+                164.00299072265625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Lungs:",
+              "bbox": [
+                225.9499969482422,
+                164.3319854736328,
+                255.95999145507812,
+                175.50198364257812
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Even breath sounds bilaterally, well ventilated.",
+              "bbox": [
+                225.9499969482422,
+                175.8309783935547,
+                430.9198303222656,
+                187.0009765625
+              ]
+            }
+          ]
+        },
+        {
+          "subheading": "Cardiopulmonary",
+          "bbox": [
+            76.98899841308594,
+            163.0240020751953,
+            169.65902709960938,
+            177.13400268554688
+          ]
         },
         {
           "subheading": "Neurological",
+          "bbox": [
+            88.66799926757812,
+            248.06199645996094,
+            158.03802490234375,
+            262.1719970703125
+          ],
           "content": [
-            "Alert and oriented; no neurological deficits."
+            {
+              "type": "text",
+              "text": "Alert and oriented; no neurological deficits.",
+              "bbox": [
+                225.9499969482422,
+                249.37098693847656,
+                414.8098449707031,
+                260.5409851074219
+              ]
+            }
           ]
         },
         {
           "subheading": "Head",
+          "bbox": [
+            109.21900177001953,
+            333.1029968261719,
+            137.5290069580078,
+            347.2130126953125
+          ],
           "content": [
-            "Normocephalic."
+            {
+              "type": "text",
+              "text": "Normocephalic.",
+              "bbox": [
+                225.9499969482422,
+                334.4110107421875,
+                295.3999938964844,
+                345.58099365234375
+              ]
+            }
           ]
         },
         {
           "subheading": "Eyes",
+          "bbox": [
+            110.3239974975586,
+            418.1419982910156,
+            136.4040069580078,
+            432.25201416015625
+          ],
           "content": [
-            "Pupils equal, round, and reactive to light; extraocular movements intact."
+            {
+              "type": "text",
+              "text": "Pupils equal, round, and reactive to light; extraocular movements intact.",
+              "bbox": [
+                225.9499969482422,
+                419.45001220703125,
+                542.5497436523438,
+                430.6199951171875
+              ]
+            }
           ]
         },
         {
           "subheading": "Neck",
+          "bbox": [
+            109.21900177001953,
+            503.18096923828125,
+            137.5290069580078,
+            517.2909545898438
+          ],
           "content": [
-            "Symmetrical, no palpable masses."
+            {
+              "type": "text",
+              "text": "Symmetrical, no palpable masses.",
+              "bbox": [
+                225.9499969482422,
+                504.489013671875,
+                378.14990234375,
+                515.6589965820312
+              ]
+            }
           ]
         },
         {
           "subheading": "Abdomen",
+          "bbox": [
+            97.8239974975586,
+            588.2210083007812,
+            148.89401245117188,
+            602.3309936523438
+          ],
           "content": [
-            "Soft and depressible; non-tender to palpation; no masses.",
-            "Symmetrical; no signs of acute deep venous thrombosis; presence of",
-            "venous insufficiency changes with ochre dermatitis in the left lower limb;",
-            "distal pulses normal and symmetric; no pedal edema."
+            {
+              "type": "text",
+              "text": "Soft and depressible; non-tender to palpation; no masses.",
+              "bbox": [
+                225.9499969482422,
+                589.5289916992188,
+                482.0397644042969,
+                600.698974609375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Symmetrical; no signs of acute deep venous thrombosis; presence of",
+              "bbox": [
+                225.9499969482422,
+                663.0690307617188,
+                534.2398071289062,
+                674.239013671875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "venous insufficiency changes with ochre dermatitis in the left lower limb;",
+              "bbox": [
+                225.9499969482422,
+                674.5680541992188,
+                546.9797973632812,
+                685.738037109375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "distal pulses normal and symmetric; no pedal edema.",
+              "bbox": [
+                225.9499969482422,
+                686.0670776367188,
+                462.039794921875,
+                697.237060546875
+              ]
+            }
           ]
         },
         {
           "subheading": "Extremities",
+          "bbox": [
+            91.72899627685547,
+            673.260009765625,
+            154.97901916503906,
+            687.3699951171875
+          ],
           "content": [
-            "Normal coloration, adequate turgor. On the right temporal region, there is a",
-            "non-ulcerated actinic keratosis measuring approximately 1 × 1 cm.",
-            "In the posterior crease of the left ear, there is a 5 mm ulcerated lesion."
+            {
+              "type": "text",
+              "text": "Normal coloration, adequate turgor. On the right temporal region, there is a",
+              "bbox": [
+                225.9499969482422,
+                748.1090087890625,
+                559.7597045898438,
+                759.2789916992188
+              ]
+            },
+            {
+              "type": "text",
+              "text": "non-ulcerated actinic keratosis measuring approximately 1 × 1 cm.",
+              "bbox": [
+                225.9499969482422,
+                759.6080322265625,
+                519.5297241210938,
+                770.7780151367188
+              ]
+            },
+            {
+              "type": "text",
+              "text": "In the posterior crease of the left ear, there is a 5 mm ulcerated lesion.",
+              "bbox": [
+                225.9499969482422,
+                771.1070556640625,
+                536.399658203125,
+                782.2770385742188
+              ]
+            }
           ]
         },
         {
-          "subheading": "Skin"
+          "subheading": "Skin",
+          "bbox": [
+            111.44400024414062,
+            758.2990112304688,
+            135.3140106201172,
+            772.4089965820312
+          ]
         }
       ],
       "raw_lines": [
@@ -703,90 +2131,585 @@
       "page_number": 6,
       "structured_content": [
         {
-          "subheading": "2.5. LABORATORY RESULTS"
+          "subheading": "2.5. LABORATORY RESULTS",
+          "bbox": [
+            220.9320068359375,
+            84.38700103759766,
+            374.183837890625,
+            96.67400360107422
+          ]
         },
         {
           "subheading": "Systems and Functions",
+          "bbox": [
+            235.8990020751953,
+            109.88500213623047,
+            359.2528991699219,
+            122.17200469970703
+          ],
           "content": [
-            "Hemoglobin17.0 g/dL14.3–17.0High-normal; consistent with prior history of",
-            "polycythemia + morning dehydration + high muscle mass",
-            "Hematocrit46.7%42–53Normal",
-            "RBC count5.75 ×10⁶/µL3.7–5.5Slightly elevated → high-normal",
-            "erythropoiesis pattern",
-            "MCV81.2 fL80–95Normal",
-            "MCH29.6 pg24–35Normal",
-            "MCHC36.4 g/dL32–37Normal",
-            "RDW-SD36.7 fL39–47Slightly low; not clinically relevant",
-            "WBC6.98 ×10³/µL5–10Normal",
-            "Neutrophils63.4% / 4.43 ×10³/µL35–70%Normal",
-            "Lymphocytes26.6% / 1.86 ×10³/µL24–44%Normal",
-            "Monocytes8.3%0–12%Normal",
-            "Eosinophils1.0%0–5%Normal",
-            "Basophils0.3%0–2%Normal",
-            "Platelets153 ×10³/µL160–400Low-normal; stable",
-            "Interpretation"
+            {
+              "type": "text",
+              "text": "Hemoglobin17.0 g/dL14.3–17.0High-normal; consistent with prior history of",
+              "bbox": [
+                225.92100524902344,
+                149.2209930419922,
+                559.7808227539062,
+                160.3909912109375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "polycythemia + morning dehydration + high muscle mass",
+              "bbox": [
+                225.92100524902344,
+                160.71998596191406,
+                478.1307678222656,
+                171.88998413085938
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Hematocrit46.7%42–53Normal",
+              "bbox": [
+                225.92100524902344,
+                172.21897888183594,
+                362.6009521484375,
+                183.38897705078125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "RBC count5.75 ×10⁶/µL3.7–5.5Slightly elevated → high-normal",
+              "bbox": [
+                225.92100524902344,
+                183.7179718017578,
+                508.040771484375,
+                194.88796997070312
+              ]
+            },
+            {
+              "type": "text",
+              "text": "erythropoiesis pattern",
+              "bbox": [
+                225.92100524902344,
+                195.2169647216797,
+                322.03094482421875,
+                206.386962890625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "MCV81.2 fL80–95Normal",
+              "bbox": [
+                225.92100524902344,
+                206.71595764160156,
+                338.700927734375,
+                217.88595581054688
+              ]
+            },
+            {
+              "type": "text",
+              "text": "MCH29.6 pg24–35Normal",
+              "bbox": [
+                225.92100524902344,
+                218.21495056152344,
+                342.0509338378906,
+                229.38494873046875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "MCHC36.4 g/dL32–37Normal",
+              "bbox": [
+                225.92100524902344,
+                229.7139434814453,
+                357.6009216308594,
+                240.88394165039062
+              ]
+            },
+            {
+              "type": "text",
+              "text": "RDW-SD36.7 fL39–47Slightly low; not clinically relevant",
+              "bbox": [
+                225.92100524902344,
+                241.2129364013672,
+                473.0808410644531,
+                252.3829345703125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "WBC6.98 ×10³/µL5–10Normal",
+              "bbox": [
+                225.92100524902344,
+                252.71192932128906,
+                360.2809143066406,
+                263.8819274902344
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Neutrophils63.4% / 4.43 ×10³/µL35–70%Normal",
+              "bbox": [
+                225.92100524902344,
+                264.2109375,
+                438.6308898925781,
+                275.38092041015625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Lymphocytes26.6% / 1.86 ×10³/µL24–44%Normal",
+              "bbox": [
+                225.92100524902344,
+                275.7099304199219,
+                446.9708557128906,
+                286.8799133300781
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Monocytes8.3%0–12%Normal",
+              "bbox": [
+                225.92100524902344,
+                287.20892333984375,
+                360.3909606933594,
+                298.37890625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Eosinophils1.0%0–5%Normal",
+              "bbox": [
+                225.92100524902344,
+                298.7079162597656,
+                357.6109924316406,
+                309.8778991699219
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Basophils0.3%0–2%Normal",
+              "bbox": [
+                225.92100524902344,
+                310.2069091796875,
+                349.83099365234375,
+                321.37689208984375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Platelets153 ×10³/µL160–400Low-normal; stable",
+              "bbox": [
+                225.92100524902344,
+                321.7059020996094,
+                441.42083740234375,
+                332.8758850097656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Interpretation",
+              "bbox": [
+                225.92100524902344,
+                333.20489501953125,
+                284.8009948730469,
+                344.3748779296875
+              ]
+            }
           ]
         },
         {
           "subheading": "Hematologic System",
+          "bbox": [
+            42.94499969482422,
+            262.9029846191406,
+            156.1650390625,
+            277.01300048828125
+          ],
           "content": [
-            "Normal CBC overall, with a high-normal erythrocyte pattern consistent with",
-            "his history (polycythemia), fitness level, and mild dehydration. No infection,",
-            "inflammation, or hematologic disorder.",
-            "hs-CRP1.5 mg/L<1.0 optimalMild metabolic inflammation → consistent with",
-            "NAFLD"
+            {
+              "type": "text",
+              "text": "Normal CBC overall, with a high-normal erythrocyte pattern consistent with",
+              "bbox": [
+                225.92100524902344,
+                356.202880859375,
+                558.6007080078125,
+                367.37286376953125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "his history (polycythemia), fitness level, and mild dehydration. No infection,",
+              "bbox": [
+                225.92100524902344,
+                367.7018737792969,
+                558.6107788085938,
+                378.8718566894531
+              ]
+            },
+            {
+              "type": "text",
+              "text": "inflammation, or hematologic disorder.",
+              "bbox": [
+                225.92100524902344,
+                379.20086669921875,
+                395.3408508300781,
+                390.370849609375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "hs-CRP1.5 mg/L<1.0 optimalMild metabolic inflammation → consistent with",
+              "bbox": [
+                225.92100524902344,
+                405.72601318359375,
+                561.6607055664062,
+                416.89599609375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "NAFLD",
+              "bbox": [
+                225.92100524902344,
+                417.2250061035156,
+                258.6809997558594,
+                428.3949890136719
+              ]
+            }
           ]
         },
         {
           "subheading": "Inflammatory Markers",
+          "bbox": [
+            39.345001220703125,
+            433.1659851074219,
+            159.7550048828125,
+            447.2760009765625
+          ],
           "content": [
-            "Interpretation",
-            "Slight inflammatory elevation, aligned with fatty liver disease (NAFLD",
-            "grade II). No signs of acute inflammation.",
-            "TSH2.40 uIU/mL0.40–4.00Normal thyroid function",
-            "Testosterone total490.9 ng/dL127–1020Excellent level for age",
-            "Vitamin D (25-OH)81.8 ng/mL30–74Elevated — excessive",
-            "supplementation",
-            "Fasting insulin14.4 µIU/mL2–17High-normal → mild insulin resistance",
-            "(hepatic)",
-            "Interpretation",
-            "Normal thyroid and excellent testosterone level. Vitamin D is above optimal",
-            "range. Insulin indicates early insulin resistance, compatible with NAFLD."
+            {
+              "type": "text",
+              "text": "Interpretation",
+              "bbox": [
+                225.92100524902344,
+                440.2229919433594,
+                284.8009948730469,
+                451.3929748535156
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Slight inflammatory elevation, aligned with fatty liver disease (NAFLD",
+              "bbox": [
+                225.92100524902344,
+                451.72198486328125,
+                533.5907592773438,
+                462.8919677734375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "grade II). No signs of acute inflammation.",
+              "bbox": [
+                225.92100524902344,
+                463.2209777832031,
+                408.080810546875,
+                474.3909606933594
+              ]
+            },
+            {
+              "type": "text",
+              "text": "TSH2.40 uIU/mL0.40–4.00Normal thyroid function",
+              "bbox": [
+                225.92100524902344,
+                489.7450256347656,
+                447.5508117675781,
+                500.9150085449219
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Testosterone total490.9 ng/dL127–1020Excellent level for age",
+              "bbox": [
+                225.92100524902344,
+                501.2440185546875,
+                500.9307861328125,
+                512.4140014648438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Vitamin D (25-OH)81.8 ng/mL30–74Elevated — excessive",
+              "bbox": [
+                225.92100524902344,
+                512.7430419921875,
+                487.0008239746094,
+                523.9130249023438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "supplementation",
+              "bbox": [
+                225.92100524902344,
+                524.2420654296875,
+                299.2709655761719,
+                535.4120483398438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Fasting insulin14.4 µIU/mL2–17High-normal → mild insulin resistance",
+              "bbox": [
+                225.92100524902344,
+                535.7410888671875,
+                537.2008056640625,
+                546.9110717773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "(hepatic)",
+              "bbox": [
+                225.92100524902344,
+                547.2401123046875,
+                264.81097412109375,
+                558.4100952148438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Interpretation",
+              "bbox": [
+                225.92100524902344,
+                558.7391357421875,
+                284.8009948730469,
+                569.9091186523438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Normal thyroid and excellent testosterone level. Vitamin D is above optimal",
+              "bbox": [
+                225.92100524902344,
+                570.2381591796875,
+                560.2907104492188,
+                581.4081420898438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "range. Insulin indicates early insulin resistance, compatible with NAFLD.",
+              "bbox": [
+                225.92100524902344,
+                581.7371826171875,
+                544.74072265625,
+                592.9071655273438
+              ]
+            }
           ]
         },
         {
-          "subheading": "Endocrine / Hormonal"
+          "subheading": "Endocrine / Hormonal",
+          "bbox": [
+            40.74800109863281,
+            527.3829956054688,
+            161.17800903320312,
+            541.4929809570312
+          ]
         },
         {
           "subheading": "System",
+          "bbox": [
+            79.34200286865234,
+            541.4849853515625,
+            119.85200500488281,
+            555.594970703125
+          ],
           "content": [
-            "PSA",
-            "0.80 ng/mL",
-            "Excellent; very low prostate cancer risk"
+            {
+              "type": "text",
+              "text": "PSA",
+              "bbox": [
+                225.92100524902344,
+                611.8469848632812,
+                245.90101623535156,
+                623.0169677734375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "0.80 ng/mL",
+              "bbox": [
+                225.92100524902344,
+                623.3460083007812,
+                275.9209899902344,
+                634.5159912109375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Excellent; very low prostate cancer risk",
+              "bbox": [
+                225.92100524902344,
+                634.8450317382812,
+                398.6508483886719,
+                646.0150146484375
+              ]
+            }
           ]
         },
         {
           "subheading": "Tumor Markers",
+          "bbox": [
+            58.237998962402344,
+            622.0379638671875,
+            140.90802001953125,
+            636.14794921875
+          ],
           "content": [
-            "Total cholesterol203 mg/dL0–200Mildly high",
-            "HDL36 mg/dL40–65Low",
-            "LDL140 mg/dL0–130Elevated (despite rosuvastatin)",
-            "VLDL27 mg/dL5–40Normal",
-            "Triglycerides133 mg/dL0–150Normal",
-            "Castelli Index5.6<4.5 optimalElevated CV risk ratio",
-            "ApoB112 mg/dL<80 optimalModerate — particle count normal range but",
-            "not optimal",
-            "Lp(a)1.9 mg/dL<30Excellent — genetically low cardiovascular risk",
-            "Interpretation",
-            "Mixed dyslipidemia driven by NAFLD, not by high cardiovascular risk.",
-            "Lp(a) extremely low + calcium score = low actual risk."
+            {
+              "type": "text",
+              "text": "Total cholesterol203 mg/dL0–200Mildly high",
+              "bbox": [
+                225.92100524902344,
+                664.9550170898438,
+                421.49090576171875,
+                676.125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "HDL36 mg/dL40–65Low",
+              "bbox": [
+                225.92100524902344,
+                676.4540405273438,
+                333.73095703125,
+                687.6240234375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "LDL140 mg/dL0–130Elevated (despite rosuvastatin)",
+              "bbox": [
+                225.92100524902344,
+                687.9530639648438,
+                456.5008239746094,
+                699.123046875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "VLDL27 mg/dL5–40Normal",
+              "bbox": [
+                225.92100524902344,
+                699.4520874023438,
+                347.0509338378906,
+                710.6220703125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Triglycerides133 mg/dL0–150Normal",
+              "bbox": [
+                225.92100524902344,
+                710.9511108398438,
+                389.8309020996094,
+                722.12109375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Castelli Index5.6<4.5 optimalElevated CV risk ratio",
+              "bbox": [
+                225.92100524902344,
+                722.4501342773438,
+                450.580810546875,
+                733.6201171875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "ApoB112 mg/dL<80 optimalModerate — particle count normal range but",
+              "bbox": [
+                225.92100524902344,
+                733.9491577148438,
+                547.8407592773438,
+                745.119140625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "not optimal",
+              "bbox": [
+                225.92100524902344,
+                745.4481811523438,
+                274.8009948730469,
+                756.6181640625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Lp(a)1.9 mg/dL<30Excellent — genetically low cardiovascular risk",
+              "bbox": [
+                225.92100524902344,
+                756.9472045898438,
+                517.290771484375,
+                768.1171875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Interpretation",
+              "bbox": [
+                225.92100524902344,
+                768.4462280273438,
+                284.8009948730469,
+                779.6162109375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Mixed dyslipidemia driven by NAFLD, not by high cardiovascular risk.",
+              "bbox": [
+                225.92100524902344,
+                779.9452514648438,
+                531.9808349609375,
+                791.115234375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Lp(a) extremely low + calcium score = low actual risk.",
+              "bbox": [
+                225.92100524902344,
+                791.4442749023438,
+                462.5107727050781,
+                802.6142578125
+              ]
+            }
           ]
         },
         {
-          "subheading": "Cardiovascular / Lipid"
+          "subheading": "Cardiovascular / Lipid",
+          "bbox": [
+            40.49300003051758,
+            719.8410034179688,
+            162.00302124023438,
+            733.9509887695312
+          ]
         },
         {
-          "subheading": "System"
+          "subheading": "System",
+          "bbox": [
+            79.34199523925781,
+            733.9429931640625,
+            119.85198974609375,
+            748.052978515625
+          ]
         }
       ],
       "raw_lines": [
@@ -854,100 +2777,475 @@
       "page_number": 7,
       "structured_content": [
         {
-          "text": "TestResultReferenceInterpretation"
+          "text": "TestResultReferenceInterpretation",
+          "bbox": [
+            225.92100524902344,
+            78.38200378417969,
+            378.6808776855469,
+            89.552001953125
+          ]
         },
         {
-          "text": "AST56 U/L11–34Elevated"
+          "text": "AST56 U/L11–34Elevated",
+          "bbox": [
+            225.92100524902344,
+            89.88099670410156,
+            341.4709777832031,
+            101.0510025024414
+          ]
         },
         {
-          "text": "ALT54 U/L0–45Elevated"
+          "text": "ALT54 U/L0–45Elevated",
+          "bbox": [
+            225.92100524902344,
+            101.3800048828125,
+            334.81097412109375,
+            112.55000305175781
+          ]
         },
         {
-          "text": "ALP74 U/L50–116Normal"
+          "text": "ALP74 U/L50–116Normal",
+          "bbox": [
+            225.92100524902344,
+            112.87899780273438,
+            339.8209533691406,
+            124.04900360107422
+          ]
         },
         {
-          "text": "GGT39 U/L0–55Normal"
+          "text": "GGT39 U/L0–55Normal",
+          "bbox": [
+            225.92100524902344,
+            124.37799072265625,
+            331.4609680175781,
+            135.54798889160156
+          ]
         },
         {
-          "text": "Interpretation"
+          "text": "Interpretation",
+          "bbox": [
+            225.92100524902344,
+            135.87698364257812,
+            284.8009948730469,
+            147.04698181152344
+          ]
         },
         {
-          "text": "AST and ALT mildly elevated → hepatocellular injury pattern, consistent"
+          "text": "AST and ALT mildly elevated → hepatocellular injury pattern, consistent",
+          "bbox": [
+            225.92100524902344,
+            147.3759765625,
+            546.3908081054688,
+            158.5459747314453
+          ]
         },
         {
-          "text": "with NAFLD grade II and possibly intense exercise. No cholestasis (normal"
+          "text": "with NAFLD grade II and possibly intense exercise. No cholestasis (normal",
+          "bbox": [
+            225.92100524902344,
+            158.87496948242188,
+            559.1807861328125,
+            170.0449676513672
+          ]
         },
         {
-          "text": "ALP + GGT)."
+          "text": "ALP + GGT).",
+          "bbox": [
+            225.92100524902344,
+            170.37396240234375,
+            283.9109802246094,
+            181.54396057128906
+          ]
         },
         {
           "subheading": "Liver Function",
+          "bbox": [
+            60.44900131225586,
+            123.0689926147461,
+            138.67901611328125,
+            137.1790008544922
+          ],
           "content": [
-            "BUN19 mg/dLNormal",
-            "Creatinine1.04 mg/dLNormal — excellent for high muscle mass",
-            "eGFRNormalAppropriate for age"
+            {
+              "type": "text",
+              "text": "BUN19 mg/dLNormal",
+              "bbox": [
+                225.92100524902344,
+                200.48300170898438,
+                320.91094970703125,
+                211.6529998779297
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Creatinine1.04 mg/dLNormal — excellent for high muscle mass",
+              "bbox": [
+                225.92100524902344,
+                211.98199462890625,
+                505.8907775878906,
+                223.15199279785156
+              ]
+            },
+            {
+              "type": "text",
+              "text": "eGFRNormalAppropriate for age",
+              "bbox": [
+                225.92100524902344,
+                223.48098754882812,
+                370.34088134765625,
+                234.65098571777344
+              ]
+            }
           ]
         },
         {
           "subheading": "Renal Function",
+          "bbox": [
+            58.49300003051758,
+            210.67401123046875,
+            140.62303161621094,
+            224.7840118408203
+          ],
           "content": [
-            "Sodium139 mmol/L136–146Normal",
-            "Potassium4.2 mmol/L3.5–5.1Normal",
-            "Chloride106 mmol/L101–109Normal",
-            "Calcium9.1 mg/dL8.8–10.2Normal",
-            "Magnesium1.9 mg/dL1.8–2.6Normal-low",
-            "Interpretation",
-            "Electrolytes stable. Magnesium is low-normal — may benefit from",
-            "supplementation."
+            {
+              "type": "text",
+              "text": "Sodium139 mmol/L136–146Normal",
+              "bbox": [
+                225.92100524902344,
+                253.5859832763672,
+                383.1708984375,
+                264.7559814453125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Potassium4.2 mmol/L3.5–5.1Normal",
+              "bbox": [
+                225.92100524902344,
+                265.0849914550781,
+                387.57086181640625,
+                276.2549743652344
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Chloride106 mmol/L101–109Normal",
+              "bbox": [
+                225.92100524902344,
+                276.583984375,
+                386.5108947753906,
+                287.75396728515625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Calcium9.1 mg/dL8.8–10.2Normal",
+              "bbox": [
+                225.92100524902344,
+                288.0829772949219,
+                377.59088134765625,
+                299.2529602050781
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Magnesium1.9 mg/dL1.8–2.6Normal-low",
+              "bbox": [
+                225.92100524902344,
+                299.58197021484375,
+                405.93084716796875,
+                310.751953125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Interpretation",
+              "bbox": [
+                225.92100524902344,
+                311.0809631347656,
+                284.8009948730469,
+                322.2509460449219
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Electrolytes stable. Magnesium is low-normal — may benefit from",
+              "bbox": [
+                225.92100524902344,
+                322.5799560546875,
+                518.6107788085938,
+                333.74993896484375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "supplementation.",
+              "bbox": [
+                225.92100524902344,
+                334.0789489746094,
+                302.04095458984375,
+                345.2489318847656
+              ]
+            }
           ]
         },
         {
           "subheading": "Electrolytes & Minerals",
+          "bbox": [
+            35.46099853515625,
+            292.5249938964844,
+            163.6210174560547,
+            306.635009765625
+          ],
           "content": [
-            "Fasting glucose92 mg/dLNormal",
-            "HbA1c5.1%Excellent",
-            "Fasting insulin14.4High-normal",
-            "Interpretation",
-            "Glucose regulation excellent, but insulin suggests mild early insulin",
-            "resistance → associated with NAFLD."
+            {
+              "type": "text",
+              "text": "Fasting glucose92 mg/dLNormal",
+              "bbox": [
+                225.92100524902344,
+                360.5980224609375,
+                369.8109130859375,
+                371.76800537109375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "HbA1c5.1%Excellent",
+              "bbox": [
+                225.92100524902344,
+                372.0970153808594,
+                319.2510070800781,
+                383.2669982910156
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Fasting insulin14.4High-normal",
+              "bbox": [
+                225.92100524902344,
+                383.59600830078125,
+                363.700927734375,
+                394.7659912109375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Interpretation",
+              "bbox": [
+                225.92100524902344,
+                395.0950012207031,
+                284.8009948730469,
+                406.2649841308594
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Glucose regulation excellent, but insulin suggests mild early insulin",
+              "bbox": [
+                225.92100524902344,
+                406.593994140625,
+                524.2207641601562,
+                417.76397705078125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "resistance → associated with NAFLD.",
+              "bbox": [
+                225.92100524902344,
+                418.0929870605469,
+                393.65093994140625,
+                429.2629699707031
+              ]
+            }
           ]
         },
         {
-          "subheading": "Metabolic Panel"
+          "subheading": "Metabolic Panel",
+          "bbox": [
+            55.75699996948242,
+            380.98699951171875,
+            146.76702880859375,
+            395.0970153808594
+          ]
         },
         {
           "subheading": "(Glucose Control)",
+          "bbox": [
+            51.83100128173828,
+            395.0889892578125,
+            147.281005859375,
+            409.1990051269531
+          ],
           "content": [
-            "Clear, yellow urineNormal",
-            "pH 5.0Slightly acidic (normal physiologic variant)",
-            "No protein, glucose, blood, nitritesNo renal or urinary tract disease",
-            "No WBCs or RBCsNo infection or hematuria",
-            "Bacteria: “scant”Normal contamination",
-            "Crystals, casts: noneNormal"
+            {
+              "type": "text",
+              "text": "Clear, yellow urineNormal",
+              "bbox": [
+                225.92100524902344,
+                444.61700439453125,
+                340.3509521484375,
+                455.7869873046875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "pH 5.0Slightly acidic (normal physiologic variant)",
+              "bbox": [
+                225.92100524902344,
+                456.1159973144531,
+                440.8908386230469,
+                467.2859802246094
+              ]
+            },
+            {
+              "type": "text",
+              "text": "No protein, glucose, blood, nitritesNo renal or urinary tract disease",
+              "bbox": [
+                225.92100524902344,
+                467.614990234375,
+                519.2007446289062,
+                478.78497314453125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "No WBCs or RBCsNo infection or hematuria",
+              "bbox": [
+                225.92100524902344,
+                479.1139831542969,
+                421.9608459472656,
+                490.2839660644531
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Bacteria: “scant”Normal contamination",
+              "bbox": [
+                225.92100524902344,
+                490.61297607421875,
+                395.8908386230469,
+                501.782958984375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Crystals, casts: noneNormal",
+              "bbox": [
+                225.92100524902344,
+                502.1119689941406,
+                350.8908996582031,
+                513.281982421875
+              ]
+            }
           ]
         },
         {
           "subheading": "Urinalysis",
+          "bbox": [
+            72.41100311279297,
+            472.0569763183594,
+            126.78101348876953,
+            486.1669921875
+          ],
           "content": [
-            "No RBCsNo bleeding",
-            "No WBCsNo inflammation",
-            "No parasitesNormal",
-            "Yeast: scantNormal microbiota",
-            "Consistency: pastyNormal",
-            "Color: brownNormal"
+            {
+              "type": "text",
+              "text": "No RBCsNo bleeding",
+              "bbox": [
+                225.92100524902344,
+                528.635986328125,
+                320.9209899902344,
+                539.8059692382812
+              ]
+            },
+            {
+              "type": "text",
+              "text": "No WBCsNo inflammation",
+              "bbox": [
+                225.92100524902344,
+                540.135009765625,
+                341.9909362792969,
+                551.3049926757812
+              ]
+            },
+            {
+              "type": "text",
+              "text": "No parasitesNormal",
+              "bbox": [
+                225.92100524902344,
+                551.634033203125,
+                314.2509765625,
+                562.8040161132812
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Yeast: scantNormal microbiota",
+              "bbox": [
+                225.92100524902344,
+                563.133056640625,
+                362.00091552734375,
+                574.3030395507812
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Consistency: pastyNormal",
+              "bbox": [
+                225.92100524902344,
+                574.632080078125,
+                342.02093505859375,
+                585.8020629882812
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Color: brownNormal",
+              "bbox": [
+                225.92100524902344,
+                586.131103515625,
+                314.80096435546875,
+                597.3010864257812
+              ]
+            }
           ]
         },
         {
-          "subheading": "Stool Examination"
+          "subheading": "Stool Examination",
+          "bbox": [
+            49.70600128173828,
+            549.0249633789062,
+            152.93603515625,
+            563.1349487304688
+          ]
         },
         {
-          "subheading": "(Parasitology)"
+          "subheading": "(Parasitology)",
+          "bbox": [
+            61.569000244140625,
+            563.126953125,
+            137.58901977539062,
+            577.2369384765625
+          ]
         },
         {
-          "subheading": "2.6. DIAGNOSTIC IMAGING AND ELECTROCARDIOGRAM"
+          "subheading": "2.6. DIAGNOSTIC IMAGING AND ELECTROCARDIOGRAM",
+          "bbox": [
+            146.99099731445312,
+            632.833984375,
+            448.0167236328125,
+            645.1209716796875
+          ]
         },
         {
-          "subheading": "EKG:"
+          "subheading": "EKG:",
+          "bbox": [
+            30.358993530273438,
+            666.8499755859375,
+            57.836997985839844,
+            679.136962890625
+          ]
         }
       ],
       "raw_lines": [
@@ -1005,79 +3303,229 @@
       "page_number": 8,
       "structured_content": [
         {
-          "text": "ECG Interpretation (Normal Study)"
+          "text": "ECG Interpretation (Normal Study)",
+          "bbox": [
+            35.858001708984375,
+            78.37899780273438,
+            189.12799072265625,
+            89.54900360107422
+          ]
         },
         {
-          "text": "� Rhythm & Rate"
+          "text": "� Rhythm & Rate",
+          "bbox": [
+            35.858001708984375,
+            89.87800598144531,
+            113.87799072265625,
+            101.04800415039062
+          ]
         },
         {
-          "text": "Normal sinus rhythm, with upright P waves in leads I, II, and aVF."
+          "text": "Normal sinus rhythm, with upright P waves in leads I, II, and aVF.",
+          "bbox": [
+            35.858001708984375,
+            101.37699890136719,
+            324.60791015625,
+            112.54700469970703
+          ]
         },
         {
-          "text": "Rate appears within normal limits (~60–70 bpm)."
+          "text": "Rate appears within normal limits (~60–70 bpm).",
+          "bbox": [
+            35.858001708984375,
+            112.87600708007812,
+            251.09800720214844,
+            124.04600524902344
+          ]
         },
         {
-          "text": "Consistent P before every QRS and constant PR interval → normal AV conduction."
+          "text": "Consistent P before every QRS and constant PR interval → normal AV conduction.",
+          "bbox": [
+            35.858001708984375,
+            124.375,
+            402.9778747558594,
+            135.5449981689453
+          ]
         },
         {
-          "text": "� Intervals"
+          "text": "� Intervals",
+          "bbox": [
+            35.858001708984375,
+            147.3730010986328,
+            83.89800262451172,
+            158.54299926757812
+          ]
         },
         {
-          "text": "PR interval: normal."
+          "text": "PR interval: normal.",
+          "bbox": [
+            35.858001708984375,
+            158.8719940185547,
+            123.59799194335938,
+            170.0419921875
+          ]
         },
         {
-          "text": "QRS duration: narrow → no bundle branch block."
+          "text": "QRS duration: narrow → no bundle branch block.",
+          "bbox": [
+            35.858001708984375,
+            170.37098693847656,
+            254.16798400878906,
+            181.54098510742188
+          ]
         },
         {
-          "text": "QT interval: appears normal for heart rate."
+          "text": "QT interval: appears normal for heart rate.",
+          "bbox": [
+            35.858001708984375,
+            181.86997985839844,
+            222.4580078125,
+            193.03997802734375
+          ]
         },
         {
-          "text": "� Axis"
+          "text": "� Axis",
+          "bbox": [
+            35.858001708984375,
+            204.86798095703125,
+            65.00800323486328,
+            216.03797912597656
+          ]
         },
         {
-          "text": "Normal frontal plane axis; no deviation."
+          "text": "Normal frontal plane axis; no deviation.",
+          "bbox": [
+            35.858001708984375,
+            216.36697387695312,
+            208.6079864501953,
+            227.53697204589844
+          ]
         },
         {
-          "text": "� QRS Complex"
+          "text": "� QRS Complex",
+          "bbox": [
+            35.858001708984375,
+            227.865966796875,
+            109.99799346923828,
+            239.0359649658203
+          ]
         },
         {
-          "text": "No pathological Q waves."
+          "text": "No pathological Q waves.",
+          "bbox": [
+            35.858001708984375,
+            239.36495971679688,
+            149.17799377441406,
+            250.5349578857422
+          ]
         },
         {
-          "text": "No signs of ventricular hypertrophy."
+          "text": "No signs of ventricular hypertrophy.",
+          "bbox": [
+            35.858001708984375,
+            250.8639678955078,
+            193.0579833984375,
+            262.0339660644531
+          ]
         },
         {
-          "text": "Good R-wave progression across precordial leads (V1–V6)."
+          "text": "Good R-wave progression across precordial leads (V1–V6).",
+          "bbox": [
+            35.858001708984375,
+            262.36297607421875,
+            299.7379455566406,
+            273.532958984375
+          ]
         },
         {
-          "text": "� ST Segment & T Waves"
+          "text": "� ST Segment & T Waves",
+          "bbox": [
+            35.858001708984375,
+            285.3609619140625,
+            153.27796936035156,
+            296.53094482421875
+          ]
         },
         {
-          "text": "ST segments are isoelectric, without elevation or depression → no evidence of ischemia or infarction."
+          "text": "ST segments are isoelectric, without elevation or depression → no evidence of ischemia or infarction.",
+          "bbox": [
+            35.858001708984375,
+            296.8599548339844,
+            482.997802734375,
+            308.0299377441406
+          ]
         },
         {
-          "text": "T waves are normal in morphology and distribution; no inversion or strain pattern."
+          "text": "T waves are normal in morphology and distribution; no inversion or strain pattern.",
+          "bbox": [
+            35.858001708984375,
+            308.35894775390625,
+            394.68780517578125,
+            319.5289306640625
+          ]
         },
         {
-          "text": "� Other Findings"
+          "text": "� Other Findings",
+          "bbox": [
+            35.858001708984375,
+            331.35693359375,
+            111.6679916381836,
+            342.52691650390625
+          ]
         },
         {
-          "text": "No ectopy (no PACs, PVCs)."
+          "text": "No ectopy (no PACs, PVCs).",
+          "bbox": [
+            35.858001708984375,
+            342.8559265136719,
+            163.56802368164062,
+            354.0259094238281
+          ]
         },
         {
-          "text": "No signs of pericarditis, electrolyte imbalance, or arrhythmogenic patterns."
+          "text": "No signs of pericarditis, electrolyte imbalance, or arrhythmogenic patterns.",
+          "bbox": [
+            35.858001708984375,
+            354.35491943359375,
+            364.12786865234375,
+            365.52490234375
+          ]
         },
         {
-          "text": "Overall Impression"
+          "text": "Overall Impression",
+          "bbox": [
+            35.858001708984375,
+            377.3529052734375,
+            119.17799377441406,
+            388.52288818359375
+          ]
         },
         {
-          "text": "Normal ECG."
+          "text": "Normal ECG.",
+          "bbox": [
+            35.858001708984375,
+            388.8518981933594,
+            95.26799011230469,
+            400.0218811035156
+          ]
         },
         {
-          "text": "No evidence of prior myocardial infarction, ischemia, arrhythmia, conduction abnormalities, or structural heart disease."
+          "text": "No evidence of prior myocardial infarction, ischemia, arrhythmia, conduction abnormalities, or structural heart disease.",
+          "bbox": [
+            35.858001708984375,
+            400.35089111328125,
+            557.4376831054688,
+            411.5208740234375
+          ]
         },
         {
-          "subheading": "Images:"
+          "subheading": "Images:",
+          "bbox": [
+            30.35900115966797,
+            432.8778991699219,
+            71.906005859375,
+            445.1648864746094
+          ]
         }
       ],
       "raw_lines": [
@@ -1112,126 +3560,375 @@
       "page_number": 9,
       "structured_content": [
         {
-          "text": "Abdominal ultrasound:"
+          "text": "Abdominal ultrasound:",
+          "bbox": [
+            35.858001708984375,
+            78.375,
+            135.30799865722656,
+            89.54500579833984
+          ]
         },
         {
-          "text": "The abdominal ultrasound shows moderate hepatic steatosis (grade II) with a mildly enlarged and heterogeneous"
+          "text": "The abdominal ultrasound shows moderate hepatic steatosis (grade II) with a mildly enlarged and heterogeneous",
+          "bbox": [
+            35.858001708984375,
+            89.87400817871094,
+            538.61767578125,
+            101.04400634765625
+          ]
         },
         {
-          "text": "liver, but no focal lesions, no signs of chronic liver disease, and no evidence of fibrosis or cirrhosis."
+          "text": "liver, but no focal lesions, no signs of chronic liver disease, and no evidence of fibrosis or cirrhosis.",
+          "bbox": [
+            35.858001708984375,
+            101.37300109863281,
+            471.3277587890625,
+            112.54300689697266
+          ]
         },
         {
-          "text": "The gallbladder is absent due to prior surgery, and the biliary ducts are normal."
+          "text": "The gallbladder is absent due to prior surgery, and the biliary ducts are normal.",
+          "bbox": [
+            35.858001708984375,
+            112.87200927734375,
+            384.6978454589844,
+            124.04200744628906
+          ]
         },
         {
-          "text": "The pancreas shows moderate fatty infiltration (lipomatosis), a common age-related finding, with no masses or"
+          "text": "The pancreas shows moderate fatty infiltration (lipomatosis), a common age-related finding, with no masses or",
+          "bbox": [
+            35.858001708984375,
+            124.37100219726562,
+            526.3078002929688,
+            135.54100036621094
+          ]
         },
         {
-          "text": "inflammatory changes."
+          "text": "inflammatory changes.",
+          "bbox": [
+            35.858001708984375,
+            135.8699951171875,
+            136.40798950195312,
+            147.0399932861328
+          ]
         },
         {
-          "text": "The spleen and kidneys are normal, except for a small simple renal cyst (10 mm) on the right kidney, which is benign"
+          "text": "The spleen and kidneys are normal, except for a small simple renal cyst (10 mm) on the right kidney, which is benign",
+          "bbox": [
+            35.858001708984375,
+            147.36898803710938,
+            554.087646484375,
+            158.5389862060547
+          ]
         },
         {
-          "text": "and requires no intervention."
+          "text": "and requires no intervention.",
+          "bbox": [
+            35.858001708984375,
+            158.86798095703125,
+            162.52798461914062,
+            170.03797912597656
+          ]
         },
         {
-          "text": "The aorta, retroperitoneum, and urinary bladder are normal."
+          "text": "The aorta, retroperitoneum, and urinary bladder are normal.",
+          "bbox": [
+            35.858001708984375,
+            170.36697387695312,
+            299.7179260253906,
+            181.53697204589844
+          ]
         },
         {
-          "text": "The prostate is small and within normal size for his age (17.5 cc)."
+          "text": "The prostate is small and within normal size for his age (17.5 cc).",
+          "bbox": [
+            35.858001708984375,
+            181.865966796875,
+            323.54791259765625,
+            193.0359649658203
+          ]
         },
         {
-          "text": "No free fluid, masses, or bowel abnormalities are seen."
+          "text": "No free fluid, masses, or bowel abnormalities are seen.",
+          "bbox": [
+            35.858001708984375,
+            193.36495971679688,
+            279.6979675292969,
+            204.5349578857422
+          ]
         },
         {
-          "text": "Impression"
+          "text": "Impression",
+          "bbox": [
+            35.858001708984375,
+            204.86395263671875,
+            84.74800109863281,
+            216.03395080566406
+          ]
         },
         {
-          "text": "Moderate hepatic steatosis (grade II)."
+          "text": "Moderate hepatic steatosis (grade II).",
+          "bbox": [
+            35.858001708984375,
+            216.36294555664062,
+            201.37799072265625,
+            227.53294372558594
+          ]
         },
         {
-          "text": "Moderate pancreatic lipomatosis."
+          "text": "Moderate pancreatic lipomatosis.",
+          "bbox": [
+            35.858001708984375,
+            227.8619384765625,
+            182.5179901123047,
+            239.0319366455078
+          ]
         },
         {
-          "text": "Benign simple renal cyst (right kidney)."
+          "text": "Benign simple renal cyst (right kidney).",
+          "bbox": [
+            35.858001708984375,
+            239.36093139648438,
+            207.48800659179688,
+            250.5309295654297
+          ]
         },
         {
-          "text": "Otherwise normal abdominal ultrasound."
+          "text": "Otherwise normal abdominal ultrasound.",
+          "bbox": [
+            35.858001708984375,
+            250.8599395751953,
+            215.29798889160156,
+            262.0299377441406
+          ]
         },
         {
-          "text": "Coronary Calcium Score Summary"
+          "text": "Coronary Calcium Score Summary",
+          "bbox": [
+            35.858001708984375,
+            273.8579406738281,
+            190.2779998779297,
+            285.0279235839844
+          ]
         },
         {
-          "text": "The patient’s total coronary artery calcium (CAC) score is 15, which places him in the 31st percentile according to"
+          "text": "The patient’s total coronary artery calcium (CAC) score is 15, which places him in the 31st percentile according to",
+          "bbox": [
+            35.858001708984375,
+            285.35693359375,
+            539.6177978515625,
+            296.52691650390625
+          ]
         },
         {
-          "text": "MESA (Multi-Ethnic Study of Atherosclerosis) reference values for individuals of the same age, sex, and ethnicity."
+          "text": "MESA (Multi-Ethnic Study of Atherosclerosis) reference values for individuals of the same age, sex, and ethnicity.",
+          "bbox": [
+            35.858001708984375,
+            296.8559265136719,
+            536.8177490234375,
+            308.0259094238281
+          ]
         },
         {
-          "text": "Risk Interpretation"
+          "text": "Risk Interpretation",
+          "bbox": [
+            35.858001708984375,
+            308.35491943359375,
+            116.94798278808594,
+            319.52490234375
+          ]
         },
         {
-          "text": "A CAC score of 15 corresponds to a low atherosclerotic burden and indicates a low risk of coronary artery disease."
+          "text": "A CAC score of 15 corresponds to a low atherosclerotic burden and indicates a low risk of coronary artery disease.",
+          "bbox": [
+            35.858001708984375,
+            319.8539123535156,
+            545.2077026367188,
+            331.0238952636719
+          ]
         },
         {
-          "text": "Most men his age have higher calcium levels, making this an overall favorable finding."
+          "text": "Most men his age have higher calcium levels, making this an overall favorable finding.",
+          "bbox": [
+            35.858001708984375,
+            331.3529052734375,
+            415.81781005859375,
+            342.52288818359375
+          ]
         },
         {
-          "text": "Distribution of Calcium"
+          "text": "Distribution of Calcium",
+          "bbox": [
+            35.858001708984375,
+            342.8518981933594,
+            135.82797241210938,
+            354.0218811035156
+          ]
         },
         {
-          "text": "Left Main (LM): 0"
+          "text": "Left Main (LM): 0",
+          "bbox": [
+            35.858001708984375,
+            354.35089111328125,
+            111.37799835205078,
+            365.5208740234375
+          ]
         },
         {
-          "text": "Left Anterior Descending (LAD): 7"
+          "text": "Left Anterior Descending (LAD): 7",
+          "bbox": [
+            35.858001708984375,
+            365.8498840332031,
+            185.81800842285156,
+            377.0198669433594
+          ]
         },
         {
-          "text": "Left Circumflex (LCx): 8"
+          "text": "Left Circumflex (LCx): 8",
+          "bbox": [
+            35.858001708984375,
+            377.348876953125,
+            140.80799865722656,
+            388.51885986328125
+          ]
         },
         {
-          "text": "Right Coronary Artery (RCA): 0"
+          "text": "Right Coronary Artery (RCA): 0",
+          "bbox": [
+            35.858001708984375,
+            388.8478698730469,
+            174.1280059814453,
+            400.0178527832031
+          ]
         },
         {
-          "text": "Posterior Descending Artery (PDA): 0"
+          "text": "Posterior Descending Artery (PDA): 0",
+          "bbox": [
+            35.858001708984375,
+            400.34686279296875,
+            201.9080352783203,
+            411.516845703125
+          ]
         },
         {
-          "text": "Other branches: 0"
+          "text": "Other branches: 0",
+          "bbox": [
+            35.858001708984375,
+            411.8458557128906,
+            115.84799194335938,
+            423.0158386230469
+          ]
         },
         {
-          "text": "Calcium is limited to small, isolated areas in the LAD and LCx, with no calcification in the Left Main or RCA—an"
+          "text": "Calcium is limited to small, isolated areas in the LAD and LCx, with no calcification in the Left Main or RCA—an",
+          "bbox": [
+            35.858001708984375,
+            423.3448486328125,
+            530.1278076171875,
+            434.51483154296875
+          ]
         },
         {
-          "text": "excellent prognostic sign."
+          "text": "excellent prognostic sign.",
+          "bbox": [
+            35.858001708984375,
+            434.8438415527344,
+            148.07798767089844,
+            446.0138244628906
+          ]
         },
         {
-          "text": "Clinical Implications"
+          "text": "Clinical Implications",
+          "bbox": [
+            35.858001708984375,
+            446.34283447265625,
+            123.61799621582031,
+            457.5128173828125
+          ]
         },
         {
-          "text": "This score reflects low coronary plaque burden and reduced probability of obstructive coronary artery disease."
+          "text": "This score reflects low coronary plaque burden and reduced probability of obstructive coronary artery disease.",
+          "bbox": [
+            35.858001708984375,
+            457.8418273925781,
+            521.9376831054688,
+            469.0118103027344
+          ]
         },
         {
-          "text": "Supports classification as low cardiovascular risk, especially when combined with his high fitness level and current"
+          "text": "Supports classification as low cardiovascular risk, especially when combined with his high fitness level and current",
+          "bbox": [
+            35.858001708984375,
+            469.3408203125,
+            543.0078735351562,
+            480.51080322265625
+          ]
         },
         {
-          "text": "preventive medications (e.g., statin)."
+          "text": "preventive medications (e.g., statin).",
+          "bbox": [
+            35.858001708984375,
+            480.8398132324219,
+            196.36801147460938,
+            492.0097961425781
+          ]
         },
         {
-          "text": "Ongoing risk factor management (blood pressure, lipid control, liver health, and lifestyle) remains appropriate."
+          "text": "Ongoing risk factor management (blood pressure, lipid control, liver health, and lifestyle) remains appropriate.",
+          "bbox": [
+            35.858001708984375,
+            492.33880615234375,
+            519.1177368164062,
+            503.5087890625
+          ]
         },
         {
-          "text": "Follow-Up"
+          "text": "Follow-Up",
+          "bbox": [
+            35.858001708984375,
+            503.83782958984375,
+            80.84800720214844,
+            515.0078125
+          ]
         },
         {
-          "text": "According to current ACC/AHA guidelines, repeat CAC scoring is generally considered in 3–5 years, unless new"
+          "text": "According to current ACC/AHA guidelines, repeat CAC scoring is generally considered in 3–5 years, unless new",
+          "bbox": [
+            35.858001708984375,
+            515.3368530273438,
+            533.5578002929688,
+            526.5068359375
+          ]
         },
         {
-          "text": "symptoms or risk factors emerge."
+          "text": "symptoms or risk factors emerge.",
+          "bbox": [
+            35.858001708984375,
+            526.8358764648438,
+            183.58799743652344,
+            538.005859375
+          ]
         },
         {
           "subheading": "Others:",
+          "bbox": [
+            30.35900115966797,
+            559.35986328125,
+            69.4530029296875,
+            571.6468505859375
+          ],
           "content": [
-            "Non applicable"
+            {
+              "type": "text",
+              "text": "Non applicable",
+              "bbox": [
+                35.858001708984375,
+                584.5679931640625,
+                104.75799560546875,
+                595.7379760742188
+              ]
+            }
           ]
         }
       ],
@@ -1283,74 +3980,428 @@
       "page_number": 10,
       "structured_content": [
         {
-          "subheading": "Section 3: Health Goals"
+          "subheading": "Section 3: Health Goals",
+          "bbox": [
+            230.61300659179688,
+            78.14299774169922,
+            364.5090637207031,
+            91.5469970703125
+          ]
         },
         {
-          "subheading": "Based on your personal goals, lifestyle, and health assessment,"
+          "subheading": "Based on your personal goals, lifestyle, and health assessment,",
+          "bbox": [
+            145.61599731445312,
+            105.70700073242188,
+            449.2958679199219,
+            116.87699890136719
+          ]
         },
         {
-          "subheading": "we will set three key objectives that will allow us to"
+          "subheading": "we will set three key objectives that will allow us to",
+          "bbox": [
+            176.4709930419922,
+            117.20599365234375,
+            418.4808349609375,
+            128.37599182128906
+          ]
         },
         {
-          "subheading": "make significant progress toward your purpose."
+          "subheading": "make significant progress toward your purpose.",
+          "bbox": [
+            183.14698791503906,
+            128.70498657226562,
+            411.8570251464844,
+            139.87498474121094
+          ]
         },
         {
           "subheading": "Goal #1:",
+          "bbox": [
+            30.3599853515625,
+            163.72898864746094,
+            73.72199249267578,
+            176.0159912109375
+          ],
           "content": [
-            "Reverse Fatty Liver (NAFLD Grade II)"
+            {
+              "type": "text",
+              "text": "Reverse Fatty Liver (NAFLD Grade II)",
+              "bbox": [
+                84.0469970703125,
+                166.2310028076172,
+                251.73703002929688,
+                177.4010009765625
+              ]
+            }
           ]
         },
         {
-          "subheading": "KEY RESULTS"
+          "subheading": "KEY RESULTS",
+          "bbox": [
+            79.04399871826172,
+            192.36300659179688,
+            157.33399963378906,
+            206.47300720214844
+          ]
         },
         {
-          "subheading": "KEY ACTIONS"
+          "subheading": "KEY ACTIONS",
+          "bbox": [
+            259.1719970703125,
+            192.36300659179688,
+            336.3519287109375,
+            206.47300720214844
+          ]
         },
         {
           "subheading": "FREQUENCY",
+          "bbox": [
+            442.4739990234375,
+            192.36300659179688,
+            511.8739318847656,
+            206.47300720214844
+          ],
           "content": [
-            "Implement a liver-focused, anti-",
-            "inflammatory diet:",
-            "Reduce fructose (replace banana",
-            "with ½ banana or berries).",
-            "Increase vegetable intake to 6–7",
-            "servings/day.",
-            "Avoid refined sugars and processed",
-            "foods.",
-            "daily",
-            "Add afternoon metabolic movement:",
-            "10–15 minutes of light walking after",
-            "lunch and dinner.",
-            "Avoid prolonged sitting after 3 pm;",
-            "move 3–5 minutes each hour.",
-            "6 days a week"
+            {
+              "type": "text",
+              "text": "Implement a liver-focused, anti-",
+              "bbox": [
+                228.0330047607422,
+                221.1009979248047,
+                367.44287109375,
+                232.27099609375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "inflammatory diet:",
+              "bbox": [
+                258.3349914550781,
+                232.59999084472656,
+                337.19488525390625,
+                243.76998901367188
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Reduce fructose (replace banana",
+              "bbox": [
+                223.85198974609375,
+                244.09898376464844,
+                374.4218444824219,
+                255.26898193359375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "with ½ banana or berries).",
+              "bbox": [
+                239.69798278808594,
+                255.5979766845703,
+                355.787841796875,
+                266.7679748535156
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Increase vegetable intake to 6–7",
+              "bbox": [
+                225.510986328125,
+                267.09698486328125,
+                372.7308654785156,
+                278.2669677734375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "servings/day.",
+              "bbox": [
+                268.3280029296875,
+                278.5959777832031,
+                327.21795654296875,
+                289.7659606933594
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Avoid refined sugars and processed",
+              "bbox": [
+                218.11199951171875,
+                290.094970703125,
+                380.3418884277344,
+                301.26495361328125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "foods.",
+              "bbox": [
+                284.15899658203125,
+                301.5939636230469,
+                311.37896728515625,
+                312.7639465332031
+              ]
+            },
+            {
+              "type": "text",
+              "text": "daily",
+              "bbox": [
+                466.90899658203125,
+                236.19000244140625,
+                490.2389831542969,
+                247.36000061035156
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Add afternoon metabolic movement:",
+              "bbox": [
+                217.4739990234375,
+                328.1090087890625,
+                378.0138854980469,
+                339.27899169921875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "10–15 minutes of light walking after",
+              "bbox": [
+                219.41600036621094,
+                339.6080017089844,
+                378.8258361816406,
+                350.7779846191406
+              ]
+            },
+            {
+              "type": "text",
+              "text": "lunch and dinner.",
+              "bbox": [
+                259.4410095214844,
+                351.10699462890625,
+                336.1209411621094,
+                362.2769775390625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Avoid prolonged sitting after 3 pm;",
+              "bbox": [
+                222.010009765625,
+                362.6059875488281,
+                376.40985107421875,
+                373.7759704589844
+              ]
+            },
+            {
+              "type": "text",
+              "text": "move 3–5 minutes each hour.",
+              "bbox": [
+                231.93101501464844,
+                374.10498046875,
+                363.60089111328125,
+                385.27496337890625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "6 days a week",
+              "bbox": [
+                445.2090148925781,
+                343.197998046875,
+                511.86895751953125,
+                354.36798095703125
+              ]
+            }
           ]
         },
         {
-          "subheading": "Improve liver health by reducing"
+          "subheading": "Improve liver health by reducing",
+          "bbox": [
+            41.24399948120117,
+            379.8600158691406,
+            197.7740020751953,
+            391.0299987792969
+          ]
         },
         {
-          "subheading": "inflammation and normalizing liver"
+          "subheading": "inflammation and normalizing liver",
+          "bbox": [
+            35.70199966430664,
+            391.3590087890625,
+            203.31201171875,
+            402.52899169921875
+          ]
         },
         {
           "subheading": "enzymes.",
+          "bbox": [
+            95.6969985961914,
+            402.8580017089844,
+            140.69699096679688,
+            414.0279846191406
+          ],
           "content": [
-            "Support liver detoxification pathways",
-            "with adequate hydration and",
-            "phytonutrients:",
-            "Drink 1.5–2.0 liters of water daily,",
-            "especially in the morning to reduce",
-            "hepatic congestion.",
-            "Include daily liver-supportive foods",
-            "such as cruciferous vegetables",
-            "(broccoli, cauliflower, Brussels",
-            "sprouts), leafy greens, garlic, onions,",
-            "and fresh herbs (cilantro, parsley).",
-            "These enhance phase I and phase II",
-            "detoxification, reduce oxidative",
-            "stress, and support hepatic fat",
-            "clearance.",
-            "daily"
+            {
+              "type": "text",
+              "text": "Support liver detoxification pathways",
+              "bbox": [
+                216.63800048828125,
+                400.625,
+                381.6078796386719,
+                411.79498291015625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "with adequate hydration and",
+              "bbox": [
+                234.96400451660156,
+                412.1239929199219,
+                363.3039245605469,
+                423.2939758300781
+              ]
+            },
+            {
+              "type": "text",
+              "text": "phytonutrients:",
+              "bbox": [
+                264.9830017089844,
+                423.62298583984375,
+                330.5329284667969,
+                434.79296875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Drink 1.5–2.0 liters of water daily,",
+              "bbox": [
+                224.23500061035156,
+                435.1219787597656,
+                374.724853515625,
+                446.2919616699219
+              ]
+            },
+            {
+              "type": "text",
+              "text": "especially in the morning to reduce",
+              "bbox": [
+                220.52200317382812,
+                446.6209716796875,
+                377.7318420410156,
+                457.79095458984375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "hepatic congestion.",
+              "bbox": [
+                254.7080078125,
+                458.1199645996094,
+                340.82794189453125,
+                469.2899475097656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Include daily liver-supportive foods",
+              "bbox": [
+                221.07501220703125,
+                469.61895751953125,
+                377.1748962402344,
+                480.7889404296875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "such as cruciferous vegetables",
+              "bbox": [
+                229.13900756835938,
+                481.1179504394531,
+                369.138916015625,
+                492.2879333496094
+              ]
+            },
+            {
+              "type": "text",
+              "text": "(broccoli, cauliflower, Brussels",
+              "bbox": [
+                230.8260040283203,
+                492.616943359375,
+                368.00592041015625,
+                503.78692626953125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "sprouts), leafy greens, garlic, onions,",
+              "bbox": [
+                216.08599853515625,
+                504.115966796875,
+                382.1558532714844,
+                515.2859497070312
+              ]
+            },
+            {
+              "type": "text",
+              "text": "and fresh herbs (cilantro, parsley).",
+              "bbox": [
+                221.9250030517578,
+                515.614990234375,
+                373.5648498535156,
+                526.7849731445312
+              ]
+            },
+            {
+              "type": "text",
+              "text": "These enhance phase I and phase II",
+              "bbox": [
+                216.61000061035156,
+                527.114013671875,
+                381.60986328125,
+                538.2839965820312
+              ]
+            },
+            {
+              "type": "text",
+              "text": "detoxification, reduce oxidative",
+              "bbox": [
+                229.4080047607422,
+                538.613037109375,
+                368.837890625,
+                549.7830200195312
+              ]
+            },
+            {
+              "type": "text",
+              "text": "stress, and support hepatic fat",
+              "bbox": [
+                230.81100463867188,
+                550.112060546875,
+                367.44085693359375,
+                561.2820434570312
+              ]
+            },
+            {
+              "type": "text",
+              "text": "clearance.",
+              "bbox": [
+                274.7200012207031,
+                561.611083984375,
+                320.8399658203125,
+                572.7810668945312
+              ]
+            },
+            {
+              "type": "text",
+              "text": "daily",
+              "bbox": [
+                466.8949890136719,
+                415.7090148925781,
+                490.2249755859375,
+                426.8789978027344
+              ]
+            }
           ]
         }
       ],
@@ -1405,94 +4456,532 @@
       "structured_content": [
         {
           "subheading": "Goal #2:",
+          "bbox": [
+            30.358999252319336,
+            75.88299560546875,
+            73.72100067138672,
+            88.16999816894531
+          ],
           "content": [
-            "Improve Insulin Sensitivity and Metabolic Flexibility"
+            {
+              "type": "text",
+              "text": "Improve Insulin Sensitivity and Metabolic Flexibility",
+              "bbox": [
+                84.07599639892578,
+                78.38499450683594,
+                308.4559631347656,
+                89.55500030517578
+              ]
+            }
           ]
         },
         {
-          "subheading": "KEY RESULTS"
+          "subheading": "KEY RESULTS",
+          "bbox": [
+            79.04399871826172,
+            104.51699829101562,
+            157.33399963378906,
+            118.62699890136719
+          ]
         },
         {
-          "subheading": "KEY ACTIONS"
+          "subheading": "KEY ACTIONS",
+          "bbox": [
+            259.1719970703125,
+            104.51699829101562,
+            336.3519287109375,
+            118.62699890136719
+          ]
         },
         {
           "subheading": "FREQUENCY",
+          "bbox": [
+            442.4739990234375,
+            104.51699829101562,
+            511.8739318847656,
+            118.62699890136719
+          ],
           "content": [
-            "Adjust fasting and feeding schedule:",
-            "Maintain morning fasting but add a",
-            "small protein-based afternoon snack",
-            "(Greek yogurt or nuts) to prevent",
-            "hepatic overload.",
-            "Ensure each meal contains protein +",
-            "fiber.",
-            "daily",
-            "Increase daily fiber intake:",
-            "1–2 teaspoons of psyllium or ground",
-            "flaxseed daily.",
-            "Supports glucose control and liver",
-            "detoxification."
+            {
+              "type": "text",
+              "text": "Adjust fasting and feeding schedule:",
+              "bbox": [
+                217.4459991455078,
+                133.26499938964844,
+                377.99591064453125,
+                144.43499755859375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Maintain morning fasting but add a",
+              "bbox": [
+                221.07400512695312,
+                144.7639923095703,
+                377.1638488769531,
+                155.93399047851562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "small protein-based afternoon snack",
+              "bbox": [
+                217.19100952148438,
+                156.2629852294922,
+                381.0809020996094,
+                167.4329833984375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "(Greek yogurt or nuts) to prevent",
+              "bbox": [
+                225.2550048828125,
+                167.76197814941406,
+                372.9848327636719,
+                178.93197631835938
+              ]
+            },
+            {
+              "type": "text",
+              "text": "hepatic overload.",
+              "bbox": [
+                259.71002197265625,
+                179.26097106933594,
+                335.8299560546875,
+                190.43096923828125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Ensure each meal contains protein +",
+              "bbox": [
+                216.48202514648438,
+                190.7599639892578,
+                381.74188232421875,
+                201.92996215820312
+              ]
+            },
+            {
+              "type": "text",
+              "text": "fiber.",
+              "bbox": [
+                286.66802978515625,
+                202.2589569091797,
+                308.87799072265625,
+                213.428955078125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "daily",
+              "bbox": [
+                466.90899658203125,
+                148.34500122070312,
+                490.2389831542969,
+                159.51499938964844
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Increase daily fiber intake:",
+              "bbox": [
+                239.71200561523438,
+                228.78298950195312,
+                355.8019104003906,
+                239.95298767089844
+              ]
+            },
+            {
+              "type": "text",
+              "text": "1–2 teaspoons of psyllium or ground",
+              "bbox": [
+                217.19100952148438,
+                240.281982421875,
+                381.08087158203125,
+                251.4519805908203
+              ]
+            },
+            {
+              "type": "text",
+              "text": "flaxseed daily.",
+              "bbox": [
+                266.11700439453125,
+                251.78099060058594,
+                329.44696044921875,
+                262.95098876953125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Supports glucose control and liver",
+              "bbox": [
+                222.47799682617188,
+                263.2799987792969,
+                375.7978820800781,
+                274.4499816894531
+              ]
+            },
+            {
+              "type": "text",
+              "text": "detoxification.",
+              "bbox": [
+                267.2229919433594,
+                274.77899169921875,
+                328.32293701171875,
+                285.948974609375
+              ]
+            }
           ]
         },
         {
-          "subheading": "Reduce hepatic insulin resistance"
+          "subheading": "Reduce hepatic insulin resistance",
+          "bbox": [
+            37.630001068115234,
+            240.27699279785156,
+            201.41000366210938,
+            251.44699096679688
+          ]
         },
         {
           "subheading": "and improve metabolic efficiency.",
+          "bbox": [
+            37.913002014160156,
+            251.77598571777344,
+            198.36302185058594,
+            262.94598388671875
+          ],
           "content": [
-            "daily",
-            "Add low-intensity cardio sessions:",
-            "12–20 minutes of Zone 2–3 cardio",
-            "(fast walking, cycling) 3 times per",
-            "week.",
-            "Complements his strength training",
-            "routine.",
-            "cardio 3 times a week"
+            {
+              "type": "text",
+              "text": "daily",
+              "bbox": [
+                466.8949890136719,
+                243.8719940185547,
+                490.2249755859375,
+                255.0419921875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Add low-intensity cardio sessions:",
+              "bbox": [
+                222.74600219726562,
+                301.2980041503906,
+                372.72589111328125,
+                312.4679870605469
+              ]
+            },
+            {
+              "type": "text",
+              "text": "12–20 minutes of Zone 2–3 cardio",
+              "bbox": [
+                221.89599609375,
+                312.7969970703125,
+                376.33587646484375,
+                323.96697998046875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "(fast walking, cycling) 3 times per",
+              "bbox": [
+                224.14999389648438,
+                324.2959899902344,
+                374.0898742675781,
+                335.4659729003906
+              ]
+            },
+            {
+              "type": "text",
+              "text": "week.",
+              "bbox": [
+                284.7259826660156,
+                335.79498291015625,
+                310.8359680175781,
+                346.9649658203125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Complements his strength training",
+              "bbox": [
+                221.92398071289062,
+                347.2939758300781,
+                376.3438415527344,
+                358.4639587402344
+              ]
+            },
+            {
+              "type": "text",
+              "text": "routine.",
+              "bbox": [
+                281.1109924316406,
+                358.79296875,
+                314.4409484863281,
+                369.96295166015625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "cardio 3 times a week",
+              "bbox": [
+                428.82501220703125,
+                316.38201904296875,
+                528.2449340820312,
+                327.552001953125
+              ]
+            }
           ]
         },
         {
           "subheading": "Goal #3:",
+          "bbox": [
+            30.358999252319336,
+            397.02001953125,
+            73.72100067138672,
+            409.3070068359375
+          ],
           "content": [
-            "Optimize Cardiovascular Risk and Improve Lipid Profile"
+            {
+              "type": "text",
+              "text": "Optimize Cardiovascular Risk and Improve Lipid Profile",
+              "bbox": [
+                84.07599639892578,
+                399.5220031738281,
+                328.4759216308594,
+                410.6919860839844
+              ]
+            }
           ]
         },
         {
-          "subheading": "KEY RESULTS"
+          "subheading": "KEY RESULTS",
+          "bbox": [
+            79.04399871826172,
+            425.6529846191406,
+            157.33399963378906,
+            439.76300048828125
+          ]
         },
         {
-          "subheading": "KEY ACTIONS"
+          "subheading": "KEY ACTIONS",
+          "bbox": [
+            259.1719970703125,
+            425.6529846191406,
+            336.3519287109375,
+            439.76300048828125
+          ]
         },
         {
           "subheading": "FREQUENCY",
+          "bbox": [
+            442.4739990234375,
+            425.6529846191406,
+            511.8739318847656,
+            439.76300048828125
+          ],
           "content": [
-            "Improve fat quality and increase",
-            "natural omega-3 intake:",
-            "Eat fatty fish 2–3 times per week",
-            "(salmon, sardines, tuna).",
-            "Limit red meat to 1–2 times per",
-            "week.",
-            "as indicated"
+            {
+              "type": "text",
+              "text": "Improve fat quality and increase",
+              "bbox": [
+                226.91299438476562,
+                454.3970031738281,
+                371.3328857421875,
+                465.5669860839844
+              ]
+            },
+            {
+              "type": "text",
+              "text": "natural omega-3 intake:",
+              "bbox": [
+                245.25299072265625,
+                465.89599609375,
+                350.25286865234375,
+                477.06597900390625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Eat fatty fish 2–3 times per week",
+              "bbox": [
+                225.52398681640625,
+                477.3949890136719,
+                372.6738586425781,
+                488.5649719238281
+              ]
+            },
+            {
+              "type": "text",
+              "text": "(salmon, sardines, tuna).",
+              "bbox": [
+                242.7589874267578,
+                488.89398193359375,
+                352.7388610839844,
+                500.06396484375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Limit red meat to 1–2 times per",
+              "bbox": [
+                228.86898803710938,
+                500.3929748535156,
+                369.36883544921875,
+                511.5629577636719
+              ]
+            },
+            {
+              "type": "text",
+              "text": "week.",
+              "bbox": [
+                284.7259826660156,
+                511.8919677734375,
+                310.8359680175781,
+                523.0619506835938
+              ]
+            },
+            {
+              "type": "text",
+              "text": "as indicated",
+              "bbox": [
+                450.510009765625,
+                469.4820251464844,
+                506.6199645996094,
+                480.6520080566406
+              ]
+            }
           ]
         },
         {
-          "subheading": "Improve lipid balance and reduce"
+          "subheading": "Improve lipid balance and reduce",
+          "bbox": [
+            39.01900100708008,
+            541.9960327148438,
+            199.98898315429688,
+            553.166015625
+          ]
         },
         {
           "subheading": "long-term cardiovascular risk.",
+          "bbox": [
+            46.80000305175781,
+            553.4950561523438,
+            189.5,
+            564.6650390625
+          ],
           "content": [
-            "Reduce Vitamin D supplementation:",
-            "Lower dose to 2,000–3,000 IU/day.",
-            "Goal serum level: 50–70 ng/mL.",
-            "daily",
-            "Mandatory post-meal walking:",
-            "10–12 minutes of walking after the",
-            "largest meal (usually lunch).",
-            "Helps reduce postprandial lipids and",
-            "improves HDL.",
-            "6 times a week"
+            {
+              "type": "text",
+              "text": "Reduce Vitamin D supplementation:",
+              "bbox": [
+                218.04100036621094,
+                542.0010375976562,
+                377.47088623046875,
+                553.1710205078125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Lower dose to 2,000–3,000 IU/day.",
+              "bbox": [
+                219.968994140625,
+                553.5000610351562,
+                375.51885986328125,
+                564.6700439453125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Goal serum level: 50–70 ng/mL.",
+              "bbox": [
+                226.92799377441406,
+                564.9990844726562,
+                368.577880859375,
+                576.1690673828125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "daily",
+              "bbox": [
+                466.8949890136719,
+                553.5,
+                490.2249755859375,
+                564.6699829101562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Mandatory post-meal walking:",
+              "bbox": [
+                231.36399841308594,
+                595.10400390625,
+                364.1338806152344,
+                606.2739868164062
+              ]
+            },
+            {
+              "type": "text",
+              "text": "10–12 minutes of walking after the",
+              "bbox": [
+                221.6269989013672,
+                606.60302734375,
+                376.5968322753906,
+                617.7730102539062
+              ]
+            },
+            {
+              "type": "text",
+              "text": "largest meal (usually lunch).",
+              "bbox": [
+                235.5449981689453,
+                618.10205078125,
+                359.9748840332031,
+                629.2720336914062
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Helps reduce postprandial lipids and",
+              "bbox": [
+                217.17599487304688,
+                629.60107421875,
+                381.0758972167969,
+                640.7710571289062
+              ]
+            },
+            {
+              "type": "text",
+              "text": "improves HDL.",
+              "bbox": [
+                264.72698974609375,
+                641.10009765625,
+                330.8269348144531,
+                652.2700805664062
+              ]
+            },
+            {
+              "type": "text",
+              "text": "6 times a week",
+              "bbox": [
+                443.8349914550781,
+                610.1929931640625,
+                513.2549438476562,
+                621.3629760742188
+              ]
+            }
           ]
         },
         {
-          "subheading": "- Progress happens through small steps. You're already on your way! -"
+          "subheading": "- Progress happens through small steps. You're already on your way! -",
+          "bbox": [
+            129.71299743652344,
+            669.9199829101562,
+            465.1429443359375,
+            681.0899658203125
+          ]
         }
       ],
       "raw_lines": [
@@ -1555,154 +5044,727 @@
       "page_number": 12,
       "structured_content": [
         {
-          "subheading": "Section 4: Action Plan"
+          "subheading": "Section 4: Action Plan",
+          "bbox": [
+            234.2550048828125,
+            78.14299774169922,
+            360.7950744628906,
+            91.5469970703125
+          ]
         },
         {
-          "subheading": "HOW WILL WE ACHIEVE SUCCESS?"
+          "subheading": "HOW WILL WE ACHIEVE SUCCESS?",
+          "bbox": [
+            201.38600158691406,
+            112.7339859008789,
+            393.6658020019531,
+            125.02098846435547
+          ]
         },
         {
-          "subheading": "At Sana Sana, we celebrate your commitment: we use health metrics to"
+          "subheading": "At Sana Sana, we celebrate your commitment: we use health metrics to",
+          "bbox": [
+            128.40899658203125,
+            136.70899963378906,
+            466.5389404296875,
+            147.87899780273438
+          ]
         },
         {
-          "subheading": "guide the most effective steps, but we also understand that your well-being"
+          "subheading": "guide the most effective steps, but we also understand that your well-being",
+          "bbox": [
+            118.71499633789062,
+            148.20799255371094,
+            476.1748962402344,
+            159.37799072265625
+          ]
         },
         {
-          "subheading": "goes far beyond the numbers. With your motivation and dedication, every"
+          "subheading": "goes far beyond the numbers. With your motivation and dedication, every",
+          "bbox": [
+            122.5979995727539,
+            159.7069854736328,
+            472.2779541015625,
+            170.87698364257812
+          ]
         },
         {
-          "subheading": "small achievement brings you closer to a longer, fuller life."
+          "subheading": "small achievement brings you closer to a longer, fuller life.",
+          "bbox": [
+            158.1439971923828,
+            171.2059783935547,
+            436.79388427734375,
+            182.3759765625
+          ]
         },
         {
           "subheading": "Together, we will turn healthy habits into everyday victories!",
+          "bbox": [
+            153.99099731445312,
+            205.70298767089844,
+            440.9709167480469,
+            216.87298583984375
+          ],
           "content": [
-            "Improve Liver Health (Reverse NAFLD Grade II)"
+            {
+              "type": "text",
+              "text": "Improve Liver Health (Reverse NAFLD Grade II)",
+              "bbox": [
+                64.20500183105469,
+                242.7949981689453,
+                277.4649658203125,
+                253.96499633789062
+              ]
+            }
           ]
         },
         {
-          "subheading": "1."
-        },
-        {
-          "subheading": "METRICS"
-        },
-        {
-          "subheading": "HOW DO WE"
-        },
-        {
-          "subheading": "MONITOR IT?"
-        },
-        {
-          "subheading": "CURRENT"
-        },
-        {
-          "subheading": "3-MONTH"
-        },
-        {
-          "subheading": "GOAL"
-        },
-        {
-          "subheading": "6-MONTH"
-        },
-        {
-          "subheading": "GOAL",
-          "content": [
-            "ALT: 54 U/L  AST: 56",
-            "U/L  Ferritin: 315",
-            "ng/mL (previous)  hs-",
-            "CRP: 1.5 mg/L",
-            "Improve Liver Health",
-            "(Reverse NAFLD",
-            "Grade II)",
-            "3 months <45 <45",
-            "<250 <1.0",
-            "6 months <40 <40",
-            "<200 <0.8",
-            "blood sample",
-            "Improve Insulin Sensitivity (Reduce Hepatic IR)"
+          "subheading": "1.",
+          "bbox": [
+            30.35900115966797,
+            240.1230010986328,
+            39.522003173828125,
+            252.41000366210938
           ]
         },
         {
-          "subheading": "2."
-        },
-        {
-          "subheading": "METRICS"
-        },
-        {
-          "subheading": "HOW DO WE"
-        },
-        {
-          "subheading": "MONITOR IT?"
-        },
-        {
-          "subheading": "CURRENT"
-        },
-        {
-          "subheading": "3-MONTH"
-        },
-        {
-          "subheading": "GOAL"
-        },
-        {
-          "subheading": "6-MONTH"
-        },
-        {
-          "subheading": "GOAL",
-          "content": [
-            "Fasting insulin: 14.4",
-            "µIU/mL  Fasting",
-            "glucose: 92 mg/dL",
-            "Waist circumference:",
-            "102.8 cm",
-            "Fasting",
-            "insulin: /Fasting",
-            "glucose /Waist",
-            "circumference",
-            "blood sample and",
-            "InBody",
-            "3 months <12 88–92",
-            "−2 cm",
-            "6 months <10 85–90",
-            "−4–5 cm",
-            "Improve Lipid Profile / Cardiometabolic Risk"
+          "subheading": "METRICS",
+          "bbox": [
+            56.948001861572266,
+            284.85699462890625,
+            107.46800231933594,
+            298.9670104980469
           ]
         },
         {
-          "subheading": "3."
+          "subheading": "HOW DO WE",
+          "bbox": [
+            156.61399841308594,
+            277.8059997558594,
+            223.25401306152344,
+            291.916015625
+          ]
         },
         {
-          "subheading": "METRICS"
+          "subheading": "MONITOR IT?",
+          "bbox": [
+            153.0,
+            291.9079895019531,
+            226.8400115966797,
+            306.01800537109375
+          ]
         },
         {
-          "subheading": "HOW DO WE"
+          "subheading": "CURRENT",
+          "bbox": [
+            270.4389953613281,
+            284.85699462890625,
+            324.84893798828125,
+            298.9670104980469
+          ]
         },
         {
-          "subheading": "MONITOR IT?"
-        },
-        {
-          "subheading": "CURRENT"
-        },
-        {
-          "subheading": "3-MONTH"
-        },
-        {
-          "subheading": "GOAL"
-        },
-        {
-          "subheading": "6-MONTH"
+          "subheading": "3-MONTH",
+          "bbox": [
+            379.5450134277344,
+            277.8059997558594,
+            431.1749572753906,
+            291.916015625
+          ]
         },
         {
           "subheading": "GOAL",
+          "bbox": [
+            389.8210144042969,
+            291.9079895019531,
+            420.9109802246094,
+            306.01800537109375
+          ]
+        },
+        {
+          "subheading": "6-MONTH",
+          "bbox": [
+            487.260986328125,
+            277.8059997558594,
+            538.8909912109375,
+            291.916015625
+          ]
+        },
+        {
+          "subheading": "GOAL",
+          "bbox": [
+            497.5369873046875,
+            291.9079895019531,
+            528.626953125,
+            306.01800537109375
+          ],
           "content": [
-            "LDL: 140 mg/dL  HDL:",
-            "36 mg/dL  ApoB: 112",
-            "mg/dL  Vitamin D: 81.8",
-            "ng/mL",
-            "reduce",
-            "cardiometabolico risk",
-            "blood sample",
-            "3 months <125 >38",
-            "<105 60–70",
-            "6 months 100–120 >40",
-            "<100 50–65"
+            {
+              "type": "text",
+              "text": "ALT: 54 U/L  AST: 56",
+              "bbox": [
+                252.0850067138672,
+                313.17901611328125,
+                349.77490234375,
+                324.3489990234375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "U/L  Ferritin: 315",
+              "bbox": [
+                260.6029968261719,
+                324.6780090332031,
+                337.77288818359375,
+                335.8479919433594
+              ]
+            },
+            {
+              "type": "text",
+              "text": "ng/mL (previous)  hs-",
+              "bbox": [
+                250.61099243164062,
+                336.177001953125,
+                345.0408630371094,
+                347.34698486328125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "CRP: 1.5 mg/L",
+              "bbox": [
+                264.8689880371094,
+                347.6759948730469,
+                330.388916015625,
+                358.8459777832031
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Improve Liver Health",
+              "bbox": [
+                36.0989990234375,
+                318.92901611328125,
+                131.07899475097656,
+                330.0989990234375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "(Reverse NAFLD",
+              "bbox": [
+                44.16299819946289,
+                330.4280090332031,
+                123.02297973632812,
+                341.5979919433594
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Grade II)",
+              "bbox": [
+                62.50299835205078,
+                341.927001953125,
+                101.92298126220703,
+                353.09698486328125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "3 months <45 <45",
+              "bbox": [
+                365.0740051269531,
+                324.6780090332031,
+                448.3938903808594,
+                335.8479919433594
+              ]
+            },
+            {
+              "type": "text",
+              "text": "<250 <1.0",
+              "bbox": [
+                382.8470153808594,
+                336.177001953125,
+                427.8469543457031,
+                347.34698486328125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "6 months <40 <40",
+              "bbox": [
+                472.7909851074219,
+                324.6780090332031,
+                556.1110229492188,
+                335.8479919433594
+              ]
+            },
+            {
+              "type": "text",
+              "text": "<200 <0.8",
+              "bbox": [
+                490.5639953613281,
+                336.177001953125,
+                535.5640258789062,
+                347.34698486328125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "blood sample",
+              "bbox": [
+                160.1999969482422,
+                330.4280090332031,
+                222.42999267578125,
+                341.5979919433594
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Improve Insulin Sensitivity (Reduce Hepatic IR)",
+              "bbox": [
+                64.20500183105469,
+                375.541015625,
+                273.03497314453125,
+                386.71099853515625
+              ]
+            }
+          ]
+        },
+        {
+          "subheading": "2.",
+          "bbox": [
+            30.35900115966797,
+            372.6990051269531,
+            39.522003173828125,
+            384.9859924316406
+          ]
+        },
+        {
+          "subheading": "METRICS",
+          "bbox": [
+            56.91999816894531,
+            416.9230041503906,
+            107.43999481201172,
+            431.03302001953125
+          ]
+        },
+        {
+          "subheading": "HOW DO WE",
+          "bbox": [
+            156.58599853515625,
+            409.8719787597656,
+            223.22601318359375,
+            423.98199462890625
+          ]
+        },
+        {
+          "subheading": "MONITOR IT?",
+          "bbox": [
+            152.9720001220703,
+            423.9739685058594,
+            226.81202697753906,
+            438.083984375
+          ]
+        },
+        {
+          "subheading": "CURRENT",
+          "bbox": [
+            270.4110107421875,
+            416.9230041503906,
+            324.8209533691406,
+            431.03302001953125
+          ]
+        },
+        {
+          "subheading": "3-MONTH",
+          "bbox": [
+            379.5169982910156,
+            409.8719787597656,
+            431.1469421386719,
+            423.98199462890625
+          ]
+        },
+        {
+          "subheading": "GOAL",
+          "bbox": [
+            389.7929992675781,
+            423.9739685058594,
+            420.8829650878906,
+            438.083984375
+          ]
+        },
+        {
+          "subheading": "6-MONTH",
+          "bbox": [
+            487.2330017089844,
+            409.8719787597656,
+            538.8629760742188,
+            423.98199462890625
+          ]
+        },
+        {
+          "subheading": "GOAL",
+          "bbox": [
+            497.5090026855469,
+            423.9739685058594,
+            528.5989990234375,
+            438.083984375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "text": "Fasting insulin: 14.4",
+              "bbox": [
+                253.16200256347656,
+                445.23602294921875,
+                344.8019104003906,
+                456.406005859375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "µIU/mL  Fasting",
+              "bbox": [
+                262.4309997558594,
+                456.7350158691406,
+                335.9209289550781,
+                467.9049987792969
+              ]
+            },
+            {
+              "type": "text",
+              "text": "glucose: 92 mg/dL",
+              "bbox": [
+                256.9599914550781,
+                468.2340087890625,
+                344.1698913574219,
+                479.40399169921875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Waist circumference:",
+              "bbox": [
+                251.13499450683594,
+                479.7330017089844,
+                347.20489501953125,
+                490.9029846191406
+              ]
+            },
+            {
+              "type": "text",
+              "text": "102.8 cm",
+              "bbox": [
+                277.0579833984375,
+                491.23199462890625,
+                318.1679382324219,
+                502.4019775390625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Fasting",
+              "bbox": [
+                65.80599975585938,
+                450.98602294921875,
+                101.34598541259766,
+                462.156005859375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "insulin: /Fasting",
+              "bbox": [
+                47.45199966430664,
+                462.4850158691406,
+                119.64197540283203,
+                473.6549987792969
+              ]
+            },
+            {
+              "type": "text",
+              "text": "glucose /Waist",
+              "bbox": [
+                49.875999450683594,
+                473.9840087890625,
+                117.62598419189453,
+                485.15399169921875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "circumference",
+              "bbox": [
+                50.797000885009766,
+                485.4830017089844,
+                113.57698822021484,
+                496.6529846191406
+              ]
+            },
+            {
+              "type": "text",
+              "text": "blood sample and",
+              "bbox": [
+                150.43499755859375,
+                462.4850158691406,
+                232.114990234375,
+                473.6549987792969
+              ]
+            },
+            {
+              "type": "text",
+              "text": "InBody",
+              "bbox": [
+                174.34500122070312,
+                473.9840087890625,
+                208.22500610351562,
+                485.15399169921875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "3 months <12 88–92",
+              "bbox": [
+                359.61700439453125,
+                462.4850158691406,
+                453.7868957519531,
+                473.6549987792969
+              ]
+            },
+            {
+              "type": "text",
+              "text": "−2 cm",
+              "bbox": [
+                391.5920104980469,
+                473.9840087890625,
+                419.08197021484375,
+                485.15399169921875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "6 months <10 85–90",
+              "bbox": [
+                467.3340148925781,
+                462.4850158691406,
+                561.5039672851562,
+                473.6549987792969
+              ]
+            },
+            {
+              "type": "text",
+              "text": "−4–5 cm",
+              "bbox": [
+                493.7530212402344,
+                473.9840087890625,
+                532.363037109375,
+                485.15399169921875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Improve Lipid Profile / Cardiometabolic Risk",
+              "bbox": [
+                64.20500183105469,
+                519.0880126953125,
+                258.04498291015625,
+                530.2579956054688
+              ]
+            }
+          ]
+        },
+        {
+          "subheading": "3.",
+          "bbox": [
+            30.35900115966797,
+            516.4159545898438,
+            39.522003173828125,
+            528.7029418945312
+          ]
+        },
+        {
+          "subheading": "METRICS",
+          "bbox": [
+            56.91999816894531,
+            560.468994140625,
+            107.43999481201172,
+            574.5789794921875
+          ]
+        },
+        {
+          "subheading": "HOW DO WE",
+          "bbox": [
+            156.58599853515625,
+            553.4190063476562,
+            223.22601318359375,
+            567.5289916992188
+          ]
+        },
+        {
+          "subheading": "MONITOR IT?",
+          "bbox": [
+            152.9720001220703,
+            567.52099609375,
+            226.81202697753906,
+            581.6309814453125
+          ]
+        },
+        {
+          "subheading": "CURRENT",
+          "bbox": [
+            270.4110107421875,
+            560.468994140625,
+            324.8209533691406,
+            574.5789794921875
+          ]
+        },
+        {
+          "subheading": "3-MONTH",
+          "bbox": [
+            379.5169982910156,
+            553.4190063476562,
+            431.1469421386719,
+            567.5289916992188
+          ]
+        },
+        {
+          "subheading": "GOAL",
+          "bbox": [
+            389.7929992675781,
+            567.52099609375,
+            420.8829650878906,
+            581.6309814453125
+          ]
+        },
+        {
+          "subheading": "6-MONTH",
+          "bbox": [
+            487.2330017089844,
+            553.4190063476562,
+            538.8629760742188,
+            567.5289916992188
+          ]
+        },
+        {
+          "subheading": "GOAL",
+          "bbox": [
+            497.5090026855469,
+            567.52099609375,
+            528.5989990234375,
+            581.6309814453125
+          ],
+          "content": [
+            {
+              "type": "text",
+              "text": "LDL: 140 mg/dL  HDL:",
+              "bbox": [
+                248.07400512695312,
+                588.7919921875,
+                350.2638854980469,
+                599.9619750976562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "36 mg/dL  ApoB: 112",
+              "bbox": [
+                251.49000549316406,
+                600.291015625,
+                348.1299133300781,
+                611.4609985351562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "mg/dL  Vitamin D: 81.8",
+              "bbox": [
+                247.0540008544922,
+                611.7900390625,
+                351.4438781738281,
+                622.9600219726562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "ng/mL",
+              "bbox": [
+                283.7340087890625,
+                623.2890625,
+                311.51397705078125,
+                634.4590454101562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "reduce",
+              "bbox": [
+                66.91200256347656,
+                600.291015625,
+                100.25199127197266,
+                611.4609985351562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "cardiometabolico risk",
+              "bbox": [
+                35.23500061035156,
+                611.7900390625,
+                131.89500427246094,
+                622.9600219726562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "blood sample",
+              "bbox": [
+                160.1719970703125,
+                606.041015625,
+                222.40199279785156,
+                617.2109985351562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "3 months <125 >38",
+              "bbox": [
+                362.2539978027344,
+                600.291015625,
+                451.1338806152344,
+                611.4609985351562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "<105 60–70",
+              "bbox": [
+                378.79400634765625,
+                611.7900390625,
+                431.87396240234375,
+                622.9600219726562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "6 months 100–120 >40",
+              "bbox": [
+                461.77801513671875,
+                600.291015625,
+                567.0679931640625,
+                611.4609985351562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "<100 50–65",
+              "bbox": [
+                486.510009765625,
+                611.7900390625,
+                539.5899658203125,
+                622.9600219726562
+              ]
+            }
           ]
         }
       ],
@@ -1788,63 +5850,465 @@
       "page_number": 13,
       "structured_content": [
         {
-          "subheading": "Section 5: Complimentary Labs and Clinical References"
+          "subheading": "Section 5: Complimentary Labs and Clinical References",
+          "bbox": [
+            138.5290069580078,
+            78.14299774169922,
+            456.32513427734375,
+            91.5469970703125
+          ]
         },
         {
           "subheading": "Labs",
+          "bbox": [
+            30.3590087890625,
+            113.30799865722656,
+            53.679012298583984,
+            124.4780044555664
+          ],
           "content": [
-            "not neccesary at this time"
+            {
+              "type": "text",
+              "text": "not neccesary at this time",
+              "bbox": [
+                35.858001708984375,
+                137.93199157714844,
+                149.15798950195312,
+                149.10198974609375
+              ]
+            }
           ]
         },
         {
           "subheading": "References",
+          "bbox": [
+            30.35900115966797,
+            196.64698791503906,
+            84.25899505615234,
+            207.81698608398438
+          ],
           "content": [
-            "Dermathologist",
-            "Peripheral vascular surgeon"
+            {
+              "type": "text",
+              "text": "Dermathologist",
+              "bbox": [
+                35.858001708984375,
+                221.2760009765625,
+                103.07798767089844,
+                232.4459991455078
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Peripheral vascular surgeon",
+              "bbox": [
+                35.858001708984375,
+                232.77499389648438,
+                160.31797790527344,
+                243.9449920654297
+              ]
+            }
           ]
         },
         {
           "subheading": "Section 6: Follow-up and Frequency",
+          "bbox": [
+            194.6269989013672,
+            284.7320251464844,
+            400.4031066894531,
+            298.1360168457031
+          ],
           "content": [
-            "Recording your goals allows you to measure your effort,",
-            "recognize your progress, and adjust your targets when necessary.",
-            "We recommend tracking this habit using any of the following methods:",
-            "Smart watch to track steps",
-            "Interaction With Supplements",
-            "Safe with rivaroxaban:",
-            "Omega-3 (≤2 g/day) → mild increase in bleeding risk but still considered safe",
-            "Vitamin D (decreasing dose is advised anyway)",
-            "Psyllium, flaxseed",
-            "Magnesium",
-            "B-complex",
-            "Use with caution:",
-            "Turmeric/curcumin in high doses",
-            "Ginger supplements",
-            "High-dose fish oil (>2 g/day EPA/DHA)",
-            "Vitamin E > 400 IU/day",
-            "Avoid:",
-            "Ginkgo biloba",
-            "High-dose garlic supplements",
-            "These can increase bleeding risk.",
-            "vitamin D level (81.8 ng/mL) is above the optimal range. Although not dangerously high, levels above 70–80 ng/mL",
-            "can increase the risk of:",
-            "� Calcium buildup in the blood and kidneys",
-            "High vitamin D can lead to hypercalcemia, which may cause kidney stones, vascular calcification, and increased",
-            "urinary calcium.",
-            "� Kidney strain",
-            "Excess vitamin D increases calcium absorption, which the kidneys must filter, potentially stressing renal function over",
-            "time.",
-            "� No added benefit at high levels",
-            "Studies show that vitamin D above 50–60 ng/mL does not provide extra immune or metabolic advantages. Higher",
-            "levels only increase risk, not benefit.",
-            "� Safer and more stable metabolism",
-            "Keeping vitamin D in the optimal range (40–60 ng/mL) supports bone, immune, and metabolic health without",
-            "increasing calcium-related risks.",
-            "I recommend an omega-3 supplement that provides 1 gram of combined EPA and DHA per day, and not more than 2",
-            "grams total.",
-            "Nordic Naturals Ultimate Omega Soft Gels",
-            "Sports Research Omega-3 Fish Oil (Triple Strength)",
-            "Thorne Research Omega-3 (Con CoQ10)"
+            {
+              "type": "text",
+              "text": "Recording your goals allows you to measure your effort,",
+              "bbox": [
+                173.96200561523438,
+                323.989013671875,
+                421.15179443359375,
+                335.15899658203125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "recognize your progress, and adjust your targets when necessary.",
+              "bbox": [
+                151.44100952148438,
+                335.4880065917969,
+                443.6607971191406,
+                346.6579895019531
+              ]
+            },
+            {
+              "type": "text",
+              "text": "We recommend tracking this habit using any of the following methods:",
+              "bbox": [
+                142.55401611328125,
+                346.98699951171875,
+                452.4938049316406,
+                358.156982421875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Smart watch to track steps",
+              "bbox": [
+                35.858001708984375,
+                375.6820068359375,
+                153.57798767089844,
+                386.85198974609375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Interaction With Supplements",
+              "bbox": [
+                35.858001708984375,
+                398.67999267578125,
+                166.3779754638672,
+                409.8499755859375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Safe with rivaroxaban:",
+              "bbox": [
+                35.858001708984375,
+                410.1789855957031,
+                134.72799682617188,
+                421.3489685058594
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Omega-3 (≤2 g/day) → mild increase in bleeding risk but still considered safe",
+              "bbox": [
+                35.858001708984375,
+                421.677978515625,
+                376.2878723144531,
+                432.84796142578125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Vitamin D (decreasing dose is advised anyway)",
+              "bbox": [
+                35.858001708984375,
+                433.1769714355469,
+                245.84799194335938,
+                444.3469543457031
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Psyllium, flaxseed",
+              "bbox": [
+                35.858001708984375,
+                444.67596435546875,
+                115.8379898071289,
+                455.845947265625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Magnesium",
+              "bbox": [
+                35.858001708984375,
+                456.1749572753906,
+                87.53800964355469,
+                467.3449401855469
+              ]
+            },
+            {
+              "type": "text",
+              "text": "B-complex",
+              "bbox": [
+                35.858001708984375,
+                467.6739501953125,
+                83.07799530029297,
+                478.84393310546875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Use with caution:",
+              "bbox": [
+                35.858001708984375,
+                479.1729431152344,
+                111.94798278808594,
+                490.3429260253906
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Turmeric/curcumin in high doses",
+              "bbox": [
+                35.858001708984375,
+                490.67193603515625,
+                180.28799438476562,
+                501.8419189453125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Ginger supplements",
+              "bbox": [
+                35.858001708984375,
+                502.1709289550781,
+                125.30799102783203,
+                513.3409423828125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "High-dose fish oil (>2 g/day EPA/DHA)",
+              "bbox": [
+                35.858001708984375,
+                513.669921875,
+                207.1780242919922,
+                524.8399047851562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Vitamin E > 400 IU/day",
+              "bbox": [
+                35.858001708984375,
+                525.1689453125,
+                138.3079833984375,
+                536.3389282226562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Avoid:",
+              "bbox": [
+                35.858001708984375,
+                536.66796875,
+                63.62800598144531,
+                547.8379516601562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Ginkgo biloba",
+              "bbox": [
+                35.858001708984375,
+                548.1669921875,
+                96.97799682617188,
+                559.3369750976562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "High-dose garlic supplements",
+              "bbox": [
+                35.858001708984375,
+                559.666015625,
+                167.53799438476562,
+                570.8359985351562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "These can increase bleeding risk.",
+              "bbox": [
+                35.858001708984375,
+                571.1650390625,
+                184.74798583984375,
+                582.3350219726562
+              ]
+            },
+            {
+              "type": "text",
+              "text": "vitamin D level (81.8 ng/mL) is above the optimal range. Although not dangerously high, levels above 70–80 ng/mL",
+              "bbox": [
+                35.858001708984375,
+                594.1630249023438,
+                545.81787109375,
+                605.3330078125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "can increase the risk of:",
+              "bbox": [
+                35.858001708984375,
+                605.6620483398438,
+                141.38800048828125,
+                616.83203125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "� Calcium buildup in the blood and kidneys",
+              "bbox": [
+                35.858001708984375,
+                617.1610717773438,
+                227.8079833984375,
+                628.3310546875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "High vitamin D can lead to hypercalcemia, which may cause kidney stones, vascular calcification, and increased",
+              "bbox": [
+                35.858001708984375,
+                628.6600952148438,
+                534.1378173828125,
+                639.830078125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "urinary calcium.",
+              "bbox": [
+                35.858001708984375,
+                640.1591186523438,
+                105.8479995727539,
+                651.3291015625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "� Kidney strain",
+              "bbox": [
+                35.858001708984375,
+                651.6581420898438,
+                103.89799499511719,
+                662.828125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Excess vitamin D increases calcium absorption, which the kidneys must filter, potentially stressing renal function over",
+              "bbox": [
+                35.858001708984375,
+                663.1571655273438,
+                555.7377319335938,
+                674.3271484375
+              ]
+            },
+            {
+              "type": "text",
+              "text": "time.",
+              "bbox": [
+                35.858001708984375,
+                674.6561889648438,
+                57.50800704956055,
+                685.826171875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "� No added benefit at high levels",
+              "bbox": [
+                35.858001708984375,
+                686.1552124023438,
+                183.3479766845703,
+                697.3251953125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Studies show that vitamin D above 50–60 ng/mL does not provide extra immune or metabolic advantages. Higher",
+              "bbox": [
+                35.858001708984375,
+                697.6542358398438,
+                539.6976928710938,
+                708.82421875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "levels only increase risk, not benefit.",
+              "bbox": [
+                35.858001708984375,
+                709.1532592773438,
+                196.3780059814453,
+                720.3232421875
+              ]
+            },
+            {
+              "type": "text",
+              "text": "� Safer and more stable metabolism",
+              "bbox": [
+                35.858001708984375,
+                720.6522827148438,
+                198.32798767089844,
+                731.822265625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Keeping vitamin D in the optimal range (40–60 ng/mL) supports bone, immune, and metabolic health without",
+              "bbox": [
+                35.858001708984375,
+                732.1513061523438,
+                517.4677124023438,
+                743.3212890625
+              ]
+            },
+            {
+              "type": "text",
+              "text": "increasing calcium-related risks.",
+              "bbox": [
+                35.858001708984375,
+                743.6503295898438,
+                178.06800842285156,
+                754.8203125
+              ]
+            },
+            {
+              "type": "text",
+              "text": "I recommend an omega-3 supplement that provides 1 gram of combined EPA and DHA per day, and not more than 2",
+              "bbox": [
+                35.858001708984375,
+                766.6483154296875,
+                555.77783203125,
+                777.8182983398438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "grams total.",
+              "bbox": [
+                35.858001708984375,
+                778.1473388671875,
+                88.05799102783203,
+                789.3173217773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Nordic Naturals Ultimate Omega Soft Gels",
+              "bbox": [
+                35.858001708984375,
+                789.6463623046875,
+                223.55801391601562,
+                800.8163452148438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Sports Research Omega-3 Fish Oil (Triple Strength)",
+              "bbox": [
+                35.858001708984375,
+                801.1453857421875,
+                266.3280029296875,
+                812.3153686523438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Thorne Research Omega-3 (Con CoQ10)",
+              "bbox": [
+                35.858001708984375,
+                812.6444091796875,
+                219.7379913330078,
+                823.8143920898438
+              ]
+            }
           ]
         }
       ],
@@ -1901,34 +6365,94 @@
       "page_number": 14,
       "structured_content": [
         {
-          "text": "Based on your medical evaluation, we suggest that our next appointment be in"
+          "text": "Based on your medical evaluation, we suggest that our next appointment be in",
+          "bbox": [
+            124.12899780273438,
+            76.4580078125,
+            470.76873779296875,
+            87.62800598144531
+          ]
         },
         {
-          "text": "abdominal ultrasound in 6 months"
+          "text": "abdominal ultrasound in 6 months",
+          "bbox": [
+            35.858001708984375,
+            101.05299377441406,
+            185.8679962158203,
+            112.2229995727539
+          ]
         },
         {
-          "text": "labs in 3 months"
+          "text": "labs in 3 months",
+          "bbox": [
+            35.858001708984375,
+            112.552001953125,
+            111.39798736572266,
+            123.72200012207031
+          ]
         },
         {
-          "text": "If you have any questions or concerns about this guide, please don't hesitate to contact us."
+          "text": "If you have any questions or concerns about this guide, please don't hesitate to contact us.",
+          "bbox": [
+            97.04400634765625,
+            154.15499877929688,
+            497.7837219238281,
+            165.3249969482422
+          ]
         },
         {
-          "subheading": "Whatsapp: 7262-7262"
+          "subheading": "Whatsapp: 7262-7262",
+          "bbox": [
+            246.7130126953125,
+            176.83200073242188,
+            348.3629455566406,
+            188.0019989013672
+          ]
         },
         {
-          "subheading": "Medical Team Sana Sana: 8647-6931"
+          "subheading": "Medical Team Sana Sana: 8647-6931",
+          "bbox": [
+            211.1380157470703,
+            199.53799438476562,
+            383.8779602050781,
+            210.70799255371094
+          ]
         },
         {
-          "subheading": "We are here to support you on your journey toward better health."
+          "subheading": "We are here to support you on your journey toward better health.",
+          "bbox": [
+            143.10702514648438,
+            230.66200256347656,
+            451.697021484375,
+            241.83200073242188
+          ]
         },
         {
-          "subheading": "Report written by:"
+          "subheading": "Report written by:",
+          "bbox": [
+            254.79202270507812,
+            276.0160217285156,
+            340.27197265625,
+            287.1860046386719
+          ]
         },
         {
-          "subheading": "Dr.SILVIA ELENA GARITA PEÑA"
+          "subheading": "Dr.SILVIA ELENA GARITA PEÑA",
+          "bbox": [
+            220.35101318359375,
+            298.7220153808594,
+            374.6409912109375,
+            309.8919982910156
+          ]
         },
         {
-          "subheading": "Sana Sana Doctor"
+          "subheading": "Sana Sana Doctor",
+          "bbox": [
+            254.77801513671875,
+            321.3990173339844,
+            340.27801513671875,
+            332.5690002441406
+          ]
         }
       ],
       "raw_lines": [
