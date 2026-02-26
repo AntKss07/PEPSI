@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data Viewer | PEPSI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <header class="glass-header">
+        <div class="logo">
+            <span class="gradient-text">PEPSI</span> Data Viewer
+        </div>
+        <div class="header-controls">
+            <button id="theme-toggle" class="btn-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="panel-container">
+            <!-- Left Panel: Extracted JSON -->
+            <div class="glass-panel" id="extracted-panel">
+                <div class="panel-header">
+                    <h2>Created / Extracted JSON</h2>
+                    <div class="tools">
+                        <button class="btn-small btn-parse" data-target="extracted-content">Format</button>
+                        <button class="btn-small btn-collapse" data-target="extracted-content">Toggle All</button>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="file-loader" id="extracted-loader">
+                        <p>Loading `Health and wellness guide example_extracted.json`...</p>
+                        <input type="file" id="extracted-file-input" accept=".json" class="hidden-input">
+                        <button class="btn-glow" onclick="document.getElementById('extracted-file-input').click()">Or Browse Local File</button>
+                    </div>
+                    <pre id="extracted-content" class="json-viewer hidden"></pre>
+                </div>
+            </div>
+
+            <!-- Right Panel: Mapped JSON -->
+            <div class="glass-panel" id="mapped-panel">
+                <div class="panel-header">
+                    <h2>Mapped JSON</h2>
+                    <div class="tools">
+                        <button class="btn-small btn-parse" data-target="mapped-content">Format</button>
+                        <button class="btn-small btn-collapse" data-target="mapped-content">Toggle All</button>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="file-loader" id="mapped-loader">
+                        <p>Loading `mapped_data.json`...</p>
+                        <input type="file" id="mapped-file-input" accept=".json" class="hidden-input">
+                        <button class="btn-glow" onclick="document.getElementById('mapped-file-input').click()">Or Browse Local File</button>
+                    </div>
+                    <pre id="mapped-content" class="json-viewer hidden"></pre>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
