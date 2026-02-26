@@ -1,7 +1,7 @@
 {
   "metadata": {
     "file_name": "DataViz__Hands-on_Workshop_and_Data_Visualization_Competition.pdf",
-    "file_path": "C:\\hackathon\\Gemini_CLI\\PEPSI\\DataViz__Hands-on_Workshop_and_Data_Visualization_Competition.pdf",
+    "file_path": "c:\\hackathon\\Gemini_CLI\\PEPSI\\DataViz__Hands-on_Workshop_and_Data_Visualization_Competition.pdf",
     "total_pages": 3,
     "extraction_mode": "detailed"
   },
@@ -10,43 +10,235 @@
       "page_number": 1,
       "structured_content": [
         {
-          "heading": "DataViz: Hands-on Workshop and Data Visualization"
+          "heading": "DataViz: Hands-on Workshop and Data Visualization",
+          "bbox": [
+            49.46484375,
+            195.64906311035156,
+            551.58203125,
+            217.9872283935547
+          ]
         },
         {
           "heading": "Competition",
+          "bbox": [
+            239.4375,
+            224.14906311035156,
+            356.0473327636719,
+            246.4872283935547
+          ],
           "content": [
-            "Date: Time:  17/09/2025",
-            "Time: 08:30 AM – 11:00 AM",
-            "Venue: AV Hall (Library) , St. Joseph’s College of Engineering"
+            {
+              "type": "text",
+              "text": "Date: Time:  17/09/2025",
+              "bbox": [
+                27.75,
+                263.3306884765625,
+                184.8744659423828,
+                278.9657287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Time: 08:30 AM – 11:00 AM",
+              "bbox": [
+                27.75,
+                294.8306884765625,
+                206.63427734375,
+                310.4657287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Venue: AV Hall (Library) , St. Joseph’s College of Engineering",
+              "bbox": [
+                27.75,
+                327.0806884765625,
+                416.9065246582031,
+                342.7157287597656
+              ]
+            }
           ]
         },
         {
           "heading": "INTRODUCTION",
+          "bbox": [
+            228.796875,
+            358.71185302734375,
+            366.69537353515625,
+            378.8128662109375
+          ],
           "content": [
-            "The Department of Artificial Intelligence and Data Science, in collaboration with the",
-            "Data Analytics Club, successfully organized a Hands-on Workshop on Data",
-            "Visualization, followed by a Data Visualization Competition. The workshop was",
-            "designed for both 1st-year and 2nd-year students, enabling them to gain exposure to",
-            "data analytics concepts and visualization techniques. The competition, on the other",
-            "hand, was conducted exclusively for 2nd-year students, giving them an opportunity to",
-            "demonstrate their skills and creativity in applying what they had learned."
+            {
+              "type": "text",
+              "text": "The Department of Artificial Intelligence and Data Science, in collaboration with the",
+              "bbox": [
+                27.75,
+                396.0806884765625,
+                571.640625,
+                411.7157287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Data Analytics Club, successfully organized a Hands-on Workshop on Data",
+              "bbox": [
+                27.75,
+                415.5806884765625,
+                571.640625,
+                431.2157287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Visualization, followed by a Data Visualization Competition. The workshop was",
+              "bbox": [
+                27.75,
+                435.8306884765625,
+                571.640625,
+                451.4657287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "designed for both 1st-year and 2nd-year students, enabling them to gain exposure to",
+              "bbox": [
+                27.75,
+                455.3306884765625,
+                571.640625,
+                470.9657287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "data analytics concepts and visualization techniques. The competition, on the other",
+              "bbox": [
+                27.75,
+                474.8306884765625,
+                571.640625,
+                490.4657287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "hand, was conducted exclusively for 2nd-year students, giving them an opportunity to",
+              "bbox": [
+                27.75,
+                495.0806884765625,
+                571.640625,
+                510.7157287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "demonstrate their skills and creativity in applying what they had learned.",
+              "bbox": [
+                27.75,
+                514.5806884765625,
+                473.41253662109375,
+                530.2157592773438
+              ]
+            }
           ]
         },
         {
           "heading": "Inaugural Session",
+          "bbox": [
+            220.27734375,
+            546.9618530273438,
+            375.2210693359375,
+            567.0628662109375
+          ],
           "content": [
-            "The event began with the Tamil Thai Valthu, honoring our culture and traditions.",
-            "Following this, the Data Analytics Club Mascot Video was displayed, marking the vision",
-            "and identity of the club. Our Founder of the Data Analytics Club, Mr. Kiruthik Kumar J",
-            "(Final Year Student), addressed the gathering with a motivational speech, sharing his",
-            "vision for the club and encouraging students to actively participate in upcoming",
-            "activities. This was followed by a short address by our President, Mr. Syed Aejaz",
-            "Ahmed A, who spoke about the mission of the club and the importance of data",
-            "visualization in today’s world, setting the tone for the day’s workshop."
+            {
+              "type": "text",
+              "text": "The event began with the Tamil Thai Valthu, honoring our culture and traditions.",
+              "bbox": [
+                27.75,
+                583.5806884765625,
+                571.640625,
+                599.2157592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Following this, the Data Analytics Club Mascot Video was displayed, marking the vision",
+              "bbox": [
+                27.75,
+                603.8306884765625,
+                571.640625,
+                619.4657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "and identity of the club. Our Founder of the Data Analytics Club, Mr. Kiruthik Kumar J",
+              "bbox": [
+                27.75,
+                623.3306884765625,
+                571.640625,
+                638.9657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "(Final Year Student), addressed the gathering with a motivational speech, sharing his",
+              "bbox": [
+                27.75,
+                642.8306884765625,
+                571.640625,
+                658.4657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "vision for the club and encouraging students to actively participate in upcoming",
+              "bbox": [
+                27.75,
+                663.0806884765625,
+                571.640625,
+                678.7157592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "activities. This was followed by a short address by our President, Mr. Syed Aejaz",
+              "bbox": [
+                27.75,
+                682.5806884765625,
+                571.640625,
+                698.2157592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Ahmed A, who spoke about the mission of the club and the importance of data",
+              "bbox": [
+                27.75,
+                702.0806884765625,
+                571.640625,
+                717.7157592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "visualization in today’s world, setting the tone for the day’s workshop.",
+              "bbox": [
+                27.75,
+                722.3306884765625,
+                455.0135192871094,
+                737.9657592773438
+              ]
+            }
           ]
         },
         {
-          "heading": "Workshop Session"
+          "heading": "Workshop Session",
+          "bbox": [
+            216.94921875,
+            753.9618530273438,
+            378.5506286621094,
+            774.0628662109375
+          ]
         }
       ],
       "raw_lines": [
@@ -79,42 +271,189 @@
       "page_number": 2,
       "structured_content": [
         {
-          "text": "The Hands-on Workshop was conducted by Mr. Syed Aejaz Ahmed A, President of the"
+          "text": "The Hands-on Workshop was conducted by Mr. Syed Aejaz Ahmed A, President of the",
+          "bbox": [
+            27.75,
+            29.330698013305664,
+            571.640625,
+            44.965736389160156
+          ]
         },
         {
-          "text": "Data Analytics Club. The workshop provided a strong foundation in Data Visualization,"
+          "text": "Data Analytics Club. The workshop provided a strong foundation in Data Visualization,",
+          "bbox": [
+            27.75,
+            48.83069610595703,
+            571.640625,
+            64.46573638916016
+          ]
         },
         {
-          "text": "combining conceptual clarity with live demonstrations. Students were given step-by-"
+          "text": "combining conceptual clarity with live demonstrations. Students were given step-by-",
+          "bbox": [
+            27.75,
+            69.08069610595703,
+            567.7457885742188,
+            84.71573638916016
+          ]
         },
         {
-          "text": "step guidance, with opportunities to try out techniques themselves, ensuring a truly"
+          "text": "step guidance, with opportunities to try out techniques themselves, ensuring a truly",
+          "bbox": [
+            27.75,
+            88.58069610595703,
+            571.640625,
+            104.21573638916016
+          ]
         },
         {
-          "text": "interactive experience. Participants from both 1st-year and 2nd-year actively engaged"
+          "text": "interactive experience. Participants from both 1st-year and 2nd-year actively engaged",
+          "bbox": [
+            27.75,
+            108.83069610595703,
+            571.640625,
+            124.46573638916016
+          ]
         },
         {
-          "text": "in the session, asked questions, and gained practical exposure to visualization tools."
+          "text": "in the session, asked questions, and gained practical exposure to visualization tools.",
+          "bbox": [
+            27.75,
+            128.33070373535156,
+            549.6658935546875,
+            143.9657440185547
+          ]
         },
         {
           "heading": "Competition Segment",
+          "bbox": [
+            204.80859375,
+            419.46185302734375,
+            390.69183349609375,
+            439.5628662109375
+          ],
           "content": [
-            "The winners of the competition were:",
-            "1st Place – Dualytics",
-            "Santhosh M and Sherin Ovia",
-            "2nd Place – Data Miners",
-            "Priyanka S and Pavithra",
-            "3rd Place – Moon Knight",
-            "Kumaran and Mannan"
+            {
+              "type": "text",
+              "text": "The winners of the competition were:",
+              "bbox": [
+                27.75,
+                456.0806884765625,
+                256.40380859375,
+                471.7157287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "1st Place – Dualytics",
+              "bbox": [
+                27.75,
+                488.3306884765625,
+                157.62322998046875,
+                503.9657287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Santhosh M and Sherin Ovia",
+              "bbox": [
+                27.75,
+                519.8306884765625,
+                206.6417236328125,
+                535.4657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "2nd Place – Data Miners",
+              "bbox": [
+                27.75,
+                551.3306884765625,
+                180.96859741210938,
+                566.9657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Priyanka S and Pavithra",
+              "bbox": [
+                27.75,
+                583.5806884765625,
+                177.85800170898438,
+                599.2157592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "3rd Place – Moon Knight",
+              "bbox": [
+                27.75,
+                615.0806884765625,
+                180.98397827148438,
+                630.7157592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Kumaran and Mannan",
+              "bbox": [
+                27.75,
+                647.3306884765625,
+                166.209228515625,
+                662.9657592773438
+              ]
+            }
           ]
         },
         {
           "heading": "Certificate Distribution",
+          "bbox": [
+            200.80078125,
+            678.9618530273438,
+            394.69866943359375,
+            699.0628662109375
+          ],
           "content": [
-            "The Certificate Distribution Ceremony was graced by our respected Head of the",
-            "Department, Dr. L. Sherly Annabel, who presented certificates to the winners and",
-            "participants. Ma’am also shared encouraging words, motivating students to continue",
-            "exploring opportunities in the field of data analytics."
+            {
+              "type": "text",
+              "text": "The Certificate Distribution Ceremony was graced by our respected Head of the",
+              "bbox": [
+                27.75,
+                716.3306884765625,
+                571.640625,
+                731.9657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Department, Dr. L. Sherly Annabel, who presented certificates to the winners and",
+              "bbox": [
+                27.75,
+                735.8306884765625,
+                571.640625,
+                751.4657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "participants. Ma’am also shared encouraging words, motivating students to continue",
+              "bbox": [
+                27.75,
+                755.3306884765625,
+                571.640625,
+                770.9657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "exploring opportunities in the field of data analytics.",
+              "bbox": [
+                27.75,
+                775.5806884765625,
+                345.1052551269531,
+                791.2157592773438
+              ]
+            }
           ]
         }
       ],
@@ -145,25 +484,154 @@
       "structured_content": [
         {
           "heading": "Vote of Thanks",
+          "bbox": [
+            233.94140625,
+            325.71185302734375,
+            361.53643798828125,
+            345.8128662109375
+          ],
           "content": [
-            "Gratitude was expressed to: Mr. Kiruthik Kumar J (Founder) and Mr. Syed Aejaz",
-            "Ahmed A (President), for their leadership and vision. Mr. Syed Aejaz Ahmed A, for",
-            "conducting the engaging workshop. Dr. L. Sherly Annabel (HOD), for her presence",
-            "during the certificate distribution and her continuous support. Faculty Coordinators and",
-            "Organizing Team, for their efforts in executing the program successfully. All",
-            "participants, for their enthusiasm and active involvement."
+            {
+              "type": "text",
+              "text": "Gratitude was expressed to: Mr. Kiruthik Kumar J (Founder) and Mr. Syed Aejaz",
+              "bbox": [
+                27.75,
+                363.0806884765625,
+                571.640625,
+                378.7157287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Ahmed A (President), for their leadership and vision. Mr. Syed Aejaz Ahmed A, for",
+              "bbox": [
+                27.75,
+                382.5806884765625,
+                571.640625,
+                398.2157287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "conducting the engaging workshop. Dr. L. Sherly Annabel (HOD), for her presence",
+              "bbox": [
+                27.75,
+                402.0806884765625,
+                571.640625,
+                417.7157287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "during the certificate distribution and her continuous support. Faculty Coordinators and",
+              "bbox": [
+                27.75,
+                422.3306884765625,
+                571.640625,
+                437.9657287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Organizing Team, for their efforts in executing the program successfully. All",
+              "bbox": [
+                27.75,
+                441.8306884765625,
+                571.640625,
+                457.4657287597656
+              ]
+            },
+            {
+              "type": "text",
+              "text": "participants, for their enthusiasm and active involvement.",
+              "bbox": [
+                27.75,
+                462.0806884765625,
+                380.06524658203125,
+                477.7157287597656
+              ]
+            }
           ]
         },
         {
           "heading": "Conclusion",
+          "bbox": [
+            248.77734375,
+            493.71185302734375,
+            346.7171630859375,
+            513.8128662109375
+          ],
           "content": [
-            "The Hands-on Workshop and Data Visualization Competition proved to be a highly",
-            "enriching and impactful event. The workshop benefited both 1st-year and 2nd-year",
-            "students, helping them gain confidence in handling data visualization tools. The",
-            "competition, conducted for 2nd-year students, provided a platform to showcase",
-            "creativity, teamwork, and technical ability. The event concluded with certificate",
-            "distribution and words of encouragement from the HOD, leaving students motivated to",
-            "further strengthen their data analytics skills."
+            {
+              "type": "text",
+              "text": "The Hands-on Workshop and Data Visualization Competition proved to be a highly",
+              "bbox": [
+                27.75,
+                531.0806884765625,
+                571.640625,
+                546.7157592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "enriching and impactful event. The workshop benefited both 1st-year and 2nd-year",
+              "bbox": [
+                27.75,
+                550.5806884765625,
+                571.640625,
+                566.2157592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "students, helping them gain confidence in handling data visualization tools. The",
+              "bbox": [
+                27.75,
+                570.0806884765625,
+                571.640625,
+                585.7157592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "competition, conducted for 2nd-year students, provided a platform to showcase",
+              "bbox": [
+                27.75,
+                590.3306884765625,
+                571.640625,
+                605.9657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "creativity, teamwork, and technical ability. The event concluded with certificate",
+              "bbox": [
+                27.75,
+                609.8306884765625,
+                571.640625,
+                625.4657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "distribution and words of encouragement from the HOD, leaving students motivated to",
+              "bbox": [
+                27.75,
+                629.3306884765625,
+                571.640625,
+                644.9657592773438
+              ]
+            },
+            {
+              "type": "text",
+              "text": "further strengthen their data analytics skills.",
+              "bbox": [
+                27.75,
+                649.5806884765625,
+                296.8431396484375,
+                665.2157592773438
+              ]
+            }
           ]
         }
       ],

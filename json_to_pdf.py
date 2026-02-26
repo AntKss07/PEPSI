@@ -107,6 +107,14 @@ def fill_pdf(json_path: str, pdf_template_path: str, output_path: str):
         print("  [ERROR] PDF is encrypted. Cannot populate fields.")
         return
 
+    # Force PDF viewers to re-render field appearances
+    # This is the key fix for blank fields
+    try:
+        if doc.is_form_pdf:
+            doc.xref_set_key(doc.pdf_catalog(), "AcroForm/NeedAppearances", "true")
+    except Exception:
+        pass  # Not critical, some PDFs don't have AcroForm
+
     filled_count = 0
     not_found_count = 0
 
@@ -128,10 +136,9 @@ def fill_pdf(json_path: str, pdf_template_path: str, output_path: str):
                 
                 # Update the widget
                 widget.field_value = fill_value
+                widget.text_fontsize = 0  # Auto-fit text to field size
                 
-                # Persist the change (0=no align change, 1=font size auto?)
-                # Actually widget.field_value setter handles basic updates, 
-                # but widget.update() is needed to refresh appearance.
+                # Persist the change and regenerate appearance stream
                 try:
                     widget.update() 
                     filled_count += 1
@@ -141,9 +148,9 @@ def fill_pdf(json_path: str, pdf_template_path: str, output_path: str):
                  # Optional: print(f"Field not found in JSON: {field_name}")
                  not_found_count += 1
 
-    # 5. Save output
+    # 5. Save output with clean rendering
     try:
-        doc.save(output_path)
+        doc.save(output_path, garbage=3, deflate=True)
         print(f"  [OK] Successfully filled PDF. Saved to: {output_path}")
         print(f"       Total Fields Filled: {filled_count}")
         print(f"       Total Matches Missed: {not_found_count} (Fields in PDF but not in text)")
